@@ -1,0 +1,59 @@
+# ─── Datos — nunca al repositorio ───────────────────────────────────────────
+data/raw/
+data/processed/
+data/features/
+data/reference/
+data/annotations/
+*.npy
+*.parquet
+*.pkl
+*.h5
+
+# Archivos de video y audio del corpus C
+*.mp4
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# ─── Modelos ─────────────────────────────────────────────────────────────────
+models/
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+mlruns/
+wandb/
+
+# ─── Entornos y credenciales ─────────────────────────────────────────────────
+.env
+*.env.local
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ─── IDEs ────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+logs/
+*.log
