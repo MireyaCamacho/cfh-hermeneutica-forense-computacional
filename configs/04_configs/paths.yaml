@@ -1,0 +1,40 @@
+# configs/paths.yaml
+# Rutas centralizadas — usar config.py para cargar, nunca hardcodear
+
+project_root: .
+
+data:
+  raw:
+    corpus_a: data/raw/corpus_a
+    corpus_b: data/raw/corpus_b
+    corpus_c: data/raw/corpus_c
+  processed:
+    corpus_a: data/processed/corpus_a
+    corpus_b: data/processed/corpus_b
+    corpus_c: data/processed/corpus_c
+  reference:
+    mafapo_centroid: data/reference/mafapo_centroid.npy
+    cidh_centroid: data/reference/cidh_centroid.npy
+    civil_centroid: data/reference/civil_centroid.npy
+    restaurative_centroid: data/reference/restaurative_centroid.npy
+  features:
+    corpus_a: data/features/indicators_corpus_a.parquet
+    corpus_b: data/features/indicators_corpus_b.parquet
+    corpus_c: data/features/indicators_corpus_c.parquet
+  annotations:
+    train: data/annotations/train.jsonl
+    val: data/annotations/val.jsonl
+    test: data/annotations/test.jsonl
+  samples:
+    corpus_a: data/samples/sample_corpus_a.txt
+    corpus_b: data/samples/sample_corpus_b.txt
+    corpus_c: data/samples/sample_corpus_c.txt
+
+models:
+  conflibert_spanish: eventdata-utd/ConfliBERT-Spanish
+  cfh_bert: models/cfh_bert_v1
+  peace_lm: models/peace_lm
+
+mlflow:
+  tracking_uri: mlruns
+  experiment_name: cfh_main

@@ -1,0 +1,33 @@
+# configs/sem_config.yaml
+
+model_spec: |
+  xi1 =~ y1 + y2 + y3 + y4
+  xi2 =~ y5 + y6
+  eta1 =~ y7 + y8 + y9
+  eta2 =~ y10 + y11 + y12
+  eta1 ~ xi1 + xi2
+  eta2 ~ eta1
+  xi1 ~~ xi2
+
+estimation:
+  method: ML        # Maximum Likelihood
+  missing: FIML     # Full Information ML para y12 faltante en A y B
+  seed: 42
+  bootstrap_n: 10000
+
+fit_thresholds:
+  rmsea_max: 0.08
+  cfi_min: 0.90
+  srmr_max: 0.08
+  chi2_df_max: 5.0
+
+loadings_min: 0.40  # Cargas menores se reportan como débiles
+
+corpus_groups:
+  A: 0.0
+  B: 0.5
+  C: 1.0
+
+period:
+  start_year: 2002
+  end_year: 2022

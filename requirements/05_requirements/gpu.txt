@@ -1,0 +1,16 @@
+# requirements/gpu.txt — solo para RunPod / Colab
+# Instalar DESPUÉS de base.txt: pip install -r requirements/gpu.txt
+
+# PyTorch CUDA (versión para CUDA 12.1 — ajustar según RunPod)
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.3.0+cu121
+torchvision==0.18.0+cu121
+
+# ASR
+openai-whisper==20231117
+pyannote.audio==3.1.1
+
+# Aceleración de entrenamiento
+accelerate==0.29.3
+peft==0.10.0         # LoRA para fine-tuning eficiente
+bitsandbytes==0.43.1 # Quantización (útil en GPU menor)
