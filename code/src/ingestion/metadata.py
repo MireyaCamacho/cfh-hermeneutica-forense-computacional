@@ -88,10 +88,35 @@ class JudicialMetadata:
 
 # Mapa: fragmento de texto (regex) → nombre canónico normalizado
 TRIBUNAL_PATTERNS = [
-    # Cortes nacionales
+    # Cortes nacionales — primero las más específicas
     (r"Corte\s+Suprema\s+de\s+Justicia", "Corte Suprema de Justicia"),
     (r"Corte\s+Constitucional", "Corte Constitucional"),
+    # Consejo de Estado — secciones específicas (antes del patrón general)
+    (r"SALA\s+DE\s+LO\s+CONTENCIOSO\s+ADMINISTRATIVO\s+SECCI[OÓ]N\s+TERCERA",
+     "Consejo de Estado · Sección Tercera"),
+    (r"SALA\s+DE\s+LO\s+CONTENCIOSO\s+ADMINISTRATIVO\s+SECCI[OÓ]N\s+SEGUNDA",
+     "Consejo de Estado · Sección Segunda"),
+    (r"SALA\s+DE\s+LO\s+CONTENCIOSO\s+ADMINISTRATIVO\s+SECCI[OÓ]N\s+PRIMERA",
+     "Consejo de Estado · Sección Primera"),
+    (r"SALA\s+DE\s+LO\s+CONTENCIOSO\s+ADMINISTRATIVO\s+SECCI[OÓ]N\s+CUARTA",
+     "Consejo de Estado · Sección Cuarta"),
+    (r"SALA\s+DE\s+LO\s+CONTENCIOSO\s+ADMINISTRATIVO\s+SECCI[OÓ]N\s+QUINTA",
+     "Consejo de Estado · Sección Quinta"),
+    (r"SALA\s+DE\s+LO\s+CONTENCIOSO\s+ADMINISTRATIVO",
+     "Consejo de Estado · Sala Contencioso"),
     (r"Consejo\s+de\s+Estado", "Consejo de Estado"),
+    # Tribunales administrativos departamentales (corpus CE)
+    (r"TRIBUNAL\s+ADMINISTRATIVO\s+DE\s+(?:CUNDINAMARCA|BOGOT[AÁ])",
+     "Tribunal Administrativo de Cundinamarca"),
+    (r"TRIBUNAL\s+ADMINISTRATIVO\s+DE\s+ANTIOQUIA",
+     "Tribunal Administrativo de Antioquia"),
+    (r"TRIBUNAL\s+ADMINISTRATIVO\s+DE\s+(\w+)",
+     "Tribunal Administrativo · \\1"),
+    (r"Tribunal\s+Administrativo\s+de\s+(\w+)",
+     "Tribunal Administrativo · \\1"),
+    # Rama judicial genérica — detectar cuando solo aparece el encabezado
+    (r"RAMA\s+JUDICIAL\s+DEL\s+PODER\s+P[UÚ]BLICO", "Rama Judicial"),
+    (r"RAMA\s+JUDICIAL", "Rama Judicial"),
     # JEP
     (r"Jurisdicci[oó]n\s+Especial\s+para\s+la\s+Paz|JEP", "JEP"),
     (r"Secci[oó]n\s+de\s+Reconocimiento\s+de\s+Verdad", "JEP · Sección Reconocimiento"),
@@ -302,6 +327,14 @@ class JudicialMetadataExtractor:
         - Proceso penal: rad. 2007-0015
         """
         patterns = [
+            # Radicado Consejo de Estado — formato con guiones
+            # Ej: 05001-23-24-000-1994-02278-01(20706)
+            (r"[Rr]adicaci[oó]n\s*(?:[Nn]o?\.?\s*)?:?\s*"
+             r"(\d{5}-\d{2}-\d{2}-\d{3}-\d{4}-\d{5}-\d{2}(?:\(\d+\))?)",
+             "CE_radicacion_guiones"),
+            # Radicado CE sin etiqueta — el número solo en el texto
+            (r"(\d{5}-\d{2}-\d{2}-\d{3}-\d{4}-\d{5}-\d{2})(?:\((\d+)\))?",
+             "CE_radicado_raw"),
             # Radicado SIREJ (22 dígitos) — justicia ordinaria
             (r"[Rr]adicado\s*[Nn]o?\.?\s*:?\s*(\d{22,23})", "SIREJ_22d"),
             # Radicado JEP alfanumérico
@@ -322,12 +355,28 @@ class JudicialMetadataExtractor:
             m = re.search(pattern, head)
             if m:
                 groups = [g for g in m.groups() if g]
-                value = "-".join(groups)
+                # Para CE_radicado_raw unir con paréntesis si hay número interno
+                if label == "CE_radicado_raw" and len(groups) == 2:
+                    value = f"{groups[0]}({groups[1]})"
+                else:
+                    value = groups[0] if len(groups) == 1 else "-".join(groups)
                 logger.debug(f"Radicado encontrado [{label}]: {value}")
                 return value
 
-        # Intentar extraer desde el nombre del archivo como fallback
+        # Fallback 1: extraer radicado CE desde el nombre del archivo
+        # Formato: 05001-23-31-000-2006-00039-01(38757)
         if filename:
+            ce_fn = re.search(
+                r"(\d{5}-\d{2}-\d{2}-\d{3}-\d{4}-\d{5}-\d{2}(?:\(\d+\))?)",
+                filename
+            )
+            if ce_fn:
+                warnings.append(
+                    f"case_number_from_filename: radicado CE extraído del nombre ({filename})"
+                )
+                return ce_fn.group(1)
+
+            # Fallback 2: secuencia numérica larga en el nombre de archivo
             fn_match = re.search(r"(\d{10,23})", filename)
             if fn_match:
                 warnings.append(
@@ -357,6 +406,7 @@ class JudicialMetadataExtractor:
         zones = [head[:600], head]  # preferir zona de cabecera
 
         YEAR_WORDS_MAP = {
+            # Siglo XXI
             "dos mil": 2000, "dos mil uno": 2001, "dos mil dos": 2002,
             "dos mil tres": 2003, "dos mil cuatro": 2004, "dos mil cinco": 2005,
             "dos mil seis": 2006, "dos mil siete": 2007, "dos mil ocho": 2008,
@@ -368,11 +418,28 @@ class JudicialMetadataExtractor:
             "dos mil diecinueve": 2019, "dos mil veinte": 2020,
             "dos mil veintiuno": 2021, "dos mil veintidos": 2022,
             "dos mil veintitres": 2023, "dos mil veinticuatro": 2024,
+            # Siglo XX — muy frecuentes en corpus CE 1993-2000
+            "mil novecientos noventa": 1990,
+            "mil novecientos noventa y uno": 1991,
+            "mil novecientos noventa y dos": 1992,
+            "mil novecientos noventa y tres": 1993,
+            "mil novecientos noventa y cuatro": 1994,
+            "mil novecientos noventa y cinco": 1995,
+            "mil novecientos noventa y seis": 1996,
+            "mil novecientos noventa y siete": 1997,
+            "mil novecientos noventa y ocho": 1998,
+            "mil novecientos noventa y nueve": 1999,
+            "dos mil": 2000,
         }
+
+        # Patrón flexible para año en letras siglo XX y XXI
+        YEAR_WORDS_PATTERN = (
+            r"(?:mil\s+novecientos\s+\w+(?:\s+y\s+\w+)?|dos\s+mil(?:\s+\w+)?)"
+        )
         MES_GROUP = "|".join(MESES_ES.keys())
 
         for zone in zones:
-            # P1: día en letras + (dígito) + mes + año en letras + (año dígito)
+            # P1: día en letras + (dígito) + mes + año en letras siglo XXI + (año dígito)
             # "quince (15) de marzo de dos mil ocho (2008)"
             p1 = re.compile(
                 r"\(\s*(\d{1,2})\s*\)\s+de\s+(" + MES_GROUP + r")\s+de\s+"
@@ -380,6 +447,21 @@ class JudicialMetadataExtractor:
                 re.IGNORECASE,
             )
             m = p1.search(zone)
+            if m:
+                day = int(m.group(1))
+                month = MESES_ES.get(m.group(2).lower(), 0)
+                year = int(m.group(4))
+                if self._valid_date(day, month, year):
+                    return f"{year:04d}-{month:02d}-{day:02d}", m.group(0)
+
+            # P1-bis: (dígito) + mes + año en letras siglo XX + (año dígito)
+            # "catorce (14) de marzo de mil novecientos noventa y cinco (1995)"
+            p1b = re.compile(
+                r"\(\s*(\d{1,2})\s*\)\s+de\s+(" + MES_GROUP + r")\s+de\s+"
+                r"(mil\s+novecientos\s+\w+(?:\s+y\s+\w+)?)\s*\(\s*(\d{4})\s*\)",
+                re.IGNORECASE,
+            )
+            m = p1b.search(zone)
             if m:
                 day = int(m.group(1))
                 month = MESES_ES.get(m.group(2).lower(), 0)
@@ -401,7 +483,7 @@ class JudicialMetadataExtractor:
                 if self._valid_date(day, month, year) and 2000 <= year <= 2025:
                     return f"{year:04d}-{month:02d}-{day:02d}", m.group(0)
 
-            # P3: dígito + mes + año en letras — "15 de marzo de dos mil ocho"
+            # P3: dígito + mes + año en letras siglo XXI
             p3 = re.compile(
                 r"(\d{1,2})\s+de\s+(" + MES_GROUP + r")\s+de\s+"
                 r"(dos\s+mil(?:\s+\w+)?)",
@@ -416,13 +498,45 @@ class JudicialMetadataExtractor:
                 if year and self._valid_date(day, month, year):
                     return f"{year:04d}-{month:02d}-{day:02d}", m.group(0)
 
-        # P4: formato numérico DD/MM/AAAA en cabecera
+            # P3-bis: dígito + mes + año en letras siglo XX
+            # "quince de marzo de mil novecientos noventa y cinco"
+            p3b = re.compile(
+                r"(\d{1,2})\s+de\s+(" + MES_GROUP + r")\s+de\s+"
+                r"(mil\s+novecientos\s+\w+(?:\s+y\s+\w+)?)",
+                re.IGNORECASE,
+            )
+            m = p3b.search(zone)
+            if m:
+                day = int(m.group(1))
+                month = MESES_ES.get(m.group(2).lower(), 0)
+                year_str = m.group(3).lower().strip()
+                year = YEAR_WORDS_MAP.get(year_str)
+                if year and self._valid_date(day, month, year):
+                    return f"{year:04d}-{month:02d}-{day:02d}", m.group(0)
+
+            # P3-ter: año con dígito entre paréntesis (común en CE)
+            # "de mil novecientos noventa y cinco (1995)"
+            p3t = re.compile(
+                r"(\d{1,2})\s+de\s+(" + MES_GROUP + r")\s+de\s+"
+                r"(?:mil\s+novecientos\s+\w+(?:\s+y\s+\w+)?|dos\s+mil(?:\s+\w+)?)"
+                r"\s*\(\s*(\d{4})\s*\)",
+                re.IGNORECASE,
+            )
+            m = p3t.search(zone)
+            if m:
+                day = int(m.group(1))
+                month = MESES_ES.get(m.group(2).lower(), 0)
+                year = int(m.group(3))
+                if self._valid_date(day, month, year):
+                    return f"{year:04d}-{month:02d}-{day:02d}", m.group(0)
+
+        # P4: formato numérico DD/MM/AAAA en cabecera — ampliar rango a 1990-2025
         for zone in zones:
             p4 = re.compile(r"(\d{1,2})[/\-](\d{1,2})[/\-](\d{4})")
             m = p4.search(zone)
             if m:
                 day, month, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
-                if self._valid_date(day, month, year) and 2000 <= year <= 2025:
+                if self._valid_date(day, month, year) and 1990 <= year <= 2025:
                     return f"{year:04d}-{month:02d}-{day:02d}", m.group(0)
 
         # P5: ISO AAAA-MM-DD
