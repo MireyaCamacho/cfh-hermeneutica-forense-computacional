@@ -5,7 +5,8 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import subprocess
 
-ORIGEN = Path(r"C:\Users\LENOVO\OneDrive\Escritorio\INVESTIGACION\sentencias CE\SENTENCIAS CONSEJO DE ESTADO\SENTENCIAS CONSEJO DE ESTADO")
+
+ORIGEN = Path(r"C:\Users\LENOVO\OneDrive - Universidad Externado de Colombia\CIENCIA DE DATOS\PROYECTO CIENCIA DE DATOS\FALSOS POSITIVOS\SENTENCIAS CSJ\SENTENCIAS CSJ")
 DESTINO = Path(r"data\raw\corpus_a")
 DESTINO.mkdir(parents=True, exist_ok=True)
 LIBREOFFICE = r"C:\Program Files\LibreOffice\program\soffice.exe"
