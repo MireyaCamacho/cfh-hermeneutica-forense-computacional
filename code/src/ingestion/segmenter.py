@@ -143,32 +143,67 @@ SECTIONS_CORPUS_A = [
 ]
 
 SECTIONS_CORPUS_B = [
+    # ENCABEZADO: patrones muy restrictivos — solo al inicio del documento
+    # Removido SALA DE RECONOCIMIENTO y JURISDICCIÓN ESPECIAL: aparecen
+    # al inicio de párrafos en el cuerpo y crean falsos límites de sección
     ("ENCABEZADO", [
-        r"^(?:JURISDICCI[ÓO]N\s+ESPECIAL\s+PARA\s+LA\s+PAZ|JEP)",
-        r"^AUTO\s+N[Oº]\.",
+        r"^REPÚBLICA\s+DE\s+COLOMBIA\s*$",
+        r"^AUTO\s+(?:CDG|N[Oº]\.?|No\.?)\s*[-–]?\s*(?:No\.?\s*)?\d",
+    ], False),
+
+    # ASUNTO — sección I de los autos JEP
+    ("ASUNTO", [
+        r"(?:^|\n)I\.\s+ASUNTO\s*$",
+        r"(?:^|\n)I\.\s+OBJETO\s+(?:DEL?\s+AUTO|DE\s+LA\s+PROVIDENCIA)\s*$",
+        r"(?:^|\n)ASUNTO\s*$",
     ], False),
 
     ("ANTECEDENTES", [
-        r"(?:^|\n)(?:I+\.?\s+)?ANTECEDENTES?(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:I+\.?\s+)?HECHOS?\s+RELEVANTES?(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:I+\.?\s+)?CONTEXTO(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?ANTECEDENTES?\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?ANTECEDENTES?\s+(?:PROCESALES?|DEL?\s+CASO)\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?HECHOS?\s+RELEVANTES?\s*$",
     ], False),
 
+    # ZONA CRÍTICA: hechos y conductas — alta densidad EBI/SA/NV
+    ("HECHOS_Y_CONDUCTAS", [
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?DETERMINACI[ÓO]N\s+DE\s+(?:LOS\s+)?HECHOS\s+Y\s+CONDUCTAS\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?HECHOS\s+Y\s+CONDUCTAS\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?DESCRIPCI[ÓO]N\s+DE\s+(?:LOS\s+)?HECHOS\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?UNIVERSO\s+DE\s+(?:LAS\s+)?V[IÍ]CTIMAS\s*$",
+    ], True),
+
+    # ZONA CRÍTICA: patrones macrocriminales
+    ("PATRONES_MACROCRIMINALES", [
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?PATRONES?\s+(?:MACRO)?CRIMINALES?\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?MODALIDADES?\s+(?:DE\s+)?(?:LA\s+)?CONDUCTA\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?MODUS\s+OPERANDI\s*$",
+    ], True),
+
+    # ZONA CRÍTICA: calificación jurídica
+    ("CALIFICACION_JURIDICA", [
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?CALIFICACI[ÓO]N\s+JUR[IÍ]DICA\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?TIPIFICACI[ÓO]N\s+(?:DE\s+(?:LAS?\s+)?CONDUCTAS?)?\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?CR[IÍ]MENES?\s+INTERNACIONALES?\s*$",
+    ], True),
+
+    # ZONA TARGET: reconocimiento — indicador REP
     ("RECONOCIMIENTO", [
-        r"(?:^|\n)(?:II+\.?\s+)?RECONOCIMIENTO\s+DE\s+VERDAD(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:II+\.?\s+)?DECLARACI[ÓO]N\s+DE\s+RECONOCIMIENTO(?:\s*:|\s*\n)",
-        r"(?:^|\n)RECONOCE\s+(?:SU\s+)?RESPONSABILIDAD",
-    ], True),  # TARGET: corazón del análisis transicional
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?RECONOCIMIENTO\s+DE\s+(?:VERDAD|RESPONSABILIDAD)\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?DECLARACI[ÓO]N\s+DE\s+RECONOCIMIENTO\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?APORTE\s+A\s+LA\s+VERDAD\s*$",
+    ], True),
 
     ("CONSIDERACIONES", [
-        r"(?:^|\n)(?:II+\.?\s+)?CONSIDERACIONES?(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:II+\.?\s+)?AN[ÁA]LISIS\s+JUR[IÍ]DICO(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?CONSIDERACIONES?\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?CONSIDERACIONES?\s+(?:DE\s+LA\s+SALA|JUR[IÍ]DICAS?)\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?AN[ÁA]LISIS\s+JUR[IÍ]DICO\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?MARCO\s+(?:JUR[IÍ]DICO|NORMATIVO)\s*$",
     ], True),
 
     ("RESUELVE", [
-        r"(?:^|\n)RESUELVE(?:\s*:|\s*\n)",
-        r"(?:^|\n)EN\s+VIRTUD\s+DE\s+LO\s+EXPUESTO",
-        r"(?:^|\n)(?:DECISI[ÓO]N\s+)?DE\s+LA\s+SALA(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?RESUELVE\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?PARTE\s+RESOLUTIVA\s*$",
+        r"(?:^|\n)(?:[IVXLC]+\.\s+)?EN\s+VIRTUD\s+DE\s+LO\s+EXPUESTO\s*[,:]?\s*$",
     ], True),
 ]
 
