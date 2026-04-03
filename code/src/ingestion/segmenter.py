@@ -109,37 +109,64 @@ SECTIONS_CORPUS_A = [
         r"^(?:EXPEDIENTE|RADICADO|PROCESO)\s+N",
     ], False),
 
-    # Hechos — zona crítica para DIS: aquí aparece la narración de los hechos
+    # ── Secciones específicas CSJ Sala de Casación Penal ─────────────────────
+    # HECHOS JURÍDICAMENTE RELEVANTES — narración fáctica en casación penal
+    # Alta densidad EBI/NV: aquí se describe cómo fue presentado el homicidio
     ("HECHOS", [
-        r"(?:^|\n)(?:I+\.?\s+)?(?:LOS\s+)?HECHOS?(?:\s+PROBADOS?)?(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:I+\.?\s+)?RELACI[ÓO]N\s+DE\s+HECHOS",
-        r"(?:^|\n)(?:I+\.?\s+)?CIRCUNSTANCIAS\s+F[ÁA]CTICAS",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?(?:LOS\s+)?HECHOS?\s+JURI[DÍ]DICAMENTE\s+RELEVANTES?(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?(?:LOS\s+)?HECHOS?(?:\s+PROBADOS?)?(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?RELACI[ÓO]N\s+DE\s+HECHOS",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?CIRCUNSTANCIAS\s+F[ÁA]CTICAS",
         r"(?:^|\n)PLANTEAMIENTO\s+DEL\s+CASO",
-    ], True),  # TARGET: aquí están los eufemismos clave
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?SITUACI[ÓO]N\s+F[ÁA]CTICA",
+    ], True),
 
-    # Consideraciones jurídicas
+    # CARGOS — formulación de cargos en casación: donde se cita el lenguaje
+    # militar original para cuestionarlo jurídicamente (zona mixta EBI + NV)
+    ("CARGOS", [
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?CARGOS?(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?CARGO\s+[ÚU]NICO(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?PRIMER\s+CARGO(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?SEGUNDO\s+CARGO(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?DEMANDA\s+DE\s+CASACI[ÓO]N(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?FUNDAMENTOS?\s+DE\s+LA\s+CASACI[ÓO]N(?:\s*:|\s*\n)",
+    ], True),
+
+    # CONSIDERACIONES DE LA CORTE — análisis jurídico de la CSJ
+    # Alta densidad de calificación jurídica: homicidio en persona protegida
+    # vs. "baja en combate" — zona de máxima tensión discursiva
     ("CONSIDERACIONES", [
-        r"(?:^|\n)(?:II+\.?\s+)?CONSIDERACIONES?(?:\s+DEL?\s+(?:TRIBUNAL|JUZGADO|DESPACHO))?(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:II+\.?\s+)?FUNDAMENTOS?\s+(?:JURI[DÍ]DICOS?|DE\s+DERECHO)",
-        r"(?:^|\n)(?:II+\.?\s+)?MARCO\s+JUR[IÍ]DICO",
-        r"(?:^|\n)(?:II+\.?\s+)?AN[ÁA]LISIS\s+(?:JURI[DÍ]DICO|DEL?\s+CASO)",
-    ], True),  # TARGET: aquí está la "ingeniería burocrática del lenguaje"
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?CONSIDERACIONES?\s+DE\s+LA\s+CORTE(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?CONSIDERACIONES?(?:\s+DEL?\s+(?:TRIBUNAL|JUZGADO|DESPACHO|SALA))?(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?FUNDAMENTOS?\s+(?:JURI[DÍ]DICOS?|DE\s+DERECHO)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?MARCO\s+JUR[IÍ]DICO",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?AN[ÁA]LISIS\s+(?:JURI[DÍ]DICO|DEL?\s+CASO)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?PROBLEMA\s+JUR[IÍ]DICO(?:\s*:|\s*\n)",
+    ], True),
+
+    # ANTECEDENTES — en autos AP de segunda instancia
+    ("ANTECEDENTES", [
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?ANTECEDENTES?(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?RESUMEN\s+(?:DEL?\s+CASO|PROCESAL)(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?ACTUACI[ÓO]N\s+PROCESAL(?:\s*:|\s*\n)",
+    ], False),
 
     # Pruebas
     ("PRUEBAS", [
-        r"(?:^|\n)(?:II+\.?\s+)?(?:VALORACI[ÓO]N\s+)?PRUEBAS?(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:II+\.?\s+)?MATERIAL\s+PROBATORIO",
-        r"(?:^|\n)(?:II+\.?\s+)?M[ÉE]RITOS\s+(?:Y\s+)?PRUEBAS?",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?(?:VALORACI[ÓO]N\s+)?PRUEBAS?(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?MATERIAL\s+PROBATORIO",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?M[ÉE]RITOS\s+(?:Y\s+)?PRUEBAS?",
     ], False),
 
-    # Decisión / fallo — zona crítica: terminología de calificación de la muerte
+    # Decisión / fallo — terminología de calificación final del hecho
     ("DECISIÓN", [
-        r"(?:^|\n)(?:IV+\.?\s+)?DECISI[ÓO]N(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:IV+\.?\s+)?RESUELVE(?:\s*:|\s*\n)",
-        r"(?:^|\n)(?:IV+\.?\s+)?FALLA(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?DECISI[ÓO]N(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?RESUELVE(?:\s*:|\s*\n)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?FALLA(?:\s*:|\s*\n)",
         r"(?:^|\n)EN\s+M[ÉE]RITO\s+DE\s+LO\s+EXPUESTO",
-        r"(?:^|\n)POR\s+LO\s+EXPUESTO[,\s]+(?:ESTE|EL)\s+(?:JUZGADO|TRIBUNAL|DESPACHO)",
-    ], True),  # TARGET: resolución final con calificación del hecho
+        r"(?:^|\n)POR\s+LO\s+EXPUESTO[,\s]+(?:LA\s+)?(?:CORTE|SALA|JUZGADO|TRIBUNAL|DESPACHO)",
+        r"(?:^|\n)(?:[IVXLC]+\.?\s+)?PARTE\s+RESOLUTIVA(?:\s*:|\s*\n)",
+    ], True),
 ]
 
 SECTIONS_CORPUS_B = [
