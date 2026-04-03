@@ -89,6 +89,13 @@ class JudicialMetadata:
 # Mapa: fragmento de texto (regex) → nombre canónico normalizado
 TRIBUNAL_PATTERNS = [
     # Cortes nacionales — primero las más específicas
+    (r"Corte\s+Suprema\s+de\s+Justicia\s*[\r\n]+\s*SALA\s+DE\s+CASACI[ÓO]N\s+PENAL",
+     "Corte Suprema · Sala Penal"),
+    (r"Corte\s+Suprema\s+de\s+Justicia\s*[\r\n]+\s*SALA\s+DE\s+CASACI[ÓO]N\s+CIVIL",
+     "Corte Suprema · Sala Civil"),
+    (r"Corte\s+Suprema\s+de\s+Justicia\s*[\r\n]+\s*SALA\s+DE\s+CASACI[ÓO]N\s+LABORAL",
+     "Corte Suprema · Sala Laboral"),
+    (r"SALA\s+DE\s+CASACI[ÓO]N\s+PENAL", "Corte Suprema · Sala Penal"),
     (r"Corte\s+Suprema\s+de\s+Justicia", "Corte Suprema de Justicia"),
     (r"Corte\s+Constitucional", "Corte Constitucional"),
     # Consejo de Estado — secciones específicas (antes del patrón general)
@@ -327,27 +334,39 @@ class JudicialMetadataExtractor:
         - Proceso penal: rad. 2007-0015
         """
         patterns = [
-            # Radicado Consejo de Estado — formato con guiones
-            # Ej: 05001-23-24-000-1994-02278-01(20706)
+            # ── Corte Suprema de Justicia — Sala de Casación Penal ────────────
+            # Formato con etiqueta: "Radicación SP036-2018(42374)"
+            # o "Radicación núm. AP4064-2016(46318)"
+            (r"[Rr]adicaci[oó]n\s*(?:n[uú]m\.?\s*)?:?\s*"
+             r"([AS]P\d{1,6}-\d{4}(?:\(\d+\))?)",
+             "CSJ_SP_AP_etiqueta"),
+            # Radicado CSJ sin etiqueta — SP/AP seguido de número y año
+            # Ej: SP036-2018(42374), AP4064-2016(46318)
+            (r"\b([AS]P\d{1,6}-\d{4}(?:\(\d+\))?)\b",
+             "CSJ_SP_AP_raw"),
+            # CSJ: radicado numérico solo (NO seguido de guión — para no capturar CE)
+            (r"[Rr]adicaci[oó]n\s*(?:n[uú]m\.?\s*)?:?\s*(\d{4,6})\b(?!-)",
+             "CSJ_radicacion_numerica"),
+            (r"[Rr]adicado\s*[Nn][oº]?\.?\s*:?\s*(\d{4,6})\b(?!-)",
+             "CSJ_radicado_numerico"),
+            # AC (autos de constitucionalidad CSJ)
+            (r"\b(AC\d{4}-\d{4}(?:\(\d{4}-\d{5}-\d{2}\))?)\b",
+             "CSJ_AC"),
+
+            # ── Consejo de Estado — formato con guiones ───────────────────────
             (r"[Rr]adicaci[oó]n\s*(?:[Nn]o?\.?\s*)?:?\s*"
              r"(\d{5}-\d{2}-\d{2}-\d{3}-\d{4}-\d{5}-\d{2}(?:\(\d+\))?)",
              "CE_radicacion_guiones"),
-            # Radicado CE sin etiqueta — el número solo en el texto
             (r"(\d{5}-\d{2}-\d{2}-\d{3}-\d{4}-\d{5}-\d{2})(?:\((\d+)\))?",
              "CE_radicado_raw"),
-            # Radicado SIREJ (22 dígitos) — justicia ordinaria
+
+            # ── Otros formatos ────────────────────────────────────────────────
             (r"[Rr]adicado\s*[Nn]o?\.?\s*:?\s*(\d{22,23})", "SIREJ_22d"),
-            # Radicado JEP alfanumérico
             (r"[Rr]adicado\s*[Nn]o?\.?\s*:?\s*(\d{16}[A-Z]{2})", "JEP_radicado"),
-            # Auto JEP numerado
             (r"Auto\s+[Nn]o?\.\s*(\d{3,4})\s+de\s+(\d{4})", "JEP_auto"),
-            # Expediente con guiones
             (r"[Ee]xpediente\s*[Nn]o?\.?\s*:?\s*(\d{4}-\d{5}-\d{2})", "expediente"),
-            # Proceso penal abreviado
             (r"[Pp]roceso\s+(?:[Nn]o?\.?\s*)?(\d{4}-\d{4,6})", "proceso_penal"),
-            # Macrocaso JEP (ej. Macrocaso 003)
             (r"[Mm]acrocaso\s+(?:N[oº]\.?\s*)?(\d{3})", "JEP_macrocaso"),
-            # Fallback: cualquier secuencia de dígitos ≥10 chars cerca de palabras clave
             (r"(?:[Rr]adicado|[Ee]xpediente|[Pp]roceso)\s*:?\s*(\d{10,})", "fallback_numeric"),
         ]
 
@@ -355,7 +374,6 @@ class JudicialMetadataExtractor:
             m = re.search(pattern, head)
             if m:
                 groups = [g for g in m.groups() if g]
-                # Para CE_radicado_raw unir con paréntesis si hay número interno
                 if label == "CE_radicado_raw" and len(groups) == 2:
                     value = f"{groups[0]}({groups[1]})"
                 else:
@@ -363,24 +381,40 @@ class JudicialMetadataExtractor:
                 logger.debug(f"Radicado encontrado [{label}]: {value}")
                 return value
 
-        # Fallback 1: extraer radicado CE desde el nombre del archivo
-        # Formato: 05001-23-31-000-2006-00039-01(38757)
+        # ── Fallbacks desde nombre de archivo ─────────────────────────────────
         if filename:
+            # CSJ: SP/AP + número + año (ej. SP036-2018, AP4064-2016)
+            csj_fn = re.search(r"([AS]P\d{1,6}-\d{4}(?:\(\d+\))?)", filename)
+            if csj_fn:
+                warnings.append(
+                    f"case_number_from_filename: radicado CSJ del nombre ({filename})"
+                )
+                return csj_fn.group(1)
+
+            # CSJ: radicado numérico en paréntesis al final (ej. SP036-2018(42374))
+            csj_exp = re.search(r"\((\d{4,6})\)", filename)
+            if csj_exp:
+                warnings.append(
+                    f"case_number_from_filename: expediente CSJ del nombre ({filename})"
+                )
+                return csj_exp.group(1)
+
+            # CE: radicado con guiones
             ce_fn = re.search(
                 r"(\d{5}-\d{2}-\d{2}-\d{3}-\d{4}-\d{5}-\d{2}(?:\(\d+\))?)",
                 filename
             )
             if ce_fn:
                 warnings.append(
-                    f"case_number_from_filename: radicado CE extraído del nombre ({filename})"
+                    f"case_number_from_filename: radicado CE del nombre ({filename})"
                 )
                 return ce_fn.group(1)
 
-            # Fallback 2: secuencia numérica larga en el nombre de archivo
+            # Último fallback: secuencia numérica larga
             fn_match = re.search(r"(\d{10,23})", filename)
             if fn_match:
                 warnings.append(
-                    f"case_number_from_filename: extraído de nombre de archivo ({filename})"
+                    f"case_number_from_filename: numérico del nombre ({filename})"
                 )
                 return fn_match.group(1)
 
