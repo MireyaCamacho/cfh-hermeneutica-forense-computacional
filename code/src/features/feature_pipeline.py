@@ -326,7 +326,7 @@ class FeaturePipeline:
         for i, json_path in enumerate(json_files, 1):
             try:
                 features_list = self._process_document(
-                    json_path, target_sections
+                    json_path, target_sections, corpus_label
                 )
                 all_features.extend(features_list)
                 n_sections_total += len(features_list)
@@ -370,6 +370,7 @@ class FeaturePipeline:
         self,
         json_path: Path,
         target_sections: set[str],
+        corpus_label: str = "A",
     ) -> list[SectionFeatures]:
         """
         Extrae features de todas las secciones target de un documento.
@@ -409,6 +410,16 @@ class FeaturePipeline:
         # Contexto institucional — una sola vez por documento
         ctx_result = self.ctx.extract_from_dict(data, doc_id=doc_id)
 
+        # Corregir corpus_type si el JSON está mal etiquetado
+        # (algunos JSONs del corpus A tienen corpus_type=B por error de ingesta)
+        if corpus_label == "A" and ctx_result.corpus_type_raw == "B":
+            import dataclasses
+            ctx_result = dataclasses.replace(
+                ctx_result,
+                corpus_type_raw="A-CE" if "CE" in str(data.get("metadata",{}).get("tribunal","")) else "A-CSJ",
+                y5_corpus_type=0,
+            )
+
         features_list = []
 
         for section in sections:
@@ -433,6 +444,12 @@ class FeaturePipeline:
 
             if len(text) < 30:
                 continue
+
+            # Truncar secciones muy largas para spaCy en CPU
+            # 8000 chars (~1500 palabras) es suficiente para capturar señal discursiva
+            MAX_CHARS = 8000
+            if len(text) > MAX_CHARS:
+                text = text[:MAX_CHARS]
 
             # Extraer features de texto
             t_sec = time.perf_counter()
