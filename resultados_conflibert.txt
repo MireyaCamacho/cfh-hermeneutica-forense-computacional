@@ -1,0 +1,5 @@
+ConfliBERT-Spanish — Resultados finales y8/y9
+y8 MAFAPO: A=0.211 B=0.191 p=0.0004 ***
+y9 CIDH:   A=0.254 B=0.235 p<0.001 ***
+Modelo: eventdata-utd/ConfliBERT-Spanish-Beto-Cased-v1
+Fecha: 2026-04-06
