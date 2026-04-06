@@ -1,0 +1,5 @@
+CFH-BERT v2 — IO tagging
+Mejor época: 14 | F1 macro: 0.584
+F1 REP: 0.77 | F1 EBI: 0.52 | F1 SA: 0.52 | F1 NV: 0.32
+Accuracy: 0.73 | n=100 anotaciones | 15 épocas
+Mejora vs v1: F1 macro +0.31, NV +0.28
