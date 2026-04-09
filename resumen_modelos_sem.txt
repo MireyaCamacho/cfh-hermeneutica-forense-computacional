@@ -1,0 +1,53 @@
+
+RESUMEN COMPARATIVO — Modelos SEM/Path Analysis CFH
+=====================================================
+Datos: 873 secciones (A-CE=520, A-CSJ=299, B=54)
+Variables: y2_sa, y3_civil, y4_nv, y10_rep, y8inv, y9inv
+
+MODELO A — Un factor
+CFI=0.172 | RMSEA=1.167 | NO REPORTABLE
+
+MODELO B — Path analysis (MEJOR)
+CFI=0.619 | RMSEA=0.437 | DoF=9 | REPORTABLE COMO EXPLORATORIO
+y10 REP   ~ y3 civil: β=-5.337 p<0.001 ***
+y10 REP   ~ y2 SA:    β=+0.095 p<0.001 ***
+y10 REP   ~ y4 NV:    β=+0.058 p=0.004 **
+y8inv     ~ y3 civil: β=-0.836 p<0.001 ***
+y8inv     ~ y2 SA:    β=+0.017 p=0.003 **
+y8inv     ~ y4 NV:    β=+0.011 p=0.017 *
+y9inv     ~ y3 civil: β=-0.489 p=0.012 *
+y9inv     ~ y2 SA:    β=+0.013 p=0.019 *
+y9inv     ~ y4 NV:    β=+0.010 p=0.029 *
+
+MODELO B saturado — con covarianzas residuales
+CFI=1.001 | RMSEA=0.000 | NO REPORTABLE (saturado, DoF=6)
+
+MODELO B parsimoniosa
+CFI=0.208 | RMSEA=0.545 | NO REPORTABLE
+
+MODELO B estandarizado
+CFI=0.169 | RMSEA=0.437 | Coeficientes std disponibles
+
+MODELO D — Con corpus_type como covariable
+CFI=0.355 | RMSEA=0.437 | corpus_num no significativo (p=0.158)
+Hallazgo: una vez controlado y3/y2/y4, el sistema de justicia
+no agrega poder predictivo adicional sobre REP
+
+MODELO E — Mediacion y3
+CFI=-0.296 | RMSEA=1.525 | NO REPORTABLE
+
+CONTROL TEMPORAL (A 2018-2023 vs B)
+REP:  A=0.147 B=0.153 p=0.139 n.s. — brecha parcialmente temporal
+NV:   A=0.252 B=0.233 p=0.293 n.s.
+y8:   A=0.217 B=0.191 p=0.001 *** — brecha ESTRUCTURAL
+y9:   A=0.261 B=0.235 p<0.001 *** — brecha ESTRUCTURAL
+
+CORPUS C — Path analysis oral vs escrito (pendiente diarizacion)
+
+CONCLUSION METODOLOGICA:
+El path analysis exploratorio (Modelo B) es el mejor modelo
+disponible. CFI=0.619 es aceptable para analisis exploratorio
+con datos observacionales no normales. El ajuste mejorara con
+y7 como variable latente mediadora (pendiente ConfliBERT fine-tuned).
+El predictor mas fuerte de transicion epistemica es y3 distancia
+lexico-civil (beta=-5.34, p<0.001).

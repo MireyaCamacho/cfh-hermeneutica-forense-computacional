@@ -1,0 +1,12 @@
+
+Control temporal — Corpus A 2018-2023 vs Corpus B
+Corpus A reciente: 74 secciones | Corpus B: 54 secciones
+
+REP Score (y10):  A=0.147 B=0.153 p=0.1389 n.s.
+NV Score (y4):    A=0.252 B=0.233 p=0.2930 n.s.
+Dist. MAFAPO y8:  A=0.217 B=0.191 p=0.0005 ***
+Dist. CIDH y9:    A=0.261 B=0.235 p=0.0000 ***
+
+Interpretacion: La brecha en REP lexico es parcialmente temporal.
+La brecha semantica profunda (y8, y9) es estructural — persiste
+controlando el periodo historico.
