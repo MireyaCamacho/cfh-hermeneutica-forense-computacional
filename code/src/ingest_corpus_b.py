@@ -247,14 +247,40 @@ def procesar_documento(nombre_pdf, meta):
         "comparecientes": meta.get("comparecientes_principales", [])
     }
 
-    # 6. Agregar secciones target
+    # 6. Agregar secciones target con subsegmentación en bloques
+    BLOCK_SIZE = 2000  # chars por bloque de análisis
+    total_bloques_doc = 0
+
     for nombre_sec, bloques in secciones.items():
         if nombre_sec in meta["secciones_target"] or nombre_sec == "CUERPO":
+            texto_sec = '\n\n'.join(bloques)
+
+            # Subsegmentar en bloques de BLOCK_SIZE chars
+            palabras = texto_sec.split()
+            sub_bloques = []
+            bloque_actual = []
+            chars_actual = 0
+
+            for palabra in palabras:
+                bloque_actual.append(palabra)
+                chars_actual += len(palabra) + 1
+                if chars_actual >= BLOCK_SIZE:
+                    sub_bloques.append(" ".join(bloque_actual))
+                    bloque_actual = []
+                    chars_actual = 0
+
+            if bloque_actual and len(bloque_actual) > 20:
+                sub_bloques.append(" ".join(bloque_actual))
+
             doc_json["secciones"][nombre_sec] = {
-                "texto":  '\n\n'.join(bloques),
-                "chars":  sum(len(b) for b in bloques),
-                "bloques": len(bloques)
+                "texto":      texto_sec,
+                "chars":      len(texto_sec),
+                "n_bloques":  len(sub_bloques),
+                "bloques":    sub_bloques
             }
+            total_bloques_doc += len(sub_bloques)
+
+    doc_json["total_bloques"] = total_bloques_doc
 
     secciones_target_encontradas = [
         s for s in meta["secciones_target"] if s in doc_json["secciones"]
@@ -278,18 +304,22 @@ if __name__ == "__main__":
                 json.dump(doc, f, ensure_ascii=False, indent=2)
             print(f"  ✓ JSON guardado: {path_out}")
             resultados.append({
-                "doc_id":   meta["doc_id"],
-                "subcaso":  meta["subcaso"],
-                "chars":    doc["chars_total"],
-                "secciones": len([s for s in doc["secciones"] if s != "CUERPO"])
+                "doc_id":    meta["doc_id"],
+                "subcaso":   meta["subcaso"],
+                "chars":     doc["chars_total"],
+                "secciones": len([s for s in doc["secciones"] if s != "CUERPO"]),
+                "bloques":   doc.get("total_bloques", 0)
             })
 
     print("\n== RESUMEN ==")
     total_secciones = 0
+    total_bloques = 0
     for r in resultados:
-        print(f"  {r['doc_id']} ({r['subcaso']}): {r['chars']:,} chars | {r['secciones']} secciones target")
+        print(f"  {r['doc_id']} ({r['subcaso']}): {r['chars']:,} chars | {r['secciones']} secciones | {r['bloques']} bloques")
         total_secciones += r["secciones"]
+        total_bloques   += r["bloques"]
 
-    print(f"\nTotal secciones nuevas: {total_secciones}")
-    print(f"Total Corpus B estimado: 54 + {total_secciones} = {54 + total_secciones} secciones")
-    print(f"Objetivo ≥200: {'✓ CUMPLIDO' if 54 + total_secciones >= 200 else '⚠ PENDIENTE'}")
+    print(f"\nTotal secciones nuevas:  {total_secciones}")
+    print(f"Total bloques nuevos:    {total_bloques}")
+    print(f"Total Corpus B bloques:  54 + {total_bloques} = {54 + total_bloques}")
+    print(f"Objetivo ≥200 bloques:   {'✓ CUMPLIDO' if 54 + total_bloques >= 200 else '⚠ PENDIENTE'}")
