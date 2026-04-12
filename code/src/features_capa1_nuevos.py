@@ -262,40 +262,74 @@ def procesar_corpus(input_dir, output_path, corpus_type="B"):
         subcaso = doc.get("subcaso", "")
         año = doc.get("año", 0)
 
-        for nombre_sec, contenido_sec in doc.get("secciones", {}).items():
-            texto = contenido_sec.get("texto", "") if isinstance(contenido_sec, dict) else str(contenido_sec)
-            if len(texto) < 100:
+        # ── Estructura Corpus B: doc["secciones"] es dict ──
+        if "secciones" in doc and isinstance(doc["secciones"], dict):
+            for nombre_sec, contenido_sec in doc["secciones"].items():
+                texto = contenido_sec.get("texto", "") if isinstance(contenido_sec, dict) else str(contenido_sec)
+                if len(texto) < 100:
+                    continue
+                registro = _calcular_features(texto, doc_id, nombre_sec, subcaso, año, corpus_type, nlp)
+                registros.append(registro)
+
+        # ── Estructura Corpus A: doc["segmentation"]["sections"] es lista ──
+        elif "segmentation" in doc:
+            seg = doc["segmentation"]
+            sections = seg.get("sections", [])
+
+            # Leer texto limpio desde el .txt correspondiente
+            txt_path = path_json.with_suffix('.txt')
+            if not txt_path.exists():
                 continue
+            with open(txt_path, encoding='utf-8') as ft:
+                texto_completo = ft.read()
 
-            # Calcular features
-            persona = extraer_persona_gramatical(texto, nlp)
-            hedging = extraer_hedging(texto)
-            emocional = extraer_lexico_emocional(texto)
+            meta = doc.get("metadata", {})
+            doc_id = meta.get("radicado", path_json.stem)
+            año_raw = str(meta.get("fecha", "0"))
+            año = int(año_raw[:4]) if año_raw and año_raw[:4].isdigit() else 0
+            subcaso = meta.get("tribunal", corpus_type)
 
-            registro = {
-                "doc_id":      doc_id,
-                "seccion":     nombre_sec,
-                "subcaso":     subcaso,
-                "año":         año,
-                "corpus_type": corpus_type,
-                "chars":       len(texto),
-                **persona,
-                **hedging,
-                **emocional
-            }
-            registros.append(registro)
+            for sec in sections:
+                nombre_sec = sec.get("section_id", "CUERPO")
+                char_range = sec.get("char_range", [0, len(texto_completo)])
+                texto = texto_completo[char_range[0]:char_range[1]]
+                if len(texto) < 100:
+                    continue
+                registro = _calcular_features(texto, doc_id, nombre_sec, subcaso, año, corpus_type, nlp)
+                registros.append(registro)
 
     df = pd.DataFrame(registros)
+    if len(df) == 0:
+        print("⚠ Sin registros — verifica la estructura de los JSONs")
+        return df
+
     df.to_csv(output_path, index=False, encoding='utf-8-sig')
     print(f"\n✓ Features guardados: {output_path}")
     print(f"  Registros: {len(df)}")
 
-    # Estadísticas por sección
     print("\nEstadísticas por sección (accountability_score):")
     if "seccion" in df.columns and "accountability_score" in df.columns:
         print(df.groupby("seccion")["accountability_score"].mean().round(3).to_string())
 
     return df
+
+
+def _calcular_features(texto, doc_id, nombre_sec, subcaso, año, corpus_type, nlp):
+    """Calcula los tres grupos de features para un segmento de texto."""
+    persona  = extraer_persona_gramatical(texto, nlp)
+    hedging  = extraer_hedging(texto)
+    emocional = extraer_lexico_emocional(texto)
+    return {
+        "doc_id":      doc_id,
+        "seccion":     nombre_sec,
+        "subcaso":     subcaso,
+        "año":         año,
+        "corpus_type": corpus_type,
+        "chars":       len(texto),
+        **persona,
+        **hedging,
+        **emocional
+    }
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
