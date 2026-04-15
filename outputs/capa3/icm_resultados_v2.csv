@@ -1,0 +1,5 @@
+audio,speaker_compareciente,nombre_compareciente,rango,n_segmentos,cara_detectada,AU1,AU4,AU6,AU12,AU15,distress_facial,sonrisa_genuina,icm_score,y8_mafapo,y9_cidh
+casanare_torres,SPEAKER_03,Gral. Henry Torres Escalante,General,903,780,0.097,0.076,0.404,0.091,0.002,0.05,0.214,0.19,0.193,0.264
+catatumbo,SPEAKER_03,Cap. Juan Carlos Chaparro Chaparro,Capitán/Mayor,1168,646,0.102,0.183,0.398,0.131,0.011,0.055,0.146,0.272,0.207,0.271
+dabeiba_antioquia,SPEAKER_01,Compareciente Dabeiba (coronel/oficial),Oficial,424,104,0.041,0.275,0.385,0.14,0.008,0.027,0.064,0.292,0.189,0.262
+huila,SPEAKER_06+07+08,Soldados/suboficiales (Luis Carlos Ollo + otros),Soldado/Suboficial,322,112,0.05,0.28,0.42,0.048,0.002,0.035,0.08,0.307,0.186,0.263
