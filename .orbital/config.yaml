@@ -1,0 +1,23 @@
+# .orbital/config.yaml — Hermenéutica Forense Computacional
+project:
+  name: "Academy Tesis Pregrado — Hermenéutica Forense Computacional"
+  id: "91a559d4-f770-4d5e-b111-0199334142de"
+  vertical: academy
+  repo: MireyaCamacho/cfh-hermeneutica-forense-computacional
+  branch: tutor
+
+roles:
+  director_tecnico: "Julián Zuluaga"
+  tesista: "Mireya Camacho Celis"
+
+metadata:
+  created_at: "2026-04-17"
+  created_by: orbix
+  version: "1.0"
+  framework: "CRISP-DM adaptado a investigación"
+
+status:
+  last_sync: "2026-04-17"
+  current_sprint: "Sprint 1 — Cimientos"
+  current_task: "Reorganización, inventario de datos, cerrar pregunta"
+  pending_deliveries: 0
