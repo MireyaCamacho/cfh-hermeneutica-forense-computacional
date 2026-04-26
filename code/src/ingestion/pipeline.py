@@ -34,7 +34,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 from dataclasses import dataclass, asdict
-from typing import Optional
+from typing import Optional, Union
 
 from .cleaner import JudicialTextCleaner, CleanedDocument
 from .metadata import JudicialMetadataExtractor, JudicialMetadata
@@ -152,13 +152,13 @@ class CFHIngestionPipeline:
     # API pública
     # ------------------------------------------------------------------
 
-    def process_file(self, file_path: str | Path) -> IngestionResult:
+    def process_file(self, file_path: Union[str, Path]) -> IngestionResult:
         """
         Procesa un archivo de texto y retorna el resultado de ingesta completo.
 
         Parámetros
         ----------
-        file_path : str | Path
+        file_path : Union[str, Path]
             Ruta al archivo de texto (output de extractor PDF/DOCX).
             Encoding esperado: UTF-8. Si falla, intenta latin-1.
 
@@ -249,8 +249,8 @@ class CFHIngestionPipeline:
 
     def process_batch(
         self,
-        input_dir: str | Path,
-        output_dir: str | Path,
+        input_dir: Union[str, Path],
+        output_dir: Union[str, Path],
         extensions: tuple = (".txt", ".text"),
         stop_on_error: bool = False,
     ) -> dict:
@@ -259,9 +259,9 @@ class CFHIngestionPipeline:
 
         Parámetros
         ----------
-        input_dir : str | Path
+        input_dir : Union[str, Path]
             Directorio con los archivos de texto extraídos.
-        output_dir : str | Path
+        output_dir : Union[str, Path]
             Directorio de salida para JSON de resultados.
         extensions : tuple
             Extensiones de archivo a procesar.
@@ -325,7 +325,7 @@ class CFHIngestionPipeline:
         )
         return stats
 
-    def save_result(self, result: IngestionResult, output_dir: str | Path) -> Path:
+    def save_result(self, result: IngestionResult, output_dir: Union[str, Path]) -> Path:
         """
         Guarda el resultado de ingesta en disco.
         Estructura de salida:

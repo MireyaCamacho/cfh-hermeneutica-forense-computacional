@@ -1,0 +1,7 @@
+capa1_nuevos_corpus_a.csv
+capa1_nuevos_corpus_b.csv
+indicators_completo_conflibert.csv
+indicators_corpus_a.csv
+indicators_corpus_b.csv
+indicators_corpus_b_v2.csv
+indicators_corpus_c.csv
