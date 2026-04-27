@@ -1,0 +1,54 @@
+{
+  "casanare": {
+    "icm_vocal_compareciente": 0.415,
+    "icm_facial": 0.19,
+    "delta": 0.225,
+    "n_ventanas_compareciente": 354,
+    "n_ventanas_total": 1897,
+    "n_segmentos_aus": 780,
+    "shimmer_media": 1.4215,
+    "f0_media": 28.43,
+    "f0_std_media": 0.1,
+    "hnr_media": 4.45,
+    "jitter_media": 0.0209
+  },
+  "catatumbo": {
+    "icm_vocal_compareciente": 0.317,
+    "icm_facial": 0.272,
+    "delta": 0.045,
+    "n_ventanas_compareciente": 332,
+    "n_ventanas_total": 3416,
+    "n_segmentos_aus": 646,
+    "shimmer_media": 1.1342,
+    "f0_media": 30.54,
+    "f0_std_media": 0.109,
+    "hnr_media": 6.78,
+    "jitter_media": 0.024
+  },
+  "dabeiba": {
+    "icm_vocal_compareciente": 0.452,
+    "icm_facial": 0.353,
+    "delta": 0.099,
+    "n_ventanas_compareciente": 83,
+    "n_ventanas_total": 3667,
+    "n_segmentos_aus": 104,
+    "shimmer_media": 1.2058,
+    "f0_media": 29.23,
+    "f0_std_media": 0.1277,
+    "hnr_media": 5.74,
+    "jitter_media": 0.0216
+  },
+  "huila": {
+    "icm_vocal_compareciente": 0.334,
+    "icm_facial": 0.299,
+    "delta": 0.035,
+    "n_ventanas_compareciente": 342,
+    "n_ventanas_total": 3795,
+    "n_segmentos_aus": 620,
+    "shimmer_media": 1.0473,
+    "f0_media": 29.4,
+    "f0_std_media": 0.125,
+    "hnr_media": 7.35,
+    "jitter_media": 0.0219
+  }
+}
