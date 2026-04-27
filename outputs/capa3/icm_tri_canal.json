@@ -1,0 +1,50 @@
+{
+  "casanare": {
+    "icm_tri_canal": 0.375,
+    "icm_facial": 0.19,
+    "icm_vocal": 0.415,
+    "icm_verbal": 0.667,
+    "pesos": {
+      "facial": 0.4,
+      "vocal": 0.4,
+      "verbal": 0.2
+    },
+    "ranking": 2
+  },
+  "catatumbo": {
+    "icm_tri_canal": 0.236,
+    "icm_facial": 0.272,
+    "icm_vocal": 0.317,
+    "icm_verbal": 0.0,
+    "pesos": {
+      "facial": 0.4,
+      "vocal": 0.4,
+      "verbal": 0.2
+    },
+    "ranking": 1
+  },
+  "dabeiba": {
+    "icm_tri_canal": 0.493,
+    "icm_facial": 0.353,
+    "icm_vocal": 0.452,
+    "icm_verbal": 0.857,
+    "pesos": {
+      "facial": 0.4,
+      "vocal": 0.4,
+      "verbal": 0.2
+    },
+    "ranking": 4
+  },
+  "huila": {
+    "icm_tri_canal": 0.453,
+    "icm_facial": 0.299,
+    "icm_vocal": 0.334,
+    "icm_verbal": 1.0,
+    "pesos": {
+      "facial": 0.4,
+      "vocal": 0.4,
+      "verbal": 0.2
+    },
+    "ranking": 3
+  }
+}
