@@ -1,0 +1,22 @@
+{
+  "casanare": {
+    "icm_vocal": 0.516,
+    "icm_facial": 0.19,
+    "n_ventanas": 1897
+  },
+  "catatumbo": {
+    "icm_vocal": 0.243,
+    "icm_facial": 0.272,
+    "n_ventanas": 3416
+  },
+  "dabeiba": {
+    "icm_vocal": 0.148,
+    "icm_facial": 0.353,
+    "n_ventanas": 3667
+  },
+  "huila": {
+    "icm_vocal": 0.218,
+    "icm_facial": 0.299,
+    "n_ventanas": 3795
+  }
+}
