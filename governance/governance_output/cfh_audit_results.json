@@ -1,0 +1,250 @@
+{
+  "M1_equidad": {
+    "T1.1_cfhbert_disparity": {
+      "f1_macro": 0.572,
+      "f1_min": 0.32,
+      "f1_max": 0.77,
+      "ratio_max_min": 2.40625,
+      "cv_f1": 0.28521697216130226,
+      "worst_class": "NV",
+      "flag_ratio_ok": true,
+      "flag_min_ok": true,
+      "score": 1.0
+    },
+    "T1.2_facial_detection_bias": {
+      "det_mean": 0.685,
+      "det_std": 0.2517273657484753,
+      "det_range": 0.53,
+      "cv_det": 0.36748520547222674,
+      "chi2": 820.6056910569107,
+      "p_chi": 1.4698529015387767e-177,
+      "auditoria_intersectional": "PENDIENTE",
+      "score": 0.0
+    },
+    "T1.3_rank_bias": {
+      "spearman_r": -0.6000000000000001,
+      "p": 0.4,
+      "score": 0.4
+    }
+  },
+  "M1_score": 0.467,
+  "M2_robustez": {
+    "T2.1_DIS_weight_sensitivity": {
+      "n_simulations": 10000,
+      "tau_mean": 0.9674,
+      "tau_p5": 0.8,
+      "pct_stable": 0.8371,
+      "score": 0.921
+    },
+    "T2.2_IEI_weight_sensitivity": {
+      "tau_mean": 0.9394,
+      "tau_p5": 0.8,
+      "pct_stable": 0.7214,
+      "score": 0.794
+    },
+    "T2.3_ICM_ranking_stability": {
+      "pct_stable": 0.7559,
+      "score": 0.831
+    },
+    "T2.4_bootstrap_ci_y8y9": {
+      "ci_y8": [
+        0.0192,
+        0.0208
+      ],
+      "ci_y9": [
+        0.018,
+        0.0199
+      ],
+      "sig_y8": true,
+      "sig_y9": true,
+      "score": 1.0
+    },
+    "T2.5_internal_consistency": {
+      "alpha_DIS": 0.366,
+      "alpha_IEI": -1.815,
+      "score": 0.0
+    }
+  },
+  "M2_score": 0.709,
+  "M3_calidad": {
+    "T3.1_corpus_balance": {
+      "entropy_corpus": 0.728,
+      "entropy_annotation": 0.93,
+      "score": 0.829
+    },
+    "T3.2_temporal_coverage": {
+      "span_years": 30,
+      "gaps": [],
+      "score": 0.9
+    },
+    "T3.3_multimodal_coverage": {
+      "canales": {
+        "Texto/transcripción": 5,
+        "Diarización audio": 5,
+        "Features acústicas": 4,
+        "AUs faciales": 4,
+        "Video disponible": 4
+      },
+      "cobertura_media": 0.88,
+      "score": 0.88
+    },
+    "T3.4_data_inventory": {
+      "items": [
+        {
+          "tipo": "Imágenes faciales comparecientes",
+          "categoria": "SENSIBLE (Art.5)",
+          "base_legal": "Función jurisdiccional pública JEP",
+          "riesgo": "ALTO",
+          "mitigacion": "Solo features AUs agregados, no almacenamiento de imágenes"
+        },
+        {
+          "tipo": "Voz / features acústicos",
+          "categoria": "SENSIBLE (biométrico)",
+          "base_legal": "Función jurisdiccional pública JEP",
+          "riesgo": "MEDIO",
+          "mitigacion": "eGeMAPS 88 features; no audio crudo en repo"
+        },
+        {
+          "tipo": "Nombres víctimas en corpus",
+          "categoria": "DATO PERSONAL",
+          "base_legal": "Audiencias públicas JEP / sentencias CE/CSJ",
+          "riesgo": "MEDIO",
+          "mitigacion": "Solo en corpus ya públicos; no en outputs del modelo"
+        },
+        {
+          "tipo": "Textos MAFAPO (comunicados)",
+          "categoria": "DATO PÚBLICO",
+          "base_legal": "Publicación voluntaria pública",
+          "riesgo": "BAJO",
+          "mitigacion": "N/A"
+        },
+        {
+          "tipo": "Sentencias judiciales",
+          "categoria": "DATO PÚBLICO",
+          "base_legal": "Publicación obligatoria CSJ/CE/JEP",
+          "riesgo": "BAJO",
+          "mitigacion": "N/A"
+        }
+      ],
+      "score": 0.65
+    }
+  },
+  "M3_score": 0.815,
+  "M4_transparencia": {
+    "T4.1_correlations": {
+      "high_corr_pairs": [
+        [
+          "y4_NV",
+          "y10_REP",
+          1.0
+        ]
+      ],
+      "score": 0.5
+    },
+    "T4.2_indicator_contributions": {
+      "weights_DIS_sum_to_1": true,
+      "weights_IEI_sum_to_1": true,
+      "theoretical_justification": true,
+      "score": 0.85
+    },
+    "T4.3_model_card": {
+      "model_card": {
+        "nombre_modelo": "CFH-BERT v2",
+        "arquitectura": "ConfliBERT-Spanish-BETO-Cased-v1 fine-tuned",
+        "tarea": "Clasificación de tokens IO — 5 clases: EBI, SA, NV, REP, O",
+        "datos_entrenamiento": "100 fragmentos anotados (Label Studio), taxonomía CFH 4 categorías",
+        "datos_evaluacion": "20% holdout del dataset anotado",
+        "F1_macro": 0.58,
+        "F1_por_clase": {
+          "REP": 0.77,
+          "EBI": 0.52,
+          "SA": 0.52,
+          "NV": 0.32,
+          "O": 0.73
+        },
+        "limitaciones": [
+          "n=100 anotaciones — rendimiento modesto en NV (F1=0.32)",
+          "Sin validación en dominios distintos al español jurídico colombiano",
+          "IAA κ pendiente con segundo anotador (objetivo κ > 0.80)",
+          "Sesgo potencial hacia documentos JEP (mayoría del corpus de entrenamiento)"
+        ],
+        "usos_adecuados": [
+          "Análisis exploratorio corpus judicial colombiano",
+          "Investigación académica de justicia transicional"
+        ],
+        "usos_inadecuados": [
+          "Decisiones judiciales automatizadas",
+          "Evaluación individual de comparecientes"
+        ],
+        "contacto": "mireyacamachocelis@gmail.com",
+        "version_fecha": "2025-04 (CFH-BERT v2)",
+        "licencia": "Apache 2.0 (código) / CC BY-NC (modelo derivado)"
+      },
+      "score": 0.9
+    },
+    "T4.4_reproducibility": {
+      "checks": {
+        "Código en GitHub": true,
+        "Semillas fijas (random seeds)": true,
+        "Versiones de dependencias": true,
+        "DVC versionado de datos": true,
+        "MLflow tracking": true,
+        "Datos de entrenamiento compartibles": false,
+        "Modelo v2 publicado": false,
+        "IAA κ con segundo anotador": false
+      },
+      "pct_ok": 0.625,
+      "score": 0.625
+    }
+  },
+  "M4_score": 0.719,
+  "M5_riesgos": {
+    "T5.1_risk_register": {
+      "total": 10,
+      "mitigados": 3,
+      "parciales": 3,
+      "pendientes": 4,
+      "score": 0.45
+    }
+  },
+  "M5_score": 0.45,
+  "M6_cumplimiento": {
+    "Ley_1581_DPIA": {
+      "n_items": 8,
+      "cumple": 5.5,
+      "pct": 0.688
+    },
+    "UNESCO_Recomendacion_2021": {
+      "n_items": 9,
+      "cumple": 7.0,
+      "pct": 0.778
+    },
+    "EU_AI_Act_High_Risk": {
+      "n_items": 9,
+      "cumple": 8.0,
+      "pct": 0.889
+    },
+    "NIST_AI_RMF": {
+      "n_items": 10,
+      "cumple": 9.5,
+      "pct": 0.95
+    },
+    "Toronto_Declaration": {
+      "n_items": 6,
+      "cumple": 5,
+      "pct": 0.833
+    }
+  },
+  "M6_score": 0.833,
+  "global_score": 0.666,
+  "scores_por_modulo": {
+    "M1 Equidad y sesgo": 0.467,
+    "M2 Robustez": 0.709,
+    "M3 Calidad de datos": 0.815,
+    "M4 Transparencia": 0.719,
+    "M5 Gestión de riesgos": 0.45,
+    "M6 Cumplimiento normativo": 0.833
+  },
+  "audit_date": "2026-05-12 13:41",
+  "nivel_gobernanza": "CONDICIONAL ⚠️  — acciones requeridas"
+}
