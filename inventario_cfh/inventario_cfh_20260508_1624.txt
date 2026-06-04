@@ -1,0 +1,83 @@
+==============================================================================
+INVENTARIO CFH — 2026-05-08 16:24:50
+Raíz: C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional
+==============================================================================
+Total de archivos     : 3,955
+Tamaño total          : 4.2 GB
+
+─── Por TIPO ──────────────────────────────────────────────────────────
+  texto                       3,392       91.7 MB
+  datos_json                    339       28.5 MB
+  documento                      98      441.9 MB
+  codigo                         52      544.8 KB
+  datos_tabular                  48       22.6 MB
+  otro                           13       42.3 MB
+  audio                           5        3.2 GB
+  datos_estructurado              3        2.7 KB
+  imagen                          3        2.4 MB
+  notebook                        1       12.1 KB
+  modelo_o_embedding              1      416.8 MB
+
+─── Por CORPUS inferido ──────────────────────────────────────────────
+  C-JEP-oral             2,539        3.6 GB
+  sin_clasificar         1,413      596.1 MB
+  B-JEP                      2       21.1 MB
+  REF-MAFAPO                 1        1.8 MB
+
+─── Por EXTENSIÓN (top 20) ───────────────────────────────────────────
+  .txt              3,383
+  .json               339
+  .docx                61
+  .py                  52
+  .csv                 47
+  .pdf                 37
+  .md                   9
+  .mp3                  5
+  .zip                  5
+  (sin ext.)            4
+  .yaml                 3
+  .png                  3
+  .ipynb                1
+  .part                 1
+  .xlsx                 1
+  .sqlite3              1
+  .html                 1
+  .safetensors          1
+  .js                   1
+
+─── Top 10 archivos más grandes ──────────────────────────────────────
+    823.4 MB  corpus_c/Caso 03： Audiencia de Reconocimiento por 'falsos positivos' en el Catatumbo.mp3
+    754.6 MB  corpus_c/costa_caribe.mp3
+    687.9 MB  corpus_c/huila.mp3
+    627.1 MB  corpus_c/dabeiba_antioquia.mp3
+    416.8 MB  models/model.safetensors
+    362.0 MB  corpus_c/casanare_torres.mp3
+    284.6 MB  data/raw/corpus_b/auto-RC-AI-016-2025-dabeiba.pdf
+     17.7 MB  corpus_c/videos/costa_caribe_video.mp4.part
+     16.8 MB  data/raw/corpus_b/auto-RC-AS-005-2024-dabeiba.pdf
+     15.6 MB  data/raw/corpus_b/Auto_SRVR_ADHC_03_julio_2023.pdf
+
+─── Top 15 carpetas por nº de archivos ───────────────────────────────
+   2,641  data/processed/corpus_b_sentencias_secciones
+     583  data/processed/corpus_a
+     332  data/raw/corpus_a
+      69  data/processed/corpus_b_sentencias_agregadas
+      60  textos
+      43  .
+      32  data/processed/corpus_b_json
+      26  outputs/capa3
+      24  data/raw/corpus_b
+      22  corpus_c
+      20  data/processed/corpus_b
+      15  data
+      11  docs/bibliografia
+       9  code/tests
+       7  code/src
+
+─── Notas para diseño de ingesta ────────────────────────────────────
+  • 1413 archivos sin clasificar — revisar el CSV y ajustar PATRONES_CORPUS.
+  • 5 archivos de audio — candidatos para Capa 3 (diarización + eGeMAPS).
+  • 1 archivos de modelo/embedding — NO migrar a SQLite, mantener en disco y referenciar por ruta.
+  • 1 notebooks — revisar cuáles producen datasets canónicos (esos definen las tablas).
+
+==============================================================================

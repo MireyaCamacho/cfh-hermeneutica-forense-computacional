@@ -1,0 +1,418 @@
+
+======================================================================
+  1. PANORAMA GENERAL DEL CORPUS
+======================================================================
+
+Documentos totales       :    309
+Bloques totales          :  5,585
+Indicadores calculados   : 31,624
+Segmentos orales (Capa 3):  9,660
+Anotaciones (Label Studio):     84
+
+Documentos por corpus:
+    corpus  n_docs  n_bloques
+      A-CE     156       1005
+     A-CSJ     130        591
+     B-JEP      18       2863
+C-JEP-oral       5       1126
+
+Indicadores por corpus (n únicos de bloques con indicadores):
+    corpus  bloques_con_ind  n_indicadores
+      A-CE             1005          16880
+     A-CSJ              591           9811
+     B-JEP              205           2143
+C-JEP-oral             1126           2790
+
+======================================================================
+  2. DISTRIBUCIÓN POR AÑO — CORPUS A
+======================================================================
+
+ año corpus  n_docs
+2000   A-CE       1
+2000  A-CSJ       1
+2001   A-CE       1
+2001  A-CSJ       1
+2002   A-CE       3
+2003   A-CE       7
+2004   A-CE       7
+2004  A-CSJ       1
+2005   A-CE       9
+2006   A-CE       5
+2007   A-CE       9
+2007  A-CSJ       3
+2008   A-CE       3
+2009   A-CE       4
+2010   A-CE       1
+2010  A-CSJ       3
+2011   A-CE       3
+2012   A-CE       5
+2012  A-CSJ       3
+2013   A-CE       3
+2013  A-CSJ       8
+2014   A-CE       3
+2014  A-CSJ      34
+2015   A-CE       2
+2015  A-CSJ      19
+2016   A-CE       5
+2016  A-CSJ      27
+2017   A-CE      27
+2017  A-CSJ      14
+2018   A-CE      10
+2018  A-CSJ       6
+2019   A-CE       5
+2019  A-CSJ       3
+2020   A-CE       2
+2020  A-CSJ       3
+2021   A-CE       2
+
+Rango temporal Corpus A: 2000 – 2021
+Docs con año registrado: 243 / 286
+
+======================================================================
+  3. DISTRIBUCIÓN DE BLOQUES POR SECCIÓN
+======================================================================
+
+    corpus                        seccion  n_bloques
+      A-CE                   bloque_beach        485
+      A-CE                       DECISIÓN        229
+      A-CE                         HECHOS        146
+      A-CE                CONSIDERACIONES        140
+      A-CE                         CARGOS          5
+     A-CSJ                   bloque_beach        292
+     A-CSJ                       DECISIÓN        125
+     A-CSJ                CONSIDERACIONES        102
+     A-CSJ                         HECHOS         57
+     A-CSJ                         CARGOS         15
+     B-JEP                 RECONOCIMIENTO       1981
+     B-JEP                 SANCION_PROPIA        475
+     B-JEP            CONTRIBUCION_VERDAD        185
+     B-JEP                   bloque_beach         60
+     B-JEP          CALIFICACION_JURIDICA         38
+     B-JEP       PATRONES_MACROCRIMINALES         18
+     B-JEP             HECHOS_Y_CONDUCTAS         15
+     B-JEP                CONSIDERACIONES         11
+     B-JEP                       RESUELVE         11
+     B-JEP         CONTRIBUCION_VERDAD_00          3
+     B-JEP         CONTRIBUCION_VERDAD_01          3
+     B-JEP         CONTRIBUCION_VERDAD_02          3
+     B-JEP         CONTRIBUCION_VERDAD_03          3
+     B-JEP         CONTRIBUCION_VERDAD_04          3
+     B-JEP         CONTRIBUCION_VERDAD_05          3
+     B-JEP         CONTRIBUCION_VERDAD_06          3
+     B-JEP         CONTRIBUCION_VERDAD_07          3
+     B-JEP         CONTRIBUCION_VERDAD_08          3
+     B-JEP         CONTRIBUCION_VERDAD_09          3
+     B-JEP          HECHOS_Y_CONDUCTAS_00          3
+     B-JEP          HECHOS_Y_CONDUCTAS_01          3
+     B-JEP          HECHOS_Y_CONDUCTAS_02          3
+     B-JEP              SANCION_PROPIA_00          3
+     B-JEP              SANCION_PROPIA_01          3
+     B-JEP              SANCION_PROPIA_02          3
+     B-JEP              SANCION_PROPIA_03          3
+     B-JEP              SANCION_PROPIA_04          3
+     B-JEP              SANCION_PROPIA_05          3
+     B-JEP              SANCION_PROPIA_06          3
+     B-JEP              SANCION_PROPIA_07          3
+     B-JEP              SANCION_PROPIA_08          3
+     B-JEP              SANCION_PROPIA_09          3
+C-JEP-oral       audiencia_reconocimiento        588
+C-JEP-oral audiencia_reconocimiento_capa1        538
+
+Secciones únicas en todo el corpus: 37
+
+Top 15 secciones por frecuencia global:
+seccion
+RECONOCIMIENTO                    1981
+bloque_beach                       837
+audiencia_reconocimiento           588
+audiencia_reconocimiento_capa1     538
+SANCION_PROPIA                     475
+DECISIÓN                           354
+CONSIDERACIONES                    253
+HECHOS                             203
+CONTRIBUCION_VERDAD                185
+CALIFICACION_JURIDICA               38
+CARGOS                              20
+PATRONES_MACROCRIMINALES            18
+HECHOS_Y_CONDUCTAS                  15
+RESUELVE                            11
+CONTRIBUCION_VERDAD_00               3
+
+======================================================================
+  4. ESTADÍSTICOS DESCRIPTIVOS POR INDICADOR Y CORPUS
+======================================================================
+
+── Y1_EBI (n=1,018) ──
+          n  media  mediana  std  min  max
+corpus                                    
+A-CE    520    0.0      0.0  0.0  0.0  0.0
+A-CSJ   299    0.0      0.0  0.0  0.0  0.0
+B-JEP   199    0.0      0.0  0.0  0.0  0.0
+
+── Y2_SA (n=1,556) ──
+              n   media  mediana     std    min  max
+corpus                                              
+A-CE        520  0.8852      1.0  0.2591  0.000  1.0
+A-CSJ       299  0.8859      1.0  0.2147  0.000  1.0
+B-JEP       199  0.9313      1.0  0.1535  0.271  1.0
+C-JEP-oral  538  0.8020      1.0  0.2911  0.000  1.0
+
+── Y3_CIVIL (n=1,018) ──
+          n   media  mediana     std     min     max
+corpus                                              
+A-CE    520  0.9900   0.9912  0.0076  0.9520  1.0000
+A-CSJ   299  0.9903   0.9913  0.0050  0.9714  1.0000
+B-JEP   199  0.9848   0.9856  0.0065  0.9650  0.9968
+
+── Y4_NV (n=1,556) ──
+              n   media  mediana     std  min  max
+corpus                                            
+A-CE        520  0.2281   0.0662  0.3098  0.0  1.0
+A-CSJ       299  0.2589   0.1389  0.3091  0.0  1.0
+B-JEP       199  0.1777   0.1358  0.1861  0.0  1.0
+C-JEP-oral  538  0.3121   0.1745  0.3596  0.0  1.0
+
+── Y7_SURPRISAL (n=873) ──
+          n   media  mediana     std     min     max
+corpus                                              
+A-CE    520  0.6807   0.6860  0.0270  0.6216  0.7464
+A-CSJ   299  0.6888   0.6924  0.0247  0.6279  0.7407
+B-JEP    54  0.6957   0.7039  0.0187  0.6223  0.7195
+
+── Y8_MAFAPO (n=588) ──
+              n   media  mediana     std     min     max
+corpus                                                  
+C-JEP-oral  588  0.1911   0.1891  0.0325  0.0961  0.3118
+
+── Y9_CIDH (n=588) ──
+              n   media  mediana     std     min    max
+corpus                                                 
+C-JEP-oral  588  0.2629   0.2637  0.0293  0.1445  0.365
+
+── Y10_REP (n=1,556) ──
+              n   media  mediana     std  min     max
+corpus                                               
+A-CE        520  0.1015   0.0000  0.1969  0.0  1.0000
+A-CSJ       299  0.0594   0.0000  0.1293  0.0  1.0000
+B-JEP       199  0.1573   0.1327  0.1634  0.0  0.8487
+C-JEP-oral  538  0.1173   0.0000  0.2443  0.0  1.0000
+
+── Y11_QUOTES (n=837) ──
+          n   media  mediana     std  min  max
+corpus                                        
+A-CE    485  0.1247      0.0  0.3300  0.0  1.0
+A-CSJ   292  0.1541      0.0  0.3617  0.0  1.0
+B-JEP    60  0.5500      1.0  0.5017  0.0  1.0
+
+======================================================================
+  5. COMPARACIÓN A vs B — INDICADORES CLAVE
+======================================================================
+
+Indicador           Media A  Media B        Δ    p-valor   Sig
+------------------------------------------------------------
+y2_sa                0.8855   0.9313  +0.0459     0.1403  n.s.
+y3_civil             0.9901   0.9848  -0.0053     0.0000   ***
+y4_nv                0.2393   0.1777  -0.0616     0.0924  n.s.
+y10_rep              0.0861   0.1573  +0.0712     0.0000   ***
+
+======================================================================
+  6. ANÁLISIS TEMPORAL — CORPUS A (y8 y y10 por año)
+======================================================================
+
+Y10_REP por año (Corpus A):
+        n   media
+año              
+2000    5  0.0536
+2001    5  0.0097
+2002    7  0.1377
+2003   11  0.2527
+2004   22  0.0762
+2005   18  0.1032
+2006    8  0.0681
+2007   53  0.0978
+2008   49  0.0693
+2009    9  0.2412
+2010    9  0.0619
+2011    5  0.0273
+2012   19  0.0260
+2013   28  0.0680
+2014   92  0.0668
+2015   52  0.0749
+2016  105  0.0371
+2017  154  0.0702
+2018   40  0.1417
+2019   20  0.1265
+2020   11  0.1291
+2021    3  0.4074
+
+Y4_NV por año (Corpus A):
+        n   media
+año              
+2000    5  0.3077
+2001    5  0.2336
+2002    7  0.3443
+2003   11  0.2928
+2004   22  0.1597
+2005   18  0.2669
+2006    8  0.1078
+2007   53  0.2701
+2008   49  0.3161
+2009    9  0.3471
+2010    9  0.2642
+2011    5  0.0700
+2012   19  0.2823
+2013   28  0.1915
+2014   92  0.2271
+2015   52  0.2627
+2016  105  0.2386
+2017  154  0.2345
+2018   40  0.2503
+2019   20  0.2175
+2020   11  0.2565
+2021    3  0.4815
+
+======================================================================
+  7. DISTRIBUCIÓN POR SECCIÓN — INDICADORES CLAVE B-JEP
+======================================================================
+
+Y10_REP por sección (B-JEP):
+                        n   media
+seccion                          
+CONTRIBUCION_VERDAD_01  3  0.4061
+SANCION_PROPIA_03       3  0.3803
+CONTRIBUCION_VERDAD_07  3  0.3425
+CONTRIBUCION_VERDAD_05  3  0.3355
+CONTRIBUCION_VERDAD_04  3  0.2664
+CONTRIBUCION_VERDAD_02  3  0.2576
+SANCION_PROPIA_06       3  0.2450
+SANCION_PROPIA_07       3  0.2171
+SANCION_PROPIA_04       3  0.2004
+SANCION_PROPIA_02       3  0.1988
+CONTRIBUCION_VERDAD_06  3  0.1867
+CONTRIBUCION_VERDAD_03  3  0.1858
+
+Y4_NV por sección (B-JEP):
+                           n   media
+seccion                             
+HECHOS_Y_CONDUCTAS_02      3  0.5019
+SANCION_PROPIA_01          3  0.3718
+RECONOCIMIENTO            74  0.2806
+CONTRIBUCION_VERDAD_07     3  0.1815
+SANCION_PROPIA_03          3  0.1765
+CONSIDERACIONES           20  0.1730
+PATRONES_MACROCRIMINALES  10  0.1467
+HECHOS_Y_CONDUCTAS_01      3  0.1370
+CONTRIBUCION_VERDAD_01     3  0.1092
+CONTRIBUCION_VERDAD_04     3  0.1080
+SANCION_PROPIA_06          3  0.1077
+CONTRIBUCION_VERDAD_02     3  0.1028
+
+======================================================================
+  8. CORPUS C — ICM Y ACTION UNITS POR AUDIENCIA
+======================================================================
+
+Segmentos orales por subcaso:
+  subcaso  n_segmentos
+ Casanare         1257
+Catatumbo         2641
+  Dabeiba         1552
+    Huila         4210
+
+Action Units medias por subcaso (comparecientes):
+              au1     au4     au6    au12    au15    au17
+subcaso                                                  
+Casanare   0.0970  0.0756  0.4035  0.0910  0.0015  0.2672
+Catatumbo  0.0894  0.2089  0.4206  0.0950  0.0065  0.0506
+Dabeiba    0.0339  0.3681  0.4136  0.0989  0.0078  0.3013
+Huila      0.0421  0.2521  0.4481  0.0837  0.0042  0.1563
+
+ICM scores por subcaso:
+           icm_facial  icm_vocal  icm_verbal  icm_tri
+subcaso                                              
+Casanare          NaN        NaN         NaN      NaN
+Catatumbo         NaN        NaN         NaN      NaN
+Dabeiba           NaN        NaN         NaN      NaN
+Huila             NaN        NaN         NaN      NaN
+
+Prosódicos (f0, shimmer, jitter) por subcaso:
+           f0_mean  f0_stddev  shimmer  jitter     hnr
+subcaso                                               
+Casanare   28.4261     0.1000   1.4215  0.0209  4.4508
+Catatumbo  30.5361     0.1090   1.1342  0.0240  6.7759
+Dabeiba    29.2317     0.1277   1.2058  0.0216  5.7367
+Huila      29.3956     0.1250   1.0473  0.0219  7.3506
+
+======================================================================
+  9. MATRIZ DE CORRELACIONES — INDICADORES PRINCIPALES
+======================================================================
+
+codigo     y2_sa  y3_civil  y4_nv  y8_mafapo  y9_cidh  y10_rep  y1_ebi
+codigo                                                                
+y2_sa      1.000    -0.132  0.281        NaN      NaN    0.156     NaN
+y3_civil  -0.132     1.000 -0.214        NaN      NaN   -0.249     NaN
+y4_nv      0.281    -0.214  1.000        NaN      NaN    0.124     NaN
+y8_mafapo    NaN       NaN    NaN       1.00     0.86      NaN     NaN
+y9_cidh      NaN       NaN    NaN       0.86     1.00      NaN     NaN
+y10_rep    0.156    -0.249  0.124        NaN      NaN    1.000     NaN
+y1_ebi       NaN       NaN    NaN        NaN      NaN      NaN     NaN
+
+======================================================================
+  10. ANOTACIONES — DISTRIBUCIÓN DE ETIQUETAS
+======================================================================
+
+Total anotaciones: 84
+Anotadores únicos: 1
+
+Distribución por etiqueta:
+label
+REP    45
+EBI    22
+SA     13
+NV      4
+
+Combinaciones de etiquetas más frecuentes:
+etiquetas_combinadas
+EBI|REP|SA       22
+REP              12
+EBI|NV|REP|SA    12
+EBI|REP           8
+EBI|SA            7
+REP|SA            6
+NV|REP            5
+EBI|NV|REP        5
+EBI|NV|SA         3
+SA                1
+NV|SA             1
+EBI|NV            1
+NV                1
+
+Anotaciones por tipo (resumen vs span):
+es_resumen
+1    84
+
+======================================================================
+  11. TAMAÑO DE BLOQUES — DISTRIBUCIÓN n_chars
+======================================================================
+
+               n  media_chars  mediana     std    min     max
+corpus                                                       
+A-CE        1005       3139.4   2000.0  2598.5  126.0  8000.0
+A-CSJ        591       2914.7   2000.0  2586.8  210.0  8000.0
+B-JEP       2846       1837.1   1265.0  1841.8  100.0  8000.0
+C-JEP-oral  1126       1995.6   2000.0    83.5  121.0  2015.0
+
+Total caracteres procesados: 12,353,004
+Promedio chars/bloque global: 2219
+
+======================================================================
+  12. CFHBERT v2 — MÉTRICAS DEL CLASIFICADOR
+======================================================================
+
+Modelo: CFH-BERT v1
+  Métricas: {"f1_macro": 0.27}
+
+Modelo: CFH-BERT v2
+  Métricas: {"f1_macro": 0.58, "f1_REP": 0.77, "f1_NV": 0.32, "n_anotaciones": 100}
+
+Modelo: OpenSMILE-eGeMAPS v02
+  Métricas: {"n_features": 88}

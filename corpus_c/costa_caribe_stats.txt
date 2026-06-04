@@ -1,0 +1,10 @@
+CFH — Costa Caribe · Estadísticas de transcripción completa
+============================================================
+Video fuente    : Caso 03 Audiencia Reconocimiento Costa Caribe 18 julio 2022
+Duración video  : 10.46h (37666s)
+Segmentos Whisper: 4417
+Inicio cobertura: 240s (0.07h)
+Fin cobertura   : 37666s (10.46h)
+Chars totales   : 257,969
+Palabras totales: 44,054
+Archivo salida  : corpus_c\costa_caribe.txt
