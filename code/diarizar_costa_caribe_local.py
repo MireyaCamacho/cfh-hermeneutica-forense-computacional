@@ -10,7 +10,7 @@ import soundfile as sf
 import pandas as pd
 from pyannote.audio import Pipeline
 
-HF_TOKEN  = "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"
+HF_TOKEN = "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"  # pasar como argumento o variable de entorno
 WAV_PATH  = Path("corpus_c/costa_caribe_completo.wav")
 OUT_PATH  = Path("corpus_c/costa_caribe_diarization_v2.json")
 CKPT_PATH = Path("corpus_c/diarization_chunks_ckpt.json")

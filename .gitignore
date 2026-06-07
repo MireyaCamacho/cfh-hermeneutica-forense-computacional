@@ -58,3 +58,11 @@ Thumbs.db
 logs/
 *.log
 *.mp3 
+cfh.db 
+cfh_backup_pre_extras.db 
+"corpus_c/videos/" 
+"*.part" 
+"files.zip" 
+"youtube_cookies.txt" 
+"~$*" 
+"*.db" 
