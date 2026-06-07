@@ -38,5 +38,16 @@
     "icm_tri_v2": 0.421,
     "delta_verbal": -0.032,
     "y11_prop_mafapo": 0.602
+  },
+  "costa_caribe": {
+    "icm_facial": 0.104,
+    "icm_vocal": 0.465,
+    "icm_verbal_v1": 0.132,
+    "icm_verbal_v2": 0.132,
+    "icm_tri_v1": 0.254,
+    "icm_tri_v2": 0.171,
+    "delta_verbal": 0.0,
+    "y11_prop_mafapo": 0.0,
+    "deteccion_pct": 42.7
   }
 }

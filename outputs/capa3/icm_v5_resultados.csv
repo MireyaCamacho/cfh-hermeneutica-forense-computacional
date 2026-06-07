@@ -1,0 +1,6 @@
+﻿subcaso,DIS,IEI,vocal,facial,verbal,dis_verbal_vocal,dis_tri,cong_injusta,verbal_std,verbal_pct_alto,tipo_perfil,canales_disponibles
+casanare,0.808,0.517,0.635,0.496,0.368,0.267,0.109,False,0.232,0.117,NO-VERBAL>VERBAL,3
+catatumbo,0.11,0.624,0.444,0.469,0.452,0.008,0.011,True,0.243,0.276,CONGRUENTE,3
+dabeiba,0.49,0.299,0.53,0.572,0.388,0.142,0.079,False,0.2,0.225,NO-VERBAL>VERBAL,3
+huila,0.228,0.081,0.418,0.502,0.464,0.047,0.034,False,0.271,0.317,CONGRUENTE,3
+costa_caribe,0.464,0.231,0.471,0.483,0.454,0.017,0.012,True,0.26,0.326,CONGRUENTE,3

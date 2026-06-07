@@ -1,0 +1,47 @@
+{
+  "casanare": {
+    "icm_facial": 0.19,
+    "icm_vocal": 0.415,
+    "icm_verbal": 0.567,
+    "icm_facial_norm": 0.345,
+    "icm_vocal_norm": 0.662,
+    "icm_verbal_norm": 0.613,
+    "icm_v3": 0.526
+  },
+  "catatumbo": {
+    "icm_facial": 0.272,
+    "icm_vocal": 0.317,
+    "icm_verbal": 0.295,
+    "icm_facial_norm": 0.675,
+    "icm_vocal_norm": 0.0,
+    "icm_verbal_norm": 0.23,
+    "icm_v3": 0.316
+  },
+  "huila": {
+    "icm_facial": 0.299,
+    "icm_vocal": 0.334,
+    "icm_verbal": 0.841,
+    "icm_facial_norm": 0.783,
+    "icm_vocal_norm": 0.115,
+    "icm_verbal_norm": 0.999,
+    "icm_v3": 0.559
+  },
+  "dabeiba": {
+    "icm_facial": 0.353,
+    "icm_vocal": 0.452,
+    "icm_verbal": 0.842,
+    "icm_facial_norm": 1.0,
+    "icm_vocal_norm": 0.912,
+    "icm_verbal_norm": 1.0,
+    "icm_v3": 0.965
+  },
+  "costa_caribe": {
+    "icm_facial": 0.104,
+    "icm_vocal": 0.465,
+    "icm_verbal": 0.132,
+    "icm_facial_norm": 0.0,
+    "icm_vocal_norm": 1.0,
+    "icm_verbal_norm": 0.0,
+    "icm_v3": 0.4
+  }
+}

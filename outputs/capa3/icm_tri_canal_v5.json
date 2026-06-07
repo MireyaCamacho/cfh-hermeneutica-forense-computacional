@@ -1,0 +1,62 @@
+{
+  "casanare": {
+    "vocal": 0.635,
+    "facial": 0.496,
+    "verbal": 0.368,
+    "dis_verbal_vocal": 0.267,
+    "dis_tri": 0.109,
+    "cong_injusta": false,
+    "tipo_perfil": "NO-VERBAL>VERBAL",
+    "canales": 3,
+    "H_ICM_A": true,
+    "H_ICM_B": false
+  },
+  "catatumbo": {
+    "vocal": 0.444,
+    "facial": 0.469,
+    "verbal": 0.452,
+    "dis_verbal_vocal": 0.008,
+    "dis_tri": 0.011,
+    "cong_injusta": true,
+    "tipo_perfil": "CONGRUENTE",
+    "canales": 3,
+    "H_ICM_A": false,
+    "H_ICM_B": true
+  },
+  "dabeiba": {
+    "vocal": 0.53,
+    "facial": 0.572,
+    "verbal": 0.388,
+    "dis_verbal_vocal": 0.142,
+    "dis_tri": 0.079,
+    "cong_injusta": false,
+    "tipo_perfil": "NO-VERBAL>VERBAL",
+    "canales": 3,
+    "H_ICM_A": true,
+    "H_ICM_B": false
+  },
+  "huila": {
+    "vocal": 0.418,
+    "facial": 0.502,
+    "verbal": 0.464,
+    "dis_verbal_vocal": 0.047,
+    "dis_tri": 0.034,
+    "cong_injusta": false,
+    "tipo_perfil": "CONGRUENTE",
+    "canales": 3,
+    "H_ICM_A": false,
+    "H_ICM_B": false
+  },
+  "costa_caribe": {
+    "vocal": 0.471,
+    "facial": 0.483,
+    "verbal": 0.454,
+    "dis_verbal_vocal": 0.017,
+    "dis_tri": 0.012,
+    "cong_injusta": true,
+    "tipo_perfil": "CONGRUENTE",
+    "canales": 3,
+    "H_ICM_A": false,
+    "H_ICM_B": true
+  }
+}
