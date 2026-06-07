@@ -66,3 +66,5 @@ cfh_backup_pre_extras.db
 "youtube_cookies.txt" 
 "~$*" 
 "*.db" 
+face_landmarker.task 
+"corpus_c/videos/" 
