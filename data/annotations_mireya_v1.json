@@ -1,0 +1,4962 @@
+[
+{
+  "text": "cedimiento Penal vigente al momento del hecho 32 , el cual señalaba que la inspección del cadáver debía realizarse por autoridad competente en el mismo lugar en donde acaeciera la muerte, de manera que existiera inmediación del funcionario con la escena de los hechos. Ahora bien, la misma norma preveía que en caso que no fuere posible la presencia de funcionario instructor o de la policía judicial, la identificación del cuerpo debía realizarse por cualquier funcionario público o, inclusive, por un ciudadano, pero siempre en el mismo sitio del hecho. Así era el tenor de la norma: “ Artículo 290. Inspección de la escena.",
+  "doc_id": "c221692920ea88fd...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 1,
+  "label": [
+    {
+      "start": 90,
+      "end": 98,
+      "text": "cadáver ",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 98,
+      "end": 114,
+      "text": "debía realizarse",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 167,
+      "end": 187,
+      "text": "acaeciera la muerte,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 424,
+      "end": 430,
+      "text": "cuerpo",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 431,
+      "end": 447,
+      "text": "debía realizarse",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 1,
+  "created_at": "2026-04-04T16:18:27.262644Z",
+  "updated_at": "2026-04-04T16:18:27.262672Z",
+  "lead_time": 556.315
+},
+{
+  "text": "s hechos y actos se probarán con las actas o los folios reconstruidos o con el folio resultante de la nueva inscripción , conforme a lo dispuesto en el artículo 100”. Para eliminar cualquier duda en relación con el alcance y el carácter imperativo de la norma transcrita , el mismo estatuto en cita determina , a la altura de su artículo 106: “ Artículo 106.- Ninguno de lo",
+  "doc_id": "86c58e3302ae7ea2...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 2,
+  "annotator": 1,
+  "annotation_id": 2,
+  "created_at": "2026-04-04T16:57:13.361359Z",
+  "updated_at": "2026-04-04T16:57:13.361391Z",
+  "lead_time": 2322.103
+},
+{
+  "text": "En consecuencia, reiteró su anterior pretensión. CONSIDERACIONES: La demandas de casación presentadas incumplen los presupuestos de técnica que permitan su admisión, en razón a que los cargos postulados contra la sentencia del Tribunal se desarrollan sin la observancia de los requisitos formales y materiales previstos en los artículos 183 y 184, inciso 2º, de la ley 906 de 2004, como pasa a verse. 1. A nombre de FRANCISCO MOREA NINCO.",
+  "doc_id": "0c6ebf783e619758...",
+  "section_id": "CONSIDERACIONES",
+  "corpus_type": "A-CSJ",
+  "id": 3,
+  "annotator": 1,
+  "annotation_id": 3,
+  "created_at": "2026-04-04T16:57:50.607314Z",
+  "updated_at": "2026-04-04T16:57:50.607367Z",
+  "lead_time": 35.74
+},
+{
+  "text": "io. HECHOS: De conformidad con la acusación el día 7 de junio del año dos mil cuatro en horas de la tarde, el ciudadano Miguel Ángel Figueroa Díaz, fue interceptado y retenido por miembros de la Policía Nacional acantonados en el municipio de Puerto Guzmán, como presunto integrante de algún grupo al margen de la ley, siendo llevado con posterioridad por el comandante de la estación capitán Wilson Albeiro Novoa Daza, hasta el corregimiento de Santa Lucía, lugar donde se encontraba un destacamento militar, (comandado por el Sargento Segundo Freddy Baldomero Rodríguez Cárdenas), todo esto con el propósito de corroborar las informaciones que ya se tenían.",
+  "doc_id": "c82de3033e6e9712...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 4,
+  "label": [
+    {
+      "start": 150,
+      "end": 177,
+      "text": "fue interceptado y retenido",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 614,
+      "end": 661,
+      "text": " corroborar las informaciones que ya se tenían.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 182,
+      "end": 213,
+      "text": "miembros de la Policía Nacional",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 265,
+      "end": 319,
+      "text": "presunto integrante de algún grupo al margen de la ley",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 322,
+      "end": 354,
+      "text": "iendo llevado con posterioridad ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 321,
+      "end": 323,
+      "text": "si",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 4,
+  "created_at": "2026-04-04T17:05:18.807117Z",
+  "updated_at": "2026-04-04T17:05:18.807151Z",
+  "lead_time": 443.321
+},
+{
+  "text": "nguna modificación sufrirá el fallo impugnado. En mérito de lo expuesto, la SALA DE CASACIÓN PENAL DE LA CORTE SUPREMA DE JUSTICIA, administrando justicia en nombre de la República y por autoridad de la ley, RESUELVE 1. CASAR PARCIALMENTE la sentencia dictada el 14 de marzo de 2012 por el Tribunal Superior del Distrito Judicial de Sincelejo, confirmatoria de la que dictó el Juzgado Penal del Circuito Especializado de la misma ciudad el 13 de diciembre de 2011, contra Jorge Mauricio Ramírez Rodríguez, para absolverlo del delito de falso testimonio. 2. En consecuencia, fijar la pena de prisión que deberá descontar Jorge Mauricio Ramírez Rodríguez, en doscientos noventa y seis (296) meses y veinte (20) días. 3. En lo demás el fallo se mantiene incólume. 4.",
+  "doc_id": "bec5401dce335865...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CSJ",
+  "id": 5,
+  "annotator": 1,
+  "annotation_id": 5,
+  "created_at": "2026-04-04T17:06:30.016671Z",
+  "updated_at": "2026-04-04T17:06:30.016715Z",
+  "lead_time": 29.579
+},
+{
+  "text": "es. HECHOS En la sentencia de segundo grado fueron tomados de la resolución de acusación, que así los detalló: El informe de hechos suscrito por el Comandante de la Compañía Berlín, Te. MAHECHA BERNAL CARLOS ANDRÉS, da cuenta que el 22 de marzo de 2006 en el desarrollo de la operación MISIL, el personal integrante del pelotón Berlín 6 se desplazó hacia el sector del área general del corregimiento de Bruselas en Pitalito (H.) con el fin de neutralizar posibles ataques a la población civil y saboteo a las próximas elecciones presidenciales por información de la red de cooperantes.",
+  "doc_id": "5795a1a495c73d0a...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 6,
+  "label": [
+    {
+      "start": 430,
+      "end": 503,
+      "text": "con el fin de neutralizar posibles ataques a la población civil y saboteo",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 549,
+      "end": 586,
+      "text": "información de la red de cooperantes.",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 255,
+      "end": 292,
+      "text": "n el desarrollo de la operación MISIL",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 294,
+      "end": 337,
+      "text": "el personal integrante del pelotón Berlín 6",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 6,
+  "created_at": "2026-04-04T17:09:40.157592Z",
+  "updated_at": "2026-04-04T17:09:40.157623Z",
+  "lead_time": 187.827
+},
+{
+  "text": "autoridad accionada, que en el término de quince (15) días siguientes a la notificación del presente fallo, emita una nueva decisión en la que se sigan los criterios y lineamientos esbozados por esta sentencia. 2. DECISIÓN Por lo expuesto, el Consejo de Estado, Sala de lo Contencioso Administrativo, Sección Quinta, administrando justicia en nombre de la República y por autoridad de la ley, FALLA: PRIMERO: AMPARAR el derecho fundamental de acceso a la administración de justicia y a la reparación de las señoras Eulalia Galeano González y María Lucelly González Toro, de conformidad con lo expuesto en esta providencia.",
+  "doc_id": "c7e4faba1b79c771...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CE",
+  "id": 7,
+  "label": [
+    {
+      "start": 0,
+      "end": 19,
+      "text": "autoridad accionada",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 7,
+  "created_at": "2026-04-04T17:10:10.724022Z",
+  "updated_at": "2026-04-04T17:10:10.724069Z",
+  "lead_time": 24.847
+},
+{
+  "text": "O. HECHOS: Los falladores declararon demostrados los siguientes: Ocurrieron el día 24 de enero de 2008, en horas de la mañana, cuando a la vivienda de propiedad de Israel González situada en la vereda Potrerito de Lugo del municipio de Chaparral (Tolima) ingresaron varios militares y de allí lo sacaron para conducirlo a un sitio cercano donde le dieron muerte. Los uniformados, entre quienes se encontraban ÁNGEL ALBERTO RÍOS, JUAN PABLO DUCUARA RAMÍREZ, SNEIDER CAMACHO PEÑA, ADALBERTO PAREDES OVIEDO y Míller Hernando Castillo, reportaron a la víctima como dada de baja en combate suscitado en desarrollo de la operación militar genérica denominada Francia y la misión táctica de nombre E",
+  "doc_id": "a84bf55576359881...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 8,
+  "label": [
+    {
+      "start": 255,
+      "end": 282,
+      "text": "ingresaron varios militares",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 285,
+      "end": 361,
+      "text": "de allí lo sacaron para conducirlo a un sitio cercano donde le dieron muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 363,
+      "end": 379,
+      "text": "Los uniformados,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 532,
+      "end": 692,
+      "text": "reportaron a la víctima como dada de baja en combate suscitado en desarrollo de la operación militar genérica denominada Francia y la misión táctica de nombre E",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 8,
+  "created_at": "2026-04-04T17:13:28.531761Z",
+  "updated_at": "2026-04-04T17:13:28.531792Z",
+  "lead_time": 195.37
+},
+{
+  "text": "te. En mérito de lo expuesto, la Sala de Casación Penal de la Corte Suprema de Justicia, RESUELVE INADMITIR la demanda de casación presentada por el defensor de Luis Ramón Osorio Roa contra la sentencia proferida el 31 de julio de 2014 por el Tribunal Superior de Popayán. En consecuencia, se ordena devolver la actuación al juzgado de origen Contra esta decisión no procede ningún recurso. Notifíquese y cúmplase GUSTAVO ENRIQUE MALO FERNÁNDEZ JOSÉ LUIS BARCELÓ CAMACHO JOSÉ LEONIDAS BUSTOS MARTÍNEZ FERNANDO ALBERTO CASTRO CABALLERO EUGENIO FERNÁNDEZ CARLIER EYDER PA",
+  "doc_id": "e62b28e9f470b0ab...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CSJ",
+  "id": 9,
+  "annotator": 1,
+  "annotation_id": 9,
+  "created_at": "2026-04-04T17:13:47.638265Z",
+  "updated_at": "2026-04-04T17:13:47.638293Z",
+  "lead_time": 14.608
+},
+{
+  "text": "o. HECHOS: Según reseñó el a quo: El día 17 de febrero de 2006, siendo las 5:30 p.m., en la ciudad de Caucasia, fueron contactados los jóvenes Jhon Fredy Camargo Herrera y Darwin Antonio Rivero Climaco, por el señor Jhonatan Barrios Bautista, con el fin de que se fueran a trabajar a una finca ubicada en el municipio de Canalete, Córdoba. El trabajo consistiría en el cuidado de unas cocinas y recibirían como pago por dicha labor un salario de un millón doscientos mil pesos ($1.200.000).",
+  "doc_id": "05fe0c7e89a387dd...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 10,
+  "label": [
+    {
+      "start": 113,
+      "end": 131,
+      "text": "fueron contactados",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 244,
+      "end": 294,
+      "text": "con el fin de que se fueran a trabajar a una finca",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 144,
+      "end": 202,
+      "text": "Jhon Fredy Camargo Herrera y Darwin Antonio Rivero Climaco",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 135,
+      "end": 202,
+      "text": " jóvenes Jhon Fredy Camargo Herrera y Darwin Antonio Rivero Climaco",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 10,
+  "created_at": "2026-04-04T17:15:39.113371Z",
+  "updated_at": "2026-04-04T17:15:39.113397Z",
+  "lead_time": 109.307
+},
+{
+  "text": "perar sus defectos para asegurar, de oficio, el cumplimiento de las garantías fundamentales o los fines del recurso. En mérito de lo expuesto, la CORTE SUPREMA DE JUSTICIA, SALA DE CASACIÓN PENAL, VI. R E S U E L V E INADMITIR la demanda de casación presentada por el defensor de los procesados Liborio Ávila Tello, Edwin Torralbo Hernández y Danilo Sanabria Díaz. Contra esta determinación no procede ningún recurso. Cópiese, notifíquese, cúmplase y devuélvase al Tribunal de origen FERNANDO ALBERTO CASTRO CABALLERO Presidente JOSÉ LUIS BARCELÓ CAMACHO JOSÉ LEONIDAS BUSTOS MARTÍNEZ EUGENIO FERNÁNDEZ CARLIER MARÍA DEL ROSARIO GONZÁLEZ MUÑOZ GU",
+  "doc_id": "b25be1e4f4bc77b8...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CSJ",
+  "id": 11,
+  "annotator": 1,
+  "annotation_id": 11,
+  "created_at": "2026-04-04T17:30:40.385481Z",
+  "updated_at": "2026-04-04T17:30:40.385511Z",
+  "lead_time": 16.032
+},
+{
+  "text": "e si bien no presenció estos hechos “por miedo” , se paró en la puerta de la casa y vio el carro del señor Navarro . Igualmente, sostuvo que por la época en que desapareció León Darío lo mismo sucedió con otras personas, incluso a un hijo suyo “fueron a buscarlo y no estaba en la casa” . Interrogado por el autor (es) de los hechos, el testigo señaló que “(..) la cabeza principal era Carlos Navarro y apoyado por la Policía y el Ejército para arriba y para abajo, pero cuando ellos llegaban a arrimar a una parte llegaban de civil, así mataron la señora mía y dos hijos” . Sostuvo, además, que dichos actos fueron puestos en conocimiento de la Fuerza Pública, sin obtener respuesta alguna (negrillas fuera de texto, fls. 162 vto-162 cuaderno 1).",
+  "doc_id": "27d9721f69fcc9c5...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 12,
+  "label": [
+    {
+      "start": 161,
+      "end": 183,
+      "text": "desapareció León Darío",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 205,
+      "end": 219,
+      "text": "otras personas",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 246,
+      "end": 285,
+      "text": "ueron a buscarlo y no estaba en la casa",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 362,
+      "end": 381,
+      "text": "la cabeza principal",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 403,
+      "end": 440,
+      "text": "apoyado por la Policía y el Ejército ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 515,
+      "end": 571,
+      "text": "llegaban de civil, así mataron la señora mía y dos hijos",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 608,
+      "end": 660,
+      "text": " fueron puestos en conocimiento de la Fuerza Pública",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 662,
+      "end": 690,
+      "text": "sin obtener respuesta alguna",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 161,
+      "end": 183,
+      "text": "desapareció León Darío",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 12,
+  "created_at": "2026-04-04T17:35:17.198838Z",
+  "updated_at": "2026-04-04T17:35:17.198869Z",
+  "lead_time": 274.299
+},
+{
+  "text": "a atención de la Sala. IV. DEMANDA DE CASACIÓN \tEl defensor del procesado acude a la causal primera de casación contemplada en el artículo 181 de la Ley 906 de 2004, con el objetivo de denunciar en un cargo único la violación directa de la ley penal sustancial por falta de aplicación de los artículos 29 y 31 de la Carta Política, referentes a la prohibición de no agravación de la pena impuesta al condenado cuando éste funge como apelante único.",
+  "doc_id": "254d6cd440921364...",
+  "section_id": "CARGOS",
+  "corpus_type": "A-CSJ",
+  "id": 13,
+  "annotator": 1,
+  "annotation_id": 13,
+  "created_at": "2026-04-04T17:36:17.947779Z",
+  "updated_at": "2026-04-04T17:36:17.947806Z",
+  "lead_time": 12.403
+},
+{
+  "text": "videncia en el caso concreto una actuación temeraria de las partes o de los intervinientes procesales, condición exigida por el artículo 55 de la Ley 446 de 1998 para que se profiera una condena por este concep",
+  "doc_id": "5d3a164339e07905...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CE",
+  "id": 14,
+  "annotator": 1,
+  "annotation_id": 14,
+  "created_at": "2026-04-04T17:36:35.363717Z",
+  "updated_at": "2026-04-04T17:36:35.363737Z",
+  "lead_time": 8.314
+},
+{
+  "text": "HECHOS En la resolución de acusación se encuentran las siguientes referencias fácticas: En desarrollo de la Misión Táctica Faraón, integrantes del Pelotón Buitre 1 del Batallón Plan Especial Energético y Vial n.° 2 (Baeev2), el 14 de febrero de 2007, a las 10:00 p.m., en el sitio conocido como la Ye del Boquerón, jurisdicción del municipio La Jagua de Ibirico (Cesar), dieron muerte en presunto combate a dos hombres N.N. que luego fueron identificados como EUCLIDES NAVARRO RINCÓN y ADELMIS FUENTES TORRES, de quienes se dijo al parecer eran miembros de una banda delincuencial denominada Los Escopeteros y que pretendían cobrar una extorsión a un finquero de la región. El primero de los cadáveres de las víctimas fue hallado con signos de estrangulamiento en su cuello.",
+  "doc_id": "61c54929ab3781f5...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 15,
+  "label": [
+    {
+      "start": 87,
+      "end": 129,
+      "text": " En desarrollo de la Misión Táctica Faraón",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 132,
+      "end": 215,
+      "text": "ntegrantes del Pelotón Buitre 1 del Batallón Plan Especial Energético y Vial n.° 2 ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 371,
+      "end": 404,
+      "text": "dieron muerte en presunto combate",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 406,
+      "end": 424,
+      "text": " dos hombres N.N. ",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 460,
+      "end": 508,
+      "text": "EUCLIDES NAVARRO RINCÓN y ADELMIS FUENTES TORRES",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 509,
+      "end": 672,
+      "text": " de quienes se dijo al parecer eran miembros de una banda delincuencial denominada Los Escopeteros y que pretendían cobrar una extorsión a un finquero de la región",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 692,
+      "end": 701,
+      "text": "cadáveres",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 704,
+      "end": 717,
+      "text": " las víctimas",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 15,
+  "created_at": "2026-04-04T17:39:14.061963Z",
+  "updated_at": "2026-04-04T17:39:14.061987Z",
+  "lead_time": 149.797
+},
+{
+  "text": "HECHOS En oportunidad anterior, la Sala los compendió de la siguiente forma: Después de la media noche del 13 de febrero de 1994, en el barrio Chapinero de la Ciudadela San Juan Atalaya del municipio de Cúcuta, cuando Jairo Preciado, Germán Angarita y Fabio Peña se dirigían a sus residencias, fueron abordados por miembros del Ejército Nacional que descendieron de una camioneta, quienes armados con fusiles los obligaron a subir al vehículo y se los llevaron de la zona con rumbo desconocido. Al llegar al sitio conocido como El Desierto fueron bajados y obligados a colocarse en la vía, momento en el cual les dispararon causándoles la muerte.",
+  "doc_id": "51f6c0948856c260...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 16,
+  "label": [
+    {
+      "start": 218,
+      "end": 262,
+      "text": "Jairo Preciado, Germán Angarita y Fabio Peña",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 294,
+      "end": 311,
+      "text": "fueron abordados ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 315,
+      "end": 346,
+      "text": "miembros del Ejército Nacional ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 350,
+      "end": 493,
+      "text": "descendieron de una camioneta, quienes armados con fusiles los obligaron a subir al vehículo y se los llevaron de la zona con rumbo desconocido",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 350,
+      "end": 493,
+      "text": "descendieron de una camioneta, quienes armados con fusiles los obligaron a subir al vehículo y se los llevaron de la zona con rumbo desconocido",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 540,
+      "end": 646,
+      "text": "fueron bajados y obligados a colocarse en la vía, momento en el cual les dispararon causándoles la muerte.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 350,
+      "end": 493,
+      "text": "descendieron de una camioneta, quienes armados con fusiles los obligaron a subir al vehículo y se los llevaron de la zona con rumbo desconocido",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 540,
+      "end": 646,
+      "text": "fueron bajados y obligados a colocarse en la vía, momento en el cual les dispararon causándoles la muerte.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 639,
+      "end": 645,
+      "text": "muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 540,
+      "end": 646,
+      "text": "fueron bajados y obligados a colocarse en la vía, momento en el cual les dispararon causándoles la muerte.",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 16,
+  "created_at": "2026-04-04T17:45:49.117189Z",
+  "updated_at": "2026-04-04T17:45:49.117209Z",
+  "lead_time": 205.075
+},
+{
+  "text": "oautores. HECHOS El fallador de segunda instancia declaró probado que el Cabo Segundo DEYBI SÁNCHEZ DÍAZ y los Soldados Profesionales JOSÉ ALEJANDRO OSORIO CRUZ, NILTON CÉSAR FERNÁNDEZ RODRÍGUEZ, HÉCTOR JULIO CAMPO ROCHA, JOSÉ FRANCISCO MENES RAMÍREZ y ALIRIO VEGA GÓMEZ, adscritos al Batallón de Infantería Nro. 15 del Ejército Nacional, con sede en Ocaña (Norte de Santander), acordaron darle muerte a José Martín Botello Ovalle y simular un combate que les permitiera presentar a la víctima como miembro de un grupo insurgente.",
+  "doc_id": "eba83016ec24d962...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 17,
+  "label": [
+    {
+      "start": 379,
+      "end": 431,
+      "text": "acordaron darle muerte a José Martín Botello Ovalle ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 404,
+      "end": 430,
+      "text": "José Martín Botello Ovalle",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 433,
+      "end": 530,
+      "text": "simular un combate que les permitiera presentar a la víctima como miembro de un grupo insurgente.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 434,
+      "end": 451,
+      "text": "imular un combate",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 431,
+      "end": 435,
+      "text": " y si",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 17,
+  "created_at": "2026-04-04T20:00:31.254527Z",
+  "updated_at": "2026-04-04T20:00:31.254547Z",
+  "lead_time": 176.785
+},
+{
+  "text": "su defecto, se le condene como autor de la conducta punible de favorecimiento. CONSIDERACIONES DE LA CORTE 1. Conviene recordar que dado el carácter extraordinario del recurso de casación, al recurrente le compete elaborar la demanda bajo los estrictos parámetros contemplados en la ley y decantados por la jurisprudencia de la Corte. Por tanto, no basta con afirmar que se cometió un error in iudicando o in procedendo, pues debe demostrarse la existencia del vicio y su trascendencia frente al contenido del fallo. De acuerdo con la jurisprudencia de la Sala, es bien sabido que el recurso de casación constituye el medio por el cual se revisa la legalidad de la sentencia.",
+  "doc_id": "ef6960fc60ef8c53...",
+  "section_id": "CONSIDERACIONES",
+  "corpus_type": "A-CSJ",
+  "id": 18,
+  "annotator": 1,
+  "annotation_id": 18,
+  "created_at": "2026-04-04T20:01:01.917467Z",
+  "updated_at": "2026-04-04T20:01:01.917489Z",
+  "lead_time": 26.583
+},
+{
+  "text": "de los hechos Oficiar a la Fiscalía General de la Nación, para que, sin perjuicio de su autonomía institucional y en el evento de que no se hubiese realizado, inicie las respectivas investigaciones dirigidas a esclarecer la responsabilidad penal y los responsables intelectuales de los hechos ocurridos el día 21 de noviembre de 1993, en el municipio de Filo Gringo, en los cuales resultaron muertos los señores William y Germán Vera García Lombo, puesto que se trata de una grave violación de los Derechos Humanos. La instrucción respectiva deberá comprender, de igual manera, cualquier tipo de responsabilidad derivada de la omisión en que pudieron haber incurrido los superiores del Teniente Fredy Villegas.",
+  "doc_id": "f7b77f89cfef279d...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 19,
+  "label": [
+    {
+      "start": 381,
+      "end": 399,
+      "text": "resultaron muertos",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 412,
+      "end": 446,
+      "text": "William y Germán Vera García Lombo",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 462,
+      "end": 515,
+      "text": "trata de una grave violación de los Derechos Humanos.",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 459,
+      "end": 514,
+      "text": "se trata de una grave violación de los Derechos Humanos",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 670,
+      "end": 681,
+      "text": " superiores",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 19,
+  "created_at": "2026-04-04T20:04:34.311602Z",
+  "updated_at": "2026-04-04T20:04:34.311622Z",
+  "lead_time": 209.243
+},
+{
+  "text": "E. HECHOS: El 7 de diciembre de 2005, miembros adscritos al Batallón de Infantería 32 «General Pedro Justo Berrío», con tropas de la compañía Borrasca Tres, se desplazaron a realizar la operación «Emblema», misión táctica «Diluvio» que estaba al mando del ST Diego Andrés Olaya Trujillo, grupo del que también hacía parte el soldado RODRIGO ADOLFO GIL ALZATE. En presunto combate, dieron de baja al señor Jonathan Obando Agudelo, en la vereda La Golondrina del Corregimiento Nutibara del municipio de Frontino (Antioquia). La víctima fue reclutada por Heber de Jesús Álvarez Ospina y el soldado profesional Jhon Fredy Martínez, quienes le propusieron realizar una diligencia en el municipio referido y como contraprestación, le darían la suma de dos millones de pesos.",
+  "doc_id": "ecd95cf3290421be...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 20,
+  "label": [
+    {
+      "start": 38,
+      "end": 85,
+      "text": "miembros adscritos al Batallón de Infantería 32",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 120,
+      "end": 155,
+      "text": "tropas de la compañía Borrasca Tres",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 186,
+      "end": 231,
+      "text": "operación «Emblema», misión táctica «Diluvio»",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 360,
+      "end": 395,
+      "text": "En presunto combate, dieron de baja",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 405,
+      "end": 428,
+      "text": "Jonathan Obando Agudelo",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 523,
+      "end": 533,
+      "text": "La víctima",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 534,
+      "end": 548,
+      "text": "fue reclutada ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 628,
+      "end": 768,
+      "text": "quienes le propusieron realizar una diligencia en el municipio referido y como contraprestación, le darían la suma de dos millones de pesos.",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 20,
+  "created_at": "2026-04-04T20:07:04.093119Z",
+  "updated_at": "2026-04-04T20:07:04.093141Z",
+  "lead_time": 147.434
+},
+{
+  "text": "ctivas. HECHOS A mediados del año 2006, el subteniente del Ejército Diego Armando Junco Parra reunió a un grupo de soldados bajo sus órdenes, entre quienes se encontraban los señalados, y les mostró su preocupación porque sus superiores les estaban exigiendo mostrar bajas del enemigo (guerrilleros) como fuera. Uno de los militares sugirió que trajeran tipos para matarlos y, cuando el oficial preguntó quién se ofrecía para conseguir esas personas, el soldado Adolfo Guerrero Camargo afirmó que se trasladaría a Santa Marta para traer varios hombres.",
+  "doc_id": "0ed77f2cfbb0dd80...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 21,
+  "label": [
+    {
+      "start": 106,
+      "end": 140,
+      "text": "grupo de soldados bajo sus órdenes",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 171,
+      "end": 186,
+      "text": "los señalados, ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 192,
+      "end": 315,
+      "text": "mostró su preocupación porque sus superiores les estaban exigiendo mostrar bajas del enemigo (guerrilleros) como fuera.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 316,
+      "end": 337,
+      "text": "Uno de los militares ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 358,
+      "end": 381,
+      "text": "tipos para matarlos y",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 390,
+      "end": 400,
+      "text": "el oficial",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 410,
+      "end": 455,
+      "text": "quién se ofrecía para conseguir esas personas",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 503,
+      "end": 558,
+      "text": "se trasladaría a Santa Marta para traer varios hombres.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 337,
+      "end": 357,
+      "text": "sugirió que trajeran",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 21,
+  "created_at": "2026-04-04T20:10:47.794990Z",
+  "updated_at": "2026-04-04T20:10:47.795010Z",
+  "lead_time": 217.937
+},
+{
+  "text": "do. HECHOS \tFueron sintetizados por el sentenciador de segundo grado de la siguiente manera: Indicó el ente instructor que mediante informe de patrullaje presentado por el teniente Andrés Castaño Correa, se tuvo conocimiento del resultado operacional obtenido al darle cumplimiento a la orden de operación fragmentaria JAVA 12, emitida por el comando del Batallón de Contraguerrilla No. 10, al comandante de la Compañía A y al segundo pelotón de la Compañía B, el 21 de junio de 2007.",
+  "doc_id": "ef6960fc60ef8c53...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 22,
+  "label": [
+    {
+      "start": 229,
+      "end": 260,
+      "text": "resultado operacional obtenido ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 260,
+      "end": 329,
+      "text": "al darle cumplimiento a la orden de operación fragmentaria JAVA 12,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 345,
+      "end": 466,
+      "text": "comando del Batallón de Contraguerrilla No. 10, al comandante de la Compañía A y al segundo pelotón de la Compañía B,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 204,
+      "end": 224,
+      "text": "se tuvo conocimiento",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 123,
+      "end": 204,
+      "text": "mediante informe de patrullaje presentado por el teniente Andrés Castaño Correa, ",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 22,
+  "created_at": "2026-04-04T20:13:22.829276Z",
+  "updated_at": "2026-04-04T20:13:22.829305Z",
+  "lead_time": 138.732
+},
+{
+  "text": "diciones técnicas de los reparos propuestos en cada una de ellas, resulta patente que tampoco satisfacen los requerimientos mínimos para su admisión, según pasa a evidenciarse. 2. Demanda Presentada en representación de José Luís Argumedo Caldera Primer Cargo Con claridad se observa la falta de coherencia en la exposición del cargo, pues si bien anuncia una violación directa de la Ley de carácter sustancial, en desarrollo de la censura se refiere no sólo a la presencia de presuntas irregularidades que darían lugar a la nulidad de la actuación, aspecto que debió ensayar con apoyo en la causal segunda de casación, sino que plantea igualmente diversos cuestionamientos que tienen que ver con la valoración de los medios de convicción hecha en la sentencia impugnada, eventualidad que correspondí",
+  "doc_id": "bce62fa6635eb9c1...",
+  "section_id": "CARGOS",
+  "corpus_type": "A-CSJ",
+  "id": 23,
+  "annotator": 1,
+  "annotation_id": 23,
+  "created_at": "2026-04-04T20:13:58.009967Z",
+  "updated_at": "2026-04-04T20:13:58.009989Z",
+  "lead_time": 30.816
+},
+{
+  "text": ". HECHOS: Aproximadamente a las 9:30 de la noche del 10 de octubre de 2005, en desarrollo de una operación táctica dispuesta por el Capitán HERNANDO GARCÍA GARCÍA, Comandante de la Agrupación de Fuerzas Especiales Urbanas (AFEUR) del Ejército Nacional, los destacamentos Thanatos, Halcón y Fénix se hicieron presentes en el Barrio El Pinal, ubicado en la parte alta de la Vía a Guarne en el Municipio de Bello (Antioquia), esperaron en la carretera a un soldado que venía con tres individuos, Joaquín Idárraga Naranjo, Robinson Úsuga Manco y Norberto Pérez Restrepo, procediendo a dispararles, causarles la muerte y colocarles armas en sus manos. En julio del mismo año, GARCÍA GARCÍA consiguió que personal a su mando causara la muerte a un vendedor de aguacate en el Barrio Belén de Medellín.",
+  "doc_id": "0be911634d3b2d72...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 24,
+  "label": [
+    {
+      "start": 76,
+      "end": 252,
+      "text": "en desarrollo de una operación táctica dispuesta por el Capitán HERNANDO GARCÍA GARCÍA, Comandante de la Agrupación de Fuerzas Especiales Urbanas (AFEUR) del Ejército Nacional,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 253,
+      "end": 317,
+      "text": "los destacamentos Thanatos, Halcón y Fénix se hicieron presentes",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 423,
+      "end": 461,
+      "text": "esperaron en la carretera a un soldado",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 476,
+      "end": 491,
+      "text": "tres individuos",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 493,
+      "end": 565,
+      "text": "Joaquín Idárraga Naranjo, Robinson Úsuga Manco y Norberto Pérez Restrepo",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 567,
+      "end": 646,
+      "text": "procediendo a dispararles, causarles la muerte y colocarles armas en sus manos.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 699,
+      "end": 718,
+      "text": "personal a su mando",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 719,
+      "end": 736,
+      "text": "causara la muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 742,
+      "end": 763,
+      "text": "vendedor de aguacate ",
+      "labels": [
+        "NV"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 24,
+  "created_at": "2026-04-04T20:16:27.570478Z",
+  "updated_at": "2026-04-04T20:16:27.570499Z",
+  "lead_time": 147.893
+},
+{
+  "text": "participaron en tales hechos “se constituye en legítim[o] ante el hostigamiento que recibieron por parte de los miembros del grupo ilegal, configurándose así el referido eximente de responsabilidad de culpa exclusiva de la víctima” 13 . 1.6. Una vez se dio traslado a las partes para presentar sus alegatos de conclusión y al Ministerio Público para que rindiera concepto si lo consideraba del caso, éste último y las partes guardaron silencio 14 . La Sala, al no encontrar causal de nulidad alguna que pudiera invalidar lo actuado, procede a resolver de fon",
+  "doc_id": "c221692920ea88fd...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 25,
+  "label": [
+    {
+      "start": 65,
+      "end": 94,
+      "text": " hostigamiento que recibieron",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 112,
+      "end": 138,
+      "text": "miembros del grupo ilegal,",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 161,
+      "end": 231,
+      "text": "referido eximente de responsabilidad de culpa exclusiva de la víctima”",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 268,
+      "end": 278,
+      "text": "las partes",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 58,
+      "text": "e constituye en legítim[o] ",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 25,
+  "created_at": "2026-04-04T20:19:36.011289Z",
+  "updated_at": "2026-04-04T20:19:36.011316Z",
+  "lead_time": 186.483
+},
+{
+  "text": "ivo. HECHOS: \tEl 11 de diciembre de 2002, en el área rural del municipio de Campamento (Antioquia), tropas del Ejército Nacional al mando del teniente JUAN CARLOS DEL RÍO CRESPO, comandante de la compañía Centurión 6 del Batallón contra-guerrilla No. 4 Granaderos, integrada por los soldados profesionales JADER ALEXANDER MONTOYA MIRA, SERGIO ANDRÉS PÉREZ CÁRDENAS, RAMÓN ANTONIO CÓRDOBA GUTIÉRREZ y WARLINGTON YASNEY PALACIOS PEREA, dieron muerte a José Alejandro Agudelo Agudelo, Ángel Ramiro Agudelo y Gonzalo de Jesús Agudelo Pérez, a quienes hicieron pasar como miembros del frente 36 de las Fuerzas Armadas Revolucionarias de Colombia FARC, sin que en realidad lo",
+  "doc_id": "dff68261216a548b...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 26,
+  "label": [
+    {
+      "start": 100,
+      "end": 128,
+      "text": "tropas del Ejército Nacional",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 435,
+      "end": 449,
+      "text": " dieron muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 453,
+      "end": 538,
+      "text": "osé Alejandro Agudelo Agudelo, Ángel Ramiro Agudelo y Gonzalo de Jesús Agudelo Pérez,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 569,
+      "end": 648,
+      "text": "miembros del frente 36 de las Fuerzas Armadas Revolucionarias de Colombia FARC",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 651,
+      "end": 672,
+      "text": "in que en realidad lo",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 26,
+  "created_at": "2026-04-04T20:21:59.861440Z",
+  "updated_at": "2026-04-04T20:21:59.861462Z",
+  "lead_time": 138.624
+},
+{
+  "text": ". HECHOS En el proveído impugnado se redactan de la siguiente manera: El 18 de septiembre de 2003 a la vereda El Morro del municipio de Granada-Antioquia, arribaron varios integrantes del Batallón de artillería número 4, adscrito a la IV Brigada con sede en Medellín, del Ejército Nacional de Colombia, concretamente a la vivienda donde se encontraba la menor LUZ STELLY MORALES ARIAS y algunos de sus familiares, quienes con engaños la sacaron de su casa y la retuvieron, manifestando que sería entregada al ICBF Bogotá por cuanto se había informado que ésta hacia (sic) parte de un grupo subversivo.",
+  "doc_id": "f2a29bf8303622c6...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 27,
+  "label": [
+    {
+      "start": 168,
+      "end": 304,
+      "text": "varios integrantes del Batallón de artillería número 4, adscrito a la IV Brigada con sede en Medellín, del Ejército Nacional de Colombia",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 354,
+      "end": 387,
+      "text": "la menor LUZ STELLY MORALES ARIAS",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 390,
+      "end": 415,
+      "text": "algunos de sus familiares",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 417,
+      "end": 524,
+      "text": "quienes con engaños la sacaron de su casa y la retuvieron, manifestando que sería entregada al ICBF Bogotá ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 563,
+      "end": 603,
+      "text": "hacia (sic) parte de un grupo subversivo",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 535,
+      "end": 553,
+      "text": "se había informado",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 27,
+  "created_at": "2026-04-04T20:24:53.091198Z",
+  "updated_at": "2026-04-04T20:24:53.091219Z",
+  "lead_time": 166.378
+},
+{
+  "text": ". HECHOS \t El 14 de noviembre de 2007, aproximadamente a las 10:45 de la mañana, salió de su residencia ubicada en el municipio de Chiriguaná (Cesar), Paolo Manuel Castro Mejía con rumbo al punto denominado La loma en el mismo departamento, bajo la promesa de el cachaco de obtener un trabajo. No obstante, su familia solo tuvo noticia de su paradero hasta el 28 de abril de 2010, cuando la Fiscalía le comunicó a su padre su deceso, simulado en combate, por el pelotón de escuadra Corcel II, grupo de caballería mecanizado No.",
+  "doc_id": "50a93dcc78eff844...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 28,
+  "label": [
+    {
+      "start": 151,
+      "end": 177,
+      "text": "Paolo Manuel Castro Mejía ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 243,
+      "end": 261,
+      "text": "bajo la promesa de",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 262,
+      "end": 275,
+      "text": "el cachaco ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 275,
+      "end": 296,
+      "text": "de obtener un trabajo",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 427,
+      "end": 436,
+      "text": "su deceso",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 436,
+      "end": 458,
+      "text": ", simulado en combate,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 459,
+      "end": 531,
+      "text": "por el pelotón de escuadra Corcel II, grupo de caballería mecanizado No.",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 392,
+      "end": 426,
+      "text": "la Fiscalía le comunicó a su padre",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 28,
+  "created_at": "2026-04-04T20:27:46.373679Z",
+  "updated_at": "2026-04-04T20:27:46.373703Z",
+  "lead_time": 169.385
+},
+{
+  "text": "CORTE SUPREMA DE JUSTICIA, Sala de Casación Penal, RESUELVE: 1. CONCEDER el beneficio de libertad transitoria, condicionada y anticipada a WILMER ALONSO RODRÍGUEZ ROA dentro del proceso que por el delito de homicidio en persona protegida actualmente cursa en esta sede en trámite del recurso extraordinario de casación en el radicado 47089. 2. OFICIESE en tal sentido librando la orden de libertad correspondiente para ante el Centro de Reclusión Militar EJUPA de Valledupar-Cesar, entidad que deberá liberarlo siempre y cuando no esté requerido por otra autoridad y por asunto diferente. 3. REMITIR copia de este pronunciamiento al Secretario Ejecutivo de la Jurisdicción Especial para la Paz, para lo de su competencia de conformidad con lo dispuesto en el artículo 53 de la Ley 1820 de 2016.",
+  "doc_id": "274d29962451441c...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CE",
+  "id": 29,
+  "label": [
+    {
+      "start": 197,
+      "end": 237,
+      "text": "delito de homicidio en persona protegida",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 545,
+      "end": 565,
+      "text": " por otra autoridad ",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 29,
+  "created_at": "2026-04-04T20:29:41.321405Z",
+  "updated_at": "2026-04-04T20:29:41.321446Z",
+  "lead_time": 111.645
+},
+{
+  "text": "iere que el hecho de la víctima sea culposo para que proceda como eximente , y por otra parte , se tiene como exigencia que la causa [ la actuación de la víctima ] sea determinante 147 . También se indica que corresponde a la entidad demandada probar los elementos constitutivos de este eximente de responsabilidad . 47 Del análisis conjunto, contrastado y crítico de la prueba obrante en el presente proceso se encuentra el Informe de patrullaje de 15 de agosto de 2008, misión táctica “Abarrote”, unidad “Coyote Uno”, suscrito por el SS. Aristides Miranda Maldonado [fls.42 a 48 c1], según el cual “ […] 1. SITUACIÓN Enemigo. COMPAÑÍA CARLOS ARMANDO CACUA GUERRERO AL MANDO DE SANTIAGO VERGEL (A.",
+  "doc_id": "86c58e3302ae7ea2...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 30,
+  "label": [
+    {
+      "start": 9,
+      "end": 71,
+      "text": "el hecho de la víctima sea culposo para que proceda como exime",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 226,
+      "end": 244,
+      "text": "entidad demandada ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 472,
+      "end": 585,
+      "text": "misión táctica “Abarrote”, unidad “Coyote Uno”, suscrito por el SS. Aristides Miranda Maldonado [fls.42 a 48 c1],",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 609,
+      "end": 627,
+      "text": "SITUACIÓN Enemigo.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 134,
+      "end": 162,
+      "text": " la actuación de la víctima ",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 628,
+      "end": 697,
+      "text": "COMPAÑÍA CARLOS ARMANDO CACUA GUERRERO AL MANDO DE SANTIAGO VERGEL (A",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 425,
+      "end": 447,
+      "text": "Informe de patrullaje ",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 30,
+  "created_at": "2026-04-04T20:34:03.185745Z",
+  "updated_at": "2026-04-04T20:34:03.185766Z",
+  "lead_time": 256.259
+},
+{
+  "text": "o. HECHOS Fueron narrados por el Juzgador de primer grado, en los siguientes términos: El origen de esta investigación tiene ocurrencia el día 28 de marzo del año 2007, cuando el Comandante del Gaula Militar de Santander Mayor FERNANDO LÓPEZ COLMENARES, dispone la MISIÓN TÁCTICA MARFIL 23 supuestamente con el fin, entre otros propósitos, de repeler la acción delictiva que contra el patrimonio económico de una de las finqueras del lugar, se iba a cometer por un grupo de hombres, para la cual fueron encargados el Sub Teniente JAIME ANDRÉS ARANDA DURÁN a la cabeza, tres sub oficiales y 13 soldados profesionales a quienes se ordenó efectuar registro y control militar de área en zona rural del municipio El Playón.",
+  "doc_id": "bce62fa6635eb9c1...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 31,
+  "label": [
+    {
+      "start": 181,
+      "end": 441,
+      "text": "Comandante del Gaula Militar de Santander Mayor FERNANDO LÓPEZ COLMENARES, dispone la MISIÓN TÁCTICA MARFIL 23 supuestamente con el fin, entre otros propósitos, de repeler la acción delictiva que contra el patrimonio económico de una de las finqueras del lug",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 441,
+      "end": 485,
+      "text": "ar, se iba a cometer por un grupo de hombres",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 573,
+      "end": 619,
+      "text": "tres sub oficiales y 13 soldados profesionales",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 630,
+      "end": 675,
+      "text": "se ordenó efectuar registro y control militar",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 31,
+  "created_at": "2026-04-04T20:37:39.554765Z",
+  "updated_at": "2026-04-04T20:37:39.554789Z",
+  "lead_time": 85.514
+},
+{
+  "text": "presupuestos de lógica y adecuada fundamentación para que sea admitida. HECHOS \tFueron consignados en la sentencia así: \tLa presente investigación se basa en los sucesos ocurridos el día 4 de octubre de 2006 en la vereda San Gregorio, jurisdicción del municipio de Nariño- Antioquia, cuando en desarrollo de la operación militar «Falange», misión táctica denominada «Otoño», tropas pertenecientes al Batallón de Contraguerrilla No.",
+  "doc_id": "9561dc53d21bcaf1...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 32,
+  "label": [
+    {
+      "start": 291,
+      "end": 373,
+      "text": "en desarrollo de la operación militar «Falange», misión táctica denominada «Otoño»",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 375,
+      "end": 431,
+      "text": "tropas pertenecientes al Batallón de Contraguerrilla No.",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 32,
+  "created_at": "2026-04-04T20:44:04.894967Z",
+  "updated_at": "2026-04-04T20:44:04.894992Z",
+  "lead_time": 96.077
+},
+{
+  "text": "de homicidio en persona protegida. CONSIDERACIONES DE LA CORTE: 1.\tPrimer cargo: Nulidad por falta de competencia del fallador. La Sala advierte que le asiste razón al actor al señalar que si los hechos investigados ocurrieron el 8 de febrero de 2007, fecha para la cual aún no se encontraba en vigor la Ley 906 de 20041 en el distrito judicial de Cartagena, la competencia para conocer del juicio correspondía al Juzgado Promiscuo del Circuito del Carmen de Bolívar (artículo 77-1-b de la Ley 600 de 2000), y no al Juzgado Único Penal del Circuito Especializado de dicha ciudad que finalmente adelantó el juicio y profirió fallo.",
+  "doc_id": "46f73e71f130933a...",
+  "section_id": "CONSIDERACIONES",
+  "corpus_type": "A-CE",
+  "id": 33,
+  "label": [
+    {
+      "start": 3,
+      "end": 33,
+      "text": "homicidio en persona protegida",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 33,
+  "created_at": "2026-04-04T20:44:38.348865Z",
+  "updated_at": "2026-04-04T20:44:38.348914Z",
+  "lead_time": 26.727
+},
+{
+  "text": "HECHOS El 14 de junio de 2008, en el cerro La Señora, finca El Porvenir de la comunidad indígena Arhuaca, vereda Berlín, de Pueblo Bello Cesar, Nixa Marbelis Martínez Cáceres y Geovany Zapata Jiménez, fueron muertos por proyectiles de arma de fuego, en operación militar de combate simulada denominada Masada, Misión Táctica Jota, por la tropa bombarda 3 adscrita al batallón de Artillería No. 2 La Popa del Ejército Nacional, integrada por los soldados profesionales WILSON BOLAÑO GARCÍA, BALMER ANTONIO GRANADOS y YAIR ISAAC FERNÁNDEZ y el cabo tercero EDWAR FRANCISCO MOREA NINCO, al mando del sargento segundo RAÚL PATARROYO V",
+  "doc_id": "0c6ebf783e619758...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 34,
+  "label": [
+    {
+      "start": 145,
+      "end": 200,
+      "text": "Nixa Marbelis Martínez Cáceres y Geovany Zapata Jiménez",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 202,
+      "end": 333,
+      "text": "fueron muertos por proyectiles de arma de fuego, en operación militar de combate simulada denominada Masada, Misión Táctica Jota,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 334,
+      "end": 431,
+      "text": "por la tropa bombarda 3 adscrita al batallón de Artillería No. 2 La Popa del Ejército Nacional,",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 34,
+  "created_at": "2026-04-04T20:46:14.244809Z",
+  "updated_at": "2026-04-04T20:46:14.244834Z",
+  "lead_time": 94.729
+},
+{
+  "text": "quir. HECHOS El 19 de febrero de 2007, Jorge Alberto García Vanegas, de 17 años de edad, se entrevistó con Wilson Rodríguez Mimisica, informante del grupo Gaula del Ejército Nacional en Casanare, y después se dirigió con Jorge Andrés Barrera Falla hacia la localidad de Villanueva. Ninguno de los dos fue vuelto a ver por sus familiares. Luego de que se realizaran las averiguaciones pertinentes, se tuvo conocimiento que efectivos del Gaula de Casanare, en desarrollo de la Misión Táctica Antiextorsión N° 15 FUGAZ, que tuvo lugar aproximadamente a las 10:30 pm de ese mismo día en Villanueva, los dieron de baja y los reportaron co",
+  "doc_id": "44413afc8bd69f07...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 35,
+  "label": [
+    {
+      "start": 39,
+      "end": 87,
+      "text": "Jorge Alberto García Vanegas, de 17 años de edad",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 133,
+      "end": 195,
+      "text": " informante del grupo Gaula del Ejército Nacional en Casanare,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 221,
+      "end": 247,
+      "text": "Jorge Andrés Barrera Falla",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 282,
+      "end": 336,
+      "text": "Ninguno de los dos fue vuelto a ver por sus familiares",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 351,
+      "end": 396,
+      "text": "se realizaran las averiguaciones pertinentes,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 422,
+      "end": 453,
+      "text": "efectivos del Gaula de Casanare",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 456,
+      "end": 518,
+      "text": "n desarrollo de la Misión Táctica Antiextorsión N° 15 FUGAZ,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 596,
+      "end": 635,
+      "text": " los dieron de baja y los reportaron co",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 35,
+  "created_at": "2026-04-04T22:16:25.377642Z",
+  "updated_at": "2026-04-04T22:16:25.377674Z",
+  "lead_time": 191.695
+},
+{
+  "text": "xpuesto, la CORTE SUPREMA DE JUSTICIA, SALA DE CASACIÓN PENAL, RESUELVE 1. SUSPENDER la orden de captura número 0283943, emitida por la Sala de Casación Penal de la Corporación en contra de RAÚL EMILIO BALLESTEROS SALGADO, identificado con cédula de ciudadanía número 80095002, con el fin de cumplir la condena que por el delito de homicidio en persona protegida se impuso mediante sentencia del 13 de noviembre de 2015, por el Juzgado Cuarto Penal del Circuito de Popayán. 2.",
+  "doc_id": "a2a0d6158d9ba6d9...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CE",
+  "id": 36,
+  "label": [
+    {
+      "start": 322,
+      "end": 363,
+      "text": "delito de homicidio en persona protegida ",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 36,
+  "created_at": "2026-04-04T22:17:53.912609Z",
+  "updated_at": "2026-04-04T22:17:53.912647Z",
+  "lead_time": 84.443
+},
+{
+  "text": "Corte Suprema de Justicia, Sala de Casación Penal, RESUELVE: No admitir la demanda de casación presentada por la defensa de JUAN CARLOS SARMIENTO ROJAS. Contra esta decisión no procede recurso alguno. Notifíquese, cúmplase y devuélvase al Tribunal de origen, JOSÉ LUIS BARCELÓ CAMACHO JOSÉ LEONIDAS BUSTOS MARTÍNEZ FERNANDO ALBERTO CASTRO CABALLERO EUGENIO FERNÁNDEZ CARLIER GUSTAVO ENRIQUE MALO FERNÁNDEZ EYDER PATIÑO CABRERA PATRICIA SALAZAR CUELLAR LUI",
+  "doc_id": "c42ba148300730f4...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CSJ",
+  "id": 37,
+  "annotator": 1,
+  "annotation_id": 37,
+  "created_at": "2026-04-04T22:18:08.873521Z",
+  "updated_at": "2026-04-04T22:18:08.873548Z",
+  "lead_time": 11.429
+},
+{
+  "text": "éneo. HECHOS El 19 de octubre de 2007, entre las 5:00 y 6:00 a.m., en inmediaciones de la vereda Chucurí, zona rural de Piedecuesta (Santander), el escuadrón GRULOC 1 de la compañía A del batallón de Ingenieros Francisco José de Caldas, comandado por el Sargento Viceprimero (SV) Gustavo Adolfo Osorio Giraldo e integrado por el Cabo Segundo (CS) Manuel Cruz Yule Mensa, y los soldados profesionales (SLP) Pedro Jesús Torres Wilches, José Antonio Hernández Ríos, Luis Modesto Barrios Argüello, Wilson Gómez Alvarado, Edison Santamaría Figueroa y José Marcemiliano García Bernal ocasionaron la muerte, mediante arma de fuego a Julio César Cardozo Quiñonez y José del Carmen Barbosa Patiño, así como lesiones a Jhon Edison Cardozo Quiñonez, cuando estos caminaban hacia la finca La Primavera.",
+  "doc_id": "ca2ba5db740d9ea6...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 38,
+  "label": [
+    {
+      "start": 145,
+      "end": 599,
+      "text": "el escuadrón GRULOC 1 de la compañía A del batallón de Ingenieros Francisco José de Caldas, comandado por el Sargento Viceprimero (SV) Gustavo Adolfo Osorio Giraldo e integrado por el Cabo Segundo (CS) Manuel Cruz Yule Mensa, y los soldados profesionales (SLP) Pedro Jesús Torres Wilches, José Antonio Hernández Ríos, Luis Modesto Barrios Argüello, Wilson Gómez Alvarado, Edison Santamaría Figueroa y José Marcemiliano García Bernal ocasionaron la muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 626,
+      "end": 688,
+      "text": "Julio César Cardozo Quiñonez y José del Carmen Barbosa Patiño,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 709,
+      "end": 737,
+      "text": "Jhon Edison Cardozo Quiñonez",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 601,
+      "end": 623,
+      "text": "mediante arma de fuego",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 689,
+      "end": 707,
+      "text": "así como lesiones ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 145,
+      "end": 578,
+      "text": "el escuadrón GRULOC 1 de la compañía A del batallón de Ingenieros Francisco José de Caldas, comandado por el Sargento Viceprimero (SV) Gustavo Adolfo Osorio Giraldo e integrado por el Cabo Segundo (CS) Manuel Cruz Yule Mensa, y los soldados profesionales (SLP) Pedro Jesús Torres Wilches, José Antonio Hernández Ríos, Luis Modesto Barrios Argüello, Wilson Gómez Alvarado, Edison Santamaría Figueroa y José Marcemiliano García Bernal ",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 38,
+  "created_at": "2026-04-04T22:20:46.259954Z",
+  "updated_at": "2026-04-04T22:20:46.259974Z",
+  "lead_time": 151.84
+},
+{
+  "text": "taca que el hecho exclusivo de la víctima debe estar revestido de cualidades como la contribución determinante de esta y su relación directa e incuestionable con el daño antijurídico producido . Es acertado que algunas decisiones sostengan que no se requ",
+  "doc_id": "86c58e3302ae7ea2...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 39,
+  "label": [
+    {
+      "start": 10,
+      "end": 41,
+      "text": "l hecho exclusivo de la víctima",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 192,
+      "text": "taca que el hecho exclusivo de la víctima debe estar revestido de cualidades como la contribución determinante de esta y su relación directa e incuestionable con el daño antijurídico producido",
+      "labels": [
+        "NV"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 39,
+  "created_at": "2026-04-04T22:22:06.583821Z",
+  "updated_at": "2026-04-04T22:22:06.583858Z",
+  "lead_time": 73.333
+},
+{
+  "text": "Subsección A, administrando justicia en nombre de la República y por autoridad de la ley, FALLA: PRIMERO: REVÓCASE la sentencia del 29 de abril de 2013, proferida por el Tribunal Administrativo de Antioquia, Sala de Descongestión y, en su lugar: a. DECLÁRASE la responsabilidad de la Nación – Ministerio de Defensa – Ejército Nacional, por la muerte del señor Jhon Fredy Arias Mejía, ocurrida el 28 de diciembre de 2005. b.",
+  "doc_id": "7b47a4d7d758fa54...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CE",
+  "id": 40,
+  "label": [
+    {
+      "start": 336,
+      "end": 359,
+      "text": "por la muerte del señor",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 360,
+      "end": 384,
+      "text": "Jhon Fredy Arias Mejía, ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 248,
+      "end": 336,
+      "text": " DECLÁRASE la responsabilidad de la Nación – Ministerio de Defensa – Ejército Nacional, ",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 40,
+  "created_at": "2026-04-04T22:23:31.163834Z",
+  "updated_at": "2026-04-04T22:23:31.163856Z",
+  "lead_time": 78.956
+},
+{
+  "text": "HECHOS: El ad quem los resumió de la siguiente manera: El 26 de diciembre de 2006 a la finca El Jordán, en la Vereda Los Morichales del municipio de Paz de Ariporo, de propiedad del señor Rubén Antonio Pérez, llegaron 2 vehículos con uniformados a realizar un registro de inspección a dicho lugar, lo anterior en razón a que había información de acusaciones contra el hijo de Rubén, de nombre Óscar Eduardo Pérez Anave alias Pantera, sobre cobro de vacunas y robo de ganado, motivo por el cual se llevó a cabo una pequeña requisa al inmueble sin encontrar nada, pese a lo anterior se puso una cita a Óscar Eduardo Pérez Anave en la vereda El Totumo para el día 4 de enero, sitio donde estaría acantonado un grupo de militares.",
+  "doc_id": "b12cf5c14bcafce0...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 41,
+  "label": [
+    {
+      "start": 210,
+      "end": 246,
+      "text": "llegaron 2 vehículos con uniformados",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 250,
+      "end": 384,
+      "text": "ealizar un registro de inspección a dicho lugar, lo anterior en razón a que había información de acusaciones contra el hijo de Rubén, ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 394,
+      "end": 419,
+      "text": "Óscar Eduardo Pérez Anave",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 420,
+      "end": 434,
+      "text": "alias Pantera,",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 435,
+      "end": 474,
+      "text": "sobre cobro de vacunas y robo de ganado",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 515,
+      "end": 563,
+      "text": "pequeña requisa al inmueble sin encontrar nada, ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 582,
+      "end": 598,
+      "text": "se puso una cita",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 680,
+      "end": 727,
+      "text": "donde estaría acantonado un grupo de militares.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 495,
+      "end": 514,
+      "text": "se llevó a cabo una",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 41,
+  "created_at": "2026-04-04T22:46:44.321258Z",
+  "updated_at": "2026-04-04T22:46:44.321276Z",
+  "lead_time": 224.742
+},
+{
+  "text": "n mérito de lo expuesto, la CORTE SUPREMA DE JUSTICIA, SALA DE CASACIÓN PENAL, RESUELVE 1. SUSPENDER las órdenes de captura emitidas por la Sala Penal del Tribunal Superior de Neiva en contra de MAURICIO CUBILLOS LUNA y RODRIGO GALINDO HERRERA, a que se hizo alusión en el apartado 3.4. de este proveído. 2. COMUNICAR de esta decisión a las autoridades a las cuales se solicitó ejecutar las órdenes de captura de MAURICIO CUBILLOS LUNA y RODRIGO GALINDO HERRERA, así como al Secretario Ejecutivo de la Jurisdicción Especial para la Paz. 3. ADVERTIR a los procesados MAURICIO CUBILLOS LUNA y RODRIGO GALINDO HERRERA que dentro de los diez (10) siguientes a la notificación de esta providencia deberán acudir a suscribir el acta prevista en el parágrafo 1º del artículo 52 la Ley 1820 de 2016.",
+  "doc_id": "4d04f54b01999b47...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CE",
+  "id": 42,
+  "annotator": 1,
+  "annotation_id": 42,
+  "created_at": "2026-04-04T22:48:09.917767Z",
+  "updated_at": "2026-04-04T22:48:09.917899Z",
+  "lead_time": 81.312
+},
+{
+  "text": "nte. HECHOS El aspecto fáctico fue presentado por: La Fiscalía: La Fiscalía en el recurso de apelación del fallo de primer grado sostiene que el delito se ejecutó en las siguientes circunstancias y en la sentencia de segundo grado se resume la tesis del ente acusador así: La idea criminal nace del Teniente JUAN PABLO GUTIERREZ JARAMILLO quien era la persona que acompañaba a CESAR AUGUSTO MELO ECHEVERRY el día que le propusieron a los funcionarios de el sic- CTI FERNANDO SÁNCHEZ MEDINA y VÍCTOR MANUEL SÁNCHEZ sacar a un joven de Valledupar para llevarlo a un paraje después del municipio de la Paz, es decir, ya se estaba fraguando la muerte de FERNANDO El Tribunal: Aproximadamente a la 1:00 am del día 15 de noviembre de 2006, en el sector conocido como Los Chorros en la vía que del munic",
+  "doc_id": "e2a00fc501f37b68...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 43,
+  "label": [
+    {
+      "start": 142,
+      "end": 163,
+      "text": "el delito se ejecutó ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 273,
+      "end": 338,
+      "text": "La idea criminal nace del Teniente JUAN PABLO GUTIERREZ JARAMILLO",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 418,
+      "end": 514,
+      "text": "e propusieron a los funcionarios de el sic- CTI FERNANDO SÁNCHEZ MEDINA y VÍCTOR MANUEL SÁNCHEZ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 515,
+      "end": 637,
+      "text": "sacar a un joven de Valledupar para llevarlo a un paraje después del municipio de la Paz, es decir, ya se estaba fraguando",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 639,
+      "end": 660,
+      "text": "a muerte de FERNANDO",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 76,
+      "text": " La Fiscalía ",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 43,
+  "created_at": "2026-04-04T22:51:05.487816Z",
+  "updated_at": "2026-04-04T22:51:05.487866Z",
+  "lead_time": 172.888
+},
+{
+  "text": "ada. Hechos El 2 de abril de 2006, en el Corregimiento Guamachal, jurisdicción del Municipio de San Juan del Cesar (Guajira), unidades del ejército nacional, adscritas a los Grupos Contraguerrilla COBALTO DOS y BOMBARDA TRES, dieron de baja a cuatro personas, no identificadas, a quienes presentaron como muertas en combate con el frente 51 de las FARC que operaba en la zona.",
+  "doc_id": "1969b99d5165452c...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 44,
+  "label": [
+    {
+      "start": 126,
+      "end": 226,
+      "text": "unidades del ejército nacional, adscritas a los Grupos Contraguerrilla COBALTO DOS y BOMBARDA TRES, ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 226,
+      "end": 240,
+      "text": "dieron de baja",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 241,
+      "end": 277,
+      "text": "a cuatro personas, no identificadas,",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 278,
+      "end": 312,
+      "text": "a quienes presentaron como muertas",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 313,
+      "end": 376,
+      "text": "en combate con el frente 51 de las FARC que operaba en la zona.",
+      "labels": [
+        "NV"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 44,
+  "created_at": "2026-04-04T22:52:46.304974Z",
+  "updated_at": "2026-04-04T22:52:46.305003Z",
+  "lead_time": 95.508
+},
+{
+  "text": "I. SITUACIÓN FÁCTICA Y ANTECEDENTES 1. El 19 de mayo de 2007, miembros de la Brigada XI del Ejército Nacional, Grupo Gaula de Montería, del cual era parte el soldado profesional ARMANDO JOSÉ POLO MACHADO, informaron acerca de la muerte de dos (2) guerrilleros, a la postre identificados como Ricardo Antonio Molina Osorio y Ronald de Jesús Berdugo Molina, en combate con un grupo subversivo ocurrido en la vereda La Cumbia del corregimiento Las Pailitas, adscrito al municipio de Tierralta (Córdoba). Los familiares de las personas fallecidas, sin embargo, afirmaron que los habían visto el día anterior en sus casas de Barranquilla, después de aceptar una propuesta para trabajar en una finca a cambio de una buena remuneración.",
+  "doc_id": "f0123d0388273640...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 45,
+  "label": [
+    {
+      "start": 62,
+      "end": 203,
+      "text": "miembros de la Brigada XI del Ejército Nacional, Grupo Gaula de Montería, del cual era parte el soldado profesional ARMANDO JOSÉ POLO MACHADO",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 205,
+      "end": 235,
+      "text": "informaron acerca de la muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 236,
+      "end": 260,
+      "text": "de dos (2) guerrilleros,",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 292,
+      "end": 355,
+      "text": "Ricardo Antonio Molina Osorio y Ronald de Jesús Berdugo Molina,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 356,
+      "end": 391,
+      "text": "en combate con un grupo subversivo ",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 502,
+      "end": 544,
+      "text": "os familiares de las personas fallecidas, ",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 558,
+      "end": 729,
+      "text": "firmaron que los habían visto el día anterior en sus casas de Barranquilla, después de aceptar una propuesta para trabajar en una finca a cambio de una buena remuneración.",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 557,
+      "end": 729,
+      "text": "afirmaron que los habían visto el día anterior en sus casas de Barranquilla, después de aceptar una propuesta para trabajar en una finca a cambio de una buena remuneración.",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 45,
+  "created_at": "2026-04-04T22:55:57.880725Z",
+  "updated_at": "2026-04-04T22:55:57.880751Z",
+  "lead_time": 188.315
+},
+{
+  "text": "mínimo, lo que implica revocar la condena en abstracto impuesta en la primera instancia. Hechos probados 8.- Con los registros civiles de defunción17 y los informes técnicos de necropsia médico legal realizados por el Instituto Nacional de Medicina Legal remitidos por dicha entidad al proceso18, está probado que las víctimas directas Genner Gómez, Héctor Fabio y Edwin Alexis Rojas Llanos fallecieron el 7 de marzo de 2008 de manera violenta, por heridas causadas con proyectil de arma de fuego.",
+  "doc_id": "a07146779a6dd756...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 46,
+  "label": [
+    {
+      "start": 318,
+      "end": 390,
+      "text": "víctimas directas Genner Gómez, Héctor Fabio y Edwin Alexis Rojas Llanos",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 391,
+      "end": 497,
+      "text": "fallecieron el 7 de marzo de 2008 de manera violenta, por heridas causadas con proyectil de arma de fuego.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 117,
+      "end": 255,
+      "text": "registros civiles de defunción17 y los informes técnicos de necropsia médico legal realizados por el Instituto Nacional de Medicina Legal ",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 46,
+  "created_at": "2026-04-04T22:59:33.587139Z",
+  "updated_at": "2026-04-04T22:59:33.587181Z",
+  "lead_time": 206.88
+},
+{
+  "text": "HECHOS El 5 de marzo de 2008, en el marco de la denominada Misión Táctica Marfil dispuesta mediante una orden de operaciones, miembros de las Fuerzas Militares del Batallón de Infantería No. 41 Rafael Reyes de Cimitarra (Santander) reportaron como muertos en combate a dos N.N., señalados de pertenecer a bandas criminales que pretendían realizar un secuestro en la zona portando armas de corto alcance y una granada de mano. Tiempo después se estableció que las víctimas eran Daniel Andrés Pesca Olaya y Eduardo Garzón Páez, quienes residían en Bogotá, y el día anterior a su muerte salieron de allí con destino a Cimitarra, sin que sus familiares hubieran vuelto a saber de su paradero hasta el 28 de agosto de 2008 cuando identificaron sus cadáveres.",
+  "doc_id": "f84c83b9bfbca5ee...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CSJ",
+  "id": 47,
+  "label": [
+    {
+      "start": 59,
+      "end": 231,
+      "text": "Misión Táctica Marfil dispuesta mediante una orden de operaciones, miembros de las Fuerzas Militares del Batallón de Infantería No. 41 Rafael Reyes de Cimitarra (Santander)",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 232,
+      "end": 323,
+      "text": "reportaron como muertos en combate a dos N.N., señalados de pertenecer a bandas criminales ",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 323,
+      "end": 426,
+      "text": "que pretendían realizar un secuestro en la zona portando armas de corto alcance y una granada de mano. ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 463,
+      "end": 525,
+      "text": "víctimas eran Daniel Andrés Pesca Olaya y Eduardo Garzón Páez,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 556,
+      "end": 717,
+      "text": "el día anterior a su muerte salieron de allí con destino a Cimitarra, sin que sus familiares hubieran vuelto a saber de su paradero hasta el 28 de agosto de 2008",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 725,
+      "end": 752,
+      "text": "identificaron sus cadáveres",
+      "labels": [
+        "NV"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 47,
+  "created_at": "2026-04-04T23:14:38.624794Z",
+  "updated_at": "2026-04-04T23:14:38.624814Z",
+  "lead_time": 709.736
+},
+{
+  "text": "ugar, en la falla en el servicio sustentada en la vulneración de deberes normativos 144 , que en muchas ocasiones no se reducen al ámbito negativo , sino que se expresan como deberes positivos en los que la procura o tutela eficaz de los derechos , bienes e intereses jurídicos es lo esencial para que se cumpla con la cláusula del Estado Social y Democrático de Derecho ; en caso de no poder hacer su encuadram",
+  "doc_id": "86c58e3302ae7ea2...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CE",
+  "id": 48,
+  "annotator": 1,
+  "annotation_id": 48,
+  "created_at": "2026-04-04T23:17:26.048070Z",
+  "updated_at": "2026-04-04T23:17:26.048094Z",
+  "lead_time": 158.392
+},
+{
+  "text": "s hechos para cuya demostración no se requiera legalmente la formalidad del registro ”. Sobre el punto , la Sala Plena de lo Contencioso Administrativo de esta Corporación , en sentencia del 22 de enero del 2008, señaló : “ Así pues , cuando el estado civil se aduce como fuente de derechos y de obligaciones ( artículo 1° Decreto 1260 de 1970) es necesario acudir a su régimen probatorio establecido en los artículos 101 y siguientes del Decreto 1260 de 1970”.",
+  "doc_id": "86c58e3302ae7ea2...",
+  "section_id": "HECHOS",
+  "corpus_type": "A-CE",
+  "id": 49,
+  "annotator": 1,
+  "annotation_id": 49,
+  "created_at": "2026-04-04T23:17:45.522398Z",
+  "updated_at": "2026-04-04T23:17:45.522419Z",
+  "lead_time": 14.848
+},
+{
+  "text": "ala de lo Contencioso Administrativo, Sección Tercera, administrando justicia en nombre de la República y por autoridad de la ley, FALLA CONFÍRMASE la sentencia recurrida, esto es, aquella proferida por el por el Tribunal Administrativo de Antioquia, Caldas, Chocó, el 16 de noviembre de 2000. CÓPIE",
+  "doc_id": "b20fe3243343cef0...",
+  "section_id": "DECISIÓN",
+  "corpus_type": "A-CE",
+  "id": 50,
+  "annotator": 1,
+  "annotation_id": 50,
+  "created_at": "2026-04-04T23:17:57.835537Z",
+  "updated_at": "2026-04-04T23:17:57.835566Z",
+  "lead_time": 8.046
+},
+{
+  "text": "ada y exhaustiva, así como su responsabilidad individual, para efectos de emitir la respectiva resolución de conclusiones o remitir lo que corresponda a la Unidad de Investigación y Acusación de la JEP (UIA). En la contrastación probatoria que proceda de cara a la expedición de la Resolución de Conclusiones o remisión a la UIA, la SRVR tendrá especialmente en cuenta las observaciones que formulen las víctimas acreditadas y el Ministerio Público, de acuerdo con el numeral 5º del artículo 27 D de la Ley 1922. A.3. La labor de contrastación 30. La Ley Estatutaria de Administración de Justicia en la JEP profundiza y desarrolla la competencia preferente de esta Jurisdicción sobre los hechos cometidos en el marco del conflicto armado interno",
+  "doc_id": "810ea24daa85374e...",
+  "section_id": "CONSIDERACIONES_p2",
+  "corpus_type": "B",
+  "id": 51,
+  "label": [
+    {
+      "start": 401,
+      "end": 424,
+      "text": "as víctimas acreditadas",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 51,
+  "created_at": "2026-04-04T23:19:21.287922Z",
+  "updated_at": "2026-04-04T23:19:21.287941Z",
+  "lead_time": 80.412
+},
+{
+  "text": "eciente patrones macrocriminales. 6.2.3. Calificación jurídica de la conducta del compareciente. F. CARACTERIZACIÓN DEL DAÑO OCASIONADO. 1. Daños al buen nombre. 2. Daños a las relaciones. Relaciones al interior de la familia. Relaciones de amigos y vecinos. Relaciones en el ámbito laboral. 2.1. 2.2. 2.3. 2.4. Otros daños socioculturales. 3. Daños al bienestar. 3.1. Afectaciones emocionales y afectivas. 3.2. Afectaciones a la salud física. 4. Daños a la Ciudadanía. Fuerzas Militares. Justicia. 3.1. 3.2. 3.3. Medios de comunicación masiva. 5. Daños a los proyectos, empleos y patrimonio económico. 6. Propuestas Restaurativas. 793 796 803 804 804 806 812 813 814 818 818 821 822 823 824 824 827 829 829 831 832 833 836",
+  "doc_id": "134ed38c3158c8c3...",
+  "section_id": "RESUELVE_p1",
+  "corpus_type": "B",
+  "id": 52,
+  "label": [
+    {
+      "start": 140,
+      "end": 227,
+      "text": "Daños al buen nombre. 2. Daños a las relaciones. Relaciones al interior de la familia. ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 369,
+      "end": 407,
+      "text": "Afectaciones emocionales y afectivas. ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 447,
+      "end": 469,
+      "text": "Daños a la Ciudadanía.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 470,
+      "end": 487,
+      "text": "Fuerzas Militares",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 606,
+      "end": 630,
+      "text": "Propuestas Restaurativas",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 52,
+  "created_at": "2026-04-04T23:22:51.736795Z",
+  "updated_at": "2026-04-04T23:22:51.736817Z",
+  "lead_time": 169.282
+},
+{
+  "text": "familias”. Ibidem. 716 Ibidem. \fcolombiano”717. Gómez Coronel aceptó, igualmente, haber causado daño con sus acciones y no ser consciente de ello en el momento de ejecución de los hechos. Así, en su intervención en audiencia pública incluyó alusiones como “siempre obedecí órdenes de mis superiores (…) sin pensar el gran daño y dolor que iba a causar”, “en ese entonces era una persona sin corazón y un monstruo que fue entrenado (…) solo para matar”, “les quitamos la vida sin pensar en su familia, solo por presentar un resultado operacional”, “tanto daño [que] causé a las víctimas”, “yo sé el dolor grande que le he dejado a las víctimas en todos los casos”, “hoy reconozco que le quité la vida a seres humanos con derecho a vivir” y, con respecto a los p",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 53,
+  "label": [
+    {
+      "start": 48,
+      "end": 188,
+      "text": "Gómez Coronel aceptó, igualmente, haber causado daño con sus acciones y no ser consciente de ello en el momento de ejecución de los hechos. ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 257,
+      "end": 499,
+      "text": "siempre obedecí órdenes de mis superiores (…) sin pensar el gran daño y dolor que iba a causar”, “en ese entonces era una persona sin corazón y un monstruo que fue entrenado (…) solo para matar”, “les quitamos la vida sin pensar en su familia",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 523,
+      "end": 545,
+      "text": "resultado operacional”",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 548,
+      "end": 736,
+      "text": "tanto daño [que] causé a las víctimas”, “yo sé el dolor grande que le he dejado a las víctimas en todos los casos”, “hoy reconozco que le quité la vida a seres humanos con derecho a vivir”",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 53,
+  "created_at": "2026-04-04T23:28:22.239736Z",
+  "updated_at": "2026-04-04T23:28:22.239759Z",
+  "lead_time": 316.092
+},
+{
+  "text": "as (sic) que sentimientos de arrepentimiento, pero también de aceptación de responsabilidad, ya que con el paso de los años entendí la gravedad gigantesca de los hechos que cometí, el daño inmenso que le cause (sic) a las familias de esos jóvenes, a mi familia y la institución militar, ya que las ilegalidades en las que participamos hicieron que muchos ciudadanos desconfiaran en su ejercito (sic) (…) conscientes de lo que hacíamos, realizamos actividades que no son dignas de ninguna clase de institución y menos de personas con sentimiento de humanidad, lamento hoy día haber pasado por aquellas situaciones que causaron tanto dolor a las víctimas (…) nos dejamos llevar hacia un camino de oscuridad que hoy día aun (sic) hace presión en mi consciencia y en mi corazón, estas situacione",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 54,
+  "label": [
+    {
+      "start": 13,
+      "end": 45,
+      "text": "sentimientos de arrepentimiento,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 92,
+      "text": "aceptación de responsabilidad,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 124,
+      "end": 284,
+      "text": "entendí la gravedad gigantesca de los hechos que cometí, el daño inmenso que le cause (sic) a las familias de esos jóvenes, a mi familia y la institución milita",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 294,
+      "end": 334,
+      "text": "las ilegalidades en las que participamos",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 348,
+      "end": 365,
+      "text": "muchos ciudadanos",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 379,
+      "end": 393,
+      "text": "en su ejercito",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 404,
+      "end": 434,
+      "text": "conscientes de lo que hacíamos",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 436,
+      "end": 509,
+      "text": "realizamos actividades que no son dignas de ninguna clase de institución ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 511,
+      "end": 558,
+      "text": "menos de personas con sentimiento de humanidad,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 559,
+      "end": 652,
+      "text": "lamento hoy día haber pasado por aquellas situaciones que causaron tanto dolor a las víctimas",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 657,
+      "end": 705,
+      "text": "nos dejamos llevar hacia un camino de oscuridad ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 732,
+      "end": 774,
+      "text": "presión en mi consciencia y en mi corazón,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 378,
+      "end": 393,
+      "text": " en su ejercito",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 54,
+  "created_at": "2026-04-04T23:39:48.525894Z",
+  "updated_at": "2026-04-04T23:39:48.525914Z",
+  "lead_time": 680.469
+},
+{
+  "text": "2021, notas al pie 295, 1751. 353 Expediente Caso 03, Cuaderno de hojas de vida. 354 Auto 128 de 2021, párr. 1027. 355 1) Radicado 8098, por hechos ocurridos el 14 de febrero de 2002, en los que murió Anuar de Armas Rincones, adelantado por la Fiscalía 88 Especializada de Derechos Humanos de Bucaramanga y 2) Radicado 3834, por hechos ocurridos el 22 de junio de 2002, en los que murieron Carlos Pumarejo Lopesierra y Edwar Cáceres Prado; y el 26 de octubre de 2002, en el que habrían perdido la vida 18 personas, adelantado por la Fiscalía 88 Especializada de Derechos Humanos de Bucaramanga. 356 3) Radicado 8121, por hechos ocurridos el 12 de abril de 2002, en los que murieron José Miguel Palacio Torres, Álvaro Cesar Olivera Granados y 2 hombres no identificados, adelantado por la Fi",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 55,
+  "label": [
+    {
+      "start": 195,
+      "end": 201,
+      "text": "murió ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 201,
+      "end": 224,
+      "text": "Anuar de Armas Rincones",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 380,
+      "end": 389,
+      "text": " murieron",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 390,
+      "end": 438,
+      "text": "Carlos Pumarejo Lopesierra y Edwar Cáceres Prado",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 478,
+      "end": 501,
+      "text": "habrían perdido la vida",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 502,
+      "end": 513,
+      "text": "18 personas",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 673,
+      "end": 681,
+      "text": "murieron",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 682,
+      "end": 739,
+      "text": "José Miguel Palacio Torres, Álvaro Cesar Olivera Granados",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 742,
+      "end": 768,
+      "text": "2 hombres no identificados",
+      "labels": [
+        "NV"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 55,
+  "created_at": "2026-04-04T23:46:45.097953Z",
+  "updated_at": "2026-04-04T23:46:45.097972Z",
+  "lead_time": 307.069
+},
+{
+  "text": "del Sistema Integral de Verdad, Justicia, Reparación y No Repetición. Al respecto, el AFP dispone que: “[c]on ese fin, se fortalecerán los mecanismos existentes, se adoptarán nuevas medidas, y se promoverá el compromiso de todos con la reparación del daño causado”861 696. El Acto legislativo 01 de 2017 incluyó un capítulo especial dedicado a la satisfacción del derecho a la reparación integral, dentro del cual el artículo 18 transitorio dispone que, en el marco del SIVJRNR, (…) el Estado garantizará el derecho a la reparación a las víctimas de graves violaciones a los derechos humanos e infracciones al Derecho Internacional Humanitario que hayan 858 Relatoría encuentro víctimas en clave de sanción propia. Valledupar. 3 y 4 de septiembre de 2022. Equipo",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 56,
+  "label": [
+    {
+      "start": 347,
+      "end": 396,
+      "text": "satisfacción del derecho a la reparación integral",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 482,
+      "end": 643,
+      "text": " el Estado garantizará el derecho a la reparación a las víctimas de graves violaciones a los derechos humanos e infracciones al Derecho Internacional Humanitario",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 678,
+      "end": 714,
+      "text": "víctimas en clave de sanción propia.",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 56,
+  "created_at": "2026-04-04T23:59:33.812090Z",
+  "updated_at": "2026-04-04T23:59:33.812110Z",
+  "lead_time": 690.225
+},
+{
+  "text": "s y su representación legal en que la respuesta que brindó el compareciente a una de las víctimas presentes en el auditorio respecto del asesinato de tres personas en septiembre de 2004 resultó “revictimizante”, al haber hecho una “comparación entre víctimas civiles y aquellas que no lo eran”540. 424. Finalmente, a la Procuraduría le preocupan “las afirmaciones del señor Rueda Quintero dirigidas a los pueblos indígenas” en las que aseguró que “de haber tenido conocimiento que [algunos miembros de esos grupos] eran militantes de dichos grupos (…) los hubiera combatido”, pues, “aunque parte de la misión del Ejército Nacional (…) no superan la situación, también reconocida por muchos comparecientes, que los miembros de los pueblos indígenas eran estigmatizados [y] podían verse atacad",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 57,
+  "label": [
+    {
+      "start": 89,
+      "end": 123,
+      "text": "víctimas presentes en el auditorio",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 137,
+      "end": 146,
+      "text": "asesinato",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 150,
+      "end": 163,
+      "text": "tres personas",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 195,
+      "end": 209,
+      "text": "revictimizante",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 232,
+      "end": 293,
+      "text": "comparación entre víctimas civiles y aquellas que no lo eran”",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 320,
+      "end": 422,
+      "text": "Procuraduría le preocupan “las afirmaciones del señor Rueda Quintero dirigidas a los pueblos indígenas",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 448,
+      "end": 575,
+      "text": "de haber tenido conocimiento que [algunos miembros de esos grupos] eran militantes de dichos grupos (…) los hubiera combatido”,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 602,
+      "end": 631,
+      "text": "misión del Ejército Nacional ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 683,
+      "end": 705,
+      "text": "muchos comparecientes,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 710,
+      "end": 791,
+      "text": "los miembros de los pueblos indígenas eran estigmatizados [y] podían verse atacad",
+      "labels": [
+        "NV"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 57,
+  "created_at": "2026-04-05T00:12:33.095224Z",
+  "updated_at": "2026-04-05T00:12:33.095256Z",
+  "lead_time": 684.904
+},
+{
+  "text": "de los elementos descritos, el señor Elkin Rojas hizo referencia a los incentivos que recibió del comandante del batallón al presentar este tipo de bajas en combate, como permisos, comida (arroz chino) y felicitaciones658. 520. El primer caso que expuso corresponde a los hechos del 27 de junio del año 2004 en los que fueron asesinados Alberto Edwin Mesa Viana y David Rubio. El señor Rojas aceptó haberse desplazado a la ciudad Valledupar, en compañía de otro solado, en búsqueda de posibles víctimas, haber engañado a Alberto y David con promesas de trabajo, luego de lo cual los trasladó en un taxi al municipio de Urumita, donde se reunió con el resto del pelotón. Aceptó que a las víctimas les colocaron uniformes y los asesinaron, que sus cue",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 58,
+  "label": [
+    {
+      "start": 37,
+      "end": 93,
+      "text": "Elkin Rojas hizo referencia a los incentivos que recibió",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 98,
+      "end": 122,
+      "text": "comandante del batallón ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 125,
+      "end": 218,
+      "text": "presentar este tipo de bajas en combate, como permisos, comida (arroz chino) y felicitaciones",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 318,
+      "end": 376,
+      "text": " fueron asesinados Alberto Edwin Mesa Viana y David Rubio.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 377,
+      "end": 441,
+      "text": "El señor Rojas aceptó haberse desplazado a la ciudad Valledupar,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 442,
+      "end": 469,
+      "text": "en compañía de otro solado,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 494,
+      "end": 502,
+      "text": "víctimas",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 470,
+      "end": 627,
+      "text": "en búsqueda de posibles víctimas, haber engañado a Alberto y David con promesas de trabajo, luego de lo cual los trasladó en un taxi al municipio de Urumita,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 635,
+      "end": 668,
+      "text": "e reunió con el resto del pelotón",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 669,
+      "end": 749,
+      "text": " Aceptó que a las víctimas les colocaron uniformes y los asesinaron, que sus cue",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 58,
+  "created_at": "2026-04-05T00:18:57.331246Z",
+  "updated_at": "2026-04-05T00:18:57.331298Z",
+  "lead_time": 367.884
+},
+{
+  "text": "determinada, entre los años 1997 y 2016, cometidos por las extintas FARC-EP. Estos hechos dejaron un total de 177 víctimas, de las cuales 94 eran hombres, 34 mujeres y 51 que no fueron identificados. De estas víctimas, 109 mayores de edad, 16 niños y niñas, 8 adultos mayores y 45 sin información etaria. De estos hechos, se registraron 9 de desaparición forzada; asociados a 12 víctimas. El periodo de mayor victimización correspondió al periodo 2005 a 2015, destacándose el año 661. 2013 como el pico de esta victimización. A continuación, la gráfica ilustra la variación temporal: de los hechos identificados como emblemáticos, ocurridos en los municipios de Tumaco, Barbacoas y Ricaurte entre 1990 y 2016, priorizados en el Caso 02. Bogotá: febrero de 2020. 1732",
+  "doc_id": "87a5f30a82d35179...",
+  "section_id": "PATRONES_MACROCRIMINALES_p1",
+  "corpus_type": "B",
+  "id": 59,
+  "label": [
+    {
+      "start": 110,
+      "end": 122,
+      "text": "177 víctimas",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 138,
+      "end": 165,
+      "text": "94 eran hombres, 34 mujeres",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 219,
+      "end": 275,
+      "text": "109 mayores de edad, 16 niños y niñas, 8 adultos mayores",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 278,
+      "end": 303,
+      "text": "45 sin información etaria",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 337,
+      "end": 524,
+      "text": "9 de desaparición forzada; asociados a 12 víctimas. El periodo de mayor victimización correspondió al periodo 2005 a 2015, destacándose el año 661. 2013 como el pico de esta victimización",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 168,
+      "end": 198,
+      "text": "51 que no fueron identificados",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 168,
+      "end": 198,
+      "text": "51 que no fueron identificados",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 169,
+      "end": 199,
+      "text": "1 que no fueron identificados.",
+      "labels": [
+        "NV"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 59,
+  "created_at": "2026-04-05T00:24:06.600850Z",
+  "updated_at": "2026-04-05T00:24:06.600870Z",
+  "lead_time": 284.288
+},
+{
+  "text": "batallón, generando las condiciones propicias para la falsa presentación de la muerte de estos seres humanos como legítimos resultados operacionales, el segundo de mis aportes, tanto o más importante que el anterior, a través del silencio cómplice y persistente que me acompañó a lo largo de 2003 cuando me desempeñé como segundo comandante del batallón, vergonzosas y pusilánimes acciones enmarcadas en la coautoría en torno a la creación y funcionamiento de una estructura criminal de facto al interior del batallón272. Dimensión restaurativa del reconocimiento de responsabilidad 200. En su reconocimiento escrito, el compareciente indicó a esta Sala su disposición de “poner al servicio de la sociedad colombiana y las víctimas” una serie de conocimientos que ha adquirido c",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 60,
+  "label": [
+    {
+      "start": 54,
+      "end": 86,
+      "text": "falsa presentación de la muerte ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 89,
+      "end": 108,
+      "text": "estos seres humanos",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 109,
+      "end": 148,
+      "text": "como legítimos resultados operacionales",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 230,
+      "end": 492,
+      "text": "silencio cómplice y persistente que me acompañó a lo largo de 2003 cuando me desempeñé como segundo comandante del batallón, vergonzosas y pusilánimes acciones enmarcadas en la coautoría en torno a la creación y funcionamiento de una estructura criminal de facto",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 493,
+      "end": 520,
+      "text": "al interior del batallón272",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 522,
+      "end": 582,
+      "text": "Dimensión restaurativa del reconocimiento de responsabilidad",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 673,
+      "end": 732,
+      "text": "poner al servicio de la sociedad colombiana y las víctimas”",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 60,
+  "created_at": "2026-04-05T00:33:57.348424Z",
+  "updated_at": "2026-04-05T00:33:57.348449Z",
+  "lead_time": 313.242
+},
+{
+  "text": "rpos fueron trasladados del sitio de su muerte, para poder presentar los hechos como legales y que esperaba obtener un permiso a cambio de estos asesinatos. El compareciente reconoció, adicionalmente, que como no obtuvieron el permiso deseado “se programó otro asesinato”, ejecutado en similares circunstancias, apenas transcurridos cinco días, en el que murió Martín Villazón659. 521. El compareciente se refirió al señalamiento de personas como cercanas a la guerrilla y a la manera en la que estas eran observadas para luego ser asesinadas. En ese marco, al relatar el asesinato de Víctor Hugo Maestre el 4 de octubre de 2004, señaló que cuando el pelotón fue asignado a patrullar en la zona, identificaron a las posibles víctimas y aseveró “yo no solo iba por Víctor H",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 61,
+  "label": [
+    {
+      "start": 0,
+      "end": 46,
+      "text": "rpos fueron trasladados del sitio de su muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 48,
+      "end": 156,
+      "text": "para poder presentar los hechos como legales y que esperaba obtener un permiso a cambio de estos asesinatos.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 157,
+      "end": 343,
+      "text": "El compareciente reconoció, adicionalmente, que como no obtuvieron el permiso deseado “se programó otro asesinato”, ejecutado en similares circunstancias, apenas transcurridos cinco días",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 355,
+      "end": 361,
+      "text": "murió ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 361,
+      "end": 376,
+      "text": "Martín Villazón",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 417,
+      "end": 470,
+      "text": "señalamiento de personas como cercanas a la guerrilla",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 475,
+      "end": 542,
+      "text": "la manera en la que estas eran observadas para luego ser asesinadas",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 649,
+      "end": 695,
+      "text": "l pelotón fue asignado a patrullar en la zona,",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 696,
+      "end": 743,
+      "text": "identificaron a las posibles víctimas y aseveró",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 745,
+      "end": 772,
+      "text": "yo no solo iba por Víctor H",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 572,
+      "end": 604,
+      "text": "asesinato de Víctor Hugo Maestre",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 61,
+  "created_at": "2026-04-05T00:42:17.227503Z",
+  "updated_at": "2026-04-05T00:42:17.227525Z",
+  "lead_time": 341.821
+},
+{
+  "text": "rfirio Ortiz Sigua (75), Saúl Barreto Barreto (96) y Fermín Ochoa Barrios (131). 3082 “El coronel Peña Chivatá me llamó a la oficina y me dijo ‘usted está para salir trasladado, pero yo no quiero que usted salga trasladado, lo voy a trasladar al Gaula porque necesito que siga dando resultados operacionales. Entonces se me hizo el traslado... él en ese entonces no había recibido la brigada, porque él era el comandante de la Brigada Móvil 12, pero él ya estaba organizando su gente, porque pues obviamente la brigada con mi coronel Torres ya venía dando unos resultados y estaba dentro del escalafón de acuerdo a lo que se estaba manejando, en ese entonces estaba muy bien ranqueada, entonces lo que no se quería era que la brigada bajara de la posición en que se encontraba en la clasificaci",
+  "doc_id": "c61b39eef647cdcf...",
+  "section_id": "CONSIDERACIONES_p3",
+  "corpus_type": "B",
+  "id": 62,
+  "label": [
+    {
+      "start": 87,
+      "end": 307,
+      "text": "El coronel Peña Chivatá me llamó a la oficina y me dijo ‘usted está para salir trasladado, pero yo no quiero que usted salga trasladado, lo voy a trasladar al Gaula porque necesito que siga dando resultados operacionales",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 463,
+      "end": 483,
+      "text": "organizando su gente",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 497,
+      "end": 794,
+      "text": "obviamente la brigada con mi coronel Torres ya venía dando unos resultados y estaba dentro del escalafón de acuerdo a lo que se estaba manejando, en ese entonces estaba muy bien ranqueada, entonces lo que no se quería era que la brigada bajara de la posición en que se encontraba en la clasificaci",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 62,
+  "created_at": "2026-04-05T00:47:05.803154Z",
+  "updated_at": "2026-04-05T00:47:05.803172Z",
+  "lead_time": 269.973
+},
+{
+  "text": "primera instancia emitida el 31 de octubre de 2005, sentenciado a 37 años de prisión. San Juan de Pasto: 08 de agosto de 2006, pág. 7. 1392 En los informes y diligencias practicadas las organizaciones han coincidido en señalar la importancia de esta masacre para el Pueblo Negro Afrocolombiano. Ver: Expediente Caso No. 02. Cuaderno de Víctimas. Informe de observaciones a las versiones voluntarias (escritas). Organización 6. Radicado 202201001767, Pág. 36 & Expediente Caso No. 02. Cuaderno Víctimas. Diligencia de construcción dialógica de la verdad. Recepción de observaciones a versiones voluntarias. Organización 6. 07 de diciembre de 2021. Tiempo 1:20:41 “en San Juan Bautista, es una comunidad que hace parte del Consejo Comunitario, hubo una masacre en el año 2009, p",
+  "doc_id": "87a5f30a82d35179...",
+  "section_id": "PATRONES_MACROCRIMINALES_p2",
+  "corpus_type": "B",
+  "id": 63,
+  "label": [
+    {
+      "start": 230,
+      "end": 293,
+      "text": "importancia de esta masacre para el Pueblo Negro Afrocolombiano",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 324,
+      "end": 344,
+      "text": "Cuaderno de Víctimas",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 346,
+      "end": 409,
+      "text": "Informe de observaciones a las versiones voluntarias (escritas)",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 483,
+      "end": 605,
+      "text": " Cuaderno Víctimas. Diligencia de construcción dialógica de la verdad. Recepción de observaciones a versiones voluntarias.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 742,
+      "end": 773,
+      "text": "hubo una masacre en el año 2009",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 63,
+  "created_at": "2026-04-05T01:00:20.984477Z",
+  "updated_at": "2026-04-05T01:00:20.984497Z",
+  "lead_time": 106.204
+},
+{
+  "text": "ión de libertad de alrededor de 81 meses185. Adicionalmente el señor URBANO MUÑOZ fue vinculado al proceso con radicado 110016066606420040008718 por hechos que no fueron determinados en el Auto No. 125 de 2021 y que por lo tanto no están recogidos en esta resolución de conclusiones. Se trata del homicidio de Leonardo Quintero Rincón el 3 de septiembre de 2004, por fuera de la delimitación temporal de este subcaso Norte de Santander, en la vía Ocaña-Teorama (Norte de Santander) cuando el compareciente era orgánico del BISAN. Además de lo anterior, el compareciente manifestó a esta Sala que participó en otros dos asesinatos presentados como bajas en combate en el municipio de Garagoa (Boyacá), cuando en el año 2008, tras salir de la BRIM15,",
+  "doc_id": "5dacfe26a9a4fa57...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 64,
+  "label": [
+    {
+      "start": 296,
+      "end": 334,
+      "text": " homicidio de Leonardo Quintero Rincón",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 482,
+      "end": 529,
+      "text": "cuando el compareciente era orgánico del BISAN.",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 553,
+      "end": 605,
+      "text": "el compareciente manifestó a esta Sala que participó",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 609,
+      "end": 629,
+      "text": "otros dos asesinatos",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 630,
+      "end": 663,
+      "text": "presentados como bajas en combate",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 724,
+      "end": 748,
+      "text": "tras salir de la BRIM15,",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 64,
+  "created_at": "2026-04-05T01:24:45.681208Z",
+  "updated_at": "2026-04-05T01:24:45.681228Z",
+  "lead_time": 1451.225
+},
+{
+  "text": "de logística Sección quinta de batallón o sección de acción integral Sección sexta de batallón o coordinación jurídica Sección séptima de batallón o sección de contrainteligencia Sección octava de batallón o sección de control interno Sistema Autónomo de Asesoría y Defensa de la JEP Sala de Reconocimiento de Verdad, de Responsabilidad y de",
+  "doc_id": "5dacfe26a9a4fa57...",
+  "section_id": "HECHOS_Y_CONDUCTAS",
+  "corpus_type": "B",
+  "id": 65,
+  "annotator": 1,
+  "annotation_id": 65,
+  "created_at": "2026-04-05T01:25:17.367214Z",
+  "updated_at": "2026-04-05T01:25:17.367235Z",
+  "lead_time": 19.464
+},
+{
+  "text": "opia. 58. Participantes: En este proceso participarán, prioritariamente, los 22 máximos responsables determinados en los Autos 125 y 128 de 2021 que han manifestado ante la Sala su voluntad de reconocer verdad y responsabilidad, las víctimas acreditadas en el caso, en particular las víctimas de los hechos determinados en dichos Autos y las autoridades de los pueblos indígenas Kankuamo y Wiwa, que se encuentran tanto en la ciudad de Bogotá y municipios aledaños, como las que se encuentran en la región del Catatumbo y en la Costa Caribe. 28 \fE X P E D I E N T E : 2 0 1 8 3 4 0 1 6 0 4 0 0 1 4 1 E R A D I C A D O : 2 0 2 1 0 3 0 1 9 0 7 8 59. Siguiendo lo establecido en la Ley 1922 de 2018 sobre garantías de participación de l",
+  "doc_id": "6c00908400fcc09f...",
+  "section_id": "RESUELVE_p2",
+  "corpus_type": "B",
+  "id": 66,
+  "label": [
+    {
+      "start": 41,
+      "end": 72,
+      "text": "participarán, prioritariamente,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 74,
+      "end": 144,
+      "text": "os 22 máximos responsables determinados en los Autos 125 y 128 de 2021",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 149,
+      "end": 227,
+      "text": "han manifestado ante la Sala su voluntad de reconocer verdad y responsabilidad",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 229,
+      "end": 265,
+      "text": "las víctimas acreditadas en el caso,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 266,
+      "end": 542,
+      "text": "en particular las víctimas de los hechos determinados en dichos Autos y las autoridades de los pueblos indígenas Kankuamo y Wiwa, que se encuentran tanto en la ciudad de Bogotá y municipios aledaños, como las que se encuentran en la región del Catatumbo y en la Costa Caribe. ",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 66,
+  "created_at": "2026-04-05T01:39:13.110627Z",
+  "updated_at": "2026-04-05T01:39:13.110728Z",
+  "lead_time": 833.121
+},
+{
+  "text": "D E R E S P O N S A B I L I D A D Y D E D E T E R M I N A C I Ó N D E L O S H E C H O S Y C O N D U C T A S R A D I C A D O N O . 2 0 2 3 0 3 0 1 0 9 4 6 R A D I C A D O L E G A L I : 9 0 0 2 7 6 2 - 9 2 . 2 0 1 8 . 0 . 0 0 . 0 0 0 1 \/ 0 0 0 2 […] La violencia sexual se vuelve […] atrocidad permitida y normalizada. El impacto del silencio está, sin embargo, poco reconocido […] el silencio carcome las posibilidades de recuperación, de acceso a la justicia y a la verdad. Infecta las heridas físicas y emocionales. Potencia, día a día, los conflictos de las mujeres con su entorno. Agranda el miedo y fortalece el aislamiento. También empodera a los perpetradores, al permitirles, no solo mayor amplitud de operación militar (tanto te",
+  "doc_id": "87a5f30a82d35179...",
+  "section_id": "PATRONES_MACROCRIMINALES_p2",
+  "corpus_type": "B",
+  "id": 67,
+  "label": [
+    {
+      "start": 248,
+      "end": 317,
+      "text": "La violencia sexual se vuelve […] atrocidad permitida y normalizada. ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 317,
+      "end": 650,
+      "text": "El impacto del silencio está, sin embargo, poco reconocido […] el silencio carcome las posibilidades de recuperación, de acceso a la justicia y a la verdad. Infecta las heridas físicas y emocionales. Potencia, día a día, los conflictos de las mujeres con su entorno. Agranda el miedo y fortalece el aislamiento. También empodera a lo",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 652,
+      "end": 727,
+      "text": "perpetradores, al permitirles, no solo mayor amplitud de operación militar ",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 67,
+  "created_at": "2026-04-05T01:41:28.527529Z",
+  "updated_at": "2026-04-05T01:41:28.527548Z",
+  "lead_time": 133.131
+},
+{
+  "text": "l de los ríos Rosario y Mejicano, no solo dando órdenes a sus subalternos sobre la división del trabajo, sino también realizando de manera directa varios de los hechos que configuraron los patrones de macrocriminalidad, lo que demuestra que realizó aportes esenciales en la comisión del crimen de guerra de homicidio. 3656. José Geidin Castro Chillambo “el Doctor”, reconoció en versión voluntaria que los jefes superiores dieron la directriz de que los Consejos Comunitarios eran informantes del gobierno5929 y relató cómo uno de los Consejos con los que más tuvo conflictos la CMDA fue con el Consejo Comunitario Rescate las Varas5930. Reconoció que participó en la instalación de MAP en los sectores cercanos a las quebrada Pamb",
+  "doc_id": "87a5f30a82d35179...",
+  "section_id": "RESUELVE_p1",
+  "corpus_type": "B",
+  "id": 68,
+  "label": [
+    {
+      "start": 34,
+      "end": 167,
+      "text": "no solo dando órdenes a sus subalternos sobre la división del trabajo, sino también realizando de manera directa varios de los hechos",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 172,
+      "end": 316,
+      "text": "configuraron los patrones de macrocriminalidad, lo que demuestra que realizó aportes esenciales en la comisión del crimen de guerra de homicidio",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 324,
+      "end": 398,
+      "text": "José Geidin Castro Chillambo “el Doctor”, reconoció en versión voluntaria ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 405,
+      "end": 422,
+      "text": " jefes superiores",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 423,
+      "end": 632,
+      "text": "dieron la directriz de que los Consejos Comunitarios eran informantes del gobierno5929 y relató cómo uno de los Consejos con los que más tuvo conflictos la CMDA fue con el Consejo Comunitario Rescate las Varas",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 638,
+      "end": 731,
+      "text": "Reconoció que participó en la instalación de MAP en los sectores cercanos a las quebrada Pamb",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 68,
+  "created_at": "2026-04-05T01:48:19.849834Z",
+  "updated_at": "2026-04-05T01:48:19.849854Z",
+  "lead_time": 405.757
+},
+{
+  "text": "ue ese comandante podría tener sobre la BRIM15. Este elemento hace parte del análisis del nivel nacional del caso 03. 528. Por lo anterior, la Sala no considera que el reconocimiento de responsabilidad del señor CORONADO sea incompleto, ni que haya pretendido excluir su responsabilidad en lo que atiene a la BRIM15. Por esta razón no concederá las solicitudes presentadas por el Ministerio Pública en ese sentido. 529. En suma, esta Sala encuentra que el señor CORONADO GÁMEZ hizo un aporte a la verdad completo, detallado, exhaustiva y a la satisfacción de los derechos de las víctimas. El compareciente hizo su aporte de verdad escrito y oral en dos sesiones de versión voluntaria, dos audiencias de reconocimiento de responsabilidad y do",
+  "doc_id": "5dacfe26a9a4fa57...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 69,
+  "label": [
+    {
+      "start": 3,
+      "end": 47,
+      "text": "ese comandante podría tener sobre la BRIM15.",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 165,
+      "end": 286,
+      "text": "el reconocimiento de responsabilidad del señor CORONADO sea incompleto, ni que haya pretendido excluir su responsabilidad",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 309,
+      "end": 315,
+      "text": "BRIM15",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 429,
+      "end": 741,
+      "text": "esta Sala encuentra que el señor CORONADO GÁMEZ hizo un aporte a la verdad completo, detallado, exhaustiva y a la satisfacción de los derechos de las víctimas. El compareciente hizo su aporte de verdad escrito y oral en dos sesiones de versión voluntaria, dos audiencias de reconocimiento de responsabilidad y do",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 69,
+  "created_at": "2026-04-05T01:50:26.446250Z",
+  "updated_at": "2026-04-05T01:50:26.446269Z",
+  "lead_time": 110.762
+},
+{
+  "text": "ue comparan la presión por resultados en el Ejército con la que podría existir “en todas las empresas”. Por ello señalan que “no es viable equiparar los resultados exigidos por los superiores en una empresa cualquiera con las presiones de las Fuerzas Militares, como lo ha venido realizando el compareciente GÓMEZ NARANJO”, y, en ese sentido, traen a colación algunas preguntas, a saber: “¿[e]s el Ejército una empresa como otra cualquiera?, ¿tienen las empresas entre sus funciones usar la fuerza letal mediante el monopolio de las armas?, ¿debe un Ejército establecer la presión de obtener muertes como medidor de los indicadores?, ¿no es una forma de equiparar el derecho a la vida con un producto de empresa?”228. 177. Los integrantes de la representación de víctim",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 70,
+  "label": [
+    {
+      "start": 13,
+      "end": 102,
+      "text": "a presión por resultados en el Ejército con la que podría existir “en todas las empresas”",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 114,
+      "end": 321,
+      "text": "eñalan que “no es viable equiparar los resultados exigidos por los superiores en una empresa cualquiera con las presiones de las Fuerzas Militares, como lo ha venido realizando el compareciente GÓMEZ NARANJO",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 547,
+      "end": 558,
+      "text": "un Ejército",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 559,
+      "end": 631,
+      "text": "establecer la presión de obtener muertes como medidor de los indicadores",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 70,
+  "created_at": "2026-04-05T02:04:44.251208Z",
+  "updated_at": "2026-04-05T02:04:44.251231Z",
+  "lead_time": 853.76
+},
+{
+  "text": "ente, eh, darles bienestar, pero eso ya estaba estipulado, los permisos ya los tenía organizados, eh, y sobre todo pues controlar el personal, darle el control que un jefe le tiene al grupo. (…) PREGUNTADO: y de esas funciones que tenía que desempeñar usted, ¿tenía usted el apoyo de alguien, tenía un ayudante, tenía algún grupo? ya nos había dicho que no tenía plana mayor, pero ¿personas que les colaboraran en los aspectos cotidianos de esas funciones? RESPONDIÓ: claro, mis comandantes de destacamentos, el ejército pues el jefe le da la orden a los directos que tiene que seguían, entonces pues yo tenía a los tenientes y a los sargentos que me seguían ahí al mando, uno la agrupación la manejaba de esa manera, reúne los comandantes, les de las i",
+  "doc_id": "134ed38c3158c8c3...",
+  "section_id": "RESUELVE_p1",
+  "corpus_type": "B",
+  "id": 71,
+  "label": [
+    {
+      "start": 10,
+      "end": 191,
+      "text": "darles bienestar, pero eso ya estaba estipulado, los permisos ya los tenía organizados, eh, y sobre todo pues controlar el personal, darle el control que un jefe le tiene al grupo. ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 333,
+      "end": 349,
+      "text": " nos había dicho",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 350,
+      "end": 374,
+      "text": "que no tenía plana mayor",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 475,
+      "end": 520,
+      "text": "mis comandantes de destacamentos, el ejército",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 526,
+      "end": 563,
+      "text": "el jefe le da la orden a los directos",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 615,
+      "end": 643,
+      "text": " tenientes y a los sargentos",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 643,
+      "end": 716,
+      "text": " que me seguían ahí al mando, uno la agrupación la manejaba de esa manera",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 71,
+  "created_at": "2026-04-05T02:19:38.263282Z",
+  "updated_at": "2026-04-05T02:19:38.263313Z",
+  "lead_time": 890.313
+},
+{
+  "text": "do Burgos Suárez Aporte a la verdad 468. En versión voluntaria ante esta Sala591, Burgos Suárez, luego de haber afirmado su compromiso de referirse a “los hechos como fueron y ante todo la verdad”592, describió de manera detallada su participación y la de los hombres bajo su mando en los hechos que dieron como resultado el homicidio de los indígenas kankuamos Víctor Hugo Maestre Rodríguez y Néstor 586 Observaciones a audiencia restaurativa, proceso restaurativo e instrucción del proceso -BAPOP-, 10 de agosto de 2022, Ministerio Público, pág. 58, Cuaderno Legali 9002774-09.2018.0.00.0001\/0714. 587 Ibidem, pág. 59. 588 Ibidem. 589 Ibidem. 590 Ibidem, págs. 59-60. 591 Versión voluntaria del compareciente, 31 de octubre de 2018 y 2 de ab",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 72,
+  "label": [
+    {
+      "start": 41,
+      "end": 196,
+      "text": "En versión voluntaria ante esta Sala591, Burgos Suárez, luego de haber afirmado su compromiso de referirse a “los hechos como fueron y ante todo la verdad”",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 202,
+      "end": 247,
+      "text": "escribió de manera detallada su participación",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 250,
+      "end": 281,
+      "text": "la de los hombres bajo su mando",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 288,
+      "end": 322,
+      "text": " hechos que dieron como resultado ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 325,
+      "end": 400,
+      "text": "homicidio de los indígenas kankuamos Víctor Hugo Maestre Rodríguez y Néstor",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 405,
+      "end": 499,
+      "text": "Observaciones a audiencia restaurativa, proceso restaurativo e instrucción del proceso -BAPOP-",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 72,
+  "created_at": "2026-04-05T02:20:47.836861Z",
+  "updated_at": "2026-04-05T02:20:47.836889Z",
+  "lead_time": 63.882
+},
+{
+  "text": "peracional sobre la BRM15 como un intento de controvertir la imputación o de parcializar su reconocimiento de responsabilidad. Además, no encuentra esta Sala dentro de los escritos y audiencias de reconocimiento de responsabilidad del señor CORONADO una expresión en ese sentido, por el contrario, se evidencia la reiterada aceptación de responsabilidad de la totalidad de la imputación realizada en el Auto 125 y la presentación de elementos concretos directamente relacionados con los crímenes cometidos por la BRIM15, lo que permite entender que su reconocimiento es completo y no pretende excluir los hechos cometidos por esa unidad militar. 526. Ahora bien, considera también esta Sala que la referida afirmación no controvierte lo señalado por la Sala",
+  "doc_id": "5dacfe26a9a4fa57...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 73,
+  "label": [
+    {
+      "start": 0,
+      "end": 26,
+      "text": "peracional sobre la BRM15 ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 125,
+      "text": "intento de controvertir la imputación o de parcializar su reconocimiento de responsabilidad",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 298,
+      "end": 520,
+      "text": "se evidencia la reiterada aceptación de responsabilidad de la totalidad de la imputación realizada en el Auto 125 y la presentación de elementos concretos directamente relacionados con los crímenes cometidos por la BRIM15,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 549,
+      "end": 621,
+      "text": "su reconocimiento es completo y no pretende excluir los hechos cometidos",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 630,
+      "end": 646,
+      "text": "unidad militar. ",
+      "labels": [
+        "SA"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 73,
+  "created_at": "2026-04-05T02:22:21.485275Z",
+  "updated_at": "2026-04-05T02:22:21.485311Z",
+  "lead_time": 91.398
+},
+{
+  "text": "ltados operacionales que reportó en La Popa, para ese momento “no entendía la connotación de los hechos y el daño causado”; que los contactos y coordinaciones que adelantó con paramilitares “tenían relación con el tema de las bajas, no con otras circunstancias”; que “nunca tuve la intención de causar la muerte a personas integrantes de las comunidades indígenas, ni causar daño a las comunidades (…)” y que “no conocía que las personas [se refiere a víctimas de su actuación] pertenecían a las comunidades indígenas o que uno de ellos era menor de edad”452. 349. Durante la audiencia pública de reconocimiento, el señor Lora Cabrales presentó su reconocimiento de responsabilidad. A continuación, la Sala se pronunciará sobre el reconoci",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 74,
+  "label": [
+    {
+      "start": 1,
+      "end": 44,
+      "text": "tados operacionales que reportó en La Popa,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 45,
+      "end": 122,
+      "text": "para ese momento “no entendía la connotación de los hechos y el daño causado”",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 124,
+      "end": 260,
+      "text": "que los contactos y coordinaciones que adelantó con paramilitares “tenían relación con el tema de las bajas, no con otras circunstancias",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 268,
+      "end": 311,
+      "text": "nunca tuve la intención de causar la muerte",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 410,
+      "end": 555,
+      "text": "no conocía que las personas [se refiere a víctimas de su actuación] pertenecían a las comunidades indígenas o que uno de ellos era menor de edad”",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 565,
+      "end": 682,
+      "text": "Durante la audiencia pública de reconocimiento, el señor Lora Cabrales presentó su reconocimiento de responsabilidad.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 314,
+      "end": 396,
+      "text": "personas integrantes de las comunidades indígenas, ni causar daño a las comunidade",
+      "labels": [
+        "NV"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 74,
+  "created_at": "2026-04-05T02:29:51.246962Z",
+  "updated_at": "2026-04-05T02:29:51.246999Z",
+  "lead_time": 446.021
+},
+{
+  "text": "ternacional, que su hermano José Joaquín Contreras Romero no era ningún subversivo, no era ningún guerrillero, su hermano era un campesino. Su hermano era un humilde trabajador de la tierra, su hermano era una persona de bien. Su hermano, sé que era un ser querido para ustedes. Integrante de la familia Contreras que fue vilmente asesinado. Quiero ante los medios de comunicación, hoy 19 de julio que se limpie se dignifique, se honre el nombre de su hermano, que, así como un día salieron en los medios de comunicación y muchas de las personas que están acá presentes, se leyeron como subversivos o guerrilleros, que se limpie su nombre y se dignifique que ellos nunca fueron guerrilleros y nunca fueron subversivos, su hermano fue un campesino, una persona de bie",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 75,
+  "label": [
+    {
+      "start": 18,
+      "end": 341,
+      "text": "u hermano José Joaquín Contreras Romero no era ningún subversivo, no era ningún guerrillero, su hermano era un campesino. Su hermano era un humilde trabajador de la tierra, su hermano era una persona de bien. Su hermano, sé que era un ser querido para ustedes. Integrante de la familia Contreras que fue vilmente asesinado.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 401,
+      "end": 459,
+      "text": " se limpie se dignifique, se honre el nombre de su hermano",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 571,
+      "end": 613,
+      "text": "se leyeron como subversivos o guerrilleros",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 619,
+      "end": 766,
+      "text": "se limpie su nombre y se dignifique que ellos nunca fueron guerrilleros y nunca fueron subversivos, su hermano fue un campesino, una persona de bie",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 75,
+  "created_at": "2026-04-05T02:31:19.194869Z",
+  "updated_at": "2026-04-05T02:31:19.194891Z",
+  "lead_time": 80.422
+},
+{
+  "text": "002 y diciembre de 2003 mientras se desempeñó como comandante de 'Albardón’ 1, ‘Albardón 3’ y ‘Zarpazo’, el título de coautor en los delitos de homicidio en persona protegida y desaparición forzada que también constituyen crímenes de lesa humanidad y crímenes de guerra”, reconocimiento que para el Ministerio Público se ajusta a lo imputado por la Sala495. 489 Ibidem. 490 Ibidem, págs. 45-46. 491 Ibidem, pág. 46. 492 Ibidem. 493 Ibidem. 494 Observaciones a audiencia restaurativa, proceso restaurativo e instrucción del proceso -BAPOP-, 10 de agosto de 2022, Ministerio Público, pág.68, Cuaderno Legali 9002774-09.2018.0.00.0001\/0714. 495 Ibidem, págs.68-69. 106 \f389. Por último, desde la perspectiva restaurativa, el Ministe",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 76,
+  "label": [
+    {
+      "start": 50,
+      "end": 125,
+      "text": " comandante de 'Albardón’ 1, ‘Albardón 3’ y ‘Zarpazo’, el título de coautor",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 133,
+      "end": 353,
+      "text": "delitos de homicidio en persona protegida y desaparición forzada que también constituyen crímenes de lesa humanidad y crímenes de guerra”, reconocimiento que para el Ministerio Público se ajusta a lo imputado por la Sala",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 444,
+      "end": 538,
+      "text": "Observaciones a audiencia restaurativa, proceso restaurativo e instrucción del proceso -BAPOP-",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 684,
+      "end": 729,
+      "text": "desde la perspectiva restaurativa, el Ministe",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 76,
+  "created_at": "2026-04-05T02:32:46.190576Z",
+  "updated_at": "2026-04-05T02:32:46.190611Z",
+  "lead_time": 83.366
+},
+{
+  "text": "ñor Lora Cabrales fue llamado a reconocer responsabilidad una vez individualizado 2) Radicado 8984 (11001606606420030008984), adelantado por la Fiscalía 90 Especializada de Derechos Humanos con ocasión de la muerte de José Antonio Mercado Hernández y Nelson Enrique Villalobos Brieva. 3) Radicado 8982 (11001606606420030008982), adelantado por la Fiscalía 90 Especializada de Derechos Humanos con ocasión de la muerte de Leiner Guerrero Ayala y Ever Antonio Barrera Jiménez. 4) Radicado 8534, por hechos en los que murieron Rubiel López González y Orlando José Villareal Cortés, adelantado por la Fiscalía 67 Especializada de Derechos Humanos. 419 1) Radicado IUS 2009-227628 (IUC D-2009-818-160333) archivado el 12 de noviembre de 2013 por la Procuraduría Delegada para las Fuerzas Militare",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 77,
+  "label": [
+    {
+      "start": 208,
+      "end": 214,
+      "text": "muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 218,
+      "end": 284,
+      "text": "José Antonio Mercado Hernández y Nelson Enrique Villalobos Brieva.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 411,
+      "end": 417,
+      "text": "muerte",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 421,
+      "end": 473,
+      "text": "Leiner Guerrero Ayala y Ever Antonio Barrera Jiménez",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 514,
+      "end": 523,
+      "text": " murieron",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 524,
+      "end": 576,
+      "text": "Rubiel López González y Orlando José Villareal Corté",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 700,
+      "end": 791,
+      "text": "archivado el 12 de noviembre de 2013 por la Procuraduría Delegada para las Fuerzas Militare",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 77,
+  "created_at": "2026-04-05T02:34:15.528817Z",
+  "updated_at": "2026-04-05T02:34:15.528841Z",
+  "lead_time": 71.869
+},
+{
+  "text": ", que fue contrastado y considerado en las determinaciones formuladas por la Sala en el Auto 128 de 2021 como se deja evidencia en dicha providencia. El compareciente en su versión voluntaria entregó información que fue debidamente contrastada por esta Sala con las carpetas operacionales objeto de inspección por parte de este Despacho además de otros medios de prueba que permitieron confirmar lo afirmado por el compareciente517. Así, Álvarez Mejía relató detalladamente ante esta Sala los hechos de muertes ilegítimamente presentadas como bajas en combate en los que participó directamente o de los que tuvo conocimiento mientras estuvo en la unidad militar. Alusiones que, luego de contrastar los informes recibidos con la confesión del compareciente y otros elementos del acervo proba",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 78,
+  "label": [
+    {
+      "start": 150,
+      "end": 257,
+      "text": "El compareciente en su versión voluntaria entregó información que fue debidamente contrastada por esta Sala",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 266,
+      "end": 309,
+      "text": "carpetas operacionales objeto de inspección",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 438,
+      "end": 789,
+      "text": "Álvarez Mejía relató detalladamente ante esta Sala los hechos de muertes ilegítimamente presentadas como bajas en combate en los que participó directamente o de los que tuvo conocimiento mientras estuvo en la unidad militar. Alusiones que, luego de contrastar los informes recibidos con la confesión del compareciente y otros elementos del acervo prob",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 78,
+  "created_at": "2026-04-05T02:35:13.541171Z",
+  "updated_at": "2026-04-05T02:35:13.541200Z",
+  "lead_time": 54.049
+},
+{
+  "text": "rol entre la BRIM15 y PAULINO CORONADO. (ii) El señor CORONADO hizo también mención a los folios de vida de los comandantes de la BRIM15 en los que se evidencia que las anotaciones tanto positivas (felicitaciones) como negativas (sanciones) eran impuestas por parte del comandante de la Segunda División. Esta mención no controvierte lo determinado por la Sala sobre el reporte periódico que el comandante de la BRIM15 durante el año 2008, RUBÉN DARÍO CASTRO, le presentaba al comandante de la BR30, PAULINO CORONADO GÁMEZ y que se evidencia en los programas radiales. Esta afirmación, considera la Sala, hace referencia a la presunta responsabilidad que podría tener el comandante de la Segunda División en estos hechos, en particular, la relación de mando y control q",
+  "doc_id": "5dacfe26a9a4fa57...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 79,
+  "label": [
+    {
+      "start": 0,
+      "end": 38,
+      "text": "rol entre la BRIM15 y PAULINO CORONADO",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 240,
+      "text": "hizo también mención a los folios de vida de los comandantes de la BRIM15 en los que se evidencia que las anotaciones tanto positivas (felicitaciones) como negativas (sanciones)",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 260,
+      "end": 303,
+      "text": "parte del comandante de la Segunda División",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 367,
+      "end": 567,
+      "text": "el reporte periódico que el comandante de la BRIM15 durante el año 2008, RUBÉN DARÍO CASTRO, le presentaba al comandante de la BR30, PAULINO CORONADO GÁMEZ y que se evidencia en los programas radiales",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 604,
+      "end": 769,
+      "text": " hace referencia a la presunta responsabilidad que podría tener el comandante de la Segunda División en estos hechos, en particular, la relación de mando y control q",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 79,
+  "created_at": "2026-04-05T02:36:29.902750Z",
+  "updated_at": "2026-04-05T02:36:29.902801Z",
+  "lead_time": 65.872
+},
+{
+  "text": "as a través de sus observaciones también advierten que el compareciente maneja “un discurso de negación implicatoria”, en tanto “reduce los efectos políticos, psicológicos y jurídicos de elementos que reconoció indirectamente en privado (versiones voluntarias) y no adujo en público”. Como, por ejemplo, “la creación de grupos especiales por parte de una directiva del Comando del Ejército (los cuales determinó la Sala fueron esenciales para la comisión de los crímenes), y que precisamente la política militar fue la expresión de la política de seguridad democrática del gobierno de la época donde el departamento del Cesar fue piloto en su aplicación”229. 178. De esta forma, desde la perspectiva fáctica, para las víctimas “el compareciente disminuyó el aporte que había realizado",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 80,
+  "label": [
+    {
+      "start": 42,
+      "end": 118,
+      "text": "dvierten que el compareciente maneja “un discurso de negación implicatoria”,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 130,
+      "end": 283,
+      "text": "educe los efectos políticos, psicológicos y jurídicos de elementos que reconoció indirectamente en privado (versiones voluntarias) y no adujo en público”",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 307,
+      "end": 364,
+      "text": " creación de grupos especiales por parte de una directiva",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 369,
+      "end": 389,
+      "text": "Comando del Ejército",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 479,
+      "end": 654,
+      "text": "precisamente la política militar fue la expresión de la política de seguridad democrática del gobierno de la época donde el departamento del Cesar fue piloto en su aplicación”",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 709,
+      "end": 784,
+      "text": "para las víctimas “el compareciente disminuyó el aporte que había realizado",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 80,
+  "created_at": "2026-04-05T02:38:40.326275Z",
+  "updated_at": "2026-04-05T02:38:40.326302Z",
+  "lead_time": 94.998
+},
+{
+  "text": "ra Cabrales. 424 JEP. Sala de Reconocimiento. Auto 128 de 2021. 425 En dicho escrito el compareciente indicó: “Solicito a la JEP que acorde a lo consignado en el acto legislativo 001 de 2017, pueda imponerme una sanción propia, por las conductas cometidas, confesas y cuya responsabilidad acepto hoy en día”. Memorial remitido por el compareciente el 31 de agosto de 2021. Folios 631-646, Cuaderno Legali 9002774-09.2018.0.00.0001\/0018. Adicionalmente, en memorial remitido el 16 de noviembre de 2022, la abogada del compareciente solicitó que se tenga en cuenta en la determinación de la sanción, además del tiempo que estuvo privado de la libertad “que durante dicha privación estudio (sic) dos carreras, y que en la actualidad se encuentra desarrollando dos empleos para sostener a su",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 81,
+  "label": [
+    {
+      "start": 112,
+      "end": 307,
+      "text": "olicito a la JEP que acorde a lo consignado en el acto legislativo 001 de 2017, pueda imponerme una sanción propia, por las conductas cometidas, confesas y cuya responsabilidad acepto hoy en día”",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 81,
+  "created_at": "2026-04-05T02:43:42.515604Z",
+  "updated_at": "2026-04-05T02:43:42.515637Z",
+  "lead_time": 298.424
+},
+{
+  "text": "n reconocimiento total de responsabilidad estatal”232. Las víctimas no consideran que el reconocimiento se haya realizado más allá de una dimensión individual y haya trascendido a una dimensión institucional o colectiva por lo que “recomienda[n] insistir sobre otros fatores que pudieron haber permitido el origen y mantenimiento de la práctica”233. Finalmente, señalan que el reconocimiento sí incluye el daño causado a las víctimas. En cuanto a la dimensión dialógica las víctimas señalan que el reconocimiento responde a las preguntas y necesidades de las víctimas. Y, en cuanto al reconocimiento de verdad, señalan que solo reconoce algunos hechos en los que se encuentra vinculado. 180. En segundo lugar, el Ministerio Público resalta que el compareciente “reconoció que al interior de",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 82,
+  "label": [
+    {
+      "start": 2,
+      "end": 50,
+      "text": "reconocimiento total de responsabilidad estatal”",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 345,
+      "text": "Las víctimas no consideran que el reconocimiento se haya realizado más allá de una dimensión individual y haya trascendido a una dimensión institucional o colectiva por lo que “recomienda[n] insistir sobre otros fatores que pudieron haber permitido el origen y mantenimiento de la práctica”",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 373,
+      "end": 434,
+      "text": " el reconocimiento sí incluye el daño causado a las víctimas.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 496,
+      "end": 685,
+      "text": "l reconocimiento responde a las preguntas y necesidades de las víctimas. Y, en cuanto al reconocimiento de verdad, señalan que solo reconoce algunos hechos en los que se encuentra vinculado",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 732,
+      "end": 790,
+      "text": "resalta que el compareciente “reconoció que al interior de",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 82,
+  "created_at": "2026-04-05T02:47:33.471438Z",
+  "updated_at": "2026-04-05T02:47:33.471476Z",
+  "lead_time": 228.459
+},
+{
+  "text": "entación de víctimas para este caso, el compareciente, desde una perspectiva de reconocimiento de la responsabilidad, sí realiza un reconocimiento inequívoco y sin lugar a justificaciones. Consideran que el reconocimiento sí fue integral y se realizó de forma proporcional a la gravedad de los hechos. Sin embargo, consideran 227 Observaciones finales escritas sobre los elementos concernientes a la Resolución de Conclusiones, 10 de agosto de 2022, CSPP y Cajar, pág. 31, Cuaderno Legali 9002774-09.2018.0.00.0001\/0714. 228 Ibidem, pág. 32. 229 Ibidem. 230 Ibidem, pág. 33. 231 Ibidem. 56 \fque no se realizó respetando la posición de las víctimas en la medida en que señalan que “[t]eniendo en cuenta los estándares de la Corte IDH no se hace u",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 83,
+  "label": [
+    {
+      "start": 12,
+      "end": 20,
+      "text": "víctimas",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 187,
+      "text": "l compareciente, desde una perspectiva de reconocimiento de la responsabilidad, sí realiza un reconocimiento inequívoco y sin lugar a justificaciones",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 190,
+      "end": 301,
+      "text": "onsideran que el reconocimiento sí fue integral y se realizó de forma proporcional a la gravedad de los hechos.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 302,
+      "end": 325,
+      "text": "Sin embargo, consideran",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 591,
+      "end": 745,
+      "text": "que no se realizó respetando la posición de las víctimas en la medida en que señalan que “[t]eniendo en cuenta los estándares de la Corte IDH no se hace u",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 83,
+  "created_at": "2026-04-05T02:52:11.854418Z",
+  "updated_at": "2026-04-05T02:52:11.854456Z",
+  "lead_time": 82.51
+},
+{
+  "text": "rea el gobierno propio, la educación, la medicina tradicional, la autonomía alimentaria, entre otros2614. 1025. La Constitución Política con base en el reconocimiento de la diversidad étnica y cultural de la nación2615, y la importancia que tiene el derecho al territorio para la efectividad de otros derechos de rango constitucional como la autonomía y la identidad cultural, dispuso que las tierras de las comunidades étnicas, además de ser inalienables, imprescriptibles e inembargables2616, son de propiedad colectiva de los pueblos que las ocupan2617. 1026. La Corte Constitucional y la Corte Interamericana de Derechos Humanos, además de pronunciarse sobre la importancia que tiene la protección de los territorios de los Pueblos Indíge",
+  "doc_id": "87a5f30a82d35179...",
+  "section_id": "PATRONES_MACROCRIMINALES_p2",
+  "corpus_type": "B",
+  "id": 84,
+  "annotator": 1,
+  "annotation_id": 84,
+  "created_at": "2026-04-05T02:53:02.794396Z",
+  "updated_at": "2026-04-05T02:53:02.794422Z",
+  "lead_time": 46.76
+},
+{
+  "text": "o implica aceptar la realidad de la denuncia de la víctima y la injusticia de su sufrimiento. Ello no quiere decir que el dicho de la víctima sea incontrovertible, sino que, al no tener elementos o razones para controvertirlo, se brinde credibilidad al relato de la víctima. La Sala reconoce que algunas narraciones especialmente graves parecen desgarrar el sentido de lo que comprendemos como real y posible. Sin embargo, el reconocimiento es también el de la crueldad humana que detona la guerra como circunstancia límite, que no se debe repetir. Además, debe advertirse que los individuos viven las circunstancias de sufrimiento y humillación de manera distinta, y si bien los hechos pueden haber sido tolerados de manera distinta por los combatientes, esto",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "CONSIDERACIONES_p3",
+  "corpus_type": "B",
+  "id": 85,
+  "label": [
+    {
+      "start": 2,
+      "end": 91,
+      "text": "implica aceptar la realidad de la denuncia de la víctima y la injusticia de su sufrimient",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 99,
+      "end": 162,
+      "text": "no quiere decir que el dicho de la víctima sea incontrovertible",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 174,
+      "end": 273,
+      "text": "al no tener elementos o razones para controvertirlo, se brinde credibilidad al relato de la víctima",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 275,
+      "end": 760,
+      "text": "La Sala reconoce que algunas narraciones especialmente graves parecen desgarrar el sentido de lo que comprendemos como real y posible. Sin embargo, el reconocimiento es también el de la crueldad humana que detona la guerra como circunstancia límite, que no se debe repetir. Además, debe advertirse que los individuos viven las circunstancias de sufrimiento y humillación de manera distinta, y si bien los hechos pueden haber sido tolerados de manera distinta por los combatientes, esto",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 85,
+  "created_at": "2026-04-05T02:53:58.454616Z",
+  "updated_at": "2026-04-05T02:53:58.454635Z",
+  "lead_time": 52.953
+},
+{
+  "text": "xistencia y alcance de la alianza paramilitar que caracterizó 560 Audiencia pública de reconocimiento, 19 de julio de 2022. 561 Oficio UBPD del 27 de septiembre de 2022, UBPD-1-2022-010014, ibidem. 562 Folio 281, Cuaderno Legali del compareciente 9002774-09.2018.0.00.0001\/0009. 563 Folio 384, ibidem. \fla primera etapa del primer patrón de macrocriminal encontrado por la Sala y el papel de los oficiales comandantes de pelotón en dicha alianza (v) su participación y aporte a la configuración y definición del primer patrón de macrocriminalidad que tuvo lugar en el Batallón La Popa. Así como, derivar su propia responsabilidad penal y la de algunos de los otros máximos responsables en el Auto 128 de 2021. 446. Ahora, en lo que respecta al reconocimien",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 86,
+  "label": [
+    {
+      "start": 0,
+      "end": 101,
+      "text": "xistencia y alcance de la alianza paramilitar que caracterizó 560 Audiencia pública de reconocimiento",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 303,
+      "end": 378,
+      "text": "la primera etapa del primer patrón de macrocriminal encontrado por la Sala ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 382,
+      "end": 450,
+      "text": " papel de los oficiales comandantes de pelotón en dicha alianza (v) ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 451,
+      "end": 586,
+      "text": "u participación y aporte a la configuración y definición del primer patrón de macrocriminalidad que tuvo lugar en el Batallón La Popa. ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 596,
+      "end": 636,
+      "text": "derivar su propia responsabilidad penal ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 644,
+      "end": 708,
+      "text": "algunos de los otros máximos responsables en el Auto 128 de 2021",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 722,
+      "end": 756,
+      "text": "en lo que respecta al reconocimien",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 86,
+  "created_at": "2026-04-05T02:55:28.001914Z",
+  "updated_at": "2026-04-05T02:55:28.001940Z",
+  "lead_time": 52.728
+},
+{
+  "text": "58 familias del Consejo Comunitario Unión del Río Rosario, 13 veredas y 809 familias del Consejo Comunitario Unión del Río Caunapí y 190 familias de la vereda Pueblo Nuevo fueron afectadas directamente por este derrame. Ver ECOPETROL. Base de Incidentes Ambientales OTA 2009 – 2018, allegada a la JEP-UIA el 26 de diciembre de 2018. La FGN registra 1955 familias (10.000 habitantes aproximadamente) ubicadas en 27 veredas como afectadas directa e indirectamente. Ver FGN. Medios y métodos ilícitos de guerra utilizados por las FARC-EP. Informe No. 14 de la FGN a la JEP. Serie Documentos No. 22. Bogotá: marzo de 2019. p. 268. 2646 Ibíd. p. 267 y 268. 2647 Expediente Caso No. 02. Cuaderno FARC-EP. Luis René Medina. Versión voluntaria escrita de julio de 2022.",
+  "doc_id": "87a5f30a82d35179...",
+  "section_id": "PATRONES_MACROCRIMINALES_p3",
+  "corpus_type": "B",
+  "id": 87,
+  "label": [
+    {
+      "start": 0,
+      "end": 233,
+      "text": "58 familias del Consejo Comunitario Unión del Río Rosario, 13 veredas y 809 familias del Consejo Comunitario Unión del Río Caunapí y 190 familias de la vereda Pueblo Nuevo fueron afectadas directamente por este derrame. Ver ECOPETROL",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 333,
+      "end": 461,
+      "text": "La FGN registra 1955 familias (10.000 habitantes aproximadamente) ubicadas en 27 veredas como afectadas directa e indirectamente",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 472,
+      "end": 571,
+      "text": "Medios y métodos ilícitos de guerra utilizados por las FARC-EP. Informe No. 14 de la FGN a la JEP. ",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 87,
+  "created_at": "2026-04-05T02:57:14.216932Z",
+  "updated_at": "2026-04-05T02:57:14.216957Z",
+  "lead_time": 94.804
+},
+{
+  "text": "n los que él participó. Por último, dio cuenta de su voluntad de resarcir y de no repetir los graves crímenes en los que incurrió lo cual viene indicando a esta Sala desde septiembre de 2019 y que se materializó en las propuestas colectivas de TOAR presentadas por los doce comparecientes analizados en esta providencia, consistentes en dos proyectos: uno denominado “Dignificación del buen Nombre – Víctimas comunidades indígenas Wiwa y Kankuamo” y otro denominado “Resguardo de la memoria histórica y víctimas del conflicto armado Cesar y Caribe colombiano”. 375. Por todo lo anterior, la Sala concluye que el señor Carlos Andrés Lora Cabrales ha reconocido verdad completa, detallada y exhaustiva, y ha reconocido su responsabilidad cumpliendo con las tres dimensiones exigi",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 88,
+  "label": [
+    {
+      "start": 2,
+      "end": 130,
+      "text": "los que él participó. Por último, dio cuenta de su voluntad de resarcir y de no repetir los graves crímenes en los que incurrió ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 197,
+      "end": 248,
+      "text": "se materializó en las propuestas colectivas de TOAR",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 249,
+      "end": 288,
+      "text": "presentadas por los doce comparecientes",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 334,
+      "end": 559,
+      "text": "en dos proyectos: uno denominado “Dignificación del buen Nombre – Víctimas comunidades indígenas Wiwa y Kankuamo” y otro denominado “Resguardo de la memoria histórica y víctimas del conflicto armado Cesar y Caribe colombiano”",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 588,
+      "end": 777,
+      "text": "la Sala concluye que el señor Carlos Andrés Lora Cabrales ha reconocido verdad completa, detallada y exhaustiva, y ha reconocido su responsabilidad cumpliendo con las tres dimensiones exigi",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 88,
+  "created_at": "2026-04-05T02:58:07.924164Z",
+  "updated_at": "2026-04-05T02:58:07.924185Z",
+  "lead_time": 49.999
+},
+{
+  "text": "soldados tenían más facilidad para intercambiar material del Ejército por armas que les colocaban a las víctimas760. 594. El señor Mercado Sierra aludió a los incentivos que recibían los militares involucrados por presentar bajas en el marco de las competencias existentes entre las unidades militares. Asimismo, reconoció que el ego fue para él, un elemento relevante en el desarrollo de la práctica: (…) por un premio, un arroz chino, un permiso de un mes, por el ego de llegar al batallón, darle el gusto a un coronel de que mantuviera el batallón en los primeros lugares, porque competían los batallones como es el Rondón, el Nariño, el Cartagena, el Córdoba, y muchos batallones más. Ellos los premiaban con una medalla, algunos con ir al Sinaí (…)761.",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 89,
+  "label": [
+    {
+      "start": 0,
+      "end": 112,
+      "text": "soldados tenían más facilidad para intercambiar material del Ejército por armas que les colocaban a las víctimas",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 183,
+      "end": 209,
+      "text": "los militares involucrados",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 122,
+      "end": 182,
+      "text": "El señor Mercado Sierra aludió a los incentivos que recibían",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 214,
+      "end": 272,
+      "text": "presentar bajas en el marco de las competencias existentes",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 273,
+      "end": 303,
+      "text": "entre las unidades militares. ",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 314,
+      "end": 749,
+      "text": "econoció que el ego fue para él, un elemento relevante en el desarrollo de la práctica: (…) por un premio, un arroz chino, un permiso de un mes, por el ego de llegar al batallón, darle el gusto a un coronel de que mantuviera el batallón en los primeros lugares, porque competían los batallones como es el Rondón, el Nariño, el Cartagena, el Córdoba, y muchos batallones más. Ellos los premiaban con una medalla, algunos con ir al Sinaí",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 89,
+  "created_at": "2026-04-05T02:59:40.489591Z",
+  "updated_at": "2026-04-05T02:59:40.489622Z",
+  "lead_time": 88.996
+},
+{
+  "text": "iente en su ruta de esclarecimiento de la verdad “a través de un ejercicio claro, concreto y programado desde el 7 de mayo de 2020 hasta 27 de julio de 2022 en el que se realizaron cuatro (4) sesiones de aporte individual de aproximadamente tres (3) horas cada una”. Y concluyó que el compareciente “aportó de forma fiable, suficiente y válida al esclarecimiento de la verdad del conflicto y a la construcción de la memoria histórica” 516. Conclusión sobre el aporte a la verdad y el reconocimiento de responsabilidad de Eduart Gustavo Álvarez Mejía 404. Después de llevar a cabo un análisis de sus distintas intervenciones ante la JEP, esta Sala encuentra que el señor Eduart Gustavo Mejía Álvarez hizo un aporte a la verdad “completo, detallado, exhaustiv[o]”",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 90,
+  "label": [
+    {
+      "start": 168,
+      "end": 266,
+      "text": "e realizaron cuatro (4) sesiones de aporte individual de aproximadamente tres (3) horas cada una”.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 269,
+      "end": 433,
+      "text": "concluyó que el compareciente “aportó de forma fiable, suficiente y válida al esclarecimiento de la verdad del conflicto y a la construcción de la memoria histórica",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 440,
+      "end": 761,
+      "text": "Conclusión sobre el aporte a la verdad y el reconocimiento de responsabilidad de Eduart Gustavo Álvarez Mejía 404. Después de llevar a cabo un análisis de sus distintas intervenciones ante la JEP, esta Sala encuentra que el señor Eduart Gustavo Mejía Álvarez hizo un aporte a la verdad “completo, detallado, exhaustiv[o]”",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 90,
+  "created_at": "2026-04-05T03:00:18.027832Z",
+  "updated_at": "2026-04-05T03:00:18.027886Z",
+  "lead_time": 35.083
+},
+{
+  "text": "desde la dimensión de reconocimiento de verdad, el señor Gutiérrez Riveros, según señalan las víctimas, solo reconoce algunos hechos en los que es señalado. 140. En segundo lugar, el Ministerio Público resalta que el compareciente “reconoció que dirigió operaciones atendiendo a la cadena de mando, premisa que no es suficientemente clara respecto a su responsabilidad en la fase de planeación y ejecución de falsas bajas en combate”186, por lo que, “[a]demás de afirmar la responsabilidad de la cadena de mando en la ejecución de un resultado, requiere, como mínimo, identificar a quienes hacía referencia y los roles que cumplía cada uno de ellos en la ejecución del plan criminal”187. 141. En cuanto al elemento fáctico del reconocimiento, el Ministerio P",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p3",
+  "corpus_type": "B",
+  "id": 91,
+  "label": [
+    {
+      "start": 7,
+      "end": 156,
+      "text": "a dimensión de reconocimiento de verdad, el señor Gutiérrez Riveros, según señalan las víctimas, solo reconoce algunos hechos en los que es señalado.",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 217,
+      "end": 432,
+      "text": "compareciente “reconoció que dirigió operaciones atendiendo a la cadena de mando, premisa que no es suficientemente clara respecto a su responsabilidad en la fase de planeación y ejecución de falsas bajas en combate",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 445,
+      "end": 682,
+      "text": "que, “[a]demás de afirmar la responsabilidad de la cadena de mando en la ejecución de un resultado, requiere, como mínimo, identificar a quienes hacía referencia y los roles que cumplía cada uno de ellos en la ejecución del plan criminal",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 91,
+  "created_at": "2026-04-05T03:01:05.991381Z",
+  "updated_at": "2026-04-05T03:01:05.991415Z",
+  "lead_time": 44.621
+},
+{
+  "text": "s señaló que 6 no estaban identificadas; en ese sentido, es preciso mencionar que haciendo un análisis integral del Auto 128 el señor GÓMEZ NARANJO tenía conocimiento real de 10 hechos con 21 víctimas[cita omitida], de las cuales solo 2 no han sido plenamente identificadas en el Auto”. Así, las víctimas echan de menos en su reconocimiento de la audiencia la lectura al completo de los nombres de la totalidad de las víctimas230. Por otra parte, en cuanto a la dimensión restaurativa, las víctimas manifiestan que el señor Gómez Naranjo “si bien se refirió a los daños y se dirigió a las víctimas, algunas de ellas valoraron positivamente el reconocimiento, mientras que otras manifestaron no sentir de manera genuina ciertos de los reconocimientos de las afecta",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 92,
+  "label": [
+    {
+      "start": 13,
+      "end": 39,
+      "text": "6 no estaban identificadas",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 125,
+      "end": 184,
+      "text": "el señor GÓMEZ NARANJO tenía conocimiento real de 10 hechos",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 189,
+      "end": 200,
+      "text": "21 víctimas",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 229,
+      "end": 284,
+      "text": " solo 2 no han sido plenamente identificadas en el Auto",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 292,
+      "end": 426,
+      "text": "las víctimas echan de menos en su reconocimiento de la audiencia la lectura al completo de los nombres de la totalidad de las víctimas",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 485,
+      "end": 763,
+      "text": " las víctimas manifiestan que el señor Gómez Naranjo “si bien se refirió a los daños y se dirigió a las víctimas, algunas de ellas valoraron positivamente el reconocimiento, mientras que otras manifestaron no sentir de manera genuina ciertos de los reconocimientos de las afecta",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 92,
+  "created_at": "2026-04-05T03:02:03.884867Z",
+  "updated_at": "2026-04-05T03:02:03.884888Z",
+  "lead_time": 55.731
+},
+{
+  "text": "n616. 490. En el marco de su intervención igualmente, aceptó la gravedad del daño y el sufrimiento que le causó a las víctimas y el impacto en sus familiares, motivo por el cual mostró su arrepentimiento. Asimismo, precisó cómo estigmatizó a varias víctimas: (…) el 4 de octubre de 2004, fue asesinado vilmente Víctor Hugo Maestre Rodríguez, a usted en especial señora Sol, al señor Lauro, quiero decirles que reconozco la estigmatización que en su momento se le hizo a su hermano, la persecución que se le hizo a su hermano, reconozco que su hermano fue vilmente asesinado que yo di la orden de asesinarlo, que su hermano no era ningún guerrillero ni ningún miliciano, como estaba estigmatizado en el pueblo de Atánquez, y no es de esconderlo ni públicamente,",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 93,
+  "label": [
+    {
+      "start": 54,
+      "end": 203,
+      "text": "aceptó la gravedad del daño y el sufrimiento que le causó a las víctimas y el impacto en sus familiares, motivo por el cual mostró su arrepentimiento",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 242,
+      "end": 258,
+      "text": "varias víctimas:",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 215,
+      "end": 239,
+      "text": "precisó cómo estigmatizó",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 288,
+      "end": 759,
+      "text": "fue asesinado vilmente Víctor Hugo Maestre Rodríguez, a usted en especial señora Sol, al señor Lauro, quiero decirles que reconozco la estigmatización que en su momento se le hizo a su hermano, la persecución que se le hizo a su hermano, reconozco que su hermano fue vilmente asesinado que yo di la orden de asesinarlo, que su hermano no era ningún guerrillero ni ningún miliciano, como estaba estigmatizado en el pueblo de Atánquez, y no es de esconderlo ni públicamente",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 93,
+  "created_at": "2026-04-05T03:03:00.238284Z",
+  "updated_at": "2026-04-05T03:03:00.238310Z",
+  "lead_time": 51.264
+},
+{
+  "text": "esclarecimiento de la verdad sobre (i) las circunstancias 513 Oficio UBPD del 27 de septiembre de 2022, UBPD-1-2022-010014, pág. 4. 514 Ibidem. 515 Folios 307-308, cuaderno Legali 9002316-55.2019.0.00.0001. 516 Folios 965-966, cuaderno Legali 9002774-09.2018.0.00.0001\/0033. 517 Ibidem, parr. 1055. 110 \fterritoriales y estratégicas en las cuales sucedieron los asesinatos y desapariciones forzadas determinadas por esta Sala; (ii) la configuración y alcance del primer patrón macrocriminal que ejecutaron algunos integrantes del Batallón de Infantería No. 2 “La Popa”; y (iii) la conformación de la organización criminal, el papel del grupo especial Zarpazo y algunos elementos del plan criminal desarrollado, alusivo a las alianzas y di",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 94,
+  "label": [
+    {
+      "start": 43,
+      "end": 58,
+      "text": "circunstancias ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 304,
+      "end": 332,
+      "text": "territoriales y estratégicas",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 347,
+      "end": 622,
+      "text": "sucedieron los asesinatos y desapariciones forzadas determinadas por esta Sala; (ii) la configuración y alcance del primer patrón macrocriminal que ejecutaron algunos integrantes del Batallón de Infantería No. 2 “La Popa”; y (iii) la conformación de la organización criminal,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 636,
+      "end": 658,
+      "text": "grupo especial Zarpazo",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 668,
+      "end": 738,
+      "text": " elementos del plan criminal desarrollado, alusivo a las alianzas y di",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 94,
+  "created_at": "2026-04-05T03:03:52.708789Z",
+  "updated_at": "2026-04-05T03:03:52.708833Z",
+  "lead_time": 45.486
+},
+{
+  "text": "ha dado en el macrocaso 03 son inherentes a una estrategia de investigación de justicia transicional “de macroprocesos en los cuales exista una participación masiva de todas las víctimas y que no se estructuren por el azar, sino en virtud de investigaciones con base en contextos y en el análisis de estructuras de criminalidad organizada”100. 103. Hasta la fecha, la Sala, en el marco del Caso 03 ha adoptado todas las medidas que ha considerado idóneas para garantizar la participación efectiva de las víctimas en cada una de las etapas del proceso. Lo primero fue la recepción de informes, muchos 98 “(…) en el periodo entre 2002 y 2005 el BIVAR (Batallón de Infantería 21 Batalla Pantano de Vargas, con sede en Meta) reporta mayor cantidad de muertes investigadas”",
+  "doc_id": "d6d0725659a6d3cb...",
+  "section_id": "CONSIDERACIONES_p3",
+  "corpus_type": "B",
+  "id": 95,
+  "label": [
+    {
+      "start": 9,
+      "end": 338,
+      "text": "n el macrocaso 03 son inherentes a una estrategia de investigación de justicia transicional “de macroprocesos en los cuales exista una participación masiva de todas las víctimas y que no se estructuren por el azar, sino en virtud de investigaciones con base en contextos y en el análisis de estructuras de criminalidad organizada",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 593,
+      "end": 602,
+      "text": "muchos 98",
+      "labels": [
+        "NV"
+      ]
+    },
+    {
+      "start": 643,
+      "end": 743,
+      "text": "BIVAR (Batallón de Infantería 21 Batalla Pantano de Vargas, con sede en Meta) reporta mayor cantidad",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 747,
+      "end": 767,
+      "text": "muertes investigadas",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 95,
+  "created_at": "2026-04-05T03:04:50.999925Z",
+  "updated_at": "2026-04-05T03:04:50.999958Z",
+  "lead_time": 52.295
+},
+{
+  "text": "as víctimas y, otros dos se dirigieron a la segunda vivienda para ejecutar a las víctimas restantes1206. 518. Por temor a las represalias, las familias que habitaban el caserío se ocultaron en el monte para proteger sus vidas. Posteriormente, se desplazaron forzosamente, abandonando sus predios. Por la masacre, otros asesinatos que se presentaron antes y durante ese año1207 y los enfrentamientos entre las - Jurisdicción Especial para la Paz. Metabase. 2. Otras entidades del Estado. UARIV. Víctimas final. Incluido en el RUV por desaparición forzada, actores: FARC-EP. 1199 Ibíd. 1200 De las siguientes versiones voluntarias se puede confirmar que la unidad que operaba en la fecha y zona era el Frente 29: Expediente Caso No. 02. Cuaderno",
+  "doc_id": "87a5f30a82d35179...",
+  "section_id": "PATRONES_MACROCRIMINALES_p1",
+  "corpus_type": "B",
+  "id": 96,
+  "label": [
+    {
+      "start": 15,
+      "end": 99,
+      "text": "otros dos se dirigieron a la segunda vivienda para ejecutar a las víctimas restantes",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 110,
+      "end": 227,
+      "text": "Por temor a las represalias, las familias que habitaban el caserío se ocultaron en el monte para proteger sus vidas. ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 244,
+      "end": 446,
+      "text": "e desplazaron forzosamente, abandonando sus predios. Por la masacre, otros asesinatos que se presentaron antes y durante ese año1207 y los enfrentamientos entre las - Jurisdicción Especial para la Paz. ",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 655,
+      "end": 709,
+      "text": "unidad que operaba en la fecha y zona era el Frente 29",
+      "labels": [
+        "EBI"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 96,
+  "created_at": "2026-04-05T03:05:48.862353Z",
+  "updated_at": "2026-04-05T03:05:48.862375Z",
+  "lead_time": 55.639
+},
+{
+  "text": "es formas utilizadas por los superiores de la BRIM15 para presionar por resultadas, determinadas por la Sala, fue la de la promoción de competencia entre unidades militares por el mayor número de “muertes en combate”. La versión voluntaria de NÉSTOR GUTIÉRREZ fue de gran utilidad para comprender cómo opero esta promoción al interior de la brigada, en la que el jefe de operaciones promovía una competencia feroz entre los grupos especiales y todas las compañías y batallones de la brigada, llevando un ranking periódico con base en el número de “muertes en combate” reportadas. Su versión, además, fue valiosa para comprender cómo esa presión era percibida por los comandantes de compañía y la incidencia directa que tuvo en ellos a la hora de comete",
+  "doc_id": "5dacfe26a9a4fa57...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 97,
+  "label": [
+    {
+      "start": 3,
+      "end": 83,
+      "text": "formas utilizadas por los superiores de la BRIM15 para presionar por resultadas,",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 115,
+      "end": 216,
+      "text": "a de la promoción de competencia entre unidades militares por el mayor número de “muertes en combate”",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 218,
+      "end": 348,
+      "text": "La versión voluntaria de NÉSTOR GUTIÉRREZ fue de gran utilidad para comprender cómo opero esta promoción al interior de la brigada",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 363,
+      "end": 382,
+      "text": "jefe de operaciones",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 383,
+      "end": 413,
+      "text": "promovía una competencia feroz",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 424,
+      "end": 490,
+      "text": "grupos especiales y todas las compañías y batallones de la brigada",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 491,
+      "end": 547,
+      "text": " llevando un ranking periódico con base en el número de ",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 548,
+      "end": 578,
+      "text": "muertes en combate” reportadas",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 581,
+      "end": 658,
+      "text": "u versión, además, fue valiosa para comprender cómo esa presión era percibida",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 663,
+      "end": 690,
+      "text": "los comandantes de compañía",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 694,
+      "end": 752,
+      "text": "a incidencia directa que tuvo en ellos a la hora de comete",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 97,
+  "created_at": "2026-04-05T03:07:18.439544Z",
+  "updated_at": "2026-04-05T03:07:18.439563Z",
+  "lead_time": 85.763
+},
+{
+  "text": "ctura legal del batallón como en la organización criminal anidada en él, observa esta Sala que el aporte a verdad del compareciente resultó coherente y que, contrastado con otros medios de prueba, además de resultar veraz permitió a la Sala el esclarecimiento de la verdad sobre (i) la existencia y conformación de la organización criminal que perpetró los hechos determinados por la Sala, (ii) el papel de los grupos especiales en tal estructura criminal, particularmente, del grupo especial Zarpazo que el señor Rueda Quintero comandó; (iii) el alcance y contenido del plan criminal desarrollado por la organización criminal y algunos de los elementos característicos del primer patrón descrito por la Sala en el Auto 128 de 2021; (iv) la existencia y alcan",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 98,
+  "label": [
+    {
+      "start": 0,
+      "end": 71,
+      "text": "ctura legal del batallón como en la organización criminal anidada en él",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 95,
+      "end": 389,
+      "text": "el aporte a verdad del compareciente resultó coherente y que, contrastado con otros medios de prueba, además de resultar veraz permitió a la Sala el esclarecimiento de la verdad sobre (i) la existencia y conformación de la organización criminal que perpetró los hechos determinados por la Sala,",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 397,
+      "end": 454,
+      "text": " papel de los grupos especiales en tal estructura crimina",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 474,
+      "end": 546,
+      "text": "del grupo especial Zarpazo que el señor Rueda Quintero comandó; (iii) el",
+      "labels": [
+        "SA"
+      ]
+    },
+    {
+      "start": 547,
+      "end": 759,
+      "text": "alcance y contenido del plan criminal desarrollado por la organización criminal y algunos de los elementos característicos del primer patrón descrito por la Sala en el Auto 128 de 2021; (iv) la existencia y alcan",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 98,
+  "created_at": "2026-04-05T03:08:05.685929Z",
+  "updated_at": "2026-04-05T03:08:05.685960Z",
+  "lead_time": 44.909
+},
+{
+  "text": "2 de junio de 2002, y el 26 de octubre de 2002. 366 Observaciones finales escritas sobre los elementos concernientes a la Resolución de Conclusiones, 10 de agosto de 2022, CSPP y Cajar, págs. 71-73. Cuaderno Legali 9002774-09.2018.0.00.0001\/0714. 80 \fal reconocimiento de los hechos en que perdió la vida el señor Orlando Villarreal Cortez367. Al respecto, el representante de víctimas presenta la declaración del señor Yeris Gómez Coronel, en el marco de los radicados 9003, 8988 y 9004, del 7 de febrero de 2017, en la que se hace mención, entre otros, al señor Padilla Espitia, frente a los hechos en que fueron ejecutadas las víctimas Edgar Beltrán Hurtado y Albeiro Flórez Hernández. El representante de víctimas, atendiendo a las menciones al señor “Hugo Padilla”",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p1",
+  "corpus_type": "B",
+  "id": 99,
+  "label": [
+    {
+      "start": 251,
+      "end": 282,
+      "text": "al reconocimiento de los hechos",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 290,
+      "end": 304,
+      "text": "perdió la vida",
+      "labels": [
+        "EBI"
+      ]
+    },
+    {
+      "start": 305,
+      "end": 339,
+      "text": "el señor Orlando Villarreal Cortez",
+      "labels": [
+        "REP"
+      ]
+    },
+    {
+      "start": 591,
+      "end": 688,
+      "text": "os hechos en que fueron ejecutadas las víctimas Edgar Beltrán Hurtado y Albeiro Flórez Hernández.",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 99,
+  "created_at": "2026-04-05T03:08:48.821092Z",
+  "updated_at": "2026-04-05T03:08:48.821129Z",
+  "lead_time": 40.314
+},
+{
+  "text": "• El reconocimiento responde a las preguntas y necesidades de las víctimas • Reconoce a las víctimas sin lugar a distinciones que generen revictimizaciones c. Reconocimiento de verdad • No reconoce los hechos a pesar de ser mencionado, estar vinculado o condenado • Reconoce solo algunos hechos en los que es señalado • Reconoce solo los hechos en los que se encuentra vinculado • Reconoce los hechos en los que es señalado y en los que se encuentra vinculado • Reconoce los hechos en los que es señalado y en los que se encuentra vinculado • Reconoce los hechos en los que es señalado y aporta sobre otros hechos desconocidos • Reconoce los hechos en los que es señalado y aporta información sobre hechos de los que tiene conocimiento171. 126. El Ministe",
+  "doc_id": "e296480baeeb6127...",
+  "section_id": "RECONOCIMIENTO_p2",
+  "corpus_type": "B",
+  "id": 100,
+  "label": [
+    {
+      "start": 2,
+      "end": 735,
+      "text": "El reconocimiento responde a las preguntas y necesidades de las víctimas • Reconoce a las víctimas sin lugar a distinciones que generen revictimizaciones c. Reconocimiento de verdad • No reconoce los hechos a pesar de ser mencionado, estar vinculado o condenado • Reconoce solo algunos hechos en los que es señalado • Reconoce solo los hechos en los que se encuentra vinculado • Reconoce los hechos en los que es señalado y en los que se encuentra vinculado • Reconoce los hechos en los que es señalado y en los que se encuentra vinculado • Reconoce los hechos en los que es señalado y aporta sobre otros hechos desconocidos • Reconoce los hechos en los que es señalado y aporta información sobre hechos de los que tiene conocimiento",
+      "labels": [
+        "REP"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 100,
+  "created_at": "2026-04-05T03:09:06.940932Z",
+  "updated_at": "2026-04-05T03:09:06.940968Z",
+  "lead_time": 16.249
+}
+]
