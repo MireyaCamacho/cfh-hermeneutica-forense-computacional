@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260610_113452",
+  "scripts_relacionados_encontrados": 22,
+  "archivos_corpus_candidatos": 0,
+  "vectores_centroide_encontrados": 0,
+  "centroide_anterior_recuperado": false,
+  "textos_recolectados_automaticamente": 14,
+  "transcripciones_corpus_c_encontradas": 1290,
+  "proximos_pasos": [
+    "1. Revisar manualmente los scripts_candidatos para identificar EL script que generó el centroide original",
+    "2. Reconstruir la lista exacta de 25 textos originales (para trazabilidad)",
+    "3. Verificar textos recolectados automáticamente (outputs/auditoria_centroide/textos_nuevos_mafapo_*.json)",
+    "4. Añadir segmentos de víctimas del Corpus C diarizado (fuente E — más valiosa)",
+    "5. Descargar manualmente: Informe JEP 2018 (fuente C)",
+    "6. Activar CALCULAR_CENTROIDE = True y recalcular con textos completos",
+    "7. Verificar correlación y₈ vs y₉ < 0.80 post-ampliación",
+    "8. Actualizar Tablas 5.3, 5.5, 5.9, 5.14, 5.16 con nuevos valores"
+  ]
+}
