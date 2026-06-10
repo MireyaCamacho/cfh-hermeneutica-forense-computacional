@@ -1,0 +1,24 @@
+
+REPORTE CORRELACIÓN y₈ vs y₉ — CFH v3b (reconstruido)
+========================================================
+Fecha: 2026-06-10T12:35:43.196124
+N muestra: 100 bloques
+
+Corpus MAFAPO v3b: 67 textos
+  - 32 originales auditados (voz directa)
+  - 20 segmentos Corpus C (filtro estricto)
+  - 15 testimonios Dejusticia 2024
+
+Distancia entre polos MAFAPO vs CIDH:
+  v2  (original): ~0.14
+  v3  (anterior):  0.0919
+  v3b (actual):    0.0986  ↑ mejoró diferenciación
+
+Correlación y₈ vs y₉ (Pearson):
+  v2:  r ≈ 0.86  (problema original)
+  v3:  r = 0.7316 (meta alcanzada)
+  v3b: r = 0.7030  (p=0.0000)
+  Spearman ρ = 0.6443  (p=0.0000)
+
+Meta r < 0.80: ✓ ALCANZADA
+✓ Mejora respecto a v3

@@ -1,0 +1,16 @@
+{
+  "version": "v3b",
+  "total": 67,
+  "originales": 32,
+  "corpus_c": 20,
+  "dejusticia": 15,
+  "pearson_r": 0.703,
+  "spearman_r": 0.6443,
+  "meta_alcanzada": true,
+  "distancia_polos": 0.0986,
+  "evolucion": {
+    "v2": 0.86,
+    "v3": 0.7316,
+    "v3b": 0.703
+  }
+}
