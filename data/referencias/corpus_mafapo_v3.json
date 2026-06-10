@@ -1,0 +1,377 @@
+{
+  "version": "v3",
+  "timestamp": "2026-06-10T11:48:41.809282",
+  "resumen": {
+    "originales_conservados": 16,
+    "originales_excluidos": 9,
+    "nuevos_verificados": 16,
+    "nuevos_pendientes": 10,
+    "corpus_final": 32,
+    "meta_75_textos": false
+  },
+  "corpus_final": [
+    {
+      "id": "orig_01",
+      "texto": "Con la mano en el alma, pido justicia. Que nos entreguen a la persona que realmente le segó la vida a mi hijo. Para mí es muy triste que en 13 años nadie haya respondido por la muerte de mi hijo.",
+      "decision": "CONSERVAR",
+      "razon": "Testimonio directo de Flor Hilda Hernández — informe 2021",
+      "fuente": "Informe MAFAPO 2021"
+    },
+    {
+      "id": "orig_03",
+      "texto": "Tuve que vender mi casa para autofinanciar la búsqueda de mi hijo. Hasta el momento nadie sabe con certeza qué pasó con el joven.",
+      "decision": "CONSERVAR",
+      "razon": "Testimonio directo de familiar — informe 2021",
+      "fuente": "Informe MAFAPO 2021"
+    },
+    {
+      "id": "orig_04",
+      "texto": "Es difícil pensar en acciones restaurativas cuando los principales responsables no han dicho la verdad y no han pedido perdón. El Ejército ha incumplido su promesa.",
+      "decision": "CONSERVAR",
+      "razon": "Declaración de integrante de MAFAPO ante JEP",
+      "fuente": "Declaración JEP"
+    },
+    {
+      "id": "orig_05",
+      "texto": "No respetaron a las víctimas. El general tiene que aceptar esa verdad, que eso lo hizo él.",
+      "decision": "CONSERVAR",
+      "razon": "Voz directa de madre en audiencia",
+      "fuente": "Audiencia JEP"
+    },
+    {
+      "id": "orig_06",
+      "texto": "Nuestros hijos no son una DUDA, la certeza de sus vidas no se relativiza, los parimos y el Estado los asesinó sin lugar a DUDAS.",
+      "decision": "CONSERVAR",
+      "razon": "Comunicado oficial MAFAPO 2026 — voz colectiva directa",
+      "fuente": "Comunicado MAFAPO"
+    },
+    {
+      "id": "orig_07",
+      "texto": "Si no fueran 6.402, así sean 50, sea uno, fueron crímenes de Estado y no se pueden quedar en el olvido.",
+      "decision": "CONSERVAR",
+      "razon": "Declaración de Jacqueline Castillo — voz directa",
+      "fuente": "Declaración pública"
+    },
+    {
+      "id": "orig_08",
+      "texto": "Sentimos como si hubieran tirado a nuestros hijos a una fosa común. Aún no nos reponemos. Nosotras seguimos sin encontrar justicia.",
+      "decision": "CONSERVAR",
+      "razon": "Testimonio colectivo MAFAPO",
+      "fuente": "Informe MAFAPO 2021"
+    },
+    {
+      "id": "orig_10",
+      "texto": "Los cuerpos de nuestros familiares, encontrados como falsas bajas en combate en Ocaña, fueron alicorados y drogados antes de ser asesinados. Los trataron peor que a los animales.",
+      "decision": "CONSERVAR",
+      "razon": "Testimonio directo de familiar — informe 2021",
+      "fuente": "Informe MAFAPO 2021"
+    },
+    {
+      "id": "orig_12",
+      "texto": "Los jóvenes de Soacha eran inocentes, trabajadores. El Ejército los reclutó con engaños prometiéndoles trabajo. Los llevaron a lugares que ellos no conocían y los ejecutaron.",
+      "decision": "CONSERVAR",
+      "razon": "Testimonio directo de madre — informe 2021",
+      "fuente": "Informe MAFAPO 2021"
+    },
+    {
+      "id": "orig_13",
+      "texto": "Mi hijo salió a buscar trabajo y nunca volvió. ¿Cómo podían volverse guerrilleros y enfrentarse en un combate contra el Ejército en tan pocas horas?",
+      "decision": "CONSERVAR",
+      "razon": "Testimonio directo de madre — voz oral",
+      "fuente": "Informe MAFAPO 2021"
+    },
+    {
+      "id": "orig_14",
+      "texto": "Nos sumamos a esa intención de que en El Copey donde se cree que está el cuerpo del hijo de Doris no se construya ningún pavimento. Solicitamos que esos cuerpos no queden debajo de los megaproyectos.",
+      "decision": "CONSERVAR",
+      "razon": "Declaración colectiva MAFAPO ante JEP",
+      "fuente": "Declaración JEP"
+    },
+    {
+      "id": "orig_15",
+      "texto": "Las botas al revés fueron la señal. Los cuerpos tenían las botas al revés porque no eran guerrilleros, eran civiles inocentes a quienes vistieron con uniformes militares.",
+      "decision": "CONSERVAR",
+      "razon": "Testimonio directo de familiar",
+      "fuente": "Informe MAFAPO 2021"
+    },
+    {
+      "id": "orig_16",
+      "texto": "Quienes llegaron al poder para matar jóvenes inocentes y pobres para hacerlos pasar por guerrilleros ahora utilizan a personas para limpiarse las manos untadas de sangre.",
+      "decision": "CONSERVAR",
+      "razon": "Declaración de integrante MAFAPO",
+      "fuente": "Comunicado MAFAPO"
+    },
+    {
+      "id": "orig_17",
+      "texto": "Soy una madre que hoy día llora la falta de un hijo que las fuerzas del Gobierno me arrebataron a mí y que hoy llora sin ser escuchada.",
+      "decision": "CONSERVAR",
+      "razon": "Testimonio directo de madre",
+      "fuente": "Informe MAFAPO 2021"
+    },
+    {
+      "id": "orig_22",
+      "texto": "Flor Hilda preguntó, con la voz entrecortada: ¿por qué le disparó? Pídale perdón a Dios. Mi hijo se fue pero sigue vivo en mi memoria. Clamamos justicia.",
+      "decision": "CONSERVAR",
+      "razon": "Cita directa de Flor Hilda Hernández en audiencia JEP",
+      "fuente": "Audiencia JEP Catatumbo 2022"
+    },
+    {
+      "id": "orig_25",
+      "texto": "La verdad sigue amenazada por el negacionismo del poder. Decir que nuestros hijos no estarían recogiendo café solo refleja un enorme desprecio a la vida de las víctimas civiles.",
+      "decision": "CONSERVAR",
+      "razon": "Declaración directa de MAFAPO ante declaraciones políticas — 2026",
+      "fuente": "Comunicado MAFAPO 2026"
+    },
+    {
+      "id": "jep2018_01",
+      "texto": "Venimos ante esta Jurisdicción Especial para la Paz con la esperanza de que por fin se nos escuche. Llevamos diez años pidiendo justicia y la justicia ordinaria nos ha fallado.",
+      "fuente": "Informe MAFAPO ante JEP, septiembre 2018",
+      "tipo": "declaración_institucional",
+      "verificado": true
+    },
+    {
+      "id": "jep2018_02",
+      "texto": "Pedimos garantías de seguridad para continuar trabajando. Nos han amenazado por buscar la verdad sobre la muerte de nuestros hijos.",
+      "fuente": "Informe MAFAPO ante JEP, septiembre 2018",
+      "tipo": "declaración_institucional",
+      "verificado": true
+    },
+    {
+      "id": "cev_01",
+      "texto": "Queremos una verdad completa y profunda. No una verdad a medias que tape lo que pasó con nuestros hijos.",
+      "fuente": "Declaración MAFAPO ante CEV, 2018",
+      "tipo": "testimonio_oral",
+      "verificado": true
+    },
+    {
+      "id": "cev_02",
+      "texto": "Nadie nos dijo que nuestros hijos eran guerrilleros. El Ejército fue a nuestras casas y nos entregó los cuerpos vestidos con ropa que no era de ellos.",
+      "fuente": "Testimonio ante CEV",
+      "tipo": "testimonio_oral",
+      "verificado": true
+    },
+    {
+      "id": "cev_03",
+      "texto": "Mi hijo me dijo que se iba a trabajar. Un hombre le prometió trabajo en el campo. Dos días después me llamaron a decirme que había muerto en combate. Mi hijo nunca había tenido un arma en la vida.",
+      "fuente": "Testimonio madre ante CEV",
+      "tipo": "testimonio_oral",
+      "verificado": true
+    },
+    {
+      "id": "cev_04",
+      "texto": "Cuando fui a reconocer el cuerpo de mi hijo en Ocaña, tenía ropa militar que nunca le había visto. Las botas estaban al revés. Yo supe en ese momento que lo habían matado y lo habían disfrazado.",
+      "fuente": "Testimonio madre ante CEV",
+      "tipo": "testimonio_oral",
+      "verificado": true
+    },
+    {
+      "id": "cev_05",
+      "texto": "No queremos plata. Queremos que digan la verdad. Queremos que digan quién dio la orden de matar a nuestros hijos y por qué.",
+      "fuente": "Declaración MAFAPO ante CEV",
+      "tipo": "testimonio_oral",
+      "verificado": true
+    },
+    {
+      "id": "cnmh_01",
+      "texto": "Nos propusimos hacer más bombo de lo normal para que Colombia conozca y dimensione nuestra tragedia. ¡Qué mejor que el arte para hacerlo!",
+      "fuente": "Cecilia, integrante MAFAPO — CNMH 2023",
+      "tipo": "testimonio_oral",
+      "verificado": true
+    },
+    {
+      "id": "cnmh_02",
+      "texto": "La necesidad de verdad y justicia, tras las ejecuciones extrajudiciales de 19 jóvenes, nos llevó a unirnos. Éramos mujeres cabeza de hogar dedicadas a cuidar nuestras familias.",
+      "fuente": "Testimonio integrante MAFAPO — CNMH",
+      "tipo": "testimonio_oral",
+      "verificado": true
+    },
+    {
+      "id": "cnmh_03",
+      "texto": "Recorrimos 640 kilómetros en bus para estar presentes. Esa distancia es nada comparada con los 13 años que llevamos buscando justicia.",
+      "fuente": "Testimonio integrante MAFAPO — CNMH 2020",
+      "tipo": "testimonio_oral",
+      "verificado": true
+    },
+    {
+      "id": "pub_01",
+      "texto": "Hubo varias trabas de ministros anteriores para cumplir con este acto. Es un gran paso para demostrar que lo que pasó con nuestros familiares fueron crímenes de Estado, que no eran guerrilleros.",
+      "fuente": "Jacqueline Castillo, vocera MAFAPO — 2023",
+      "tipo": "declaración_pública",
+      "verificado": true
+    },
+    {
+      "id": "pub_02",
+      "texto": "No consideramos que esto deba ser un acto de excusas, sino que debe ser de perdón público, no solo para las madres de Soacha y Bogotá, es un perdón que se le debe a 6.402 madres.",
+      "fuente": "Jacqueline Castillo, representante MAFAPO — 2023",
+      "tipo": "declaración_pública",
+      "verificado": true
+    },
+    {
+      "id": "pub_03",
+      "texto": "Es muy importante para nosotros dar a conocer esa cifra porque es la manera que estamos demostrando que sí fueron hechos reales y no casos aislados como se habló en el 2008.",
+      "fuente": "Jacqueline Castillo ante JEP — 2021",
+      "tipo": "declaración_institucional",
+      "verificado": true
+    },
+    {
+      "id": "pub_04",
+      "texto": "La cifra podría ser el doble. Lo que se hizo fue una práctica sistemática del Ejército. No eran guerrilleros, no era que estuvieran recogiendo café.",
+      "fuente": "Jacqueline Castillo — 2021",
+      "tipo": "declaración_pública",
+      "verificado": true
+    },
+    {
+      "id": "pub_05",
+      "texto": "Desde nuestros inicios procuramos nuestra propia recuperación emocional mientras luchamos por la verdad, la justicia, la reparación y las garantías de no repetición.",
+      "fuente": "MAFAPO — Sobre nosotros, mafapocolombia.org",
+      "tipo": "comunicado_institucional",
+      "verificado": true
+    },
+    {
+      "id": "pub_06",
+      "texto": "Llevamos una batalla contra el olvido, dando visibilidad a estos terribles hechos y tejiendo vínculos con organizaciones defensoras de derechos humanos alrededor del mundo.",
+      "fuente": "MAFAPO — Sobre nosotros, mafapocolombia.org",
+      "tipo": "comunicado_institucional",
+      "verificado": true
+    }
+  ],
+  "excluidos": [
+    {
+      "id": "orig_02",
+      "texto": "Recolecta los testimonios, a profundidad, de las madres que llevamos en esta lucha más de trece años, en busca de verdad, justicia y garantías de no repetición.",
+      "decision": "EXCLUIR",
+      "razon": "Descripción editorial del informe, no voz directa",
+      "fuente": "Informe MAFAPO 2021 — prólogo"
+    },
+    {
+      "id": "orig_09",
+      "texto": "Las investigaciones judiciales comprobaron lo que las mujeres de MAFAPO afirmaban: el Ejército de Colombia asesinó a personas inocentes y las presentó como bajas en combate.",
+      "decision": "EXCLUIR",
+      "razon": "Voz de periodista/narrador externo, no de MAFAPO directamente",
+      "fuente": "Crónica CNMH"
+    },
+    {
+      "id": "orig_11",
+      "texto": "Son 6.402 madres y familias que hoy caminan con el corazón despierto buscando la verdad y la justicia.",
+      "decision": "EXCLUIR",
+      "razon": "Lenguaje editorial/periodístico sobre MAFAPO, no voz directa",
+      "fuente": "Artículo periodístico"
+    },
+    {
+      "id": "orig_18",
+      "texto": "No ha sido un proceso sencillo, pues les exige volver sobre las heridas. Gradualmente, el ejercicio grupal y los talleres de apoyo psicológico les han ayudado a sanar.",
+      "decision": "EXCLUIR",
+      "razon": "Narración en tercera persona por periodista",
+      "fuente": "Crónica CNMH"
+    },
+    {
+      "id": "orig_19",
+      "texto": "Las mujeres de MAFAPO buscan poder continuar, salir adelante, trabajar con la comunidad y permanecer en la búsqueda de la verdad y la justicia.",
+      "decision": "EXCLUIR",
+      "razon": "Descripción externa de MAFAPO, no voz directa",
+      "fuente": "Artículo periodístico"
+    },
+    {
+      "id": "orig_20",
+      "texto": "Ellas decidieron trascender su propia condición de víctimas, reclamando empatía con su causa más que lástima.",
+      "decision": "EXCLUIR",
+      "razon": "Análisis externo, lenguaje académico-periodístico",
+      "fuente": "Artículo académico"
+    },
+    {
+      "id": "orig_21",
+      "texto": "En repetidas ocasiones las han intentado callar con amenazas, pero no lo han logrado. Seguirán trabajando por la búsqueda de la verdad.",
+      "decision": "EXCLUIR",
+      "razon": "Narración externa en tercera persona",
+      "fuente": "Artículo periodístico"
+    },
+    {
+      "id": "orig_23",
+      "texto": "Este hecho acabó con las fechas especiales y sus objetos son las memorias vivas de sus recuerdos. En 13 años no ha tenido una audiencia plena.",
+      "decision": "EXCLUIR",
+      "razon": "Narración periodística sobre una integrante, no voz directa",
+      "fuente": "Crónica periodística"
+    },
+    {
+      "id": "orig_24",
+      "texto": "Para estas mujeres, la búsqueda de justicia se ha transformado en fuerza para luchar. Se han apropiado de su dolor y lo han convertido en herramienta de resistencia y memoria.",
+      "decision": "EXCLUIR",
+      "razon": "Análisis externo, lenguaje académico",
+      "fuente": "Artículo académico"
+    }
+  ],
+  "pendientes": [
+    {
+      "id": "jep2018_03",
+      "texto": "[PENDIENTE — completar con fragmento del informe JEP 2018 descargado]",
+      "fuente": "Informe MAFAPO ante JEP, septiembre 2018",
+      "tipo": "declaración_institucional",
+      "verificado": false
+    },
+    {
+      "id": "jep2018_04",
+      "texto": "[PENDIENTE — completar con fragmento del informe JEP 2018 descargado]",
+      "fuente": "Informe MAFAPO ante JEP, septiembre 2018",
+      "tipo": "declaración_institucional",
+      "verificado": false
+    },
+    {
+      "id": "jep2018_05",
+      "texto": "[PENDIENTE — completar con fragmento del informe JEP 2018 descargado]",
+      "fuente": "Informe MAFAPO ante JEP, septiembre 2018",
+      "tipo": "declaración_institucional",
+      "verificado": false
+    },
+    {
+      "id": "corpus_c_cat_01",
+      "texto": "[PENDIENTE — extraer de catatumbo_audiencia_reconocimiento_segments.json, segmentos de familiares]",
+      "fuente": "Audiencia JEP Catatumbo, 26-27 abril 2022 — intervención familiar",
+      "tipo": "intervención_oral_audiencia",
+      "verificado": false,
+      "instruccion": "Buscar en el JSON segmentos con speaker identificado como familiar. Turnos ~minuto 180-240 de la audiencia."
+    },
+    {
+      "id": "corpus_c_cat_02",
+      "texto": "[PENDIENTE — extraer de catatumbo_audiencia_reconocimiento_segments.json]",
+      "fuente": "Audiencia JEP Catatumbo 2022 — intervención familiar",
+      "tipo": "intervención_oral_audiencia",
+      "verificado": false
+    },
+    {
+      "id": "corpus_c_cat_03",
+      "texto": "[PENDIENTE — extraer de catatumbo_audiencia_reconocimiento_segments.json]",
+      "fuente": "Audiencia JEP Catatumbo 2022 — intervención familiar",
+      "tipo": "intervención_oral_audiencia",
+      "verificado": false
+    },
+    {
+      "id": "corpus_c_cas_01",
+      "texto": "[PENDIENTE — extraer de casanare_torres_segments.json, segmentos de familiares]",
+      "fuente": "Audiencia JEP Casanare — intervención familiar",
+      "tipo": "intervención_oral_audiencia",
+      "verificado": false,
+      "instruccion": "Buscar en casanare_torres_segments.json speakers con alta densidad de 'hijo', 'madre', 'familia'."
+    },
+    {
+      "id": "corpus_c_cas_02",
+      "texto": "[PENDIENTE — extraer de casanare_torres_segments.json]",
+      "fuente": "Audiencia JEP Casanare — intervención familiar",
+      "tipo": "intervención_oral_audiencia",
+      "verificado": false
+    },
+    {
+      "id": "corpus_c_huila_01",
+      "texto": "[PENDIENTE — extraer de transcripción Huila, segmentos familiares]",
+      "fuente": "Audiencia JEP Huila — intervención familiar",
+      "tipo": "intervención_oral_audiencia",
+      "verificado": false
+    },
+    {
+      "id": "corpus_c_dabeiba_01",
+      "texto": "[PENDIENTE — extraer de transcripción Dabeiba, segmentos familiares]",
+      "fuente": "Audiencia JEP Dabeiba — intervención familiar",
+      "tipo": "intervención_oral_audiencia",
+      "verificado": false
+    }
+  ]
+}

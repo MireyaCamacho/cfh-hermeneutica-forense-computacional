@@ -1,0 +1,23 @@
+
+REPORTE CORRELACIÓN y₈ vs y₉ — CFH v3
+=======================================
+Fecha: 2026-06-10T11:49:03.087853
+N muestra: 100 bloques
+
+Centroide MAFAPO: v3 (57 textos)
+Centroide CIDH:   v3 (25 textos — sin cambios)
+
+Distancia entre polos:  0.0919
+  → v2 referencia:      ~0.14 (correlación 0.86)
+
+Correlación y₈ vs y₉:
+  Pearson r:  0.7316  (p=0.0000)
+  Spearman ρ: 0.6685  (p=0.0000)
+
+Meta: r < 0.80
+
+✓ META ALCANZADA
+
+Interpretación:
+  y₈ (dist. MAFAPO) e y₉ (dist. CIDH) miden dimensiones suficientemente distintas.
+  El polo MAFAPO v3 está bien diferenciado del polo CIDH.
