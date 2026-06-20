@@ -1,0 +1,11 @@
+{
+  "version": "v4",
+  "timestamp": "2026-06-20T11:58:12.599214",
+  "total_textos": 169,
+  "componentes": {
+    "v3b": 67,
+    "candidatos_nuevos": 102
+  },
+  "margen_error_pct": 7.7,
+  "dist_v3b_v4": 0.0066,
+  "correlacion_y8_y9": 
