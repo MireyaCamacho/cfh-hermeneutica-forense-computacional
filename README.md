@@ -1,7 +1,3 @@
-"# CFH Hermen�utica Forense Computacional" 
-# cfh-hermeneutica-forense-computacional
-Tesis: Hermenéutica Forense Computacional: SEM + ConfliBERT-Spanish para análisis de justicia transicional colombiana
-
 # Hermenéutica Forense Computacional (CFH)
 ### Evaluando la justicia transicional colombiana mediante SEM, ConfliBERT-Spanish y reparación algorítmica
 
@@ -105,5 +101,7 @@ cfh/
 ## Contacto
 
 **Mireya Camacho Celis**
-mireyacamachocelis@gmail.com
+[correo institucional]
+[correo personal]
 
+*Este repositorio es público para facilitar la revisión académica. El corpus de datos no está incluido por restricciones de acceso y protección de datos.*
