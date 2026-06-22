@@ -68,3 +68,17 @@ cfh_backup_pre_extras.db
 "*.db" 
 face_landmarker.task 
 "corpus_c/videos/" 
+ 
+# Excepciones - carpetas can¢nicas y documentaci¢n 
+!data/features/canonico/ 
+!data/features/canonico/*.csv 
+!data/resultados/ 
+!data/resultados/*.csv 
+!docs/ 
+!docs/**/ 
+!docs/**/*.md 
+!docs/**/*.docx 
+!docs/**/*.pdf 
+!docs/**/*.pptx 
+!docs/**/*.png 
+!models/*.zip 
