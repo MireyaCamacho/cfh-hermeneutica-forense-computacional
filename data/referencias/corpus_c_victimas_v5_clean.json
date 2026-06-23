@@ -1,0 +1,198 @@
+{
+  "version": "corpus_c_victimas_v5_clean",
+  "n_segmentos": 24,
+  "segmentos": [
+    {
+      "texto": "o plan de aportes de verdad dentro de él reiteró su ofrecimiento de excusas públicas a las víctimas",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 100
+    },
+    {
+      "texto": "77 del 26 de julio el despacho corrió traslado de la propuesta tanto a las víctimas como al",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 92
+    },
+    {
+      "texto": "Quiero pedirles a ustedes que por favor reivindiquen el nombre de mi hermano Luis Alfonso Daza y de todas las víctimas de Norte de Santander, Soacha, Bogotá y del país entero.",
+      "audiencia": "catatumbo_audiencia_reconocimiento",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 176
+    },
+    {
+      "texto": "Buenos días, señores magistrados, familia de las víctimas, organizaciones internacionales y demás presentes acá.",
+      "audiencia": "catatumbo_audiencia_reconocimiento",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 113
+    },
+    {
+      "texto": "a pesar del dolor y el sufrimiento causado, han alzado la voz para reivindicar a sus comunidades,",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 98
+    },
+    {
+      "texto": "de la diligencia a partir de este momento. Muy buenos días a las víctimas, a sus familiares,",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 93
+    },
+    {
+      "texto": "Existió también el tráfico de municiones de algunos depósitos del ejército para las autodefensas, esto fue muy nocivo porque incrudeció mucho el conflicto y estableció muchas víctimas inocentes.",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 195
+    },
+    {
+      "texto": "Hoy me siento tranquilo, le estamos dando la cara a ustedes las víctimas, a sus familiares por lo que estamos haciendo, a la sociedad también y no es lo contrario, los victimarios disfrutando de beneficios o privilegios.",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 221
+    },
+    {
+      "texto": "con el dolor de las víctimas, no sentirse uno culpable, ha sido un proceso bastante reparador",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 94
+    },
+    {
+      "texto": "Buenos días a todas y a todos. Un saludo muy respetuoso a las familias de las víctimas,",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 88
+    },
+    {
+      "texto": "Bueno, pues, concluidas estas sesiones y tal como lo advierte el señor magistrado, nos encontramos apenas en una de las fases de la construcción de la verdad, en donde son de suma importancia las observaciones que hacen las víctimas, precisamente para que cada vez tengamos un mayor conocimiento y descripción del daño, de los sufrimientos, de las afectaciones y de todas las situaciones que se han tenido.",
+      "audiencia": "obs_barranquilla_dia2",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 407
+    },
+    {
+      "texto": "Agradecemos la valentía y el esfuerzo al compartir su relato hoy como familiares de las víctimas directas",
+      "audiencia": "obs_barranquilla_dia2",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 106
+    },
+    {
+      "texto": "Tal como lo estableció la Sala a través del auto 80 del 2019, las víctimas pueden verse afectadas por las afirmaciones que los responsables hagan sobre los hechos ocurridos y sobre sus familiares,",
+      "audiencia": "obs_costa_caribe_atanquez",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 197
+    },
+    {
+      "texto": "los tenientes acerca de nuestras víctimas, de nuestros familiares.",
+      "audiencia": "obs_costa_caribe_atanquez",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 67
+    },
+    {
+      "texto": "Y finalmente, tu llamado sobre las víctimas que aún permanecen desaparecidas. Para nosotros también es prioridad absoluta el encuentro de esas personas. Hacemos muchos esfuerzos en la JEP para que ojalá estas personas puedan encontrar a sus familiares.",
+      "audiencia": "obs_dabeiba_antioquia_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 253
+    },
+    {
+      "texto": "Yo lo único que quiero es que el nombre de mi hermano y el nombre de todas las víctimas",
+      "audiencia": "obs_dabeiba_antioquia_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 88
+    },
+    {
+      "texto": "Lo único que yo quiero entregarle al país y a toda la gente que algún día dijeron por algo sería, es que sepan de que mi hijo era inocente, que mi hijo no tenía nada que ver con nadie, que mi hijo era una persona de bien, que en ese momento trabajábamos con la Escuela de Seguridad y Vial de la Policía y no cualquiera entra a trabajar allá.",
+      "audiencia": "obs_fase_nacional_20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 342
+    },
+    {
+      "texto": "le permitió a muchas víctimas encontrarse con otras víctimas y otras familias en una circunstancia similar",
+      "audiencia": "obs_fase_nacional_20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 107
+    },
+    {
+      "texto": "de observaciones por parte de ustedes, las víctimas, los familiares",
+      "audiencia": "obs_huila_2022",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 68
+    },
+    {
+      "texto": "Gracias. Extiendo un saludo cordial a las víctimas, a las organizaciones, a los representantes de instituciones y a los funcionarios y funcionarias presentes. Bienvenidas y bienvenidos.",
+      "audiencia": "obs_huila_2022",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 186
+    },
+    {
+      "texto": "libera. En primer lugar, también quiero honrar a las víctimas. Reconocemos su dolor, su dignidad",
+      "audiencia": "obs_rc05_20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 97
+    },
+    {
+      "texto": "que aunque el dolor en muchas víctimas que han encontrado, en el amor la fuerza para sostenerse,",
+      "audiencia": "obs_rc05_20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 97
+    },
+    {
+      "texto": "Hermanos, tenemos un guardado ahí que no hemos podido soltarlo, pero yo creo que llegó el momento, llegó la hora que cada uno, los familiares de las víctimas que estamos en este lugar, tenemos la posibilidad y tengamos el valor de expresar algo de eso que nos ha consumido durante tantos años.",
+      "audiencia": "obs_san_juan_cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 294
+    },
+    {
+      "texto": "Allí se refleja el dolor, porque no fue a mí, no fue a mis hijos, fue a toda una comunidad, a todo un pueblo huihua,",
+      "audiencia": "obs_san_juan_cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 117
+    }
+  ]
+}
