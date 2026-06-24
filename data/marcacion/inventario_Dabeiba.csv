@@ -1,54 +1,77 @@
-audiencia,video_url,inicio,fin,identidad,rol,rango_cargo,evidencia_identificacion,confianza,uso,observaciones,anotador,fecha
-Dabeiba,youtube.com/watch?v=xb1W_PggE8U,00:02:23,00:04:22,Marlith Nieto,OTRO,Secretaria Judicial JEP,Letrero JEP,ALTA,EXCLUIR,Lectura de reglas de audiencia. Mismo perfil que Catatumbo,Mireya,2026-06-23
-Dabeiba,,00:04:22,00:05:52,Magistrados + Marlith Nieto,EVENTO_ESTRUCTURAL,,,,EXCLUIR,Magistrados toman posición + secretaria retoma,Mireya,2026-06-23
-Dabeiba,,00:06:03,00:12:21,Teresita Zapata,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,Intercalada con Prada Correa 7:11-7:55 y 10:23-12:00. Coliseo Destrezas Dabeibanas,Mireya,2026-06-23
-Dabeiba,,00:07:11,00:07:55,Efraín Enrique Prada Correa,COMPARECIENTE,Coronel (r) ex comandante BCG No. 79,Letrero JEP confirmado,ALTA,ANALISIS,Primera intervención breve intercalada con Teresita Zapata,Mireya,2026-06-23
-Dabeiba,,00:10:23,00:12:21,Efraín Enrique Prada Correa,COMPARECIENTE,Coronel (r) ex comandante BCG No. 79,Letrero JEP confirmado,ALTA,ANALISIS,Segunda intervención intercalada con Teresita Zapata,Mireya,2026-06-23
-Dabeiba,,00:13:00,00:13:50,Marlith Nieto,OTRO,Secretaria Judicial JEP,,ALTA,EXCLUIR,Introduce video documental,Mireya,2026-06-23
-Dabeiba,,00:13:50,00:24:38,VIDEO_DOCUMENTAL,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,Video El Cementerio de la Verdad - miniserie JEP,Mireya,2026-06-23
-Dabeiba,,00:24:38,00:33:09,Nadiezhda Henríquez,MAGISTRADO,Magistrada Sala de Reconocimiento de Verdad y Responsabilidad,Letrero JEP confirmado,ALTA,EXCLUIR,Magistrada relatora del caso Dabeiba,Mireya,2026-06-23
-Dabeiba,,00:33:15,00:41:55,Alejandro Ramelli Arteaga,MAGISTRADO,Magistrado Sala de Reconocimiento de Verdad y Responsabilidad,Letrero JEP confirmado,ALTA,EXCLUIR,Magistrado relator del caso Dabeiba,Mireya,2026-06-23
-Dabeiba,,00:42:07,00:44:20,Claudia Rocío Saldaña,MAGISTRADO,Magistrada Sala de Definición de Situaciones Jurídicas,Letrero JEP confirmado,ALTA,EXCLUIR,,Mireya,2026-06-23
-Dabeiba,,00:44:40,00:46:58,José Miller Hormiga,MAGISTRADO,Magistrado Sala de Definición de Situaciones Jurídicas,Letrero JEP confirmado,ALTA,EXCLUIR,Reaparece 2:20:30-2:28:45,Mireya,2026-06-23
-Dabeiba,,00:46:58,00:48:40,VIDEO_MAGISTRADO_VIDAL,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,Video Magistrado Roberto Carlos Vidal - fallo técnico,Mireya,2026-06-23
-Dabeiba,,00:48:40,00:48:53,Marlith Nieto,OTRO,Secretaria Judicial JEP,,ALTA,EXCLUIR,Retoma tras fallo técnico,Mireya,2026-06-23
-Dabeiba,,00:49:03,00:53:20,Jairo Acosta Aristizábal,REPRESENTANTE_ENTIDAD,Procurador delegado ante la JEP,Letrero JEP confirmado,ALTA,EXCLUIR,Misma persona que Catatumbo,Mireya,2026-06-23
-Dabeiba,,00:53:38,00:59:50,VIDEO_INSTITUCIONAL,EVENTO_ESTRUCTURAL,,,,EXCLUIR,Video institucional,Mireya,2026-06-23
-Dabeiba,,00:59:50,01:00:22,Marlith Nieto,OTRO,Secretaria Judicial JEP,,ALTA,EXCLUIR,,Mireya,2026-06-23
-Dabeiba,,01:01:30,01:09:45,Nadiezhda Henríquez,MAGISTRADO,Magistrada SRVR,Letrero JEP confirmado,ALTA,EXCLUIR,Segunda intervención,Mireya,2026-06-23
-Dabeiba,,01:09:51,01:15:38,VIDEO_COMPARECIENTES_VICTIMAS,EVENTO_ESTRUCTURAL,,,,EXCLUIR,Video documental con comparecientes y víctimas,Mireya,2026-06-23
-Dabeiba,,01:09:51,01:15:38,Hermes Mauricio Alvarado,COMPARECIENTE,Mayor (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,En video documental. Reaparece presencial 1:58:00-2:11:00,Mireya,2026-06-23
-Dabeiba,,01:09:51,01:15:38,Levis de Jesús Contreras,COMPARECIENTE,Soldado Profesional (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,En video documental. Reaparece presencial 5:50:14-6:01:11,Mireya,2026-06-23
-Dabeiba,,01:09:51,01:15:38,Fidel Iván Ochoa,COMPARECIENTE,Sargento Viceprimero (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,En video documental. Reaparece presencial video 5:13:47,Mireya,2026-06-23
-Dabeiba,,01:09:51,01:15:38,Rubiela Manco,VICTIMA,,Letrero video: Compañera de víctima de falsos positivos,ALTA,CENTROIDE,En video documental,Mireya,2026-06-23
-Dabeiba,,01:09:51,01:15:38,Argenis Lezcano,VICTIMA,,Letrero video: Hija de víctima de falsos positivos,ALTA,CENTROIDE,En video documental,Mireya,2026-06-23
-Dabeiba,,01:15:58,01:16:39,Alejandro Ramelli Arteaga,MAGISTRADO,Magistrado SRVR,,ALTA,EXCLUIR,Retoma brevemente,Mireya,2026-06-23
-Dabeiba,,01:16:39,01:26:50,Rafael Goez,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,Letrero desde 1:17:20,Mireya,2026-06-23
-Dabeiba,,01:27:32,01:43:19,Edie Pinzón Turcios,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,,Mireya,2026-06-23
-Dabeiba,,01:43:34,01:57:42,Yair Leandro Rodríguez,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,,Mireya,2026-06-23
-Dabeiba,,01:58:00,02:11:00,Hermes Mauricio Alvarado,COMPARECIENTE,Mayor (r) del Ejército de Colombia,Letrero JEP confirmado,ALTA,ANALISIS,Segunda aparición presencial,Mireya,2026-06-23
-Dabeiba,,02:11:00,02:20:30,BLOQUE_COMPARECIENTES,EVENTO_ESTRUCTURAL,,,,ANALISIS,Múltiples comparecientes máximos y no máximos responsables. Identificados con letrero: Ricardo Manuel Buelvas + compareciente sin nombre que habló a familiares (2:17:10),Mireya,2026-06-23
-Dabeiba,,02:11:00,02:20:30,Ricardo Manuel Buelvas,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,En bloque comparecientes 2:11-2:20,Mireya,2026-06-23
-Dabeiba,,02:20:30,02:28:45,José Miller Hormiga,MAGISTRADO,Magistrado SDSJ,Letrero JEP confirmado,ALTA,EXCLUIR,Segunda intervención,Mireya,2026-06-23
-Dabeiba,,02:28:45,02:31:00,Nadiezhda Henríquez,MAGISTRADO,Magistrada SRVR,,ALTA,EXCLUIR,Tercera intervención breve,Mireya,2026-06-23
-Dabeiba,,02:31:19,02:42:30,Néstor Osuna,REPRESENTANTE_ENTIDAD,Ministro de Justicia,Letrero JEP confirmado,ALTA,EXCLUIR,,Mireya,2026-06-23
-Dabeiba,,02:43:07,02:52:20,Iván Velásquez,REPRESENTANTE_ENTIDAD,Ministro de Defensa,Letrero JEP confirmado,ALTA,EXCLUIR,,Mireya,2026-06-23
-Dabeiba,,02:53:10,03:02:02,Danilo Rueda,REPRESENTANTE_ENTIDAD,Alto Comisionado para la Paz,Letrero JEP confirmado,ALTA,EXCLUIR,,Mireya,2026-06-23
-Dabeiba,,03:03:10,03:10:10,Leyton Urrego,REPRESENTANTE_ENTIDAD,Alcalde de Dabeiba,Letrero JEP confirmado,ALTA,EXCLUIR,,Mireya,2026-06-23
-Dabeiba,,03:12:58,05:11:54,RECESO,EVENTO_ESTRUCTURAL,,,,EXCLUIR,Receso largo ~2h. Marlith Nieto retoma con normas al final,Mireya,2026-06-23
-Dabeiba,,05:13:20,05:13:47,Alejandro Ramelli Arteaga,MAGISTRADO,Magistrado SRVR,,ALTA,EXCLUIR,Retoma brevemente e introduce video,Mireya,2026-06-23
-Dabeiba,,05:13:47,05:21:00,VIDEO_COMPARECIENTES_VICTIMAS_2,EVENTO_ESTRUCTURAL,,,,EXCLUIR,Video documental segunda parte,Mireya,2026-06-23
-Dabeiba,,05:13:47,05:21:00,Efraín Enrique Prada,COMPARECIENTE,Coronel (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,En video documental segunda parte,Mireya,2026-06-23
-Dabeiba,,05:13:47,05:21:00,León,VICTIMA,,Letrero video: Habitante de calle de Medellín,ALTA,CENTROIDE,Perfil de víctima - habitante de calle. Video 5:19:20,Mireya,2026-06-23
-Dabeiba,,05:13:47,05:21:00,Jaime Coral Trujillo,COMPARECIENTE,Sargento Primero (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,En video documental segunda parte. Reaparece presencial,Mireya,2026-06-23
-Dabeiba,,05:13:47,05:21:00,Catalina Ortiz,VICTIMA,,Letrero video: Hermana de víctima de falsos positivos,ALTA,CENTROIDE,En video documental segunda parte. Nombre completo Catalina Ortiz Zapata,Mireya,2026-06-23
-Dabeiba,,05:13:47,05:21:00,Esneda Altamirano,VICTIMA,,Letrero video: Tía de víctima de falsos positivos,ALTA,CENTROIDE,En video documental segunda parte,Mireya,2026-06-23
-Dabeiba,,05:13:47,05:21:00,Amparo Cano,VICTIMA,,Letrero video: Madre de víctima de falsos positivos,ALTA,CENTROIDE,En video documental segunda parte,Mireya,2026-06-23
-Dabeiba,,05:22:10,05:24:27,Alejandro Ramelli Arteaga + Nadiezhda Henríquez,MAGISTRADO,Magistrados SRVR,,ALTA,EXCLUIR,Transición hacia víctima,Mireya,2026-06-23
-Dabeiba,,05:24:27,05:34:27,Catalina Ortiz Zapata,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,Nombre completo confirmado por letrero presencial. Hermana de víctima,Mireya,2026-06-23
-Dabeiba,,05:35:17,05:50:14,Jaime Coral Trujillo,COMPARECIENTE,Sargento (r) ex integrante BCG No. 79,Letrero JEP confirmado,ALTA,ANALISIS,Rango completo confirmado por letrero presencial,Mireya,2026-06-23
-Dabeiba,,05:50:14,06:01:11,Levis de Jesús Contreras,COMPARECIENTE,Soldado profesional (r),Letrero JEP confirmado,ALTA,ANALISIS,Segunda aparición presencial,Mireya,2026-06-23
-Dabeiba,,06:01:35,06:50:10,Efraín Enrique Prada Correa,COMPARECIENTE,Coronel (r) ex comandante BCG No. 79,Letrero JEP confirmado,ALTA,ANALISIS,Bloque más largo compareciente — 49 min,Mireya,2026-06-23
-Dabeiba,,06:50:30,06:52:13,BLOQUE_COMPARECIENTES_NO_MR,EVENTO_ESTRUCTURAL,,,,ANALISIS,Comparecientes no máximos responsables sin letrero,Mireya,2026-06-23
-Dabeiba,,06:50:30,06:52:13,Juan David Aguirre,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,En bloque comparecientes no MR,Mireya,2026-06-23
-Dabeiba,,06:52:13,06:52:47,Oswaldo Manuel Arrieta Lara,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,Intervención muy breve 34 seg. PENDIENTE: continúa después,Mireya,2026-06-23
+audiencia,video_url,speaker_diar,inicio,fin,n_segmentos,tiempo_total_s,identidad,rol,rango_militar,evidencia_identificacion,confianza,uso,coincide_cfhdb,observaciones,anotador,fecha
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:02:23,00:04:22,,,Marlith Nieto,OTRO,Secretaria Judicial JEP,Letrero JEP,ALTA,EXCLUIR,NA,Lectura de reglas de audiencia. Mismo perfil que Catatumbo,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:04:22,00:05:52,,,Magistrados + Marlith Nieto,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,NA,Magistrados toman posición + secretaria retoma,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:06:03,00:12:21,,,Teresita Zapata,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,NA,Intercalada con Prada Correa 7:11-7:55 y 10:23-12:00. Coliseo Destrezas Dabeibanas,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:07:11,00:07:55,,,Efraín Enrique Prada Correa,COMPARECIENTE,Coronel (r) ex comandante BCG No. 79,Letrero JEP confirmado,ALTA,ANALISIS,NA,Primera intervención breve intercalada con Teresita Zapata,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:10:23,00:12:21,,,Efraín Enrique Prada Correa,COMPARECIENTE,Coronel (r) ex comandante BCG No. 79,Letrero JEP confirmado,ALTA,ANALISIS,NA,Segunda intervención intercalada con Teresita Zapata,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:13:00,00:13:50,,,Marlith Nieto,OTRO,Secretaria Judicial JEP,,ALTA,EXCLUIR,NA,Introduce video documental,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:13:50,00:24:38,,,VIDEO_DOCUMENTAL,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,NA,Video El Cementerio de la Verdad - miniserie JEP,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:24:38,00:33:09,,,Nadiezhda Henríquez,MAGISTRADO,Magistrada Sala de Reconocimiento de Verdad y Responsabilidad,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Magistrada relatora del caso Dabeiba,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:33:15,00:41:55,,,Alejandro Ramelli Arteaga,MAGISTRADO,Magistrado Sala de Reconocimiento de Verdad y Responsabilidad,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Magistrado relator del caso Dabeiba,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:42:07,00:44:20,,,Claudia Rocío Saldaña,MAGISTRADO,Magistrada Sala de Definición de Situaciones Jurídicas,Letrero JEP confirmado,ALTA,EXCLUIR,NA,,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:44:40,00:46:58,,,José Miller Hormiga,MAGISTRADO,Magistrado Sala de Definición de Situaciones Jurídicas,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Reaparece 2:20:30-2:28:45,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:46:58,00:48:40,,,VIDEO_MAGISTRADO_VIDAL,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,NA,Video Magistrado Roberto Carlos Vidal - fallo técnico,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:48:40,00:48:53,,,Marlith Nieto,OTRO,Secretaria Judicial JEP,,ALTA,EXCLUIR,NA,Retoma tras fallo técnico,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:49:03,00:53:20,,,Jairo Acosta Aristizábal,REPRESENTANTE_ENTIDAD,Procurador delegado ante la JEP,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Misma persona que Catatumbo,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:53:38,00:59:50,,,VIDEO_INSTITUCIONAL,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,NA,Video institucional,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,00:59:50,01:00:22,,,Marlith Nieto,OTRO,Secretaria Judicial JEP,,ALTA,EXCLUIR,NA,,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:01:30,01:09:45,,,Nadiezhda Henríquez,MAGISTRADO,Magistrada SRVR,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Segunda intervención,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:09:51,01:15:38,,,VIDEO_COMPARECIENTES_VICTIMAS,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,NA,Video documental con comparecientes y víctimas,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:09:51,01:15:38,,,Hermes Mauricio Alvarado,COMPARECIENTE,Mayor (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,NA,En video documental. Reaparece presencial 1:58:00-2:11:00,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:09:51,01:15:38,,,Levis de Jesús Contreras,COMPARECIENTE,Soldado Profesional (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,NA,En video documental. Reaparece presencial 5:50:14-6:01:11,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:09:51,01:15:38,,,Fidel Iván Ochoa,COMPARECIENTE,Sargento Viceprimero (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,NA,En video documental. Reaparece presencial video 5:13:47,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:09:51,01:15:38,,,Rubiela Manco,VICTIMA,,Letrero video: Compañera de víctima de falsos positivos,ALTA,CENTROIDE,NA,En video documental,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:09:51,01:15:38,,,Argenis Lezcano,VICTIMA,,Letrero video: Hija de víctima de falsos positivos,ALTA,CENTROIDE,NA,En video documental,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:15:58,01:16:39,,,Alejandro Ramelli Arteaga,MAGISTRADO,Magistrado SRVR,,ALTA,EXCLUIR,NA,Retoma brevemente,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:16:39,01:26:50,,,Rafael Goez,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,NA,Letrero desde 1:17:20,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:27:32,01:43:19,,,Edie Pinzón Turcios,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,NA,,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:43:34,01:57:42,,,Yair Leandro Rodríguez,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,NA,,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,01:58:00,02:11:00,,,Hermes Mauricio Alvarado,COMPARECIENTE,Mayor (r) del Ejército de Colombia,Letrero JEP confirmado,ALTA,ANALISIS,NA,Segunda aparición presencial,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,02:11:00,02:20:30,,,BLOQUE_COMPARECIENTES,EVENTO_ESTRUCTURAL,,,ALTA,ANALISIS,NA,Múltiples comparecientes máximos y no máximos responsables. Identificados con letrero: Ricardo Manuel Buelvas + compareciente sin nombre que habló a familiares (2:17:10),Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,02:11:00,02:20:30,,,Ricardo Manuel Buelvas,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,NA,En bloque comparecientes 2:11-2:20,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,02:20:30,02:28:45,,,José Miller Hormiga,MAGISTRADO,Magistrado SDSJ,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Segunda intervención,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,02:28:45,02:31:00,,,Nadiezhda Henríquez,MAGISTRADO,Magistrada SRVR,,ALTA,EXCLUIR,NA,Tercera intervención breve,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,02:31:19,02:42:30,,,Néstor Osuna,REPRESENTANTE_ENTIDAD,Ministro de Justicia,Letrero JEP confirmado,ALTA,EXCLUIR,NA,,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,02:43:07,02:52:20,,,Iván Velásquez,REPRESENTANTE_ENTIDAD,Ministro de Defensa,Letrero JEP confirmado,ALTA,EXCLUIR,NA,,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,02:53:10,03:02:02,,,Danilo Rueda,REPRESENTANTE_ENTIDAD,Alto Comisionado para la Paz,Letrero JEP confirmado,ALTA,EXCLUIR,NA,,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,03:03:10,03:10:10,,,Leyton Urrego,REPRESENTANTE_ENTIDAD,Alcalde de Dabeiba,Letrero JEP confirmado,ALTA,EXCLUIR,NA,,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,03:12:58,05:11:54,,,RECESO,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,NA,Receso largo ~2h. Marlith Nieto retoma con normas al final,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:13:20,05:13:47,,,Alejandro Ramelli Arteaga,MAGISTRADO,Magistrado SRVR,,ALTA,EXCLUIR,NA,Retoma brevemente e introduce video,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:13:47,05:21:00,,,VIDEO_COMPARECIENTES_VICTIMAS_2,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,NA,Video documental segunda parte,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:13:47,05:21:00,,,Efraín Enrique Prada,COMPARECIENTE,Coronel (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,NA,En video documental segunda parte,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:13:47,05:21:00,,,León,VICTIMA,,Letrero video: Habitante de calle de Medellín,ALTA,CENTROIDE,NA,Perfil de víctima - habitante de calle. Video 5:19:20,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:13:47,05:21:00,,,Jaime Coral Trujillo,COMPARECIENTE,Sargento Primero (r) del Ejército de Colombia,Letrero video confirmado,ALTA,ANALISIS,NA,En video documental segunda parte. Reaparece presencial,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:13:47,05:21:00,,,Catalina Ortiz,VICTIMA,,Letrero video: Hermana de víctima de falsos positivos,ALTA,CENTROIDE,NA,En video documental segunda parte. Nombre completo Catalina Ortiz Zapata,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:13:47,05:21:00,,,Esneda Altamirano,VICTIMA,,Letrero video: Tía de víctima de falsos positivos,ALTA,CENTROIDE,NA,En video documental segunda parte,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:13:47,05:21:00,,,Amparo Cano,VICTIMA,,Letrero video: Madre de víctima de falsos positivos,ALTA,CENTROIDE,NA,En video documental segunda parte,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:22:10,05:24:27,,,Alejandro Ramelli Arteaga + Nadiezhda Henríquez,MAGISTRADO,Magistrados SRVR,,ALTA,EXCLUIR,NA,Transición hacia víctima,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:24:27,05:34:27,,,Catalina Ortiz Zapata,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,NA,Nombre completo confirmado por letrero presencial. Hermana de víctima,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:35:17,05:50:14,,,Jaime Coral Trujillo,COMPARECIENTE,Sargento (r) ex integrante BCG No. 79,Letrero JEP confirmado,ALTA,ANALISIS,NA,Rango completo confirmado por letrero presencial,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,05:50:14,06:01:11,,,Levis de Jesús Contreras,COMPARECIENTE,Soldado profesional (r),Letrero JEP confirmado,ALTA,ANALISIS,NA,Segunda aparición presencial,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:01:35,06:50:10,,,Efraín Enrique Prada Correa,COMPARECIENTE,Coronel (r) ex comandante BCG No. 79,Letrero JEP confirmado,ALTA,ANALISIS,NA,Bloque más largo compareciente — 49 min,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:50:30,06:52:13,,,BLOQUE_COMPARECIENTES_NO_MR,EVENTO_ESTRUCTURAL,,,ALTA,ANALISIS,NA,Comparecientes no máximos responsables sin letrero,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:50:30,06:52:13,,,Juan David Aguirre,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,NA,En bloque comparecientes no MR,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:52:13,06:52:47,,,Oswaldo Manuel Arrieta Lara,COMPARECIENTE,Compareciente,Letrero JEP confirmado,ALTA,ANALISIS,NA,Intervención muy breve 34 seg,Mireya,2026-06-23
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:52:47,06:53:41,,,Ferney Triana Lozano,COMPARECIENTE,,Letrero JEP confirmado,ALTA,ANALISIS,NA,Img: dabeiba_ferney_triana_065247.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:53:50,06:55:10,,,Luis Fidel Arenas Rodríguez,COMPARECIENTE,,Letrero JEP confirmado,ALTA,ANALISIS,NA,Img: dabeiba_luis_arenas_065350.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:55:26,06:56:00,,,Omar Orlando Buesaquillo Ruiz,COMPARECIENTE,,Letrero JEP confirmado,ALTA,ANALISIS,NA,Img: dabeiba_omar_buesaquillo_065526.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:56:00,06:57:23,,,Manuel Antonio Quintero Flórez,COMPARECIENTE,,Letrero JEP: etiqueta dice Compareciente4 (error maquetación JEP),ALTA,ANALISIS,NA,Img: dabeiba_manuel_quintero_065600.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:58:28,06:58:40,,,Alfonso Romero Buitrago,COMPARECIENTE,,Letrero JEP confirmado,ALTA,ANALISIS,NA,Intervención breve ~12 seg antes de Saldaña. Img: dabeiba_alfonso_romero_065828.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,06:58:40,07:16:10,,,Claudia Rocío Saldaña,MAGISTRADO,Magistrada Sala de Definición de Situaciones Jurídicas,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Img: dabeiba_claudia_saldana_065840.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,07:16:10,07:43:27,,,RECESO,EVENTO_ESTRUCTURAL,,,ALTA,EXCLUIR,NA,Receso — sin audio analizable,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,07:43:27,07:44:17,,,Alejandro Ramelli Arteaga,MAGISTRADO,Magistrado SRVR,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Retoma tras receso,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,07:44:17,07:51:43,,,Efrén Úsuga,VICTIMA,Hermano de víctima de falsos positivos,Letrero video externo confirmado,ALTA,CENTROIDE,NA,VIDEO_EXTERNO — bloque compartido 07:44:17-07:51:43. Img: dabeiba_efren_usuga_074417.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,07:44:17,07:51:43,,,William Andrés Capera,COMPARECIENTE,Sargento Segundo (R) Ejército de Colombia,Letrero video externo confirmado,ALTA,ANALISIS,NA,VIDEO_EXTERNO — BCG No. 79. Bloque compartido 07:44:17-07:51:43. Img: dabeiba_william_capera_video_074417.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,07:44:17,07:51:43,,,Levis de Jesús Contreras,COMPARECIENTE,Soldado Profesional (R) Ejército de Colombia,Letrero video externo confirmado,ALTA,ANALISIS,NA,VIDEO_EXTERNO — BCG No. 79. Bloque compartido 07:44:17-07:51:43. Tercera aparición. Img: dabeiba_levis_contreras_video_074417.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,07:44:17,07:51:43,,,Efraín Enrique Prada Correa,COMPARECIENTE,Coronel (R) Ejército de Colombia,Letrero video externo confirmado,ALTA,ANALISIS,NA,VIDEO_EXTERNO — BCG No. 79. Bloque compartido 07:44:17-07:51:43. Cuarta aparición total. Img: dabeiba_efrain_prada_video_074417.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,07:51:50,07:54:22,,,Óscar Parra Vera,MAGISTRADO,Magistrado SRVR,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Img: dabeiba_oscar_parra_075150.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,07:54:51,08:01:11,,,Esneda Altamirado,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,NA,Primera intervención presencial. Img: dabeiba_esneda_altamirado_075451.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,08:02:13,08:24:30,,,William Andrés Capera,COMPARECIENTE,Sargento Segundo (R) Ejército de Colombia,Letrero JEP sala: Sargento (r) William Andrés Capera — Ex integrante BCG No. 79,ALTA,ANALISIS,NA,Bloque largo en sala — ~22 min. Img: dabeiba_william_capera_sala_080213.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,08:25:10,08:48:01,,,Fidel Iván Ochoa Blanco,COMPARECIENTE,Sargento (R) Ejército de Colombia,Letrero JEP sala: Sargento (r) Fidel Iván Ochoa Blanco — Ex integrante BCG No. 79,ALTA,ANALISIS,NA,Bloque largo en sala — ~23 min. Img: dabeiba_fidel_ochoa_082510.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,08:48:20,08:50:13,,,Carlos Andrés Caravalli,COMPARECIENTE,,Identificado por Mireya — sin letrero en sala,MEDIA,ANALISIS,NA,Sin letrero visible en sala. Identificado por reconocimiento visual. Img: dabeiba_caravalli_084820.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,08:50:15,09:05:10,,,Catalina Díaz Gómez,MAGISTRADO,Magistrada SRVR,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Img: dabeiba_catalina_diaz_085015.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,09:05:45,09:11:18,,,Jesús María Súarez,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,NA,Pantalla muestra fotos víctimas: Ovidio Jiménez / Jesús Javier Suárez Caro / Alveiro Úsuga. Img: dabeiba_jesus_suarez_090545.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,09:11:54,09:19:54,,,Esneda Altamirado,VICTIMA,,Letrero JEP: Víctima acreditada,ALTA,CENTROIDE,NA,Segunda intervención — incluye minuto de silencio al cierre (hasta 09:19:54). Img: dabeiba_esneda_altamirado_091154.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,09:20:10,09:37:22,,,Jairo Acosta Aristizábal,REPRESENTANTE_ENTIDAD,Procurador delegado ante la JEP,Identificado por Mireya — sin letrero visible; mismo procurador de sesiones previas,MEDIA,EXCLUIR,NA,Cierre Ministerio Público. Pantalla split Comparecientes + Ministerio Público. Img: dabeiba_ministerio_publico_092010.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,09:37:22,10:01:20,,,Nadiezhda Henríquez,MAGISTRADO,Magistrada SRVR,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Magistrada SRVR — cierre institucional. Img: dabeiba_nadiezhda_henriquez_093722.png,Mireya,2026-06-24
+Dabeiba,youtube.com/watch?v=xb1W_PggE8U,,10:01:20,10:08:12,,,Alejandro Ramelli Arteaga,MAGISTRADO,Magistrado SRVR,Letrero JEP confirmado,ALTA,EXCLUIR,NA,Magistrado SRVR — cierre final de audiencia. Img: dabeiba_ramelli_100120.png,Mireya,2026-06-24
