@@ -1,11 +1,11 @@
 {
   "version": "corpus_c_victimas_v5",
-  "timestamp": "2026-06-21T20:19:15.840698",
-  "total": 194,
+  "timestamp": "2026-06-23T22:13:49.981203",
+  "total": 207,
   "por_nivel": {
-    "1": 25,
+    "1": 26,
     "2": 25,
-    "3": 144
+    "3": 156
   },
   "por_audiencia": {
     "casanare_torres": 13,
@@ -13,6 +13,7 @@
     "costa_caribe": 24,
     "dabeiba_antioquia": 17,
     "huila": 13,
+    "obs_barranquilla_dia1": 13,
     "obs_barranquilla_dia2": 13,
     "obs_costa_caribe_atanquez": 16,
     "obs_dabeiba_antioquia_dia1": 21,
@@ -677,6 +678,110 @@
       "score": 3,
       "identidad": 0,
       "longitud": 88
+    },
+    {
+      "texto": "Soy hermano de Iván de Jesús Sierra de la Rosa, uno de las víctimas del 20 de noviembre,",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 88
+    },
+    {
+      "texto": "Por respeto con ellas y por su dolor, la magistratura solicita evitar el registro en primeros planos de las víctimas presentes en esta audiencia.",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 145
+    },
+    {
+      "texto": "víctimas cuyos familiares se encuentran hoy en esta diligencia,",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 63
+    },
+    {
+      "texto": "Esperamos que esta escucha y reconocimiento de los familiares de las víctimas en esta audiencia contribuya para que a lo largo de este proceso judicial restaurativo se fomente en lo posible la reflexión en los comparecientes.",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 225
+    },
+    {
+      "texto": "Atendiendo el propósito de esta audiencia, escucharemos a los familiares de las víctimas quienes de viva voz,",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 109
+    },
+    {
+      "texto": "Procedemos a escuchar las observaciones de un grupo de familiares de víctimas de hechos cuestionados como asesinatos",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 116
+    },
+    {
+      "texto": "En que a nuestros hijos y los hermanos de las víctimas, sobrinos,",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 65
+    },
+    {
+      "texto": "Y víctimas y familiares de víctimas, las fundaciones de víctimas, abogados y afusodos, y todas las personas presentes en este recinto,",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 134
+    },
+    {
+      "texto": "nuestros familiares son fueron unas víctimas más de personas que no aman el",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 75
+    },
+    {
+      "texto": "Y si él llegó a ese pueblo, porque lo llevaba alguien que conocía a esos sitios donde estaban llevando a los niños que eran los reclutadores, pero sí quiero saber quién eran los reclutadores que se llevaron a mi hermano y a Darwin Aragón.",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 238
+    },
+    {
+      "texto": "Y lo que las víctimas nos han tenido manifestando y nos enseñan el día de hoy es que tener la verdad sobre los hechos hace que el dolor que han sufrido durante estos años pueda de alguna manera apaciguarse con esa verdad que esperan.",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 233
+    },
+    {
+      "texto": "Porque sinceramente hay que hablarlo así, no solamente con las víctimas civiles, sino a veces también cometen los delitos con los mismos soldados que no se prestan para las matrañas de ellos.",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 191
+    },
+    {
+      "texto": "Que estén recibiendo lo que realmente necesitan las víctimas. Usted sabe lo doloroso que fue para la mamá de ese señor que está ahí en pantalla. Una señora agonizando, deseaba ver a su hijo.",
+      "audiencia": "obs_barranquilla_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 190
     },
     {
       "texto": "el sufrimiento de familiares de las víctimas y también su fortaleza para reclamar durante años la verdad.",
