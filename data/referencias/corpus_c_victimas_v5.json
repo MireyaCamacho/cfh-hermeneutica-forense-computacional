@@ -1,11 +1,11 @@
 {
   "version": "corpus_c_victimas_v5",
-  "timestamp": "2026-06-23T22:13:49.981203",
-  "total": 207,
+  "timestamp": "2026-06-24T08:27:01.455027",
+  "total": 222,
   "por_nivel": {
-    "1": 26,
+    "1": 29,
     "2": 25,
-    "3": 156
+    "3": 168
   },
   "por_audiencia": {
     "casanare_torres": 13,
@@ -19,6 +19,7 @@
     "obs_dabeiba_antioquia_dia1": 21,
     "obs_fase_nacional_20260409": 18,
     "obs_huila_2022": 12,
+    "obs_montoya_granada_dia1": 15,
     "obs_rc05_20260424": 15,
     "obs_san_juan_cesar": 17
   },
@@ -1422,6 +1423,126 @@
       "score": 2,
       "identidad": 0,
       "longitud": 186
+    },
+    {
+      "texto": "para todos, mi nombre es Carolina Ríos Agudelo, representante de víctimas,",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 74
+    },
+    {
+      "texto": "Especial para la Paz y represento a algunas de las víctimas aquí presentes.",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 75
+    },
+    {
+      "texto": "y represento a las víctimas indeterminadas, no acreditadas y colectivas.",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 72
+    },
+    {
+      "texto": "Antes de empezar propiamente tal, quisiera presentarle un saludo muy especial a todas las víctimas que nos acompañan, decía, a las madres, padres, hermanas, hermanos, compañeras, esposas, hijas, hijos y otros familiares que están hoy aquí presentes y a los intervinientes especiales,",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 283
+    },
+    {
+      "texto": "hijos e hijas y otros familiares y víctimas que se han hecho aquí presentes, así como de sus representantes judiciales y del señor Procurador Delegado.",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 151
+    },
+    {
+      "texto": "En Antioquia, las víctimas de estos hechos eran campesinos, paneleros, jornaleros y agricultores,",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 97
+    },
+    {
+      "texto": "El Oriente Antioqueño resguarda hoy el dolor de las víctimas del caso 003 que investiga",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 87
+    },
+    {
+      "texto": "la Unidad Nacional de Víctimas, y ellos hacían reuniones con los campesinos,",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 76
+    },
+    {
+      "texto": "ya no teníamos como que comer ni nada y ya, gracias a Dios, luchar y el dolor muy triste, la desolación y la familia nunca volvió a ser la misma.",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 145
+    },
+    {
+      "texto": "esa dignidad de las víctimas y de las familias.",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 47
+    },
+    {
+      "texto": "lo mío fue en la ciudad y de verdad que ahora más que todo, se los digo de todo corazón, a todos ustedes las víctimas, que ahora los considero más mi familia,",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 158
+    },
+    {
+      "texto": "Yo hoy hablo por las víctimas no priorizadas, a nuestros familiares los mató el batallón granadero número 4,",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 108
+    },
+    {
+      "texto": "las víctimas que no hemos sido priorizados, también es difícil saber que de pronto el caso de nuestros familiares",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 113
+    },
+    {
+      "texto": "entonces como familia y pues en nombre de las víctimas solicitamos a estos exmilitares",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 86
+    },
+    {
+      "texto": "El propósito de esta audiencia es escuchar las observaciones que las madres, padres, hermanas, hermanos, compañeras, esposas, hijos, hijas, otros familiares de estos civiles y otros,",
+      "audiencia": "obs_montoya_granada_dia1",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 182
     },
     {
       "texto": "los de las víctimas, las familias, las comunidades afectadas, sus propuestas, sus ideas de proyecto en respuestas de justicia material efectiva.",

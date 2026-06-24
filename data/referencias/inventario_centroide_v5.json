@@ -1,12 +1,12 @@
 {
   "version": "v5_final",
-  "n_textos_efectivos": 265,
+  "n_textos_efectivos": 293,
   "n_base_mafapo": 25,
   "n_candidatos_v4": 216,
-  "n_candidatos_v5": 24,
-  "n_voz_directa_w18": 56,
-  "margen_estimado_pct": 6.14,
-  "norma": 14.274219130000015,
+  "n_candidatos_v5": 52,
+  "n_voz_directa_w18": 60,
+  "margen_estimado_pct": 5.84,
+  "norma": 14.277738206699684,
   "modelo": "eventdata-utd/ConfliBERT-Spanish-Beto-Cased-v1",
   "metodo": "CLS token, promedio ponderado w=1.8 voz directa / w=1.0 escrito, dedup por 100 chars"
 }
