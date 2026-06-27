@@ -1,0 +1,23 @@
+﻿subcaso,archivo,pct_seg_danado,pct_dur_danada,estado,tipo_vacio,tipo_frase_loop,tipo_mono_caracter
+casanare,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\corpus_c\casanare_torres_segments.json,0.1,0.1,LIMPIA ✓,8.0,,
+casanare,G:\Mi unidad\CFH_Hermeneutica_Forense_Computacional\corpus_c\casanare_torres_segments.json,0.1,0.1,LIMPIA ✓,8.0,,
+casanare,G:\Mi unidad\CHF_Corpus\corpus_c\Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918_segments.json,0.0,0.0,LIMPIA ✓,,,
+casanare,G:\Mi unidad\CHF_Corpus\corpus_c\casanare_torres_segments.json,0.1,0.1,LIMPIA ✓,8.0,,
+catatumbo,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\corpus_c\catatumbo_audiencia_reconocimiento_segments.json,86.2,76.2,MUY DAÑADA ✗,8161.0,3.0,
+catatumbo,G:\Mi unidad\CFH_Hermeneutica_Forense_Computacional\corpus_c\catatumbo_audiencia_reconocimiento_segments.json,86.2,76.2,MUY DAÑADA ✗,8161.0,3.0,
+catatumbo,G:\Mi unidad\CHF_Corpus\corpus_c\catatumbo_audiencia_reconocimiento_segments.json,86.2,76.2,MUY DAÑADA ✗,8161.0,3.0,
+dabeiba,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\corpus_c\dabeiba_antioquia_segments.json,0.0,0.0,LIMPIA ✓,1.0,,
+dabeiba,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\corpus_c\obs_dabeiba_antioquia_dia1_segments.json,0.0,0.0,LIMPIA ✓,,,
+dabeiba,G:\Mi unidad\CFH_Hermeneutica_Forense_Computacional\corpus_c\dabeiba_antioquia_segments.json,0.0,0.0,LIMPIA ✓,1.0,,
+dabeiba,G:\Mi unidad\CHF_Corpus\corpus_c\dabeiba_antioquia_segments.json,0.0,0.0,LIMPIA ✓,1.0,,
+huila,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\corpus_c\huila_segments.json,0.4,0.2,LIMPIA ✓,16.0,,1.0
+huila,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\corpus_c\obs_huila_2022_segments.json,0.0,0.0,LIMPIA ✓,,,1.0
+huila,G:\Mi unidad\CFH_Hermeneutica_Forense_Computacional\corpus_c\huila_segments.json,0.4,0.2,LIMPIA ✓,16.0,,1.0
+huila,G:\Mi unidad\CHF_Corpus\corpus_c\Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810_segments.json,0.1,0.0,LIMPIA ✓,2.0,,1.0
+huila,G:\Mi unidad\CHF_Corpus\corpus_c\Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)_segments.json,0.0,0.0,LIMPIA ✓,,,1.0
+huila,G:\Mi unidad\CHF_Corpus\corpus_c\huila_segments.json,0.4,0.2,LIMPIA ✓,16.0,,1.0
+costa_caribe,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\corpus_c\costa_caribe_segments.json,26.9,13.7,DAÑO PARCIAL,1186.0,,
+costa_caribe,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\corpus_c\obs_costa_caribe_atanquez_segments.json,0.1,0.1,LIMPIA ✓,8.0,,
+costa_caribe,C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\data\costa_caribe_segments.json,26.9,13.7,DAÑO PARCIAL,1186.0,,
+costa_caribe,G:\Mi unidad\CFH_Hermeneutica_Forense_Computacional\corpus_c\costa_caribe_segments.json,26.9,13.7,DAÑO PARCIAL,1186.0,,
+costa_caribe,G:\Mi unidad\CHF_Corpus\corpus_c\costa_caribe_segments.json,26.9,13.7,DAÑO PARCIAL,1186.0,,

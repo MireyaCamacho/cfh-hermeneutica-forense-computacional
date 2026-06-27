@@ -82,3 +82,11 @@ face_landmarker.task
 !docs/**/*.pptx 
 !docs/**/*.png 
 !models/*.zip 
+corpus_c/_catatumbo_chunks/ 
+corpus_c/_costa_caribe_chunks/ 
+*.mp4 
+*.mp4.part 
+*.wav 
+*.bak 
+*.tar.gz 
+D:/cfh_tmp_audio/ 
