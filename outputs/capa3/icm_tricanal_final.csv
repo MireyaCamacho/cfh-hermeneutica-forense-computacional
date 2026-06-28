@@ -1,4 +1,42 @@
-﻿subcaso,identidad,icm_facial,n_facial,icm_vocal,n_vocal,y10_rep,n_tokens,icm_tricanal,canales
-Catatumbo,Juan Carlos Chaparro Chaparro,0.223,237,0.483,101,0.186,1434,0.32,F+V+Verb
-Catatumbo,Ruben Dario Castro Gomez,,0,0.408,116,0.749,2258,0.522,V+Verb
-Catatumbo,Santiago Herrera Fajardo,,0,0.492,139,0.228,2883,0.404,V+Verb
+﻿subcaso,identidad,icm_facial,n_facial,icm_vocal,n_vocal,y10_rep,n_tokens,icm_tricanal,canales,robustez,nota_robustez
+Catatumbo,Juan Carlos Chaparro Chaparro,0.399,237,0.584,101,0.186,1434,0.431,F+V+Verb,solido,
+Catatumbo,Ruben Dario Castro Gomez,,0,0.514,116,0.749,2258,0.592,V+Verb,solido,
+Catatumbo,Santiago Herrera Fajardo,,0,0.624,139,0.228,2883,0.492,V+Verb,solido,
+Dabeiba,Carlos Andrés Caravalli,,0,0.608,12,0.0,186,0.405,V+Verb,minimo,"evidencia escasa en: verbal,vocal"
+Dabeiba,Edie Pinzón Turcios,0.206,201,0.61,95,0.096,1740,0.346,F+V+Verb,solido,
+Dabeiba,Efraín Enrique Prada Correa,,0,0.606,310,0.124,4683,0.445,V+Verb,solido,
+Dabeiba,Fidel Iván Ochoa Blanco,,0,0.536,138,0.095,1843,0.389,V+Verb,solido,
+Dabeiba,Hermes Mauricio Alvarado,0.559,203,0.587,78,0.035,1558,0.465,F+V+Verb,solido,
+Dabeiba,Jaime Coral Trujillo,,0,0.569,90,0.092,1741,0.41,V+Verb,solido,
+Dabeiba,Juan David Aguirre,,0,0.593,10,0.0,104,0.395,V+Verb,minimo,"evidencia escasa en: verbal,vocal"
+Dabeiba,Levis de Jesús Contreras,,0,0.581,66,0.054,833,0.405,V+Verb,solido,
+Dabeiba,Ricardo Manuel Buelvas,,0,0.56,57,0.094,919,0.405,V+Verb,solido,
+Dabeiba,William Andrés Capera,,0,0.605,134,0.132,2278,0.447,V+Verb,solido,
+Dabeiba,Yair Leandro Rodríguez,0.061,236,0.573,86,0.05,1071,0.264,F+V+Verb,solido,
+Casanare,Henry Torres Escalante,0.739,830,0.645,1414,0.079,32343,0.57,F+V+Verb,solido,
+Huila,Angel Fernando Carvajal Rojas,0.156,104,0.58,44,0.0,521,0.294,F+V+Verb,solido,
+Huila,Annuar Herrera Osorio,,0,0.64,18,0.278,235,0.519,V+Verb,minimo,evidencia escasa en: vocal
+Huila,Aris Ramirez Campos,0.022,277,0.583,107,0.158,1616,0.274,F+V+Verb,solido,
+Huila,Cesar Augusto Vasquez Ordoñez,0.657,127,0.639,54,0.064,540,0.532,F+V+Verb,solido,
+Huila,Divar Juspian Jimenez,,0,0.584,28,0.205,408,0.458,V+Verb,solido,
+Huila,Fabian Fermin Durango de la Cruz,0.449,140,0.584,49,0.104,706,0.434,F+V+Verb,solido,
+Huila,Fabio Nelson Rodriguez Barrera,,0,0.616,37,0.207,643,0.479,V+Verb,solido,
+Huila,Faiver Coronado Camero,0.448,148,0.656,209,0.224,3235,0.486,F+V+Verb,solido,
+Huila,Fernando Riveros Sarmiento,0.891,28,0.572,64,0.769,842,0.739,F+V+Verb,minimo,evidencia escasa en: facial
+Huila,Francisco Javier Castañeda Alfaro,0.039,100,0.604,48,0.554,729,0.368,F+V+Verb,solido,
+Huila,Harbey Sanchez Gomez,0.808,53,0.535,15,1.0,176,0.737,F+V+Verb,minimo,"evidencia escasa en: verbal,vocal"
+Huila,Hernando Mendez Rodriguez,,0,0.61,15,0.357,174,0.526,V+Verb,minimo,"evidencia escasa en: verbal,vocal"
+Huila,Jair Arias Sanchez,,0,0.582,58,0.665,772,0.609,V+Verb,solido,
+Huila,Jair Fernandez,0.027,179,0.613,77,0.143,1026,0.285,F+V+Verb,solido,
+Huila,Jhon Jairo Buitrago Lopez,0.425,329,0.59,136,0.038,2404,0.413,F+V+Verb,solido,
+Huila,Jose Albeiro Bustos Aguilar,0.239,52,0.541,27,0.208,344,0.354,F+V+Verb,solido,
+Huila,Jose David Restrepo Solarte,,0,0.592,76,0.0,1154,0.394,V+Verb,solido,
+Huila,Jose Fabio Guzman Muñoz,0.388,50,0.586,20,0.0,337,0.39,F+V+Verb,solido,
+Huila,Jose Gañan Tapasco,,0,0.638,21,0.227,193,0.501,V+Verb,minimo,evidencia escasa en: verbal
+Huila,Jose Roldan Lopez Ceron,,0,0.598,40,0.179,376,0.458,V+Verb,solido,
+Huila,Jose Yati Anacona Bueno,,0,0.614,26,0.0,370,0.41,V+Verb,solido,
+Huila,Julian Andres Calderon Motta,,0,0.647,58,0.183,1151,0.492,V+Verb,solido,
+Huila,Luis Carlos Aguilera Quintero,0.007,547,0.549,225,0.621,3481,0.347,F+V+Verb,solido,
+Huila,Luis Carlos Oyola Tapia,0.36,134,0.608,42,0.132,524,0.414,F+V+Verb,solido,
+Huila,Ricardo Andres Lopez Garcia,0.788,114,0.633,101,0.119,2335,0.592,F+V+Verb,solido,
+Huila,Wilder Samboni Chanchi,0.383,77,0.636,29,0.108,627,0.429,F+V+Verb,solido,
