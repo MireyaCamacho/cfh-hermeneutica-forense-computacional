@@ -1,0 +1,49 @@
+==============================================================================
+TABLA DE REFERENCIA — Intensidad de Action Units de distress
+MediaPipe FaceLandmarker | Corpus Macrocaso 003 JEP | habla judicial espanol
+==============================================================================
+
+N = 47 comparecientes | 51155 frames | 5 subcasos
+AUs de distress: AU1 (inner brow raiser), AU4 (brow lowerer),
+                 AU15 (lip corner depressor), AU17 (chin raiser)
+  (Ekman et al. 2002: expresion prototipica de tristeza/distress)
+
+-- DISTRESS AGREGADO (media de las 4 AUs) --
+  media (mu)      = 0.1024
+  desv std (sigma)= 0.0369
+  minimo          = 0.0398
+  percentil 25    = 0.0727
+  mediana         = 0.0984
+  percentil 75    = 0.1195
+  percentil 90    = 0.1562
+  maximo          = 0.1711
+
+-- POR ACTION UNIT (media +/- std sobre 47 comparecientes) --
+  AU        media      std      min      max
+  AU1      0.0273   0.0398   0.0002   0.2126
+  AU4      0.3025   0.1757   0.0464   0.6371
+  AU6      0.0000   0.0000   0.0000   0.0000
+  AU12     0.0735   0.0565   0.0044   0.2256
+  AU15     0.0073   0.0125   0.0001   0.0758
+  AU17     0.0724   0.0804   0.0035   0.3760
+
+-- POR SUBCASO (distress medio) --
+  subcaso           n  mu_distress      std
+  Casanare          1       0.0676      nan
+  Catatumbo         3       0.0511   0.0105
+  CostaCaribe       5       0.0894   0.0186
+  Dabeiba          15       0.1141   0.0385
+  Huila            23       0.1058   0.0356
+
+-- VALORES PARA NORMALIZACION ICM (z-score congelado) --
+  FACIAL_MU    = 0.1024
+  FACIAL_SIGMA = 0.0369
+  (estos son los valores que el ICM usa para z = (distress-mu)/sigma)
+
+[GUARDADO] tabla por compareciente: referencia_AUs_distress_corpus.csv
+
+NOTA PARA TESIS/PAPER: valores especificos de este corpus, configuracion de
+MediaPipe y poblacion (mestiza/afrocolombiana). NO es umbral universal; sirve
+como referencia descriptiva para contextos similares (justicia transicional,
+espanol). Transferibilidad requiere validacion (Sen et al. 2024; Buolamwini &
+Gebru 2018 — auditoria intersectional pendiente).

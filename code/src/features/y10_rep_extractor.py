@@ -407,8 +407,22 @@ class REPExtractor:
         if sent_count == 0:
             score_raw = 0.0
         else:
-            peso_total = sum(i.weight for i in all_instances)
-            score_raw = peso_total / sent_count
+            # PROPORCIÓN PONDERADA de oraciones reparadoras sobre el total.
+            # No mide densidad por oración (que saturaba con textos cortos:
+            # 1 acto / 1 oración = 1.0), sino qué fracción del discurso del
+            # compareciente es reparadora. Independiente de la longitud total
+            # del habla (que depende del tiempo que la JEP asignó, no del
+            # compareciente). Cada oración con REP aporta el peso de su
+            # mecanismo MÁS FUERTE; se divide por el total de oraciones.
+            peso_por_oracion = {}
+            for inst in all_instances:
+                si = inst.sent_index
+                if si < 0:
+                    continue
+                if inst.weight > peso_por_oracion.get(si, 0.0):
+                    peso_por_oracion[si] = inst.weight
+            suma_pesos_oraciones = sum(peso_por_oracion.values())
+            score_raw = suma_pesos_oraciones / sent_count
 
         score_normalized = self.normalizer.normalize(score_raw)
         elapsed = time.perf_counter() - t0
