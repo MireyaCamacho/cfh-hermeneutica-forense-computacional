@@ -90,3 +90,5 @@ corpus_c/_costa_caribe_chunks/
 *.bak 
 *.tar.gz 
 D:/cfh_tmp_audio/ 
+reproducible/data/dis_iei_corpus_c_unificado.csv
+reproducible/data/indicators_corpus_c_unificado.csv
