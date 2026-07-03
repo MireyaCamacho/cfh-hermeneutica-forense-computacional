@@ -109,6 +109,21 @@ REP_RECONOCIMIENTO_FRASES = [
     r"\breconozco\s+(?:ante\s+(?:las?\s+)?víctimas?|públicamente|la\s+verdad)",
     r"\baporte\s+(?:a\s+la\s+)?verdad\s+(?:completa|plena|detallada|exhaustiva)",
     r"\bverdad\s+(?:completa|plena|detallada|exhaustiva)",
+
+    # --- patrones ORALES anadidos (habla de comparecientes) ---
+    r"\byo\s+(?:asesiné|maté|ejecuté|disparé|le\s+disparé|los\s+maté|lo\s+maté)",
+    r"\b(?:asesiné|maté|ejecuté)\s+(?:a\s+)?(?:ese|este|el|la|los|las|un|una|don|doña)",
+    r"\byo\s+fui\b(?![\w\s]{0,10}(?:testigo|víctima))",
+    r"\b(?:le\s+)?dije\s+yo\s+fui",
+    r"\bnosotros\s+(?:montamos|hicimos|cometimos|causamos|matamos|ejecutamos)",
+    r"\b(?:causamos|cometimos|ocasionamos|provocamos)\s+(?:mucho\s+)?(?:daño|dolor|sufrimiento|muerte)",
+    r"\bmontamos\s+un\s+retén",
+    r"\bdeshonré\s+(?:el|la|mi)",
+    r"\b(?:le\s+)?fallé\s+(?:a\s+)?(?:mi|la|las|los|el)",
+    r"\bno\s+me\s+lo\s+merezco",
+    r"\b(?:acepto|reconozco|asumo)\s+(?:que\s+)?(?:lo\s+)?(?:hice|participé|estuve|cometí)",
+    r"\breconozco\s+mi\s+responsabilidad\b",
+    r"\baceptar\s+mi\s+responsabilidad\b",
 ]
 
 # ── Mecanismo 2: Restitución de identidad ────────────────────────────────
@@ -175,6 +190,18 @@ REP_REPARACION_FRASES = [
     r"\bsanción\s+propia",
     r"\bjusticia\s+restaurativa",
     r"\bmedida(?:s)?\s+(?:de\s+)?(?:reparación|contribución|satisfacción)",
+
+    # --- patrones ORALES anadidos (habla de comparecientes) ---
+    r"\b(?:le|les|te)?\s*pido\s+perdón\b",
+    r"\bpedir(?:le|les)?\s+perdón\b",
+    r"\bpedirles\s+perdón\b",
+    r"\bquiero\s+pedir(?:le|les)?\s+perdón",
+    r"\bespero\s+que\s+(?:algún\s+día\s+)?(?:nos|me)\s+perdonen",
+    r"\b(?:nos|me)\s+puedan\s+perdonar",
+    r"\bsi\s+algún\s+día\s+me\s+pueden\s+perdonar",
+    r"\b(?:le|les)\s+(?:pido|ofrezco)\s+(?:mis\s+)?disculpas",
+    r"\bpido\s+disculpas\b",
+    r"\bperdón\s+(?:a|de)?\s*[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\s+[A-ZÁÉÍÓÚÑ]",
 ]
 
 # Compilar todos los patrones
@@ -375,6 +402,7 @@ class REPExtractor:
                 f"Instala: python -m spacy download {model_name}"
             )
 
+        self._nlp.max_length = 3000000  # autos JEP muy largos
     def extract(
         self,
         text: str,
@@ -396,10 +424,28 @@ class REPExtractor:
 
         # Todos los mecanismos se detectan sobre el texto completo con regex
         # (más robusto que análisis por oración para REP, que es más léxico)
-        all_instances.extend(self._detect_reconocimiento(text, sentences))
-        all_instances.extend(self._detect_restitución(text, sentences))
-        all_instances.extend(self._detect_dih(text, sentences))
-        all_instances.extend(self._detect_reparación(text, sentences))
+        # SEPARACION POR CORPUS (diseno teorico CFH):
+        # A (justicia ordinaria): ruptura epistemica institucional
+        #   = dejar de eufemizar y nombrar en terminos de DIH/victimas/reparacion.
+        # B (autos JEP): TODOS los detectores — el auto recoge los
+        #   reconocimientos de los comparecientes (justicia transicional),
+        #   ademas del lenguaje institucional.
+        # C (habla oral del compareciente): reconocimiento en 1a persona
+        #   = aceptacion de autoria + perdon + restitucion de la victima
+        #   (sin el DIH tecnico del tribunal).
+        if corpus_type == "A":
+            all_instances.extend(self._detect_restitución(text, sentences))
+            all_instances.extend(self._detect_dih(text, sentences))
+            all_instances.extend(self._detect_reparación(text, sentences))
+        elif corpus_type == "B":
+            all_instances.extend(self._detect_reconocimiento(text, sentences))
+            all_instances.extend(self._detect_restitución(text, sentences))
+            all_instances.extend(self._detect_dih(text, sentences))
+            all_instances.extend(self._detect_reparación(text, sentences))
+        else:  # Corpus C (oral)
+            all_instances.extend(self._detect_reconocimiento(text, sentences))
+            all_instances.extend(self._detect_reparación(text, sentences))
+            all_instances.extend(self._detect_restitución(text, sentences))
 
         # Eliminar duplicados por solapamiento de spans
         all_instances = self._dedup_instances(all_instances)
