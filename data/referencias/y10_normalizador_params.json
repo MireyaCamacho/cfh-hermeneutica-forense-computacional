@@ -1,0 +1,12 @@
+{
+  "metodo": "zscore_sigmoide",
+  "distribucion": "corpus_C_47_comparecientes",
+  "extractor_version": "y10-v4",
+  "mu": 0.24737649246959395,
+  "sigma": 0.13134101727550654,
+  "n_total": 47,
+  "n_a": 0,
+  "n_b": 0,
+  "n_c": 47,
+  "generado": "2026-07-04T18:08:22"
+}
