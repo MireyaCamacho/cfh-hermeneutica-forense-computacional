@@ -18,8 +18,8 @@ from pathlib import Path
 from collections import defaultdict
 
 REPO       = Path(r"C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional")
-CORPUS_C   = REPO / "corpus_c"
-OUTPUT_DIR = REPO / "data" / "referencias"
+CORPUS_C   = Path(r"G:\Mi unidad\CHF_Corpus\corpus_c")
+OUTPUT_DIR = Path(r"G:\Mi unidad\CHF_Corpus\referencias")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Lexicones ──────────────────────────────────────────────────────────────
@@ -185,6 +185,7 @@ output = {
 }
 
 ruta = OUTPUT_DIR / "corpus_c_victimas_ampliado.json"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 with open(ruta, "w", encoding="utf-8") as f:
     json_mod.dump(output, f, ensure_ascii=False, indent=2)
 

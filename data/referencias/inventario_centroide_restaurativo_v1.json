@@ -1,0 +1,11 @@
+{
+  "version": "restaurativo_v1",
+  "n_textos_efectivos": 74,
+  "n_peso_1_8": 64,
+  "margen_estimado_pct": 11.62,
+  "norma": 14.310889302053832,
+  "modelo": "eventdata-utd/ConfliBERT-Spanish-Beto-Cased-v1",
+  "metodo": "CLS token, promedio ponderado, dedup 100 chars",
+  "corpus": "corpus_restaurativo_curado_v1 (74 apartes, curado por Mireya)",
+  "nota": "Externo a M03 (anti-circularidad). Sin voz de victimas. Multi-actor."
+}

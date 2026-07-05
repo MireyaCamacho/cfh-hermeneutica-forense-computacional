@@ -7,8 +7,8 @@ Variable latente: η₂ (Transición Epistémica)
 Qué mide y₁₀:
     La densidad de expresiones que marcan una transición del lenguaje de
     la guerra al lenguaje del reconocimiento: reconocimiento explícito de
-    la condición de víctima civil, admisión de responsabilidad y actos de
-    reparación (perdón, garantías de no repetición).
+    la condición de víctima civil, admisión de responsabilidad, adopción
+    del marco semántico de los derechos humanos y la justicia restaurativa.
 
     El REP es el polo opuesto al EBI/SA/NV en el espectro discursivo de
     la CFH. Donde EBI encubre el crimen, REP lo nombra. Donde NV niega
@@ -29,27 +29,23 @@ Qué mide y₁₀:
        Ejemplos: "era un civil inocente", "era un campesino",
        uso del nombre propio de la víctima, "no tenía vinculación armada".
 
-    3. COMPROMISO_REPARACIÓN (peso 0.75)
+    3. LENGUAJE_DIH_REPARADOR (peso 0.80)
+       Adopción del vocabulario del derecho internacional humanitario
+       y los derechos humanos para describir los hechos — el opuesto
+       semántico del EBI.
+       Ejemplos: "ejecución extrajudicial", "homicidio en persona protegida",
+       "crimen de lesa humanidad", "muertes ilegítimamente presentadas".
+
+    4. COMPROMISO_REPARACIÓN (peso 0.75)
        Expresiones de reparación simbólica, pedido de perdón, garantías
        de no repetición — los actos de habla constitutivos del proceso
        transicional.
        Ejemplos: "pido perdón", "me comprometo a no repetir",
        "ofrezco disculpas públicas", "contribuiré a la reparación".
 
-Nota metodológica (auditoría conceptual, jul-2026):
-    Se eliminó el mecanismo previo "LENGUAJE_DIH_REPARADOR" (adopción del
-    vocabulario del derecho internacional humanitario: "ejecución
-    extrajudicial", "crimen de lesa humanidad", "persona protegida", etc.).
-    El lenguaje DIH corresponde al marco jurídico-institucional del tribunal,
-    no a la Ruptura Epistémica Positiva en sentido estricto. REP mide el
-    acto de habla del reconocimiento (responsabilidad, restitución de la
-    víctima, perdón), no la calificación técnica del crimen por parte de la
-    institución. Mantener el DIH inflaba REP con lenguaje forense y diluía
-    el constructo (contribuía al bajo acuerdo inter-anotador κ=0.309).
-
 Nota metodológica — diferencia con NV cuestionado:
     El REP no es simplemente la negación del NV. Es una afirmación
-    positiva en el marco del reconocimiento. La diferencia:
+    positiva en el marco semántico de los derechos humanos. La diferencia:
     - NV cuestionado: "fue presentado FALSAMENTE como guerrillero" → NV(reducido)
     - REP: "era un CIVIL INOCENTE" → REP(pleno)
     El primero niega el NV pero no afirma el REP. El segundo restituye
@@ -64,8 +60,6 @@ Referencia teórica:
     Austin, J. L. (1962). How to Do Things with Words. Oxford UP.
     JEP (2022). RC-01 y RC-03 — Resoluciones de Conclusiones Caso 03.
 """
-# CFH_VERSION = "y10-v5 (v4 + Opcion B: nominal solo cuenta con acto reparador presente)"
-
 
 from __future__ import annotations
 
@@ -115,41 +109,6 @@ REP_RECONOCIMIENTO_FRASES = [
     r"\breconozco\s+(?:ante\s+(?:las?\s+)?víctimas?|públicamente|la\s+verdad)",
     r"\baporte\s+(?:a\s+la\s+)?verdad\s+(?:completa|plena|detallada|exhaustiva)",
     r"\bverdad\s+(?:completa|plena|detallada|exhaustiva)",
-
-    # --- patrones ORALES anadidos (habla de comparecientes) ---
-    r"\byo\s+(?:asesiné|maté|ejecuté|disparé|le\s+disparé|los\s+maté|lo\s+maté)",
-    r"\b(?:asesiné|maté|ejecuté)\s+(?:a\s+)?(?:ese|este|el|la|los|las|un|una|don|doña)",
-    r"\byo\s+fui\b(?![\w\s]{0,10}(?:testigo|víctima))",
-    r"\b(?:le\s+)?dije\s+yo\s+fui",
-    r"\bnosotros\s+(?:montamos|hicimos|cometimos|causamos|matamos|ejecutamos)",
-    r"\b(?:causamos|cometimos|ocasionamos|provocamos)\s+(?:mucho\s+)?(?:daño|dolor|sufrimiento|muerte)",
-    r"\bmontamos\s+un\s+retén",
-    r"\bdeshonré\s+(?:el|la|mi)",
-    r"\b(?:le\s+)?fallé\s+(?:a\s+)?(?:mi|la|las|los|el)",
-    r"\bno\s+me\s+lo\s+merezco",
-    r"\b(?:acepto|reconozco|asumo)\s+(?:que\s+)?(?:lo\s+)?(?:hice|participé|estuve|cometí)",
-    r"\breconozco\s+mi\s+responsabilidad\b",
-    r"\baceptar\s+mi\s+responsabilidad\b",
-
-    # --- REP REPORTADO / nominalizado (autos JEP en 3a persona) ---
-    # Guarda anti-negacion: (?<!no\s) evita "no reconoce", y se excluyen
-    # con lookbehind los contextos de negacion mas comunes.
-    r"(?<!no\s)(?<!negación\s)\breconocimiento\s+(?:total|pleno|inequívoco|"
-    r"expreso|explícito|íntegro)\s+(?:de\s+)?(?:la\s+)?responsabilidad",
-    r"\breconocimiento\s+(?:de\s+)?(?:la\s+)?responsabilidad\s+"
-    r"(?:inequívoc[oa]|plen[oa]|total|estatal|individual)",
-    r"\brealiza\s+un\s+reconocimiento\s+(?:inequívoco|pleno|total)",
-    r"\baceptación\s+de\s+(?:la\s+)?responsabilidad\b",
-    r"\bvoluntad\s+de\s+reconocer\s+(?:la\s+)?(?:verdad|responsabilidad)",
-    r"\bmanifest[óa](?:ron)?\s+(?:su\s+)?(?:voluntad\s+de\s+)?reconocer",
-    r"(?<!no\s)\breconoc[ei](?:ó|eron|e|en)\s+(?:su|la|los|las|el)?\s*"
-    r"(?:responsabilidad|verdad|hechos|daño|víctimas?)",
-    r"\bacept[óa](?:ron)?\s+(?:haber\s+)?(?:la\s+)?"
-    r"(?:responsabilidad|gravedad|cargos?|causado|el\s+daño|los\s+hechos)",
-    r"\baporte(?:s)?\s+(?:a\s+la\s+|de\s+)?verdad\b",
-    r"\baceptar\s+la\s+realidad\s+de\s+la\s+denuncia\s+de\s+la\s+víctima",
-    r"\badmiti[óó](?:eron)?\s+(?:su\s+)?(?:responsabilidad|autoría|participación)",
-    r"\basumi[óó](?:eron)?\s+(?:su\s+)?responsabilidad",
 ]
 
 # ── Mecanismo 2: Restitución de identidad ────────────────────────────────
@@ -166,10 +125,10 @@ REP_RESTITUCION_FRASES = [
     r"\bno\s+(?:era|eran|tenía|tenían)\s+(?:ninguna\s+)?vinculación\s+"
     r"(?:con|a)\s+(?:grupo(?:s)?|organización|actividades?)",
     r"\b(?:civil|civiles)\s+(?:inocente(?:s)?|desarmado(?:s)?|ajeno(?:s)?\s+al\s+conflicto)",
-    r"\bpersona(?:s)?\s+inocente(?:s)?",  # DIH 'protegida' y 'civil' removidos (eufemismo/marco juridico)
+    r"\bpersona(?:s)?\s+(?:protegida(?:s)?|inocente(?:s)?|civil(?:es)?)",
     r"\bno\s+(?:portaba|portaban|tenía|tenían)\s+armas?",
     r"\bajeno(?:s)?\s+al\s+conflicto\s+armado",
-    r"\bvíctima(?:s)?\s+inocente(?:s)?",  # 'civil(es)' y 'directa(s)' removidos (eufemismo, no reparación)
+    r"\bvíctima(?:s)?\s+(?:inocente(?:s)?|civil(?:es)?|directa(?:s)?)",
 ]
 
 # Patrones de uso del nombre propio de la víctima — restitución máxima
@@ -180,7 +139,29 @@ REP_NOMBRE_PROPIO_CONTEXTOS = [
     r"\bperdón\s+(?:a|de)\s+(?:la\s+familia\s+de\s+)?[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+",
 ]
 
-# ── Mecanismo 3: Compromiso de reparación ────────────────────────────────
+# ── Mecanismo 3: Lenguaje DIH reparador ──────────────────────────────────
+REP_DIH_LEMMAS = {
+    "ejecución", "extrajudicial", "homicidio",
+    "crimen", "lesa", "humanidad", "guerra",
+    "protegido", "prohibido", "violación",
+}
+
+REP_DIH_FRASES = [
+    r"\bejecución(?:es)?\s+extrajudicial(?:es)?",
+    r"\bhomicidio(?:s)?\s+en\s+persona(?:s)?\s+protegida(?:s)?",
+    r"\bcrimen(?:es)?\s+de\s+(?:lesa\s+)?humanidad",
+    r"\bcrimen(?:es)?\s+de\s+guerra",
+    r"\bmuertes?\s+ilegítimamente\s+presentadas?\s+como\s+bajas?",
+    r"\bviolación(?:es)?\s+(?:graves?\s+)?(?:del?\s+)?(?:derecho\s+internacional\s+"
+    r"humanitario|derechos?\s+humanos?|dih)",
+    r"\binfracción(?:es)?\s+(?:al|del)\s+(?:dih|derecho\s+internacional\s+humanitario)",
+    r"\bpersona(?:s)?\s+protegida(?:s)?\s+por\s+(?:el\s+)?(?:dih|derecho\s+internacional)",
+    r"\bart(?:ículo|\.)\s+135\s+(?:del\s+)?(?:código\s+penal|cp)",  # homicidio persona protegida
+    r"\bimpacto\s+(?:en\s+)?(?:las?\s+)?víctimas?",
+    r"\bdaño(?:s)?\s+(?:causado(?:s)?|infligido(?:s)?)\s+(?:a\s+)?(?:las?\s+)?víctimas?",
+]
+
+# ── Mecanismo 4: Compromiso de reparación ────────────────────────────────
 REP_REPARACION_FRASES = [
     r"\bpido\s+perdón\s+(?:a|de|por)",
     r"\bsolicito\s+perdón\s+(?:a|de|por)",
@@ -194,75 +175,22 @@ REP_REPARACION_FRASES = [
     r"\bsanción\s+propia",
     r"\bjusticia\s+restaurativa",
     r"\bmedida(?:s)?\s+(?:de\s+)?(?:reparación|contribución|satisfacción)",
-
-    # --- patrones ORALES anadidos (habla de comparecientes) ---
-    r"\b(?:le|les|te)?\s*pido\s+perdón\b",
-    r"\bpedir(?:le|les)?\s+perdón\b",
-    r"\bpedirles\s+perdón\b",
-    r"\bquiero\s+pedir(?:le|les)?\s+perdón",
-    r"\bespero\s+que\s+(?:algún\s+día\s+)?(?:nos|me)\s+perdonen",
-    r"\b(?:nos|me)\s+puedan\s+perdonar",
-    r"\bsi\s+algún\s+día\s+me\s+pueden\s+perdonar",
-    r"\b(?:le|les)\s+(?:pido|ofrezco)\s+(?:mis\s+)?disculpas",
-    r"\bpido\s+disculpas\b",
-    r"\bperdón\s+(?:a|de)?\s*[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\s+[A-ZÁÉÍÓÚÑ]",
 ]
 
 # Compilar todos los patrones
 _REP_RECONOCIMIENTO_COMPILED = [re.compile(p, re.IGNORECASE) for p in REP_RECONOCIMIENTO_FRASES]
 _REP_RESTITUCION_COMPILED = [re.compile(p, re.IGNORECASE) for p in REP_RESTITUCION_FRASES]
 _REP_NOMBRE_PROPIO_COMPILED = [re.compile(p, re.IGNORECASE) for p in REP_NOMBRE_PROPIO_CONTEXTOS]
+_REP_DIH_COMPILED = [re.compile(p, re.IGNORECASE) for p in REP_DIH_FRASES]
 _REP_REPARACION_COMPILED = [re.compile(p, re.IGNORECASE) for p in REP_REPARACION_FRASES]
 
 # Pesos por mecanismo
 REP_MECHANISM_WEIGHTS = {
     "reconocimiento_responsabilidad": 1.00,
     "restitución_identidad":          0.90,
+    "lenguaje_dih_reparador":         0.80,
     "compromiso_reparación":          0.75,
-    "restitución_nominal":            0.60,
 }
-
-# ── Filtro de exclusión para el mecanismo nominal ────────────────────────
-# Nombrar a la víctima o al victimario ES reparación (visibiliza al agente,
-# lo contrario de la Supresión de Agentividad). PERO nombrar a un funcionario
-# judicial (magistrado, fiscal, etc.) NO es reparación, es procedimiento.
-# Se excluye la entidad PER si en su ventana contextual aparece un cargo.
-REP_NOMINAL_CARGOS_EXCLUIR = re.compile(
-    r"\b(?:magistrad[oa]s?|magistrad[oa]\s+ponente|ponente|relator[a]?|"
-    r"fiscal(?:es)?|procurador[a]?|defensor[a]?\s+p[úu]blico|juez(?:a|es)?|"
-    r"jueces|togad[oa]s?|secretari[oa]\s+(?:de\s+(?:la\s+)?sala)?|"
-    r"sala\s+de\s+reconocimiento|presidente\s+de\s+la\s+sala|"
-    r"despacho|conjuez(?:a)?|auxiliar\s+judicial)\b",
-    re.IGNORECASE,
-)
-
-# Ventana (en caracteres) alrededor del nombre para buscar el cargo excluyente
-REP_NOMINAL_VENTANA_CHARS = 45
-
-# ── Filtro PROCESAL (solo Corpus A) ──────────────────────────────────────
-# En la justicia ordinaria, nombrar a una persona dentro de la parte
-# resolutiva/decisoria de la sentencia (RESUELVE, CONSIDERACIONES, INADMITIR,
-# CONCEDER, SUSPENDER, FALLA...) es un ACTO PROCESAL, no restitución
-# epistémica de la víctima. Se excluye el nombre nominal si su ventana
-# contextual contiene un marcador de la parte decisoria.
-# NOTA: aplica SOLO a Corpus A. En B/C nombrar sí es reparación
-# (los autos JEP y el habla oral no usan estas fórmulas para lo mismo).
-REP_NOMINAL_PROCESAL_A = re.compile(
-    r"\b(?:RESUELVE|RESOLUCIÓN|CONSIDERACIONES|CONSIDERANDO|"
-    r"INADMITIR|ADMITIR|NO\s+ADMITIR|CONCEDER|NEGAR|SUSPENDER|"
-    r"REVOCAR|REVÓCASE|CONFIRMAR|CONFÍRMASE|CASAR|FALLA|FALLO|"
-    r"beneficio\s+de\s+libertad|orden(?:es)?\s+de\s+captura|"
-    r"demanda\s+de\s+casación|recurso\s+de\s+(?:casación|apelación)|"
-    r"parte\s+resolutiva|en\s+mérito\s+de\s+lo\s+expuesto|"
-    # --- bloque de firmas de magistrados (fin del fallo) ---
-    r"Cópiese|Notifíquese|Comuníquese|Cúmplase|Devuélvase|"
-    r"Presidente|Vicepresidente|Magistrad[oa]s?|Secretari[oa]|"
-    r"administrando\s+justicia|impugnado|proceso\s+de\s+la\s+referencia|"
-    r"Sala\s+de\s+Casación\s+Penal|Sala\s+Penal)\b",
-    re.IGNORECASE,
-)
-# Ventana mayor para el filtro procesal (las fórmulas y firmas son largas)
-REP_NOMINAL_PROCESAL_VENTANA = 130
 
 
 # ---------------------------------------------------------------------------
@@ -294,8 +222,8 @@ class REPExtractionResult:
     n_instances: int
     n_reconocimiento: int = 0
     n_restitución: int = 0
+    n_dih: int = 0
     n_reparación: int = 0
-    n_nominal: int = 0
     instances: list[REPInstance] = field(default_factory=list)
     processing_time_s: float = 0.0
     warning: Optional[str] = None
@@ -316,8 +244,8 @@ class REPExtractionResult:
             "rep_by_mechanism": {
                 "reconocimiento_responsabilidad": self.n_reconocimiento,
                 "restitución_identidad":          self.n_restitución,
+                "lenguaje_dih_reparador":         self.n_dih,
                 "compromiso_reparación":          self.n_reparación,
-                "restitución_nominal":            self.n_nominal,
             },
             "top_rep_spans": [
                 {"text": i.text_span, "mechanism": i.mechanism, "weight": i.weight}
@@ -409,12 +337,8 @@ class REPExtractor:
     """
     Extractor del indicador y₁₀ (Score REP — Ruptura Epistémica Positiva).
 
-    Detecta tres mecanismos de transición epistémica positiva combinando
-    análisis léxico con patrones regex y verificación sintáctica con spaCy:
-    reconocimiento_responsabilidad, restitución_identidad,
-    compromiso_reparación. (El lenguaje DIH fue removido por corresponder al
-    marco jurídico-institucional, no al acto de habla del reconocimiento —
-    ver nota del módulo.)
+    Detecta cuatro mecanismos de transición epistémica positiva combinando
+    análisis léxico con patrones regex y verificación sintáctica con spaCy.
 
     A diferencia de los extractores de violencia discursiva (y₁, y₂, y₄),
     el REP es esperado en densidades bajas en el corpus A (justicia ordinaria)
@@ -451,8 +375,6 @@ class REPExtractor:
                 f"Instala: python -m spacy download {model_name}"
             )
 
-        self._nlp.max_length = 3000000  # autos JEP muy largos
-
     def extract(
         self,
         text: str,
@@ -472,56 +394,15 @@ class REPExtractor:
 
         all_instances: list[REPInstance] = []
 
-        # SEPARACION POR CORPUS (diseno teorico CFH):
-        # A (justicia ordinaria): ruptura epistemica institucional
-        #   = restituir la identidad de la victima y comprometer reparacion.
-        # B (autos JEP): TODOS los detectores — el auto recoge los
-        #   reconocimientos de los comparecientes (justicia transicional),
-        #   ademas del lenguaje institucional.
-        # C (habla oral del compareciente): reconocimiento en 1a persona
-        #   = aceptacion de autoria + perdon + restitucion de la victima.
-        if corpus_type == "A":
-            all_instances.extend(self._detect_restitución(text, sentences))
-            all_instances.extend(self._detect_reparación(text, sentences))
-        elif corpus_type == "B":
-            all_instances.extend(self._detect_reconocimiento(text, sentences))
-            all_instances.extend(self._detect_restitución(text, sentences))
-            all_instances.extend(self._detect_reparación(text, sentences))
-        else:  # Corpus C (oral)
-            all_instances.extend(self._detect_reconocimiento(text, sentences))
-            all_instances.extend(self._detect_reparación(text, sentences))
-            all_instances.extend(self._detect_restitución(text, sentences))
-
-        # Mecanismo NOMINAL (separado, trazable) — corre en los 3 corpus.
-        # Requiere el doc de spaCy con entidades PER. Si el pipeline no trae
-        # NER (p.ej. sentencizer liviano), doc.ents estará vacío y no aporta.
-        if doc.has_annotation("ENT_IOB"):
-            all_instances.extend(self._detect_nominal(text, sentences, doc, corpus_type))
+        # Todos los mecanismos se detectan sobre el texto completo con regex
+        # (más robusto que análisis por oración para REP, que es más léxico)
+        all_instances.extend(self._detect_reconocimiento(text, sentences))
+        all_instances.extend(self._detect_restitución(text, sentences))
+        all_instances.extend(self._detect_dih(text, sentences))
+        all_instances.extend(self._detect_reparación(text, sentences))
 
         # Eliminar duplicados por solapamiento de spans
         all_instances = self._dedup_instances(all_instances)
-
-        # OPCION B (calibración SEM): el mecanismo nominal (nombrar) solo
-        # cuenta como REP si va acompañado de al menos un acto reparador real
-        # en el mismo texto (reconocimiento / restitución / reparación).
-        # Nombrar es parte de reparar, pero un nombre aislado en un texto sin
-        # ningún acto reparador no constituye Ruptura Epistémica Positiva —
-        # sería solo densidad de nombres. Esto evita que textos cortos con un
-        # nombre suelto obtengan score alto sin reparación (ver Cap. 5 SEM).
-        _actos_reparadores = [
-            i for i in all_instances
-            if i.mechanism in (
-                "reconocimiento_responsabilidad",
-                "restitución_identidad",
-                "compromiso_reparación",
-            )
-        ]
-        if not _actos_reparadores:
-            # No hay acto reparador: descartar las instancias nominales.
-            all_instances = [
-                i for i in all_instances
-                if i.mechanism != "restitución_nominal"
-            ]
 
         if sent_count == 0:
             score_raw = 0.0
@@ -548,13 +429,13 @@ class REPExtractor:
 
         n_rec = sum(1 for i in all_instances if i.mechanism == "reconocimiento_responsabilidad")
         n_res = sum(1 for i in all_instances if i.mechanism == "restitución_identidad")
+        n_dih = sum(1 for i in all_instances if i.mechanism == "lenguaje_dih_reparador")
         n_rep = sum(1 for i in all_instances if i.mechanism == "compromiso_reparación")
-        n_nom = sum(1 for i in all_instances if i.mechanism == "restitución_nominal")
 
         logger.debug(
             f"y₁₀ REP [{doc_id}/{section_id}]: score={score_normalized:.3f} "
             f"raw={score_raw:.3f} instances={len(all_instances)} "
-            f"(rec={n_rec}, res={n_res}, rep={n_rep}) t={elapsed:.2f}s"
+            f"(rec={n_rec}, res={n_res}, dih={n_dih}, rep={n_rep}) t={elapsed:.2f}s"
         )
 
         return REPExtractionResult(
@@ -568,8 +449,8 @@ class REPExtractor:
             n_instances=len(all_instances),
             n_reconocimiento=n_rec,
             n_restitución=n_res,
+            n_dih=n_dih,
             n_reparación=n_rep,
-            n_nominal=n_nom,
             instances=all_instances,
             processing_time_s=elapsed,
         )
@@ -632,6 +513,26 @@ class REPExtractor:
 
         return instances
 
+    def _detect_dih(
+        self, text: str, sentences: list
+    ) -> list[REPInstance]:
+        """Detecta adopción del lenguaje DIH y derechos humanos."""
+        instances = []
+        weight = REP_MECHANISM_WEIGHTS["lenguaje_dih_reparador"]
+
+        for pattern in _REP_DIH_COMPILED:
+            for match in pattern.finditer(text):
+                sent_idx = self._find_sent_index(match.start(), sentences)
+                instances.append(REPInstance(
+                    mechanism="lenguaje_dih_reparador",
+                    text_span=match.group(),
+                    char_start=match.start(),
+                    char_end=match.end(),
+                    weight=weight,
+                    sent_index=sent_idx,
+                ))
+        return instances
+
     def _detect_reparación(
         self, text: str, sentences: list
     ) -> list[REPInstance]:
@@ -653,74 +554,6 @@ class REPExtractor:
         return instances
 
     # ── Helpers ──────────────────────────────────────────────────────────
-
-    def _detect_nominal(self, text: str, sentences: list, doc, corpus_type: str = "B") -> list[REPInstance]:
-        """Mecanismo NOMINAL (separado y trazable).
-
-        Detecta nombres propios de PERSONA (entidades PER de spaCy) como acto
-        de restitución epistémica: nombrar a la víctima o al victimario los
-        hace visibles, lo contrario de la Supresión de Agentividad. Cuenta
-        tanto víctimas como victimarios (nombrar al agente también es
-        reparación, porque no lo suprime).
-
-        Filtro: se excluye la entidad si en su ventana contextual aparece un
-        cargo judicial (magistrado, fiscal, juez, etc.); nombrar a un
-        funcionario no es reparación, es procedimiento.
-        """
-        instances = []
-        weight = REP_MECHANISM_WEIGHTS["restitución_nominal"]
-
-        for ent in doc.ents:
-            if ent.label_ != "PER":
-                continue
-            # Descartar nombres muy cortos o de una sola inicial
-            if len(ent.text.strip()) < 4:
-                continue
-
-            # Guarda anti-ruido de spaCy NER: descartar entidades PER que no
-            # parecen nombres propios de persona (spaCy a veces etiqueta como
-            # PER vocabulario juridico: "cedimiento Penal", "Copiese",
-            # "DE CASACION", "FALLA CONFIRMASE"...). Un nombre propio real
-            # arranca con mayuscula y NO es una palabra de la lista de ruido.
-            _tok0 = ent.text.strip().split()[0] if ent.text.strip().split() else ""
-            if not _tok0[:1].isupper():
-                continue
-            _ruido_ner = {
-                "cedimiento", "copiese", "cópiese", "notifiquese", "notifíquese",
-                "casacion", "casación", "falla", "confirmase", "confírmase",
-                "resuelve", "consideraciones", "primer", "segundo", "cargo",
-                "sala", "corte", "penal", "de", "del", "la", "el",
-            }
-            if _tok0.lower() in _ruido_ner:
-                continue
-
-            # Ventana contextual para el filtro de cargos judiciales
-            ini = max(0, ent.start_char - REP_NOMINAL_VENTANA_CHARS)
-            fin = min(len(text), ent.end_char + REP_NOMINAL_VENTANA_CHARS)
-            ventana = text[ini:fin]
-            if REP_NOMINAL_CARGOS_EXCLUIR.search(ventana):
-                continue  # es un funcionario judicial → no cuenta
-
-            # Filtro procesal: SOLO Corpus A. Nombre dentro de la parte
-            # decisoria (RESUELVE/CONSIDERACIONES/...) = acto procesal, no REP.
-            if corpus_type == "A":
-                ini_p = max(0, ent.start_char - REP_NOMINAL_PROCESAL_VENTANA)
-                fin_p = min(len(text), ent.end_char + REP_NOMINAL_PROCESAL_VENTANA)
-                if REP_NOMINAL_PROCESAL_A.search(text[ini_p:fin_p]):
-                    continue  # acto procesal → no cuenta como reparación
-
-            sent_idx = self._find_sent_index(ent.start_char, sentences)
-            instances.append(REPInstance(
-                mechanism="restitución_nominal",
-                text_span=ent.text,
-                char_start=ent.start_char,
-                char_end=ent.end_char,
-                weight=weight,
-                sent_index=sent_idx,
-                details={"ner_label": "PER", "nominal": True},
-            ))
-
-        return instances
 
     def _find_sent_index(self, char_pos: int, sentences: list) -> int:
         """Encuentra el índice de la oración que contiene char_pos."""

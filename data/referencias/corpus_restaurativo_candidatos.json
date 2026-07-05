@@ -1,0 +1,646 @@
+{
+  "version": "restaurativo_candidatos_v2_institucional",
+  "timestamp": "2026-07-04T11:01:20",
+  "total": 76,
+  "por_nivel": {
+    "1": 22,
+    "2": 44,
+    "3": 10
+  },
+  "por_fuente": {
+    "CEV Informe Final - Hallazgos y recomendaciones": 13,
+    "CEV Informe Final - Sufrir la guerra y rehacer la vida": 3,
+    "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025": 26,
+    "Sentencia JyP Fredy Rendon 'El Aleman' (AUC, Elmer Cardenas)": 1,
+    "CEV Informe Final - Hasta la guerra tiene limites": 23,
+    "CEV Informe Final - Cuando los pajaros no cantaban (testimonial)": 2,
+    "Ley 975/2005 (Justicia y Paz)": 6,
+    "Sentencia JyP Cobos y Banquez (AUC, Mampujan)": 1,
+    "Sentencia JyP Jose Barney Veloza (AUC)": 1
+  },
+  "fuentes": [
+    "Ley 975/2005 (Justicia y Paz)",
+    "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+    "JEP Resumen Sentencia Caso 01",
+    "JEP Comunicado Primera Sentencia Caso 01",
+    "Sentencia JyP Cobos y Banquez (AUC, Mampujan)",
+    "Sentencia JyP Fredy Rendon 'El Aleman' (AUC, Elmer Cardenas)",
+    "Sentencia JyP Rodrigo Perez Alzate (AUC, Bloque Central Bolivar)",
+    "Sentencia JyP Jose Barney Veloza (AUC)",
+    "CEV Informe Final - Hallazgos y recomendaciones",
+    "CEV Informe Final - Hasta la guerra tiene limites",
+    "CEV Informe Final - Sufrir la guerra y rehacer la vida",
+    "CEV Informe Final - Cuando los pajaros no cantaban (testimonial)"
+  ],
+  "nota": "Corpus externo a comparecientes M03. Sin voz de victimas. Ley 975 (normativo) + JEP Caso 01 FARC (performativo, otro perpetrador). El lenguaje restaurativo del perdon es el mismo con independencia del actor.",
+  "segmentos": [
+    {
+      "texto": "¿Por qué la confrontación la estábamos llevando a municipios donde la población es indígena, humilde, no poseedora de los medios de producción? ¿Por qué? Era con­ tradictorio a nuestros ideales revolucionarios […] lamentablemente no escuchamos esta observación que en las FARC se hizo, afectamos a gente que no teníamos por qué, me refiero a los niños, segamos vidas, segamos sueños, todo eso es cierto y lo aceptamos y lo asumimos",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 1,
+      "score": 4,
+      "longitud": 431,
+      "es_cita": true
+    },
+    {
+      "texto": "una ley que garantizara reconocer como delito la desaparición forzada y tomar medidas como garantizar la búsqueda inmediata de los desaparecidos, el regreso sanos y salvos a sus casas, las sanciones ejemplarizantes a los responsables, medidas de rehabilitación a la familia por el daño causado y, lo último que ellos recomendaban, que nunca más se repitan acciones como estas que causan tanto dolor",
+      "fuente": "CEV Informe Final - Sufrir la guerra y rehacer la vida",
+      "nivel": 1,
+      "score": 4,
+      "longitud": 398,
+      "es_cita": true
+    },
+    {
+      "texto": "…la falta de control sobre nuestras unidades se desbordó; una organización que se planteaba la lucha por el humanismo termina desarrollando acciones dolorosas de humillación contra los ciudadanos (…) reconocemos que se usaron las cadenas",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 237,
+      "es_cita": true
+    },
+    {
+      "texto": "tener la mayor función restaurativa y reparadora del daño causado",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 65,
+      "es_cita": true
+    },
+    {
+      "texto": "las sanciones que imponga la JEP tendrán como finalidad esencial satisfacer los derechos de las víctimas y consolidar la paz. Deberán tener la mayor función restaurativa y reparadora del daño causado, siempre en relación con el grado de reconocimiento de verdad y responsabilidad",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 279,
+      "es_cita": true
+    },
+    {
+      "texto": "daño causado, todo el daño causado y nada más que el daño causado",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 65,
+      "es_cita": true
+    },
+    {
+      "texto": "factores como la naturaleza de la conducta y la magnitud del daño causado",
+      "fuente": "Sentencia JyP Fredy Rendon 'El Aleman' (AUC, Elmer Cardenas)",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 73,
+      "es_cita": true
+    },
+    {
+      "texto": "En mi casa siempre nos acostumbraron a hacer las cosas bien, a hacer las cosas como se deben de hacer. Todo tiene un derecho y, una vez, estando detenido hablando con mi mamá me decía eso: “Mijo, si usted tiene la oportunidad de pedir perdón, de resarcir todo el daño que usted alguna vez hizo, eso es muy importante; no solamente para usted sino para nosotros también porque significa que lo que hicimos, lo hicimos bien hecho y es en últimas lo que trato de enseñarle a usted",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 477,
+      "es_cita": true
+    },
+    {
+      "texto": "Señora, lamentamos mucho la situación que usted y su familia han vivido pero el pasado hay que dejarlo atrás [...] nos vemos obligados a declararlos objetivo militar, entreguen las banderas con lo cual se evitarán muchos inconvenientes",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 235,
+      "es_cita": true
+    },
+    {
+      "texto": "Veíamos que podía pasar lo que había pasado en el caso de Córdoba a mediados de la década del ochenta, que, cuando, como EPL, asumimos una actitud radical con los ganaderos y nos fuimos un poquito más allá del límite con el tema de extorsión, secuestro, con el tema de robo de ganado, etcétera. Hubo una situación crítica en la que muchos de ellos desistieron de seguir en el negocio y ahí llegaron los nuevos inversionistas modelo Fidel Castaño",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 445,
+      "es_cita": true
+    },
+    {
+      "texto": "Lo del líder indígena Kimy Pernía Domicó fue un crimen de Estado. Yo como miembro de facto recibí una orden del Estado, de las Fuerzas Militares, recibí una orden del comandante Carlos Castaño en este sentido de asesinar. Nuestras órdenes eran dar de baja, eso significa asesinar al líder Kimy Pernía Domicó. [...] A Kimy, donde esté, le pido perdón y que las aguas del Sinú y la madre tierra lo reciban",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 403,
+      "es_cita": true
+    },
+    {
+      "texto": "El 19 de septiembre de 1996 el Tribunal Administrativo de Cundinamarca condenó a la Nación como responsable del daño causado por el ocultamiento y [la] negativa a dar información sobre el paradero del abogado Alirio de Jesús Pedraza Becerra, luego de que este fuera raptado por miembros de Policía Judicial. Esa sentencia fue apelada y en decisión del 4 de marzo de 1999 el Consejo de Estado confirmó la decisión señalando que no había duda de que el señor Alirio de Jesús Pedraza Becerra desapareció, el día 4 de julio de 1990, en poder de miembros de la Policía Judicial, luego de ser interceptado por dichas unidades en inmediaciones del Centro Comercial La Campiña",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 668,
+      "es_cita": true
+    },
+    {
+      "texto": "la inexistencia, de hecho, o derecho, de responsabilidad penal por parte de los autores de las violaciones, así como de responsabilidad civil, administrativa o disciplinaria porque escapan a toda investigación con miras a su inculpación, detención, procesamiento y, en caso de ser reconocidos culpables, condena a penas apropiadas, incluso a la indemnización del daño causado a sus víctimas",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 390,
+      "es_cita": true
+    },
+    {
+      "texto": "La línea era destruir el puesto de Policía y por cada vez tener mayor fortaleza, tocaba usar armamento de mayor volumen. En algún momento pensamos que no tenía sentido atacar estaciones de la Policía, porque afectábamos a la población civil, pero no dejamos de hacerlo. Lo reconocemos en este momento y no queremos que se vuelva a repetir",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 338,
+      "es_cita": true
+    },
+    {
+      "texto": "Primero que todo reconocer una vez más y todas las veces que tengamos que reconocer ese dolor causado a estas madres y reconocer porque no estuvimos en la capacidad de ver cuando sus hijos ingresaban a nuestras filas y saber que eran menores de edad, asumimos esa responsabilidad porque de pronto teníamos más en cuenta nuestro reglamento y nuestros estatutos para ingresar, la cual no alcanzamos, y digo no alcanzamos a analizar porque así fue y hoy sabemos que fue mucho el daño que causamos",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 493,
+      "es_cita": true
+    },
+    {
+      "texto": "A ustedes, familiares de las víctimas del Club El Nogal, queremos expresarles que estamos convencidos [de] que lo ocurrido ese 7 de febrero de 2003 es algo que nunca debió ocurrir, algo injustificable, más allá de que estuviere motivado en información que señalaba al club como un centro de reuniones para planificación de operaciones contrainsurgentes, encabezadas por funcionarios gubernamentales y líderes paramilitares",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 422,
+      "es_cita": true
+    },
+    {
+      "texto": "Estoy segura que no fue para garantizar mis bienes, ni mi honra, ni mi vida, ese dinero fue usado para cometer actos ilícitos y para que dañaran a mis hermanos colombianos, y hoy tengo que pedir perdón por eso [...], reconozco este grave error que cometí [...], asumo con gallardía mi responsabilidad",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 300,
+      "es_cita": true
+    },
+    {
+      "texto": "La masacre de Tierralta, una barbarie por la que las FARC deberán pedir perdón 17 años después",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 94,
+      "es_cita": true
+    },
+    {
+      "texto": "Encuentro por la Verdad #ReconocemosSuBúsqueda",
+      "fuente": "CEV Informe Final - Sufrir la guerra y rehacer la vida",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 46,
+      "es_cita": true
+    },
+    {
+      "texto": "Encuentro por la Verdad: reconocemos su búsqueda",
+      "fuente": "CEV Informe Final - Sufrir la guerra y rehacer la vida",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 48,
+      "es_cita": true
+    },
+    {
+      "texto": "Yo reconozco que usté es un líder que ha hecho un trabajo de representación de las comunidades, pero no están legalizados como desplazados. Ustedes están como cuando sale una familia del campo al pueblo a hacer sus compras. Tienen que acercarse a la Defensoría del Pueblo",
+      "fuente": "CEV Informe Final - Cuando los pajaros no cantaban (testimonial)",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 271,
+      "es_cita": true
+    },
+    {
+      "texto": "pero si aquí también enseñan muchas cosas. Bueno, lo voy a experimentar. No me arrepiento de nada de eso",
+      "fuente": "CEV Informe Final - Cuando los pajaros no cantaban (testimonial)",
+      "nivel": 1,
+      "score": 3,
+      "longitud": 104,
+      "es_cita": true
+    },
+    {
+      "texto": "el acto de reconocimiento de responsabilidad no repara lo irreparable, pero sí los pone de cara al país",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 4,
+      "longitud": 103,
+      "es_cita": true
+    },
+    {
+      "texto": "Cuando nos reunimos con Pablo Catatumbo en La Habana y cuando él hizo el acto de reconocimiento de responsabilidades, él nos dijo que era cierto que el asesinato se dio porque alias el Grillo, Gilberto Arroyave, pensó que el grupo que entraba en la zona donde estaban los diputados era un grupo del Ejército que iba a rescatar a los diputados",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 4,
+      "longitud": 342,
+      "es_cita": true
+    },
+    {
+      "texto": "ACTO DE RECONOCIMIENTO DE RESPONSABILIDAD A NNA POR PARTE DE EJÉRCITO NACIONAL, FARC Y AUC POR SU VICTIMIZACIÓN EN MEDIO DEL CONFLICTO ARMADO",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 3,
+      "longitud": 141,
+      "es_cita": true
+    },
+    {
+      "texto": "ACTO DE RECONOCIMIENTO DE RESPONSABILIDAD EN MEDIO DEL ENCUENTRO POR LA VERDAD: EL CONFLICTO ARMADO EN LAS UNIVERSIDADES: GENERACIONES QUE NO SE RINDEN",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 3,
+      "longitud": 151,
+      "es_cita": true
+    },
+    {
+      "texto": "ACTO DE RECONOCIMIENTO DE RESPONSABILIDAD Y PETICIÓN DE PERDÓN POR MUERTE DE PEDRO Y HOMERO CÁRDENAS, ADELANTADO EN LA VEREDA LAS AMÉRICAS, YONDÓ, ANTIOQUIA",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 3,
+      "longitud": 156,
+      "es_cita": true
+    },
+    {
+      "texto": "Acto de reconocimiento de responsabilidad y petición de perdón por la muerte de Pedro y Homero Cárdenas",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 3,
+      "longitud": 103,
+      "es_cita": true
+    },
+    {
+      "texto": "Acto de reconocimiento de responsabilidad y petición de perdón",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 3,
+      "longitud": 62,
+      "es_cita": true
+    },
+    {
+      "texto": "Acto de reconocimiento de responsabilidad",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 3,
+      "longitud": 41,
+      "es_cita": true
+    },
+    {
+      "texto": "DEBER DE LOS POSTULADOS DE CONTRIBUIR A LA REPARACIÓN INTEGRAL DE LAS VÍCTIMAS. <Artículo adicionado por el artículo 8 de la Ley 1592 de 2012.",
+      "fuente": "Ley 975/2005 (Justicia y Paz)",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 142,
+      "es_cita": false
+    },
+    {
+      "texto": "El reconocimiento público de responsabilidad, la declaración pública de arrepentimiento y el compromiso de no incurrir en conductas punibles. 3.",
+      "fuente": "Ley 975/2005 (Justicia y Paz)",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 144,
+      "es_cita": false
+    },
+    {
+      "texto": "Responsabilidad individual que fuera asumida por los comparecientes en irrestricta observancia de los requisitos señalados por la SRVR, pues aquellos reconocieron (i) su responsabilidad en cuanto máximos responsables de hechos concretos, y/o (ii) su responsabilidad en cuanto persona con mando dentro de la organización subversiva que emitiera órdenes sean estas generales o específicas que resultaran en la comisión de crímenes; y, (iii) su responsabilidad al ostentar mando en una estructura en específico y omitir el control de los subalternos bajo su mando que ejecutaran las conductas delictuales, teniendo a su disposición la información sobre estos hechos",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 662,
+      "es_cita": true
+    },
+    {
+      "texto": "PROCESO DE RECONOCIMIENTO DE RESPONSABILIDAD Y PETICIÓN DE PERDÓN POR LAS PESCAS MILAGROSAS EN VÍA AL LLANO",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 107,
+      "es_cita": true
+    },
+    {
+      "texto": "ACTO TEMPRANO DE RECONOCIMIENTO DE RESPONSABILIDAD Y PETICIÓN DE PERDÓN POR LA MUERTE DEL SACERDOTE JOSÉ ANTONIO BELTRÁN",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 120,
+      "es_cita": true
+    },
+    {
+      "texto": "PROCESO DE CONTRIBUCIÓN A LA VERDAD Y RECONOCIMIENTO DE RESPONSABILIDAD DE RODRIGO LONDOÑO Y SALVATORE MANCUSO ANTE LA COMISIÓN PARA EL ESCLARECIMIENTO DE LA VERDAD –CEV",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 169,
+      "es_cita": true
+    },
+    {
+      "texto": "PROCESO DE RECONOCIMIENTO DE RESPONSABILIDAD, APORTE AL ESCLARECIMIENTO DE VERDAD Y PETICIÓN DE PERDÓN CON VÍCTIMAS EN CAICEDO, ANTIOQUIA, ESPECIALMENTE, CON LAS FAMILIAS VÍCTIMAS DE GUILLERMO GAVIRIA Y GILBERTO ECHEVERRI",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 221,
+      "es_cita": true
+    },
+    {
+      "texto": "PROCESO DE RECONOCIMIENTO DE RESPONSABILIDAD, APORTE DE VERDAD Y PETICIÓN DE PERDÓN CON COMUNIDADES DE LA TROCHA GANADERA",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 121,
+      "es_cita": true
+    },
+    {
+      "texto": "SOLICITUD DE CERTIFICACIÓN DEL PROCESO DE RECONOCIMIENTO DE RESPONSABILIDAD, APORTE DE VERDAD Y PETICIÓN DE PERDÓN AL PUEBLO COREGUAJE",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 134,
+      "es_cita": true
+    },
+    {
+      "texto": "Proceso de reconocimiento de responsabilidad, aporte de verdad y petición de perdón al pueblo Coreguaje",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 103,
+      "es_cita": true
+    },
+    {
+      "texto": "ACTO TEMPRANO DE RECONOCIMIENTO DE RESPONSABILIDAD Y RECONCILIACIÓN REALIZADO EN SAN PABLO (BOLÍVAR)",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 100,
+      "es_cita": true
+    },
+    {
+      "texto": "PROCESO DE CONTRIBUCIÓN A LA VERDAD Y RECONOCIMIENTO DE RESPONSABILIDAD POR PARTE DE PASTOR ALAPE Y JHOVERMAN SÁNCHEZ",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 117,
+      "es_cita": true
+    },
+    {
+      "texto": "Proceso de contribución a la verdad y reconocimiento de responsabilidad",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 71,
+      "es_cita": true
+    },
+    {
+      "texto": "El 9 de septiembre de 2004, cuatro sujetos armados que vestían de civil instalaron un retén en la vía Sonsón — La Unión y se llevaron al comerciante Jesús Antonio Higuita Fernández, de 71 años. Los comparecientes reconocieron el hecho como parte de un continuo de extorsión, ya que el señor Higuita era comerciante del municipio de Urrao, que se negó a seguir pagando el impuesto. Ante la negativa de la familia de pagar para obtener la libertad, lo asesinaron",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 460,
+      "es_cita": true
+    },
+    {
+      "texto": "Proceso de reconocimiento de responsabilidad y petición de perdón por las “pescas milagrosas en vía al llano",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 108,
+      "es_cita": true
+    },
+    {
+      "texto": "Contribución a la verdad y reconocimiento de responsabilidades de inte­ grantes del Ejército",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 92,
+      "es_cita": true
+    },
+    {
+      "texto": "Contribuciones a la verdad y reconocimiento de responsabilidades de integrantes del Ejército Nacional de Colombia: espacio público",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 130,
+      "es_cita": true
+    },
+    {
+      "texto": "En acto de reconocimiento, Partido FARC habló de las masacres y violaciones cometidas contra pueblos indígenas - Comisión de la Verdad Colombia",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 143,
+      "es_cita": true
+    },
+    {
+      "texto": "Reconocimiento de responsabilidades sobre las ejecuciones extrajudiciales en Bogotá y Soacha",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 92,
+      "es_cita": true
+    },
+    {
+      "texto": "Reconocimiento de responsabilidades en el caso de asesinato de Yolanda Cerón",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 76,
+      "es_cita": true
+    },
+    {
+      "texto": "Contribución a la verdad y reconocimiento de responsabilidades de integrantes del Ejército",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 90,
+      "es_cita": true
+    },
+    {
+      "texto": "Hoy en día tengo una amiga que fue de las FARC, yo decía que somos hermanos de patria, si ella y yo logramos ser amigos, ¿por qué no? La solución para este país es la reconciliación. Había un teniente al que le escuché decir: “El guerrillero en el fondo no es malo, el guerrillero en el fondo quiere un país mejor, como yo también los procesos de reconocimiento de responsabilidades 613 lo quiero, la diferencia entre el guerrillero y yo es que hemos tenido oportunidades diferentes”, y eso para mí era una revelación en ese momento",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 532,
+      "es_cita": true
+    },
+    {
+      "texto": "Contribución a la verdad y reconocimiento de responsabilidades - Rodrigo Londoño y Salvatore Mancuso",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 100,
+      "es_cita": true
+    },
+    {
+      "texto": "Contribuciones a la verdad y reconocimiento de responsabilidades de inte­ grantes del Ejército Nacional de Colombia: espacio público",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 132,
+      "es_cita": true
+    },
+    {
+      "texto": "El guerrillero en el fondo no es malo, el guerrillero en el fondo quiere un país mejor, como yo también los procesos de reconocimiento de responsabilidades 613 lo quiero, la diferencia entre el guerrillero y yo es que hemos tenido oportunidades diferentes",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 255,
+      "es_cita": true
+    },
+    {
+      "texto": "Los procesos de reconocimiento de responsabilidades",
+      "fuente": "CEV Informe Final - Hallazgos y recomendaciones",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 51,
+      "es_cita": true
+    },
+    {
+      "texto": "Contribución a la verdad y reconocimiento de responsabilidades de Pastor Alape y otros",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 86,
+      "es_cita": true
+    },
+    {
+      "texto": "Reconocimiento de responsabilidades sobre las ejecuciones extrajudiciales en Casanare",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 85,
+      "es_cita": true
+    },
+    {
+      "texto": "Verdades que liberen: reconocimiento de responsabilidades de secuestro por parte de Farc",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 88,
+      "es_cita": true
+    },
+    {
+      "texto": "Contribución a la verdad y reconocimiento de responsabilidades: Salvatore Mancuso y Rodrigo Londoño",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 99,
+      "es_cita": true
+    },
+    {
+      "texto": "Impactos del paramilitarismo en Juan Frío. Documento interno de la Comisión de la Verdad en el marco del Reconocimiento de responsabilidades de la desaparición forzada por parte de los exparamilitares que hicieron presencia en Juan Frío",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 236,
+      "es_cita": true
+    },
+    {
+      "texto": "Excombatientes de antiguas FARC-EP reconocieron",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 47,
+      "es_cita": true
+    },
+    {
+      "texto": "Tuvimos que coexistir con guerrilleros, paramilitares, narcos, porque no había quién nos cuidara. Para coexistir había que doblegarse [...] en toda esa presencia de masacres, tomas, retenes, secuestros, lo aceptamos. Fuimos víctimas y coexistimos con la violencia, debido al abandono estatal",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 291,
+      "es_cita": true
+    },
+    {
+      "texto": "Contribución a la verdad y reconocimiento de responsabilidades de los excombatientes Pastor Alape, Carlos Antonio Moreno Tuberquia y Jhoverman Sánchez",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 150,
+      "es_cita": true
+    },
+    {
+      "texto": "Excombatientes de antiguas FARC-EP reconocieron secuestros, tomas y reclutamiento en el oriente antioqueño",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 106,
+      "es_cita": true
+    },
+    {
+      "texto": "Comunicado 077 de 2021. JEP imputa crímenes de guerra y de lesa humanidad a otros 15 miembros del Ejército por falsos positivos en la Costa Caribe",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 2,
+      "score": 2,
+      "longitud": 146,
+      "es_cita": true
+    },
+    {
+      "texto": "Se entiende por reparación simbólica toda prestación realizada a favor de las víctimas o de la comunidad en general que tienda a asegurar la preservación de la memoria histórica, la no repetición de los hechos victimizantes, la aceptación pública de los hechos, el perdón público y el restablecimiento de la dignidad de las víctimas.",
+      "fuente": "Ley 975/2005 (Justicia y Paz)",
+      "nivel": 3,
+      "score": 7,
+      "longitud": 333,
+      "es_cita": false
+    },
+    {
+      "texto": "En punto a este tema, encontró necesaria la reincorporación del artículo 23 y 24 de la ley 975 de 2005 que regula el incidente de reparación integral, así como de los artículos 7 (derecho a la verdad), 8 (derecho a la reparación), 42 (deber general de reparar), 43 (orden de reparación en la sentencia), 45 (solicitud de reparación), 47 (rehabilitación), 48 (medidas de satisfacción y garantías de no repetición), y 49 (programas de reparación colectiva), todos de la Ley 975 de 2005.",
+      "fuente": "Ley 975/2005 (Justicia y Paz)",
+      "nivel": 3,
+      "score": 3,
+      "longitud": 484,
+      "es_cita": false
+    },
+    {
+      "texto": "la flexibilización de los estándares regulares y ordinarios de justicia sobre la base de que su cumplimiento tiene como contrapartida una ganancia en términos de la satisfacción de los derechos de las víctimas de acceso a la justicia, la verdad, reparación integral y la implementación de garantías de no repetición de los hechos que dieron lugar a",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 3,
+      "score": 3,
+      "longitud": 348,
+      "es_cita": true
+    },
+    {
+      "texto": "derecho a la verdad, medidas de reparación simbólica y a las garantías de no repetición como parte del conglomerado social y sin necesidad de que sean individualizadas",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 3,
+      "score": 3,
+      "longitud": 167,
+      "es_cita": true
+    },
+    {
+      "texto": "El derecho de las víctimas a la reparación comprende las acciones que propendan por la restitución, indemnización, rehabilitación, satisfacción; y las garantías de no repetición de las conductas.",
+      "fuente": "Ley 975/2005 (Justicia y Paz)",
+      "nivel": 3,
+      "score": 2,
+      "longitud": 195,
+      "es_cita": false
+    },
+    {
+      "texto": "Las garantías de no repetición comprenden, entre otras, la desmovilización y el desmantelamiento de los grupos armados al margen de la ley.",
+      "fuente": "Ley 975/2005 (Justicia y Paz)",
+      "nivel": 3,
+      "score": 2,
+      "longitud": 139,
+      "es_cita": false
+    },
+    {
+      "texto": "En el marco del Sistema Integral de Verdad, Justicia, Reparación y No Repetición todos quienes hayan causado daños con ocasión del conflicto deben contribuir a repararlos. Esa contribución a la reparación será tenida en cuenta para recibir cualquier tratamiento especial en materia de justicia. En el marco del fin del conflicto y dentro de los parámetros del Sistema Integral de Verdad, Justicia, Reparación y No Repetición, las FARC-EP como organización insurgente que actuó en el marco de la rebelión, contribuirán a la reparación material de las víctimas y en general a su reparación integral, sobre la base de los hechos que identifique la Jurisdicción Especial para la Paz",
+      "fuente": "JEP Sentencia Caso 01 (FARC, secuestro) TP-SeRVR-RC-ST-001-2025",
+      "nivel": 3,
+      "score": 2,
+      "longitud": 678,
+      "es_cita": true
+    },
+    {
+      "texto": "tiene una dimensión doble (individual y colectiva) y en el plano individual abarca medidas de restitución, indemnización y readaptación; en el plano colectivo, la reparación se logra a través de medidas de carácter simbólico o de otro tipo que se proyectan a la comunidad; dentro de las garantías de no repetición se incluye la 84 Corte Constitucional, ibídem Tribunal Superior de Bogotá Sala de Justicia y Paz Proceso 2006 80077 Edwar Cobos Téllez y Otro Concierto para delinquir y otros 93 disolución de los grupos armados acompañada de medidas de reinserción",
+      "fuente": "Sentencia JyP Cobos y Banquez (AUC, Mampujan)",
+      "nivel": 3,
+      "score": 2,
+      "longitud": 561,
+      "es_cita": true
+    },
+    {
+      "texto": "Las víctimas tienen derecho a ser reparadas de manera adecuada, diferenciada, transformadora y efectiva por el daño que han sufrido como consecuencia de las violaciones de que trata el artículo 3º de la presente Ley. La reparación comprende las medidas de restitución, indemnización, rehabilitación, satisfacción y garantías de no repetición, en sus dimensiones individual, colectiva, material, moral y simbólica. Cada una de estas medidas será implementada a favor de la víctima dependiendo de la vulneración en sus derechos y las características del hecho victimizante",
+      "fuente": "Sentencia JyP Jose Barney Veloza (AUC)",
+      "nivel": 3,
+      "score": 2,
+      "longitud": 570,
+      "es_cita": true
+    },
+    {
+      "texto": "Informe Oral Movimiento Ríos Vivos Antioquia. Escenarios de riesgo, acciones y medidas de prevención, protección, reparación y garantías de no repetición",
+      "fuente": "CEV Informe Final - Hasta la guerra tiene limites",
+      "nivel": 3,
+      "score": 2,
+      "longitud": 153,
+      "es_cita": true
+    }
+  ]
+}

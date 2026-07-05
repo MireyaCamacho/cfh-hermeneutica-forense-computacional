@@ -1,0 +1,48 @@
+﻿subcaso,identidad,etiqueta_MR,icm_tricanal,y10_rep,icm_facial,icm_vocal,n_tokens,robustez
+Catatumbo,Juan Carlos Chaparro Chaparro,MR,0.349,0.124,0.328,0.484,1434,solido
+Catatumbo,Ruben Dario Castro Gomez,MR,0.342,0.611,0.202,0.346,2258,solido
+Catatumbo,Santiago Herrera Fajardo,NO_MR,0.359,0.255,0.28,0.491,2883,solido
+Dabeiba,Alfonso Romero Buitrago,NO_MR,0.377,0.0,0.565,,111,minimo
+Dabeiba,Carlos Andrés Caravalli,MR,0.34,0.0,0.382,0.468,186,minimo
+Dabeiba,Edie Pinzón Turcios,MR,0.311,0.096,0.185,0.543,1740,solido
+Dabeiba,Efraín Enrique Prada Correa,NO_MR,0.376,0.163,0.347,0.512,4683,solido
+Dabeiba,Fidel Iván Ochoa Blanco,MR,0.396,0.095,0.563,0.38,1843,solido
+Dabeiba,Hermes Mauricio Alvarado,MR,0.379,0.073,0.445,0.465,1558,solido
+Dabeiba,Jaime Coral Trujillo,MR,0.314,0.092,,0.424,1741,solido
+Dabeiba,Levis de Jesús Contreras,NO_MR,0.507,0.098,0.765,0.454,833,minimo
+Dabeiba,Luis Fidel Arenas Rodríguez,NO_MR,0.488,0.0,0.732,,124,minimo
+Dabeiba,Ricardo Manuel Buelvas Lozano,NO_MR,0.375,0.094,0.502,0.388,1027,solido
+Dabeiba,William Andrés Capera,MR,0.358,0.097,0.328,0.519,2278,solido
+Dabeiba,Yair Leandro Rodríguez,NO_MR,0.249,0.088,0.122,0.458,1071,solido
+Casanare,Henry Torres Escalante,MR,0.401,0.063,0.346,0.624,32343,solido
+Huila,Angel Fernando Carvajal Rojas,MR,0.329,0.312,0.232,0.436,521,solido
+Huila,Annuar Herrera Osorio,NO_MR,0.53,0.556,0.484,0.562,235,minimo
+Huila,Aris Ramirez Campos,NO_MR,0.279,0.336,0.064,0.464,1616,solido
+Huila,Cesar Augusto Vasquez Ordoñez,NO_MR,0.552,0.179,0.704,0.588,540,solido
+Huila,Divar Juspian Jimenez,MR,0.436,0.375,0.451,0.452,408,solido
+Huila,Fabian Fermin Durango de la Cruz,MR,0.374,0.243,0.325,0.488,706,solido
+Huila,Fabio Nelson Rodriguez Barrera,NO_MR,0.552,0.237,0.749,0.513,643,solido
+Huila,Faiver Coronado Camero,MR,0.526,0.327,0.55,0.601,3235,solido
+Huila,Fernando Riveros Sarmiento,MR,0.52,0.913,0.421,0.421,842,solido
+Huila,Francisco Javier Castañeda Alfaro,MR,0.399,0.767,0.157,0.457,729,solido
+Huila,Harbey Sanchez Gomez,MR,0.499,0.729,0.52,0.363,176,minimo
+Huila,Hernando Mendez Rodriguez,NO_MR,0.579,0.357,0.774,0.495,174,minimo
+Huila,Jair Arias Sanchez,MR,0.475,0.665,0.435,0.419,772,solido
+Huila,Jair Fernandez,NO_MR,0.273,0.143,0.053,0.559,1026,solido
+Huila,Jhon Jairo Buitrago Lopez,MR,0.419,0.123,0.406,0.581,2404,solido
+Huila,Jose Albeiro Bustos Aguilar,NO_MR,0.372,0.417,0.365,0.357,344,solido
+Huila,Jose David Restrepo Solarte,NO_MR,0.392,0.118,0.436,0.485,1154,solido
+Huila,Jose Fabio Guzman Muñoz,NO_MR,0.395,0.268,0.441,0.414,337,solido
+Huila,Jose Gañan Tapasco,NO_MR,0.398,0.227,0.34,0.542,193,minimo
+Huila,Jose Roldan Lopez Ceron,MR,0.511,0.179,0.711,0.478,376,solido
+Huila,Jose Yati Anacona Bueno,NO_MR,0.378,0.156,0.338,0.53,370,solido
+Huila,Julian Andres Calderon Motta,MR,0.52,0.096,0.727,0.525,1151,solido
+Huila,Luis Carlos Aguilera Quintero,MR,0.331,0.716,0.042,0.427,3481,solido
+Huila,Luis Carlos Oyola Tapia,NO_MR,0.394,0.243,0.348,0.515,524,solido
+Huila,Ricardo Andres Lopez Garcia,MR,0.471,0.169,0.551,0.541,2335,solido
+Huila,Wilder Samboni Chanchi,NO_MR,0.448,0.434,0.403,0.499,627,solido
+CostaCaribe,Heber Hernan Gomez Naranjo,MR,0.392,0.062,0.543,0.405,3250,minimo
+CostaCaribe,Jose de Jesus Rueda Quintero,MR,0.402,0.081,0.495,0.469,4699,solido
+CostaCaribe,Juan Carlos Soto Sepulveda,MR,0.357,0.209,0.322,0.465,2596,solido
+CostaCaribe,Manuel Valentin Padilla Espitia,MR,0.435,0.297,0.422,0.518,2215,solido
+CostaCaribe,Yeris Andres Gomez Coronel,MR,0.447,0.301,0.425,0.541,3967,solido

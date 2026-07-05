@@ -1,0 +1,1758 @@
+{
+  "version": "corpus_c_victimas_ampliado",
+  "timestamp": "2026-06-23T08:07:18.135763",
+  "total": 216,
+  "por_nivel": {
+    "1": 26,
+    "2": 30,
+    "3": 160
+  },
+  "por_audiencia": {
+    "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423": 11,
+    "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424": 13,
+    "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409": 16,
+    "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918": 13,
+    "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810": 12,
+    "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta": 11,
+    "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar": 14,
+    "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)": 10,
+    "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301": 19,
+    "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28": 11,
+    "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23": 15,
+    "casanare_torres": 11,
+    "catatumbo": 13,
+    "costa_caribe": 22,
+    "dabeiba_antioquia": 15,
+    "huila": 10
+  },
+  "segmentos": [
+    {
+      "texto": " Con nuestros hijos, hijas y demás familias víctimas,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 53
+    },
+    {
+      "texto": " familia víctimas de ejecuciones extrajudiciales, mal llamados, falsos, positivos,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 82
+    },
+    {
+      "texto": " Para la gran parte de nuestra familia de víctimas de ejecuciones extrajudiciales,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 82
+    },
+    {
+      "texto": " porque las víctimas, los comparecientes y la comunidad,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 56
+    },
+    {
+      "texto": " También visibilizó la magnitud de los daños causados a víctimas, comunidades y al territorio casanareño.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 105
+    },
+    {
+      "texto": " que restauren y reparen a las víctimas, las comunidades",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 56
+    },
+    {
+      "texto": " Las características de las víctimas estuvieron marcadas por la estigmatización de la población civil,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 102
+    },
+    {
+      "texto": " Las víctimas sufrimos desplazamientos, insultos, señalamientos a nuestros hijos e hijas,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 89
+    },
+    {
+      "texto": " Hoy vengo a hablar por mi hijo y todos los hijos de las víctimas,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 66
+    },
+    {
+      "texto": " Nos la merecemos todas las víctimas que hemos pasado por este dolor que nos cesa en nosotros.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 94
+    },
+    {
+      "texto": " el objetivo era matar civiles para simular control territorial, el hecho de que en este caso específico el vehículo en el que se transportaban las víctimas fuera incinerado y no se hiciera el reporte de baja en combate,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260423",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 220
+    },
+    {
+      "texto": " los de las víctimas, las familias, las comunidades afectadas, sus propuestas, sus ideas de proyecto en respuestas de justicia material efectiva.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 145
+    },
+    {
+      "texto": " Finalmente, quiero decir a las víctimas no las vamos a olvidar, a la memoria de los campesinos con dolor de patria, que mi Dios nos ayude. Muchas gracias.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 155
+    },
+    {
+      "texto": " El secretario ejecutivo explicó durante la emisión del jueves 9 de noviembre del programa Por fin lo sabemos, el espacio radial de la JEP, que la preparación de las audiencias de reconocimiento motiva a los comparecientes a aceptar su responsabilidad en los crímenes y las víctimas encuentran los escenarios para tramitar sus duelos y acercarse al perdón a quienes los dañaron o los arrebataron a sus familiares.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 413
+    },
+    {
+      "texto": " Yo quiero agradecer nuevamente la voluntad de todas las personas que están acá, las víctimas, sus familiares, sus representantes, la voluntad para hacer públicas sus demandas,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 176
+    },
+    {
+      "texto": " que permitan a las víctimas y a sus familias, a sus hijos y a las generaciones futuras,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 88
+    },
+    {
+      "texto": " que oigan los dolores de las víctimas y sus demandas,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 54
+    },
+    {
+      "texto": " Para ello, se abre un espacio clave de participación, la audiencia de observaciones, donde víctimas, comparecientes y comunidad presentan sus propuestas y compromisos para la reparación y restauración.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 202
+    },
+    {
+      "texto": " Que tengan un enfoque diferencial atendiendo las particularidades de las víctimas, enfoque de género, población rural y comunidades históricamente afectadas.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 158
+    },
+    {
+      "texto": " se ha reiterado que muchas de las víctimas provienen de contextos campesinos,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 78
+    },
+    {
+      "texto": " En el 2025 alcanzó una ejecución del 141%, beneficiando a más de 4.800 campesinos víctimas, consolidándose como una apuesta clave para fortalecer capacidades en el campo y recuperar conocimientos que han sido históricamente inviabilizados.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 240
+    },
+    {
+      "texto": " a la comunidad en Casanare, a las víctimas en especial,",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 56
+    },
+    {
+      "texto": " Hoy reconozco el dolor de las víctimas, valido sus exigencias y admiro su resiliencia.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 87
+    },
+    {
+      "texto": " Expresamos nuestro reconocimiento a las víctimas y a sus familias.",
+      "audiencia": "Audiencia de Observaciones a la Resolución de Conclusiones No. 05 del Caso 03 ｜ 20260424",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 67
+    },
+    {
+      "texto": " y soy hermano de la víctima de mi hermano menor, Juan Guillermo Rondón Quintero.",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 81
+    },
+    {
+      "texto": " Muy buenos días. Mi nombre es Mayola Esterin de la Pérez, compañera de Aníbal Alfonso Castillo Ayala. Aquí estoy en vocería de todas las víctimas que nos encontramos en este espacio.",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 183
+    },
+    {
+      "texto": " Mi nombre es Reina Vázquez, comparezco ante esta audiencia como madre, víctima y vocera de las víctimas",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 104
+    },
+    {
+      "texto": " quien representa a las víctimas de las familias de Mauricio Hernández Cuadrado, Jorge Enrique Hernández Castro, Carlos Eduardo Lompaque y mi hermano Pedro Jesús Vega. Muchas gracias.",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 183
+    },
+    {
+      "texto": " Asimismo, la JEP ha escuchado a 60 víctimas y familiares de civiles asesinados y desaparecidos forzadamente, que fueron presentados ilegítimamente como bajas en combate en hechos atribuidos a integrantes de la 2ª y 5ª División del Ejército Nacional entre 2005 y 2008.",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 268
+    },
+    {
+      "texto": " han causado el dolor, no solamente a mi familia, sino a todas las víctimas que hoy estamos",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 91
+    },
+    {
+      "texto": " Tercero, por respeto a las víctimas y su dolor, la magistratura solicita evitar el registro en primeros planos en esta audiencia",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 129
+    },
+    {
+      "texto": " Esperamos que esta oportunidad de escucha y reconocimiento a las familias de las víctimas",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 90
+    },
+    {
+      "texto": " y en representación de la familia de las víctimas Uriel Villamizar, Flavio Ariza y Alonso Rodríguez Molina. Muchas gracias.",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 124
+    },
+    {
+      "texto": " para ejercer el acompañamiento judicial de los familiares de víctimas directas Aníbal Avendaño Angarita,",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 105
+    },
+    {
+      "texto": " comparece esta audiencia Jorge Eliezer Molano Rodríguez, en calidad de representante de víctimas de los familiares de Alejandro Uribe Chacón",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 141
+    },
+    {
+      "texto": " El trabajo de la Sala de Reconocimiento de Verdad ha permitido presentarle al país, por primera vez, una reconstrucción integral de la magnitud de estos crímenes, cómo evolucionaron en el tiempo, qué dinámicas los hicieron posibles y cuáles fueron sus impactos en las víctimas, sus familias y los territorios, así como las decisiones que llevaron a que estas atrocidades ocurrieron.",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 383
+    },
+    {
+      "texto": " a continuación escucharemos a las y los familiares de las víctimas",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 67
+    },
+    {
+      "texto": " que han involucrado a algunos de los familiares de las víctimas",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 64
+    },
+    {
+      "texto": " porque nos convierten a los familiares de las víctimas",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 55
+    },
+    {
+      "texto": " tratar de pensar qué tipo de apoyos pueden recibir familiares de las víctimas en muchos de estos casos.",
+      "audiencia": "Audiencia de Observaciones de Víctimas - Fase nacional del Caso 03 ｜ 20260409",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 104
+    },
+    {
+      "texto": " como el daño y sufrimiento que estos hechos causaron a las víctimas, a sus familiares y al pueblo casanareño en su conjunto.",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 2,
+      "score": 5,
+      "identidad": 0,
+      "longitud": 125
+    },
+    {
+      "texto": " la comunidad internacional y, sobre todo, delante de los familiares de las 303 víctimas",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 88
+    },
+    {
+      "texto": " De sus familias, de las comunidades, del pie de monte de Casanare y de todos aquellos municipios de donde procedían las víctimas",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 129
+    },
+    {
+      "texto": " víctimas, a las organizaciones que lo representan y acompañan a los miembros de la sociedad civil,",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 99
+    },
+    {
+      "texto": " Sus integrantes, además, masificaron la práctica criminal engañando a muchas de las víctimas civiles que eran reclutadas por informantes vinculados a la red criminal.",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 167
+    },
+    {
+      "texto": " Esta diligencia judicial es una oportunidad para que las víctimas de Casanare accedan a su derecho a la verdad, a que su dolor y los daños que sufrieron sean reconocidos y honrar la memoria de los que ya no están",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 213
+    },
+    {
+      "texto": " han acompañado ese sufrimiento de las víctimas",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 47
+    },
+    {
+      "texto": " a las víctimas, a los familiares de víctimas aquí presentes, al señor Procurador,",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 82
+    },
+    {
+      "texto": " Las víctimas que tuvieron la valentía y la dignidad de exigir que la muerte los abrazara de frente, no por la espalda, y los familiares que hace unos días en este mismo recinto les enrostraron la vileza, la inmensa cobardía de sus crímenes, representan la dignidad humana.",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 273
+    },
+    {
+      "texto": " 21 miembros del ejército, un exfuncionario del DAS y dos civiles reconocerán ante las víctimas y ante el país",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 110
+    },
+    {
+      "texto": " En estos encuentros las víctimas compartieron su dolor, sus expectativas, sus demandas de verdad y de responsabilidad.",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 119
+    },
+    {
+      "texto": " Debido a la desaparición y muerte de sus seres queridos, los familiares de las víctimas sufrieron depresión, ansiedad, alucinaciones con sus familiares e incluso intenciones suicidas causadas por la incertidumbre, angustia, estigmatización, revictimización, amenazas, hostigamientos y afectaciones al patrimonio familiar.",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 322
+    },
+    {
+      "texto": " sumergiéndose en la profundidad del impacto que tuvieron en la vida de las víctimas y sus familias.",
+      "audiencia": "Audiencia de Reconocimiento de Verdad ｜ Caso 03 ｜ Subcaso Casanare ｜ 20230918",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 100
+    },
+    {
+      "texto": " Que este sea un proceso realmente participativo y transformador, que responda a las necesidades de justicia y que preste cuidadosa atención a las demandas realizadas por las víctimas y a las condiciones propias de las comunidades afectadas, sin limitar la capacidad que tienen las víctimas para expresar su dolor y exigir justicia.",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 332
+    },
+    {
+      "texto": " huellas profundas en las víctimas, sus familiares, las comunidades y el territorio.",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 84
+    },
+    {
+      "texto": " todas y para todos, un cordial saludo nuevamente a las víctimas, a los familiares,",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 83
+    },
+    {
+      "texto": " quisiera hacer énfasis en los daños causados a la comunidad del departamento y la persecución de todas las víctimas.",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 117
+    },
+    {
+      "texto": " nos deshumanizamos totalmente, nos desgradamos al nivel más bajo su señoría y respetados familias y víctimas aquí presentes.",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 125
+    },
+    {
+      "texto": " Y ya había escuchado que las víctimas primeras eran inocentes, no eran ladrones como ellos decían.",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 99
+    },
+    {
+      "texto": " Y a la vez veo que esta familia está dando una oportunidad como colectivo, no solo como víctimas individuales.",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 111
+    },
+    {
+      "texto": " lo que obviamente agranda notoriamente ese daño a cada uno de los familiares de las víctimas",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 93
+    },
+    {
+      "texto": " Nosotros las víctimas buscamos que reconozcan que recibieron incentivos por el daño causado y que infundieron miedo en la comunidad, cambiando las costumbres de los residentes.",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 177
+    },
+    {
+      "texto": " Un respetuoso saludo para las víctimas y sus familias que nos acompañan en esta audiencia pública de reconocimiento",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 116
+    },
+    {
+      "texto": " principalmente con las víctimas, porque en estos momentos alguna familia debe estar buscando",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 93
+    },
+    {
+      "texto": " y no ser empático con el dolor de las víctimas, no sentirse uno culpable.",
+      "audiencia": "Audiencia de Reconocimiento y Aceptación de Responsabilidad – Caso 03 - Subcaso Huila ｜ 20240810",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 74
+    },
+    {
+      "texto": " Me presento, mi nombre es Adriana López y vengo en nombre de mi hermano Aldenago López-Hueva y de las demás víctimas.",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 1,
+      "score": 3,
+      "identidad": 2,
+      "longitud": 118
+    },
+    {
+      "texto": " En una calle de honor, los niños y niñas de las familias de las víctimas asesinadas",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 84
+    },
+    {
+      "texto": " Muy buenos días para todas y para todos, en especial para los familiares de las víctimas,",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 90
+    },
+    {
+      "texto": " porque el ejército era una familia muy grande y nosotras las víctimas eran muy pobres e incapaces.",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 99
+    },
+    {
+      "texto": " sino que eran campesinos, trabajadores e incluso como mi hermano que hacía parte del ejército.",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 95
+    },
+    {
+      "texto": " ¿cómo se siente tenernos a toda esta persona que estamos aquí presente de frente y a los familiares que somos víctimas?",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 120
+    },
+    {
+      "texto": " Yo soy Andrea Torres, abogada de la Fundación Nidia Erika Bautista, una organización de familiares víctimas de desaparición forzada.",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 133
+    },
+    {
+      "texto": " y no le desearíamos este sufrimiento y dolor a nuestros hijos e hijas futuras.",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 79
+    },
+    {
+      "texto": " Lo que les pido es que limpien y le brinden honor a mi familia, especialmente a mi mamá y a mi tía, no solamente a ellas, a todas las víctimas, a todas, porque ellos saben la verdad y porque la ocultan.",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 203
+    },
+    {
+      "texto": " que muchas víctimas y familiares de víctimas sufrieron por buscar justicia",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 75
+    },
+    {
+      "texto": " Las víctimas son siempre inocentes.",
+      "audiencia": "Audiencia de observaciones a versiones de militares en el Caso 03 ('falsos positivos'), Subcaso Meta",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 36
+    },
+    {
+      "texto": " a las autoridades del pueblo de Tancuano, a los familiares de las víctimas,",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 76
+    },
+    {
+      "texto": " La presencia de las víctimas, sus familiares, la comunidad cancuama que nos acompaña el día de hoy,",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 100
+    },
+    {
+      "texto": " a las familias de las víctimas, a las autoridades indígenas del pueblo calcuano",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 80
+    },
+    {
+      "texto": " La presentación de las víctimas como NN, que tenía de lo que pudimos también advertir el propósito de ocultar la verdadera identidad de las personas y así no permitir reclamos oportunos de parte de la comunidad o que incluso las propias comunidades o las familias reclamaran a su ser querido en los momentos de la ejecución.",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 325
+    },
+    {
+      "texto": " Como señalaba hace un momento, esta audiencia tiene por propósito escuchar las observaciones de los familiares de las víctimas cancuamas",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 137
+    },
+    {
+      "texto": " de los familiares de las víctimas cancuamas, Uriel Evangelista Arias Martínez,",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 79
+    },
+    {
+      "texto": " que representa a las víctimas y al pueblo cancuamo ante la Jurisdicción Especial para la Paz",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 93
+    },
+    {
+      "texto": " quien va a explicar un análisis que desarrollaron en relación con las víctimas y sus familiares",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 96
+    },
+    {
+      "texto": " Se trata de las siguientes personas que van a hacer observaciones como familiares víctimas cancuamas.",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 102
+    },
+    {
+      "texto": " Norgelis Martínez, quien hace parte del entorno de víctimas y grupo familiar de Juan Enemías Daza",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 98
+    },
+    {
+      "texto": " Neila Arias, que hace parte del grupo de familiares y de víctimas de Elainez Arias",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 83
+    },
+    {
+      "texto": " Selmis Polaño, quien hace parte del grupo y entorno familiar y de grupos de víctimas de Eberte Jesús Montero",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 109
+    },
+    {
+      "texto": " y ha acreditado a 373 víctimas a lo largo del país, incluyendo la intervención especial de las autoridades de los pueblos Cancuamo y Huigua.",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 141
+    },
+    {
+      "texto": " luego de la cual se llevó a cabo una segunda jornada de diálogo interjurisdiccional con víctimas y autoridades étnicas del pueblo Cancuamo el día 25 de septiembre de 2019.",
+      "audiencia": "Audiencia de observaciones de víctimas acreditadas Caso 03 ｜ Subcaso Costa Caribe ｜ Atanquez, Cesar",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 172
+    },
+    {
+      "texto": " Y empezamos un proceso de acompañamiento con las familias de las víctimas directas",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 83
+    },
+    {
+      "texto": " Mi hermano era un campesino, trabajador.",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 41
+    },
+    {
+      "texto": " En muchos casos, las familias han tenido que asumir de manera autónoma la custodia y el cuidado de los hijos y de las víctimas,",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 128
+    },
+    {
+      "texto": " En busca del apoyo, las familias víctimas proponemos ante la JED que se lleve a cabo el proceso de sensibilización",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 115
+    },
+    {
+      "texto": " víctimas sino de los familiares que cargamos con esta carga. Llevamos mucho tiempo sintiéndonos",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 96
+    },
+    {
+      "texto": " A esto las víctimas respondieron, estos hechos fueron cometidos en contra de una población mayoritariamente campesina, jornalera y trabajadora",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 143
+    },
+    {
+      "texto": " Sin embargo, cada una de las víctimas de estos hechos fue profundamente amada por sus familias",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 95
+    },
+    {
+      "texto": " A otras víctimas que no se atreven, por miedo, algunas por desconocimiento, a venir al sistema a entregarle su sufrimiento y su relato.",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 136
+    },
+    {
+      "texto": " a los civiles que participaron en la consecución de los víctimas de los delitos investigados.",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 94
+    },
+    {
+      "texto": " nosotras las familias de las víctimas de ejecuciones extrajudiciales del Huila,",
+      "audiencia": "Caso 03｜ Audiencia de observaciones de las víctimas｜ Subcaso Huila (17 de mayo de 2022)",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 80
+    },
+    {
+      "texto": " Mi nombre es Carolina Ríos Agudelo, representante de víctimas de la firma Javier Villegas Posada Abogados",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 106
+    },
+    {
+      "texto": " Mi nombre es Mariana Gutiérrez Uribe, en representación de la Organización de Derechos con Dignidad voy a hacer lectura de las víctimas de la Cuarta Brigada que están aquí con nosotros en espíritu, en estos elementos simbólicos y muy especialmente en el corazón de cada una de las personas que están acá.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 305
+    },
+    {
+      "texto": " Mi nombre es Juan David Viveros, representante de víctimas.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 60
+    },
+    {
+      "texto": " Mi nombre es Carolina Saldarriaga y soy representante de víctimas del SABAD.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 77
+    },
+    {
+      "texto": " para todas las víctimas. Mi nombre es Alba Morales, soy del municipio de Campamento,",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 85
+    },
+    {
+      "texto": " Antioquia, de la vereda San Juan Abajo de La Pradera. Soy hermana de las víctimas",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 82
+    },
+    {
+      "texto": " Mi nombre es Elizabeth Vera Lopera, vengo en compañía de mi madre Elvia Rosa Lopera y mi hermana Omaricelena Vera",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 114
+    },
+    {
+      "texto": " Entonces, por eso aquí estamos en la fase ya final de la contrastación de lo que han dicho estos comparecientes y para nosotros con una pieza fundamental que es la voz de ustedes las víctimas, lo que ustedes nos quieran decir respecto de eso que han dicho ante la JEP los comparecientes, pero también queremos oír cómo ustedes experimentaron los hechos y qué significó para ustedes, para sus vidas, para sus familias, para sus comunidades.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 440
+    },
+    {
+      "texto": " Los mismos perpetradores, miembros de distintas batallones del Ejército Nacional, las víctimas, personas en su inmensa mayoría, hombres, jóvenes, trabajadores, campesinos, personas en condiciones de vulnerabilidad socioeconómica, las modalidades, en muchos casos personas que fueron estigmatizadas por vivir en una vereda, en un corregimiento, nos decía alguna de ustedes o alguna de las personas que se han visto en la vida.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 426
+    },
+    {
+      "texto": " Les presento un saludo cordial, respetuoso, solidario a las víctimas, sus familias, sus representantes, a la magistratura, a los equipos y a las organizaciones internacionales y nacionales que nos acompañan.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 208
+    },
+    {
+      "texto": " de mi familia y de las víctimas de la Brigada 14",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 49
+    },
+    {
+      "texto": " Buenos días a todos los familiares, a todas las víctimas, a la magistratura, al procurador.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 92
+    },
+    {
+      "texto": " Queridos familiares de las víctimas, un especial abrazo y un saludo fraterno para ustedes.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 91
+    },
+    {
+      "texto": " Y un saludo muy grande y especial a todas las familias víctimas que están hoy acá",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 82
+    },
+    {
+      "texto": " Bueno, muchas gracias a todas y a todos, muchas gracias a los familiares de las víctimas y a sus abogados por recordarnos por quienes estamos aquí,",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 148
+    },
+    {
+      "texto": " como si no significara nada para ellos, hacerles este daño tan grande a las víctimas y a sus familias.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 103
+    },
+    {
+      "texto": " casos y eso deja en desigualdad a las familias de estas víctimas",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 65
+    },
+    {
+      "texto": " En este día quiero brindar un cordial saludo a todos los presentes, señores magistrados, procuradores, abogados, representantes de la JEP y en especial a las víctimas que hemos pasado por procesos de tristeza y de dolor, las cuales se unen en el día de hoy.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 258
+    },
+    {
+      "texto": " Marta Lini nos recuerda, es tremendamente doloroso que muchas de las víctimas de este tipo de ejecuciones extrajudiciales fueron niños.",
+      "audiencia": "Día 1 Audiencia de observaciones de víctimas ｜ Subcaso Antioquia ｜ Caso 03 ｜ 20240301",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 136
+    },
+    {
+      "texto": " el sufrimiento de familiares de las víctimas y también su fortaleza para reclamar durante años la verdad.",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 106
+    },
+    {
+      "texto": " restaurativas. Ante esto, las víctimas se sobrepusieron al dolor y establecieron nuevos",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 88
+    },
+    {
+      "texto": " Un respetuoso y solidario saludo a las víctimas, a su representación, a las comunidades.",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 89
+    },
+    {
+      "texto": " que se solidariza con el dolor de todas las víctimas que nos entregaron su testimonio el día de ayer",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 101
+    },
+    {
+      "texto": " de pueblo en pueblo, le decían hay víctimas",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 44
+    },
+    {
+      "texto": " Buenos días señores magistrados, ahogados, víctimas y familiares",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 65
+    },
+    {
+      "texto": " de eso. Yo era inocente, yo me centraba en buscar a mi hijo.",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 61
+    },
+    {
+      "texto": " y buscaron sus víctimas entre personas humildes, trabajadoras, personas en situación de calle,",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 95
+    },
+    {
+      "texto": " Además, las víctimas desean conocer qué significan las señales de tortura que algunos de sus familiares tenían en sus cuerpos,",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 127
+    },
+    {
+      "texto": " sino que insisten que las víctimas eran personas guerrilleras cuya familia no merece acceder a una reparación?",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 111
+    },
+    {
+      "texto": " la verdad no será suficiente si las víctimas no tienen un lugar para honrar la memoria de sus familiares",
+      "audiencia": "Día 2 ｜ Tercera audiencia de observaciones de víctimas ｜ Caso 03 ｜ Barranquilla ｜ 2023-03-28",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 105
+    },
+    {
+      "texto": " Muy buenos días, mi nombre es Hidania Vega, vengo de la comunidad de Marocaso, pueblo Uyua",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 91
+    },
+    {
+      "texto": " Saludo a las víctimas, las familias del pueblo Uigua y Guayu que nos acompañan el día de hoy",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 93
+    },
+    {
+      "texto": " actuando en la presente diligencia como representante de víctimas de las familias del pueblo Uigua. Gracias.",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 109
+    },
+    {
+      "texto": " y a partir de ahí entonces poder limpiar el nombre de las víctimas, de sus familias y de todo un pueblo",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 104
+    },
+    {
+      "texto": " de los testimonios que han manifestado aquí los familiares de las víctimas del pueblo huayú y del pueblo huíba",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 111
+    },
+    {
+      "texto": " judiciales. Tercero, por respeto a las víctimas y en solidaridad con sus manifestaciones de dolor,",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 99
+    },
+    {
+      "texto": " víctimas cuyos familiares se encuentran hoy en esta diligencia",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 63
+    },
+    {
+      "texto": " esperamos que esta escucha y reconocimiento de los familiares de las víctimas en esta audiencia",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 96
+    },
+    {
+      "texto": " por supuesto a la familiar y a las víctimas que están acá.",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 59
+    },
+    {
+      "texto": " con más de 20 años de experiencia luchando con las víctimas de mi pueblo.",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 74
+    },
+    {
+      "texto": " Un saludo a todas las víctimas del pueblo huigua y en especial a las víctimas del pueblo huayú, a las cuales yo represento.",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 124
+    },
+    {
+      "texto": " Luego de estas acreditaciones y atendiendo al propósito de esta diligencia, vamos a escuchar a las y los familiares de las víctimas directas, quienes de viva voz nos compartirán aquellos aspectos que consideran relevantes sobre los hechos y sobre sus seres queridos.",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 267
+    },
+    {
+      "texto": " Procederemos a escuchar las observaciones de un grupo de familiares de víctimas de hechos cuestionados",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 103
+    },
+    {
+      "texto": " De esos hechos, 10 tienen víctimas de los pueblos Wihua y Wayu",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 63
+    },
+    {
+      "texto": " y por el momento tenemos 12 víctimas identificadas que son de esos pueblos",
+      "audiencia": "Segunda audiencia de observaciones de víctimas ｜ Caso 03 ｜ San Juan del Cesar ｜ 2023-03-23",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 75
+    },
+    {
+      "texto": " Buenos días a todos los asistentes y a las víctimas. Mi nombre es Julia Andrea Rincon",
+      "audiencia": "casanare_torres",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 86
+    },
+    {
+      "texto": " respeto a las víctimas, por mi familia, por mi país, por los soldados que comandé y buscando",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 93
+    },
+    {
+      "texto": " familiares de quienes fueron víctimas del conflicto armado para admitir que esta acción",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 88
+    },
+    {
+      "texto": " un modelo de reparación para las familias y las víctimas de los hechos aquí expuestos el cual",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 94
+    },
+    {
+      "texto": " íntegramente a las víctimas, sus familias y al país en torno a hechos que nunca, repito nunca",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 94
+    },
+    {
+      "texto": " estableció que las víctimas acreditadas podrían hacer parte de esta audiencia, previa manifestación",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 100
+    },
+    {
+      "texto": " como representante a algunas de las víctimas del caso 3, expresó su interés de participar",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 90
+    },
+    {
+      "texto": " representante de víctimas autorizada no se ha hecho presente hasta el momento. Hay otra",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 88
+    },
+    {
+      "texto": " será trasladada a las víctimas. Señor General Torres Escalante, su contribución",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 80
+    },
+    {
+      "texto": " sugerir medidas de reparación a las víctimas que permitan contribuir al desarrollo de una",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 90
+    },
+    {
+      "texto": " tanto mi vida familiar como en lo profesional quise conocer las razones que lo llevaron a la",
+      "audiencia": "casanare_torres",
+      "nivel": 3,
+      "score": 2,
+      "identidad": 0,
+      "longitud": 93
+    },
+    {
+      "texto": " Cordial saludo especialmente a las víctimas que hoy se hacen presentes en este lugar, mi nombre es Pilar Castillo, abogada de la asociación MINGA.",
+      "audiencia": "catatumbo",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 147
+    },
+    {
+      "texto": " Buenos días para todos y todas, mi nombre es Angelo Ismael Villanueva Contreras, apoderado judicial de las víctimas acreditadas Lady Catherine James Díaz",
+      "audiencia": "catatumbo",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 154
+    },
+    {
+      "texto": " Somos gente luchadoras, trabajadoras. Yo encubro aquí en el municipio de Ocaña, pero también represento al Catatumbo, al Carmen Norte Santander, Guamalito, Aguachica, también Bucaramanga y las familias de su familia,",
+      "audiencia": "catatumbo",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 217
+    },
+    {
+      "texto": " La JEP superó el umbral de verdad que ya se había conocido en la justicia ordinaria y logró reconstruir la magnitud de los delitos imputados, la evolución de las prácticas, las dinámicas que alimentaron las atrocidades, los impactos físicos y psicológicos sufridos por las víctimas y sus familias, así como las políticas sin las que estos delitos no hubieran ocurrido.",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 369
+    },
+    {
+      "texto": " Durante estos dos días vamos a dar pasos decisivos, no solo porque vamos a tener la verdad de frente y con ella vamos a reducir los índices de impunidad, sino también porque este proceso permitirá empezar a cicatrizar el dolor que nunca debieron haber experimentado las víctimas.",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 280
+    },
+    {
+      "texto": " Hoy la JEP cuenta con información que permite confirmar que las víctimas eran en realidad campesinos de la zona",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 112
+    },
+    {
+      "texto": " estas víctimas fueron seleccionadas siendo trabajadores informales o desempleados,",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 83
+    },
+    {
+      "texto": " Por su parte, las madres, padres, compañeras, esposas, hijos y demás familiares de las víctimas",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 96
+    },
+    {
+      "texto": " Mientras que las víctimas reconstruyeron su dolor, compartieron sus expectativas",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 81
+    },
+    {
+      "texto": " Y esperamos que en el marco del proceso dialógico y la centralidad de las víctimas, los comparecientes escuchen atentamente las intervenciones de las víctimas, sus historias, sus dolores, sus demandas, sus preguntas, para que puedan ofrecer y se esfuerzan a las víctimas.",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 272
+    },
+    {
+      "texto": " que nuestros familiares lleven ese honor que eran campesinos, trabajadores, no como los tildaron, de guerrilleros, de subversivos, de matones, porque de todo eso los tildaban.",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 176
+    },
+    {
+      "texto": " Nosotros no somos campesinos de manos humildes, trabajadores. Hoy necesitamos que todo esto salga a la luz del día y que nos limpen el nombre de nuestros familiares.",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 166
+    },
+    {
+      "texto": " Hoy tenemos todo el derecho como campesinos a reclamar nuestras víctimas que fueron derramadas en sangre. No fue en combate. Fue traída, torturada y muerta.",
+      "audiencia": "catatumbo",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 157
+    },
+    {
+      "texto": " Buenos días, mi nombre es Edilma Loperena Plata, soy coordinadora de Mujeres del Pueblo Uigua, y estamos haciendo acompañamiento a las víctimas, y estamos también con nuestras guías espirituales, la saga Emerigilda y la saga Josefa. Muchas gracias.",
+      "audiencia": "costa_caribe",
+      "nivel": 1,
+      "score": 3,
+      "identidad": 1,
+      "longitud": 249
+    },
+    {
+      "texto": " Buenos días, mi nombre es Enrique Mendoza Montero, hermano de la víctima Diver José Mendoza Montero, quien fue asesinado el 3 de junio del 2005 en la comunidad, en el caserío de Abingüe.",
+      "audiencia": "costa_caribe",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 187
+    },
+    {
+      "texto": " mi nombre es Hermen Antonio Martínez Carrillo, de la víctima de mi hijo, Hermen Enrique.",
+      "audiencia": "costa_caribe",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 89
+    },
+    {
+      "texto": " Buenos días, mi nombre es Tobias Enrique Mendoza, soy padre de tres víctimas, asesinado el 3 de julio de 2005.",
+      "audiencia": "costa_caribe",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 111
+    },
+    {
+      "texto": " Muy buenos días. Mi nombre es Fernan Ramón Serra Silva, soy representante de víctimas",
+      "audiencia": "costa_caribe",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 86
+    },
+    {
+      "texto": " Buenos días. Mi nombre es Amarillo Ramón, representante de víctimas.",
+      "audiencia": "costa_caribe",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 69
+    },
+    {
+      "texto": " Muy buenos días, un saludo respetuoso a las víctimas, a la magistratura. Mi nombre es Diego Andrés Vargas Acuña,",
+      "audiencia": "costa_caribe",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 113
+    },
+    {
+      "texto": " Buenos días. Presento un saludo a las víctimas y sus representantes, a sus familiares, a las comunidades indígenas",
+      "audiencia": "costa_caribe",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 115
+    },
+    {
+      "texto": " Durante la audiencia de reconocimiento, los familiares de las víctimas harán sus demandas de responsabilidad y verdad. Además, relatarán el dolor que vivieron por la pérdida de sus seres amados.",
+      "audiencia": "costa_caribe",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 195
+    },
+    {
+      "texto": " quiere visibilizar a las víctimas de este aparato criminal, comunidades indígenas, campesinos,",
+      "audiencia": "costa_caribe",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 95
+    },
+    {
+      "texto": " que estos hechos causaron a las víctimas, a sus familiares, a los pueblos indígenas y a los",
+      "audiencia": "costa_caribe",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 92
+    },
+    {
+      "texto": " y se lo llevaron, quedaron con el perdón de la familia aquí y de todas las víctimas,",
+      "audiencia": "costa_caribe",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 85
+    },
+    {
+      "texto": " un encuentro tradicional entre autoridades étnicas y víctimas del pueblo Cancoamo,",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 83
+    },
+    {
+      "texto": " El dolor de las víctimas retrata la tragedia que vivió la sociedad colombiana durante el conflicto armado,",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 107
+    },
+    {
+      "texto": " Hermes Carrillo y todas las víctimas de este conflicto y sus familiares, atendiendo lo expuesto",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 96
+    },
+    {
+      "texto": " que causaron un inmenso dolor a unas familias, a un pueblo, a toda una sociedad, múltiples actos",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 97
+    },
+    {
+      "texto": " colectivos y afectados cuyas comunidades, grupos, asociaciones no se saben aún víctimas o carecen",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 98
+    },
+    {
+      "texto": " y de nuevas generaciones que aunque no conocieron a las víctimas tuvieron que heredar el dolor de",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 98
+    },
+    {
+      "texto": " e integridad de los ciudadanos. Además, y como si fuera poco, a las víctimas y a sus familiares",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 96
+    },
+    {
+      "texto": " familiares, reivindicar el buen nombre de las víctimas y hacer públicos estos reconocimientos",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 94
+    },
+    {
+      "texto": " víctimas directas o indirectas, sino a toda la línea ancestral y venidera de estos pueblos",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 91
+    },
+    {
+      "texto": " los pueblos y su tradición cultural, que se limpie el nombre de las víctimas injustamente",
+      "audiencia": "costa_caribe",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 90
+    },
+    {
+      "texto": " Buenos días a los señores maestrados, a las víctimas y a todos aquí presentes, mi nombre es Manuel Esteban Achebarria Julio,",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 125
+    },
+    {
+      "texto": " Buenos días a todos los presentes, en especial a las víctimas, mi nombre es Ricardo Manuel Vuelva Lozano, fui soldado profesional del batallón de contraguerrillas 79 de la brigada móvil 11,",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 190
+    },
+    {
+      "texto": " Mi nombre es Catalina Ortiz, hermana de una de las víctimas,",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 1,
+      "score": 2,
+      "identidad": 1,
+      "longitud": 61
+    },
+    {
+      "texto": " Debido a estos hechos se estigmatizó a las víctimas, a sus familiares, a sus comunidades,",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 90
+    },
+    {
+      "texto": " víctimas por décadas, aumentando el dolor de los familiares y facilitando la",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 2,
+      "score": 4,
+      "identidad": 0,
+      "longitud": 77
+    },
+    {
+      "texto": " gracias muchas gracias a ustedes los familiares de las víctimas gracias por su lucha por su",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 92
+    },
+    {
+      "texto": " esperamos respuestas generadoras de paz para cada una de estas familias como víctimas personas",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 95
+    },
+    {
+      "texto": " los relatos de dolor de las víctimas hacen parte de la memoria que estamos construyendo en Colombia sobre los horrores del conflicto armado",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 140
+    },
+    {
+      "texto": " Exiendo un cordial saludo a los familiares de las víctimas y a los comparecientes que nos acompañan,",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 101
+    },
+    {
+      "texto": " Por otro lado, si es importante decirle así a los familiares de las víctimas directas de esta situación",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 104
+    },
+    {
+      "texto": " con sus víctimas, con sus familiares y las organizaciones",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 58
+    },
+    {
+      "texto": " y reconozcan el dolor de las víctimas y la responsabilidad de los victimarios.",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 79
+    },
+    {
+      "texto": " ayudan a la sanación de las víctimas, a las innumerables familias y organizaciones",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 83
+    },
+    {
+      "texto": " El perfil de las víctimas de este primer patrón corresponde a jóvenes campesinos",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 81
+    },
+    {
+      "texto": " Un saludo especial para todos los presentes, para la mesa de las víctimas y familiares",
+      "audiencia": "dabeiba_antioquia",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 87
+    },
+    {
+      "texto": " víctimas, esta grande familia que está el día de hoy aquí presente.",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 68
+    },
+    {
+      "texto": " víctimas, mi más sentido sentimiento de arrepentimiento, le fallé a Dios, le fallé a mi familia,",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 97
+    },
+    {
+      "texto": " bajo su señoría y respetados familias y víctimas aquí presentes",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 64
+    },
+    {
+      "texto": " y ya había escuchado que las víctimas primeras eran inocentes, no eran ladrones",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 80
+    },
+    {
+      "texto": " ese día fueron dos víctimas, uno quedó vivo, un sobreviviente, no sé si estará aquí, habrá un familiar.",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 104
+    },
+    {
+      "texto": " ante todos ustedes víctimas, causamos mucho daño, mucho dolor, sueños frustrados,",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 82
+    },
+    {
+      "texto": " de las víctimas, uno de los hechos más perjudiciales, fue la activización que sufrieron las familias",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 101
+    },
+    {
+      "texto": " para que la familia de mi esposo no siga diciendo que yo lo hice, para que mi hija G, mi amor,",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 95
+    },
+    {
+      "texto": " para que mi hija y yo no tuviéramos hambre. Pero no se pudo. Hoy somos víctimas reconocidas.",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 93
+    },
+    {
+      "texto": " Un respetuoso saludo para las víctimas y sus familias que nos acompañan en esta audiencia",
+      "audiencia": "huila",
+      "nivel": 3,
+      "score": 3,
+      "identidad": 0,
+      "longitud": 90
+    }
+  ]
+}

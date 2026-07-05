@@ -1,0 +1,45 @@
+﻿subcaso,identidad,etiqueta_MR,icm_facial,icm_vocal,y10_rep,disociacion,n_facial,n_vocal,n_tokens,robustez,flag_artefacto
+Huila,Luis Carlos Aguilera Quintero,MR,0.042,0.427,0.716,2.047153507169247,547,225,3481,solido,False
+Huila,Fernando Riveros Sarmiento,MR,0.421,0.421,0.913,1.9868859262633807,61,64,842,solido,True
+Huila,Harbey Sanchez Gomez,MR,0.52,0.363,0.729,1.9557301398629692,256,15,176,minimo,True
+Catatumbo,Ruben Dario Castro Gomez,MR,0.202,0.346,0.611,1.8624304418929483,789,116,2258,solido,False
+Huila,Francisco Javier Castañeda Alfaro,MR,0.157,0.457,0.767,1.8561900648759784,211,48,729,solido,True
+Casanare,Henry Torres Escalante,MR,0.346,0.624,0.063,1.6405515146549214,24431,1414,32343,solido,False
+Huila,Jair Fernandez,NO_MR,0.053,0.559,0.143,1.5389533597808052,179,77,1026,solido,True
+Dabeiba,Levis de Jesús Contreras,NO_MR,0.765,0.454,0.098,1.4684206536894024,40,66,833,minimo,True
+Huila,Jair Arias Sanchez,MR,0.435,0.419,0.665,1.3762702882013493,748,58,772,solido,True
+Huila,Jose Albeiro Bustos Aguilar,NO_MR,0.365,0.357,0.417,1.2947678972653802,269,27,344,solido,True
+Huila,Julian Andres Calderon Motta,MR,0.727,0.525,0.096,1.2609338303638211,775,58,1151,solido,True
+Dabeiba,Fidel Iván Ochoa Blanco,MR,0.563,0.38,0.095,1.2170509103184708,83,138,1843,solido,True
+Huila,Cesar Augusto Vasquez Ordoñez,NO_MR,0.704,0.588,0.179,1.1664772055042485,320,54,540,solido,True
+Dabeiba,Edie Pinzón Turcios,MR,0.185,0.543,0.096,1.1260721910786289,250,95,1740,solido,True
+Huila,Jhon Jairo Buitrago Lopez,MR,0.406,0.581,0.123,1.114889691699834,494,136,2404,solido,False
+Huila,Aris Ramirez Campos,NO_MR,0.064,0.464,0.336,1.1046016013389008,284,107,1616,solido,False
+Huila,Jose Roldan Lopez Ceron,MR,0.711,0.478,0.179,1.093930812303745,132,40,376,solido,True
+CostaCaribe,Heber Hernan Gomez Naranjo,MR,0.543,0.405,0.062,1.0366563825043877,29,619,3250,minimo,True
+Huila,Fabio Nelson Rodriguez Barrera,NO_MR,0.749,0.513,0.237,1.0173857344504873,269,37,643,solido,True
+Dabeiba,Ricardo Manuel Buelvas Lozano,NO_MR,0.502,0.388,0.094,0.9860028080161662,456,52,1027,solido,True
+Huila,Hernando Mendez Rodriguez,NO_MR,0.774,0.495,0.357,0.9710520305008002,155,15,174,minimo,True
+Huila,Faiver Coronado Camero,MR,0.55,0.601,0.327,0.7917515865548796,630,209,3235,solido,False
+Huila,Ricardo Andres Lopez Garcia,MR,0.551,0.541,0.169,0.7528702098327299,1769,101,2335,solido,False
+Dabeiba,William Andrés Capera,MR,0.328,0.519,0.097,0.7007258948905645,282,134,2278,solido,False
+Huila,Jose Gañan Tapasco,NO_MR,0.34,0.542,0.227,0.6930277872376017,124,21,193,minimo,True
+Huila,Jose Yati Anacona Bueno,NO_MR,0.338,0.53,0.156,0.6839904502192127,97,26,370,solido,True
+CostaCaribe,Jose de Jesus Rueda Quintero,MR,0.495,0.469,0.081,0.6679704794188136,2264,806,4699,solido,False
+Huila,Jose Fabio Guzman Muñoz,NO_MR,0.441,0.414,0.268,0.6485736229043622,153,20,337,solido,True
+Dabeiba,Carlos Andrés Caravalli,MR,0.382,0.468,0.0,0.6130553569166601,47,12,186,minimo,True
+Huila,Angel Fernando Carvajal Rojas,MR,0.232,0.436,0.312,0.5898073056634094,576,44,521,solido,True
+Dabeiba,Yair Leandro Rodríguez,NO_MR,0.122,0.458,0.088,0.5873435438749934,264,86,1071,solido,True
+Dabeiba,Hermes Mauricio Alvarado,MR,0.445,0.465,0.073,0.554716069251386,272,78,1558,solido,True
+Dabeiba,Efraín Enrique Prada Correa,NO_MR,0.347,0.512,0.163,0.5063509502993031,1017,310,4683,solido,False
+Huila,Annuar Herrera Osorio,NO_MR,0.484,0.562,0.556,0.48611947431335356,145,18,235,minimo,True
+Huila,Divar Juspian Jimenez,MR,0.451,0.452,0.375,0.47853310631984486,105,28,408,solido,True
+Huila,Jose David Restrepo Solarte,NO_MR,0.436,0.485,0.118,0.46400652180370244,1042,76,1154,solido,True
+CostaCaribe,Yeris Andres Gomez Coronel,MR,0.425,0.541,0.301,0.45176462579923143,813,1046,3967,solido,False
+Huila,Luis Carlos Oyola Tapia,NO_MR,0.348,0.515,0.243,0.4293707512772053,202,42,524,solido,True
+Catatumbo,Santiago Herrera Fajardo,NO_MR,0.28,0.491,0.255,0.42542825845189797,1926,139,2883,solido,False
+Huila,Wilder Samboni Chanchi,NO_MR,0.403,0.499,0.434,0.38310836625914696,320,29,627,solido,True
+Catatumbo,Juan Carlos Chaparro Chaparro,MR,0.328,0.484,0.124,0.356492486133918,1104,101,1434,solido,False
+Huila,Fabian Fermin Durango de la Cruz,MR,0.325,0.488,0.243,0.26796553144440455,184,49,706,solido,True
+CostaCaribe,Manuel Valentin Padilla Espitia,MR,0.422,0.518,0.297,0.26069022984252477,685,537,2215,solido,False
+CostaCaribe,Juan Carlos Soto Sepulveda,MR,0.322,0.465,0.209,0.10874700041634332,1605,426,2596,solido,False

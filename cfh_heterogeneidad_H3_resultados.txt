@@ -1,0 +1,101 @@
+==================================================================
+CFH - Heterogeneidad de H3 (rol MR y subcaso) | y8/y9 INVERTIDOS
+==================================================================
+Comparecientes: 47  |  sin etiqueta_MR tras merge: 0
+Distribucion etiqueta_MR:
+etiqueta_MR
+MR       27
+NO_MR    20
+
+==================================================================
+AGREGADO (los 47) - con y8/y9 invertidos
+==================================================================
+  H1  viol ~ injust   : +0.085   (esperado +)
+  H3  injust ~ transic: +0.055   (esperado -)
+
+==================================================================
+PARTICION 1: POR ROL (Maximo Responsable)
+==================================================================
+
+------------------------------------------------------------------
+MAXIMO RESPONSABLE (MR)  (n=27)
+------------------------------------------------------------------
+  Medias:  viol=0.172  injust=-0.144  transic=0.035
+           y1_ebi=0.190  y10_rep=0.533  y11=0.148
+  H1  viol ~ injust   : +0.067   (esperado + )
+  H3  injust ~ transic: +0.098   (esperado - )  <- CLAVE
+      viol ~ transic  : -0.170
+      EBI ~ REP       : +0.320
+
+------------------------------------------------------------------
+NO MAXIMO RESPONSABLE (NO_MR)  (n=20)
+------------------------------------------------------------------
+  Medias:  viol=-0.232  injust=0.195  transic=-0.048
+           y1_ebi=0.189  y10_rep=0.453  y11=0.204
+  H1  viol ~ injust   : +0.294   (esperado + )
+  H3  injust ~ transic: -0.021   (esperado - )  <- CLAVE
+      viol ~ transic  : +0.319
+      EBI ~ REP       : +0.269
+
+==================================================================
+PARTICION 2: POR SUBCASO
+==================================================================
+
+------------------------------------------------------------------
+SUBCASO Huila  (n=26)
+------------------------------------------------------------------
+  Medias:  viol=0.015  injust=0.152  transic=0.416
+           y1_ebi=0.197  y10_rep=0.630  y11=0.226
+  H1  viol ~ injust   : -0.104   (esperado + )
+  H3  injust ~ transic: +0.030   (esperado - )  <- CLAVE
+      viol ~ transic  : +0.010
+      EBI ~ REP       : +0.308
+
+------------------------------------------------------------------
+SUBCASO Dabeiba  (n=12)
+------------------------------------------------------------------
+  Medias:  viol=-0.417  injust=-0.246  transic=-0.585
+           y1_ebi=0.087  y10_rep=0.259  y11=0.164
+  H1  viol ~ injust   : +0.500   (esperado + )
+  H3  injust ~ transic: -0.748   (esperado - )  <- CLAVE
+      viol ~ transic  : -0.287
+      EBI ~ REP       : +0.811
+
+------------------------------------------------------------------
+SUBCASO CostaCaribe  (n=5)
+------------------------------------------------------------------
+  Medias:  viol=0.314  injust=0.345  transic=-0.318
+           y1_ebi=0.208  y10_rep=0.485  y11=0.023
+  [n<10] correlaciones NO reportadas (ruido).
+
+------------------------------------------------------------------
+SUBCASO Catatumbo  (n=3)
+------------------------------------------------------------------
+  Medias:  viol=0.810  injust=-0.377  transic=-0.476
+           y1_ebi=0.441  y10_rep=0.401  y11=0.045
+  [n<10] correlaciones NO reportadas (ruido).
+
+------------------------------------------------------------------
+SUBCASO Casanare  (n=1)
+------------------------------------------------------------------
+  Medias:  viol=0.617  injust=-1.584  transic=-0.767
+           y1_ebi=0.382  y10_rep=0.315  y11=0.000
+  [n<10] correlaciones NO reportadas (ruido).
+
+==================================================================
+SINTESIS - H3 (injust -> transic) por grupo
+==================================================================
+  AGREGADO (47)     : +0.055
+  MR (n=27)         : +0.098
+  NO_MR (n=20)      : -0.021
+  Huila             : +0.030
+  Dabeiba           : -0.748
+
+  LECTURA:
+  - Si H3 tiene SIGNOS OPUESTOS entre MR y NO_MR (o entre subcasos),
+    el agregado ~0 se explica por cancelacion -> HALLAZGO de
+    heterogeneidad: la estructura del reconocimiento depende del rol.
+  - Si H3 es ~0 en todos los grupos -> el nulo es genuino; el peso
+    de la evidencia se traslada al contraste entre corpus A/B/C.
+
+  Log -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\cfh_heterogeneidad_H3_resultados.txt

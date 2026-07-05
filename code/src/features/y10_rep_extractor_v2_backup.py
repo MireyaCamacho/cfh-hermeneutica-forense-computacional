@@ -64,8 +64,6 @@ Referencia teórica:
     Austin, J. L. (1962). How to Do Things with Words. Oxford UP.
     JEP (2022). RC-01 y RC-03 — Resoluciones de Conclusiones Caso 03.
 """
-# CFH_VERSION = "y10-v5 (v4 + Opcion B: nominal solo cuenta con acto reparador presente)"
-
 
 from __future__ import annotations
 
@@ -130,26 +128,6 @@ REP_RECONOCIMIENTO_FRASES = [
     r"\b(?:acepto|reconozco|asumo)\s+(?:que\s+)?(?:lo\s+)?(?:hice|participé|estuve|cometí)",
     r"\breconozco\s+mi\s+responsabilidad\b",
     r"\baceptar\s+mi\s+responsabilidad\b",
-
-    # --- REP REPORTADO / nominalizado (autos JEP en 3a persona) ---
-    # Guarda anti-negacion: (?<!no\s) evita "no reconoce", y se excluyen
-    # con lookbehind los contextos de negacion mas comunes.
-    r"(?<!no\s)(?<!negación\s)\breconocimiento\s+(?:total|pleno|inequívoco|"
-    r"expreso|explícito|íntegro)\s+(?:de\s+)?(?:la\s+)?responsabilidad",
-    r"\breconocimiento\s+(?:de\s+)?(?:la\s+)?responsabilidad\s+"
-    r"(?:inequívoc[oa]|plen[oa]|total|estatal|individual)",
-    r"\brealiza\s+un\s+reconocimiento\s+(?:inequívoco|pleno|total)",
-    r"\baceptación\s+de\s+(?:la\s+)?responsabilidad\b",
-    r"\bvoluntad\s+de\s+reconocer\s+(?:la\s+)?(?:verdad|responsabilidad)",
-    r"\bmanifest[óa](?:ron)?\s+(?:su\s+)?(?:voluntad\s+de\s+)?reconocer",
-    r"(?<!no\s)\breconoc[ei](?:ó|eron|e|en)\s+(?:su|la|los|las|el)?\s*"
-    r"(?:responsabilidad|verdad|hechos|daño|víctimas?)",
-    r"\bacept[óa](?:ron)?\s+(?:haber\s+)?(?:la\s+)?"
-    r"(?:responsabilidad|gravedad|cargos?|causado|el\s+daño|los\s+hechos)",
-    r"\baporte(?:s)?\s+(?:a\s+la\s+|de\s+)?verdad\b",
-    r"\baceptar\s+la\s+realidad\s+de\s+la\s+denuncia\s+de\s+la\s+víctima",
-    r"\badmiti[óó](?:eron)?\s+(?:su\s+)?(?:responsabilidad|autoría|participación)",
-    r"\basumi[óó](?:eron)?\s+(?:su\s+)?responsabilidad",
 ]
 
 # ── Mecanismo 2: Restitución de identidad ────────────────────────────────
@@ -166,10 +144,10 @@ REP_RESTITUCION_FRASES = [
     r"\bno\s+(?:era|eran|tenía|tenían)\s+(?:ninguna\s+)?vinculación\s+"
     r"(?:con|a)\s+(?:grupo(?:s)?|organización|actividades?)",
     r"\b(?:civil|civiles)\s+(?:inocente(?:s)?|desarmado(?:s)?|ajeno(?:s)?\s+al\s+conflicto)",
-    r"\bpersona(?:s)?\s+inocente(?:s)?",  # DIH 'protegida' y 'civil' removidos (eufemismo/marco juridico)
+    r"\bpersona(?:s)?\s+(?:protegida(?:s)?|inocente(?:s)?|civil(?:es)?)",
     r"\bno\s+(?:portaba|portaban|tenía|tenían)\s+armas?",
     r"\bajeno(?:s)?\s+al\s+conflicto\s+armado",
-    r"\bvíctima(?:s)?\s+inocente(?:s)?",  # 'civil(es)' y 'directa(s)' removidos (eufemismo, no reparación)
+    r"\bvíctima(?:s)?\s+(?:inocente(?:s)?|civil(?:es)?|directa(?:s)?)",
 ]
 
 # Patrones de uso del nombre propio de la víctima — restitución máxima
@@ -238,31 +216,6 @@ REP_NOMINAL_CARGOS_EXCLUIR = re.compile(
 
 # Ventana (en caracteres) alrededor del nombre para buscar el cargo excluyente
 REP_NOMINAL_VENTANA_CHARS = 45
-
-# ── Filtro PROCESAL (solo Corpus A) ──────────────────────────────────────
-# En la justicia ordinaria, nombrar a una persona dentro de la parte
-# resolutiva/decisoria de la sentencia (RESUELVE, CONSIDERACIONES, INADMITIR,
-# CONCEDER, SUSPENDER, FALLA...) es un ACTO PROCESAL, no restitución
-# epistémica de la víctima. Se excluye el nombre nominal si su ventana
-# contextual contiene un marcador de la parte decisoria.
-# NOTA: aplica SOLO a Corpus A. En B/C nombrar sí es reparación
-# (los autos JEP y el habla oral no usan estas fórmulas para lo mismo).
-REP_NOMINAL_PROCESAL_A = re.compile(
-    r"\b(?:RESUELVE|RESOLUCIÓN|CONSIDERACIONES|CONSIDERANDO|"
-    r"INADMITIR|ADMITIR|NO\s+ADMITIR|CONCEDER|NEGAR|SUSPENDER|"
-    r"REVOCAR|REVÓCASE|CONFIRMAR|CONFÍRMASE|CASAR|FALLA|FALLO|"
-    r"beneficio\s+de\s+libertad|orden(?:es)?\s+de\s+captura|"
-    r"demanda\s+de\s+casación|recurso\s+de\s+(?:casación|apelación)|"
-    r"parte\s+resolutiva|en\s+mérito\s+de\s+lo\s+expuesto|"
-    # --- bloque de firmas de magistrados (fin del fallo) ---
-    r"Cópiese|Notifíquese|Comuníquese|Cúmplase|Devuélvase|"
-    r"Presidente|Vicepresidente|Magistrad[oa]s?|Secretari[oa]|"
-    r"administrando\s+justicia|impugnado|proceso\s+de\s+la\s+referencia|"
-    r"Sala\s+de\s+Casación\s+Penal|Sala\s+Penal)\b",
-    re.IGNORECASE,
-)
-# Ventana mayor para el filtro procesal (las fórmulas y firmas son largas)
-REP_NOMINAL_PROCESAL_VENTANA = 130
 
 
 # ---------------------------------------------------------------------------
@@ -496,32 +449,10 @@ class REPExtractor:
         # Requiere el doc de spaCy con entidades PER. Si el pipeline no trae
         # NER (p.ej. sentencizer liviano), doc.ents estará vacío y no aporta.
         if doc.has_annotation("ENT_IOB"):
-            all_instances.extend(self._detect_nominal(text, sentences, doc, corpus_type))
+            all_instances.extend(self._detect_nominal(text, sentences, doc))
 
         # Eliminar duplicados por solapamiento de spans
         all_instances = self._dedup_instances(all_instances)
-
-        # OPCION B (calibración SEM): el mecanismo nominal (nombrar) solo
-        # cuenta como REP si va acompañado de al menos un acto reparador real
-        # en el mismo texto (reconocimiento / restitución / reparación).
-        # Nombrar es parte de reparar, pero un nombre aislado en un texto sin
-        # ningún acto reparador no constituye Ruptura Epistémica Positiva —
-        # sería solo densidad de nombres. Esto evita que textos cortos con un
-        # nombre suelto obtengan score alto sin reparación (ver Cap. 5 SEM).
-        _actos_reparadores = [
-            i for i in all_instances
-            if i.mechanism in (
-                "reconocimiento_responsabilidad",
-                "restitución_identidad",
-                "compromiso_reparación",
-            )
-        ]
-        if not _actos_reparadores:
-            # No hay acto reparador: descartar las instancias nominales.
-            all_instances = [
-                i for i in all_instances
-                if i.mechanism != "restitución_nominal"
-            ]
 
         if sent_count == 0:
             score_raw = 0.0
@@ -654,7 +585,7 @@ class REPExtractor:
 
     # ── Helpers ──────────────────────────────────────────────────────────
 
-    def _detect_nominal(self, text: str, sentences: list, doc, corpus_type: str = "B") -> list[REPInstance]:
+    def _detect_nominal(self, text: str, sentences: list, doc) -> list[REPInstance]:
         """Mecanismo NOMINAL (separado y trazable).
 
         Detecta nombres propios de PERSONA (entidades PER de spaCy) como acto
@@ -677,37 +608,12 @@ class REPExtractor:
             if len(ent.text.strip()) < 4:
                 continue
 
-            # Guarda anti-ruido de spaCy NER: descartar entidades PER que no
-            # parecen nombres propios de persona (spaCy a veces etiqueta como
-            # PER vocabulario juridico: "cedimiento Penal", "Copiese",
-            # "DE CASACION", "FALLA CONFIRMASE"...). Un nombre propio real
-            # arranca con mayuscula y NO es una palabra de la lista de ruido.
-            _tok0 = ent.text.strip().split()[0] if ent.text.strip().split() else ""
-            if not _tok0[:1].isupper():
-                continue
-            _ruido_ner = {
-                "cedimiento", "copiese", "cópiese", "notifiquese", "notifíquese",
-                "casacion", "casación", "falla", "confirmase", "confírmase",
-                "resuelve", "consideraciones", "primer", "segundo", "cargo",
-                "sala", "corte", "penal", "de", "del", "la", "el",
-            }
-            if _tok0.lower() in _ruido_ner:
-                continue
-
             # Ventana contextual para el filtro de cargos judiciales
             ini = max(0, ent.start_char - REP_NOMINAL_VENTANA_CHARS)
             fin = min(len(text), ent.end_char + REP_NOMINAL_VENTANA_CHARS)
             ventana = text[ini:fin]
             if REP_NOMINAL_CARGOS_EXCLUIR.search(ventana):
                 continue  # es un funcionario judicial → no cuenta
-
-            # Filtro procesal: SOLO Corpus A. Nombre dentro de la parte
-            # decisoria (RESUELVE/CONSIDERACIONES/...) = acto procesal, no REP.
-            if corpus_type == "A":
-                ini_p = max(0, ent.start_char - REP_NOMINAL_PROCESAL_VENTANA)
-                fin_p = min(len(text), ent.end_char + REP_NOMINAL_PROCESAL_VENTANA)
-                if REP_NOMINAL_PROCESAL_A.search(text[ini_p:fin_p]):
-                    continue  # acto procesal → no cuenta como reparación
 
             sent_idx = self._find_sent_index(ent.start_char, sentences)
             instances.append(REPInstance(

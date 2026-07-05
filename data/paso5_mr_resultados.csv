@@ -1,0 +1,5 @@
+﻿indice,col,mr_median,mr_mean,nomr_median,nomr_mean,n_mr,n_nomr,U,p_value,r_efecto,sig
+ICM tri-canal,icm_tricanal,0.399,0.4086,0.393,0.4136,27,20,260.5,0.84644,0.03,n.s.
+REP (verbal),y10_rep,0.179,0.2894,0.203,0.2184,27,20,278.0,0.87177,0.025,n.s.
+ICM facial,icm_facial,0.4215,0.4044,0.4195,0.4406,26,20,232.0,0.54227,0.091,n.s.
+ICM vocal,icm_vocal,0.468,0.4756,0.497,0.4903,27,18,204.0,0.37237,0.135,n.s.
