@@ -1,0 +1,37 @@
+==================================================================
+JACKKNIFE - subcaso Dabeiba
+==================================================================
+n = 12 comparecientes
+
+Correlacion COMPLETA injust~transic: -0.748
+
+--- Jackknife (quitando un compareciente por vez) ---
+  sin Alfonso Romero Buitrago              : -0.738  (delta +0.009)
+  sin Carlos Andrés Caravalli              : -0.315  (delta +0.433)  <- cambia mucho
+  sin Edie Pinzón Turcios                  : -0.756  (delta -0.009)
+  sin Efraín Enrique Prada Correa          : -0.762  (delta -0.015)
+  sin Fidel Iván Ochoa Blanco              : -0.772  (delta -0.024)
+  sin Hermes Mauricio Alvarado             : -0.742  (delta +0.006)
+  sin Jaime Coral Trujillo                 : -0.776  (delta -0.029)
+  sin Levis de Jesús Contreras             : -0.746  (delta +0.002)
+  sin Luis Fidel Arenas Rodríguez          : -0.758  (delta -0.010)
+  sin Ricardo Manuel Buelvas Lozano        : -0.752  (delta -0.005)
+  sin William Andrés Capera                : -0.812  (delta -0.065)
+  sin Yair Leandro Rodríguez               : -0.778  (delta -0.030)
+
+--- Resumen jackknife ---
+  correlacion completa : -0.748
+  media jackknife      : -0.726
+  rango                : [-0.812, -0.315]
+  desv. estandar       : 0.125
+
+--- Veredicto de robustez ---
+  [MODERADA] mismo signo pero magnitud sensible a algun caso.
+  -> reportar como sugerente, con la salvedad del n pequeno.
+
+  NOTA: con n bajo, el jackknife es un chequeo de sensibilidad, no una
+  prueba de significancia. Sea cual sea el resultado, Dabeiba se reporta
+  como EXPLORATORIO y complementa (no sustituye) la evidencia principal
+  (relacion y8->y10 robusta y contraste inter-corpus del IEI).
+
+  Reporte -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\outputs\jackknife_dabeiba_reporte.txt

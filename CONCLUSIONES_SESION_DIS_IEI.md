@@ -330,3 +330,30 @@ evidencia principal: el contraste inter-corpus del IEI (justicia ordinaria 0.51
 vs JEP 0.35). La fortaleza del CFH está en (a) medir tres dimensiones distintas,
 (b) el contraste epistémico entre corpus, y (c) la relación y8→y10 a nivel de
 indicador. NO está en un SEM confirmatorio con n pequeño.
+
+## F. Jackknife de Dabeiba — chequeo de robustez (complementario)
+
+El subcaso Dabeiba (n=12) mostró en el análisis por subcaso una correlación
+fuerte injusticia~transición (r=−0.748), en la dirección predicha. Por el n
+pequeño, se aplicó jackknife (recalcular quitando un compareciente a la vez).
+
+Resultado:
+- Correlación completa: −0.748; media jackknife: −0.726.
+- 11 de 12 iteraciones en rango [−0.738, −0.812] → estable y mismo signo.
+- Al excluir un caso (Carlos Andrés Caravalli), cae a −0.315 (delta +0.433).
+- Veredicto: MODERADA. No cambia de signo (no es artefacto de un caso), pero
+  un compareciente tiene peso desproporcionado.
+
+**Cómo reportarlo (honesto):**
+> En el subcaso Dabeiba (n=12), la relación entre injusticia epistémica y
+> transición reparadora resultó fuerte (r=−0.748). El análisis de sensibilidad
+> por jackknife confirmó que la dirección y magnitud se mantienen estables al
+> excluir cualquiera de once comparecientes (rango −0.738 a −0.812), aunque la
+> exclusión de un caso individual la reduce a −0.315. Dado el reducido tamaño
+> muestral, el hallazgo se interpreta como sugerente y exploratorio, coherente
+> con la hipótesis pero no confirmatorio.
+
+**Estatuto:** Dabeiba es un complemento exploratorio, NO un pilar de la tesis.
+La evidencia principal sigue siendo la relación y8→y10 (β≈−0.6, robusta en C y
+tri-corpus) y el contraste inter-corpus del IEI (ordinaria 0.51 vs JEP 0.35).
+El jackknife confirma que fue correcto no apoyar la tesis en Dabeiba.
