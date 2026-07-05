@@ -1,0 +1,39 @@
+==============================================================
+REPORTE IAA - CFH | Fiabilidad inter-anotador (dos rondas)
+Anotadores: A1 (investigadora) + A2 (segundo anotador)
+Fragmentos: 100 | Escala: Landis y Koch (1977)
+==============================================================
+
+RONDA 1 - Anotacion independiente
+--------------------------------------------------------------
+  EBI : kappa=0.7218  (SUSTANCIAL)
+  SA  : kappa=0.6172  (SUSTANCIAL)
+  NV  : kappa=0.7087  (SUSTANCIAL)
+  REP : kappa=0.3089  (aceptable)
+  GLOBAL (macro-promedio 4 cats): 0.5892  (moderado)
+
+RONDA 2 - Revision de desacuerdos de REP
+--------------------------------------------------------------
+  El constructo de Ruptura Epistemica Positiva (REP) obtuvo la
+  menor concordancia inicial. El analisis de los 34 desacuerdos
+  revelo una comprension divergente de sus limites (que distingue
+  el reconocimiento genuino del lenguaje juridico formulaico).
+  Tras calibrar la definicion operativa, ambos anotadores
+  revisaron los 34 fragmentos en disputa.
+  Resultado: 28/34 convergieron; 6/34 siguen en
+  desacuerdo (casos genuinamente ambiguos, no forzados).
+
+  EBI : kappa=0.7218  (SUSTANCIAL)
+  SA  : kappa=0.6172  (SUSTANCIAL)
+  NV  : kappa=0.7087  (SUSTANCIAL)
+  REP : kappa=0.8408  (casi perfecto)  <- revisado
+  GLOBAL (macro-promedio 4 cats): 0.7221  (SUSTANCIAL)
+
+==============================================================
+SINTESIS PARA LA TESIS
+--------------------------------------------------------------
+  Ronda 1: EBI/SA/NV sustanciales; REP=0.309 (aceptable)
+           global=0.589 (moderado).
+  Ronda 2: tras revision del constructo REP, REP=0.841
+           (casi perfecto); global=0.722 (sustancial).
+==============================================================
