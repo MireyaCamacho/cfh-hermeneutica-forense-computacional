@@ -1,0 +1,70 @@
+==================================================================
+SEM de C - tres indices integrados (DIS, IEI, ICM)
+==================================================================
+Comparecientes cruzados: 47
+
+Descriptivos:
+  DIS: media=0.394 std=0.086
+  IEI: media=0.370 std=0.118
+  ICM: media=0.411 std=0.080
+
+==================================================================
+OPCION 1 - Cadena causal (IEI~DIS ; ICM~DIS+IEI)
+==================================================================
+  Modelo:
+    IEI ~ DIS
+    ICM ~ DIS + IEI
+
+  Relaciones estructurales:
+     IEI ~ DIS   beta=+0.182  p=0.204
+     ICM ~ DIS   beta=-0.176  p=0.220
+     ICM ~ IEI   beta=-0.142  p=0.325
+
+  Ajuste: CFI=2.965 (IMPOSIBLE (>1) -> modelo no identificado / saturado (n insuf.))  RMSEA=0.000  SRMR=nan  DoF=1
+
+==================================================================
+OPCION 2 - ICM como predictor (IEI ~ DIS + ICM)
+==================================================================
+  Modelo:
+    IEI ~ DIS + ICM
+
+  Relaciones estructurales:
+     IEI ~ DIS   beta=+0.153  p=0.291
+     IEI ~ ICM   beta=-0.143  p=0.325
+
+  Ajuste: CFI=-5.110 (pobre)  RMSEA=0.000  SRMR=nan  DoF=3
+
+==================================================================
+OPCION 3 - Tres dimensiones paralelas
+==================================================================
+  Modelo: DIS~~IEI, DIS~~ICM, IEI~~ICM (saturado, DoF=0)
+
+  Correlaciones con significancia:
+    DIS ~~ IEI: r=+0.182  p=0.220
+    DIS ~~ ICM: r=-0.202  p=0.172
+    IEI ~~ ICM: r=-0.174  p=0.243
+
+  Modelo saturado: sin CFI/RMSEA por definicion (DoF=0).
+  >> Todas las correlaciones |r|<0.30: los tres indices son
+     DIMENSIONES INDEPENDIENTES. Esta es la estructura que
+     mejor describe los datos (coherente con el framework).
+
+==================================================================
+SINTESIS
+==================================================================
+  Opcion 1 (cadena):    CFI=2.965  RMSEA=0.000
+  Opcion 2 (ICM pred):  CFI=-5.110  RMSEA=0.000
+  Opcion 3 (paralelas): saturado; independencia=SI
+
+  LECTURA PARA LA TESIS:
+  - Si las opciones causales (1,2) dan betas ~0 y ajuste pobre, CONFIRMAN
+    que DIS, IEI e ICM no se predicen entre si -> son dimensiones
+    independientes (refuerza el argumento dimensional del framework).
+  - La opcion 3 describe directamente esa independencia via correlaciones.
+  - Con n=47 es EXPLORATORIO: complementa la evidencia principal
+    (DIS/IEI descriptivo entre corpus), no la sustituye.
+  - Hallazgo integrador: los tres indices capturan tres dimensiones
+    distintas de la injusticia (discursiva, epistemica, multimodal),
+    empiricamente separables.
+
+  Reporte -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\outputs\sem_c_tres_indices_reporte.txt

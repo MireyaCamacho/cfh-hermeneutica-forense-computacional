@@ -1,0 +1,87 @@
+==================================================================
+CHEQUEO COMPLEMENTARIO - indicadores individuales (no indices)
+==================================================================
+Complementa (no reemplaza) los SEM previos con DIS/IEI/ICM.
+
+
+########## UNIVERSO 1: CORPUS C (n=47) ##########
+
+==================================================================
+Regresion indicadores -> y10 (Corpus C)
+==================================================================
+  Modelo: y10_rep ~ y1_ebi + y2_sa + y4_nv + y8_mafapo_cs + y9_cidh_cs
+  n = 47
+
+  Coeficientes (prediciendo y10_rep = transicion):
+    y10_rep ~ y1_ebi         beta=+0.084  p=0.557
+    y10_rep ~ y2_sa          beta=+0.123  p=0.419
+    y10_rep ~ y4_nv          beta=+0.335  p=0.024 *
+    y10_rep ~ y8_mafapo_cs   beta=-0.679  p=0.047 *
+    y10_rep ~ y9_cidh_cs     beta=+0.359  p=0.290
+
+  Ajuste: CFI=1.135  RMSEA=0.000
+
+==================================================================
+MATRIZ DE CORRELACIONES - Corpus C
+==================================================================
+              y1_ebi  y2_sa  y4_nv  y8_mafapo_cs  y9_cidh_cs  y10_rep
+y1_ebi         1.000  0.373  0.354        -0.159      -0.200    0.285
+y2_sa          0.373  1.000  0.421         0.008      -0.175    0.228
+y4_nv          0.354  0.421  1.000         0.149      -0.004    0.314
+y8_mafapo_cs  -0.159  0.008  0.149         1.000       0.908   -0.314
+y9_cidh_cs    -0.200 -0.175 -0.004         0.908       1.000   -0.297
+y10_rep        0.285  0.228  0.314        -0.314      -0.297    1.000
+
+  Correlaciones altas (|r|>=0.7, posible colinealidad):
+    y8_mafapo_cs ~ y9_cidh_cs: r=+0.908
+
+  Guardada -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\outputs\matriz_correlaciones_indicadores_C.csv
+
+
+########## UNIVERSO 2: TRI-CORPUS A+B+C (n=946) ##########
+
+==================================================================
+Regresion indicadores -> y10 (A+B+C)
+==================================================================
+  Modelo: y10_rep ~ y1_ebi + y2_sa + y4_nv + y8_mafapo_cs + y9_cidh_cs
+  n = 946
+
+  Coeficientes (prediciendo y10_rep = transicion):
+    y10_rep ~ y1_ebi         beta=-0.045  p=0.164
+    y10_rep ~ y2_sa          beta=+0.042  p=0.193
+    y10_rep ~ y4_nv          beta=-0.012  p=0.716
+    y10_rep ~ y8_mafapo_cs   beta=-0.597  p=0.000 *
+    y10_rep ~ y9_cidh_cs     beta=+0.363  p=0.000 *
+
+  Ajuste: CFI=1.010  RMSEA=0.000
+
+==================================================================
+MATRIZ DE CORRELACIONES - Tri-corpus A+B+C
+==================================================================
+              y1_ebi  y2_sa  y4_nv  y8_mafapo_cs  y9_cidh_cs  y10_rep
+y1_ebi         1.000  0.094  0.304        -0.106      -0.078   -0.010
+y2_sa          0.094  1.000  0.302        -0.049      -0.080    0.034
+y4_nv          0.304  0.302  1.000        -0.136      -0.119    0.025
+y8_mafapo_cs  -0.106 -0.049 -0.136         1.000       0.859   -0.281
+y9_cidh_cs    -0.078 -0.080 -0.119         0.859       1.000   -0.148
+y10_rep       -0.010  0.034  0.025        -0.281      -0.148    1.000
+
+  Correlaciones altas (|r|>=0.7, posible colinealidad):
+    y8_mafapo_cs ~ y9_cidh_cs: r=+0.859
+
+  Guardada -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\outputs\matriz_correlaciones_indicadores_ABC.csv
+
+==================================================================
+SINTESIS - que aporta el chequeo por indicadores
+==================================================================
+  - Compara si algun indicador individual predice la transicion (y10)
+    con una senal que el indice agregado (DIS/IEI) diluye.
+  - La matriz de correlaciones revela colinealidades entre indicadores
+    (esperado: y8~y9 alto, que motivo usar solo y8 en el SEM de C).
+  - Si los coeficientes por indicador coinciden en signo/magnitud con lo
+    visto por indices, CONFIRMA robustez: la conclusion no depende de la
+    agregacion en indices.
+  - Con n=47 (C) el chequeo es exploratorio; en tri-corpus (n=946) los
+    p-values son mas potentes pero mezclan registro oral (C) y escrito (A/B).
+
+  Reporte -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\outputs\sem_indicadores_individuales_reporte.txt
