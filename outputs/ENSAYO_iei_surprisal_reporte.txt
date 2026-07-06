@@ -1,0 +1,43 @@
+==================================================================
+ENSAYO: IEI auditado + surprisal (no destructivo)
+==================================================================
+
+-- Referencia auditada --
+IEI auditado     A=0.5130 B=0.3530 C=0.3704 p(A-B)=0.0000 d=+1.205 [sig]
+DIS auditado     A=0.5102 B=0.4983 C=0.3945 p(A-B)=0.0688 d=+0.131 [n.s.]
+
+==================================================================
+MEZCLA: IEI_mix = (1-w)*IEI_auditado + w*y7_norm
+==================================================================
+w (peso y7)          A       B       C    p(A-B)       d
+------------------------------------------------------------
+IEI auditado     0.513   0.353   0.370    0.0000  +1.205
+w=0.1            0.511   0.361   0.367    0.0000  +1.238
+w=0.15           0.511   0.365   0.365    0.0000  +1.241
+w=0.2            0.510   0.369   0.363    0.0000  +1.234
+w=0.3            0.508   0.377   0.359    0.0000  +1.178
+
+==================================================================
+CORRELACION y7 con los indices (Spearman, sobre A+B+C)
+==================================================================
+  y7 ~ IEI: rho=+0.064
+  y7 ~ DIS: rho=-0.178
+
+==================================================================
+LECTURA
+==================================================================
+  - El IEI auditado YA discrimina A vs B por si mismo (la brecha epistemica).
+  - Agregar y7 al IEI puede reforzar la significancia, pero MEZCLA dos
+    constructos distintos: el IEI mide injusticia epistemica (distancia al
+    lenguaje de las victimas + credibility deficit); y7 mide el registro
+    belico-institucional GLOBAL del texto. No son lo mismo.
+  - Conceptualmente y7 esta MAS cerca del DIS (discursivo) que del IEI
+    (epistemico). Integrarlo al IEI seria teoricamente incoherente: diluiria
+    el constructo epistemico con una medida de registro discursivo.
+  - Ademas, como el IEI ya discrimina, y7 no 'resuelve' ningun problema ahi;
+    solo agregaria ruido conceptual.
+  >> Confirma que lo apropiado es dejar y7 como DESCRIPTIVO aparte, no dentro
+     del IEI ni del DIS.
+
+  Reporte -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\outputs\ENSAYO_iei_surprisal_reporte.txt
+  (Ensayo NO destructivo.)

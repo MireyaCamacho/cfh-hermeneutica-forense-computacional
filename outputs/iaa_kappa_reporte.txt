@@ -1,0 +1,42 @@
+==============================================================
+REPORTE IAA — Hermenéutica Forense Computacional (CFH)
+Fuente: Refinamiento_CFH_IAA_Validacion_A2.xlsx
+Anotadores: 2 (A1 investigador + A2 segundo anotador)
+Fragmentos comunes evaluados: 100
+Escala: Landis y Koch (1977)
+==============================================================
+
+--- EBI ---
+  kappa Cohen:     0.7218  -> SUSTANCIAL
+  acuerdo obs.:    0.8600 (86.0%)
+  A1 marcó:        58 fragmentos
+  A2 marcó:        48 fragmentos
+  ambos presente:  46   ambos ausente: 40   discord.: 14
+
+--- SA ---
+  kappa Cohen:     0.6172  -> SUSTANCIAL
+  acuerdo obs.:    0.8100 (81.0%)
+  A1 marcó:        52 fragmentos
+  A2 marcó:        59 fragmentos
+  ambos presente:  46   ambos ausente: 35   discord.: 19
+
+--- NV ---
+  kappa Cohen:     0.7087  -> SUSTANCIAL
+  acuerdo obs.:    0.8800 (88.0%)
+  A1 marcó:        28 fragmentos
+  A2 marcó:        30 fragmentos
+  ambos presente:  23   ambos ausente: 65   discord.: 12
+
+--- REP ---
+  kappa Cohen:     0.3089  -> aceptable
+  acuerdo obs.:    0.6600 (66.0%)
+  A1 marcó:        70 fragmentos
+  A2 marcó:        52 fragmentos
+  ambos presente:  44   ambos ausente: 22   discord.: 34
+
+==============================================================
+kappa GLOBAL (macro-promedio 4 categorías): 0.5892
+  -> moderado (Landis y Koch 1977)
+==============================================================
+
+(Referencia) kappa presencia-de-cualquier-marca: 0.6770 -> SUSTANCIAL

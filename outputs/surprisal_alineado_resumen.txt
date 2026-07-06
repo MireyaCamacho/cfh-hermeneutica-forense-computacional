@@ -1,0 +1,10 @@
+============================================================
+SURPRISAL CONTRASTIVO ALINEADO - resumen por corpus
+============================================================
+  A: n=819  media=-0.5422  std=0.5320
+  B: n=80  media=-0.3825  std=0.3986
+  C: n=47  media=-0.1423  std=0.1595
+
+  A vs B: p=0.0573
+
+  y7<0 = registro mas belico. Gradiente esperado A->B->C.

@@ -1,0 +1,34 @@
+==================================================================
+ENSAYO v2: DIS auditado + surprisal (no destructivo)
+==================================================================
+
+DIS AUDITADO (col 'DIS'): A=0.5102 B=0.4983 p=0.0688 d=+0.131  [n.s.]
+  align A: df=819 y7=819 OK
+  align B: df=80 y7=80 OK
+  align C: df=47 y7=47 OK
+
+==================================================================
+MEZCLA CONVEXA: DIS_mix = (1-w)*DIS_auditado + w*y7_norm
+==================================================================
+w (peso y7)          A       B    p(A-B)       d   disc?
+------------------------------------------------------
+DIS auditado     0.510   0.498    0.0688  +0.131      no
+w=0.1            0.509   0.492    0.0256  +0.216      SI
+w=0.15           0.508   0.488    0.0098  +0.259      SI
+w=0.2            0.508   0.485    0.0046  +0.300      SI
+w=0.3            0.506   0.478    0.0018  +0.358      SI
+
+==================================================================
+CONCLUSION
+==================================================================
+  El DIS pasaria a discriminar (p<0.05) a partir de w=0.1 (peso de y7).
+  Interpretacion:
+  - y7 SI aporta senal discriminante A vs B (coherente con el gradiente).
+  - PERO integrarlo cambia la narrativa: el DIS dejaria de ser transversal,
+    lo que afecta el hallazgo de disociacion DIS-IEI (la brecha era epistemica).
+  - Ademas y7 solo A-B da p=0.057 (limitrofe); su aporte al DIS depende del peso.
+  >> DECISION DE MIREYA: descriptivo (preserva narrativa) vs integrar (gana
+     discriminacion pero obliga a re-auditar y reescribir la disociacion).
+
+  Reporte -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\outputs\ENSAYO_dis_surprisal_v2_reporte.txt
+  (Ensayo NO destructivo: no se modifico ningun archivo auditado.)

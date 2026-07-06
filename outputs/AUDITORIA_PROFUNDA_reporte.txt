@@ -1,0 +1,75 @@
+==================================================================
+AUDITORIA PROFUNDA CFH - antes de escribir capitulos
+==================================================================
+
+==================================================================
+BLOQUE 1 - INTEGRIDAD DE DATOS
+==================================================================
+  [OK     ] A tiene 819 filas
+  [OK     ] B tiene 80 filas
+  [OK     ] C tiene 47 filas
+  [OK     ] total 946 unidades
+  [OK     ] B y8_mafapo_cs: 0 ceros (correcto)
+  [OK     ] B y9_cidh_cs: 0 ceros (correcto)
+  [OK     ] B y1_ebi: tiene variacion (no todo cero)
+  [OK     ] B y10_rep_v5: tiene variacion (no todo cero)
+  [OK     ] B y2_sa: tiene variacion (no todo cero)
+  [OK     ] B y4_nv: tiene variacion (no todo cero)
+  [OK     ] y8_mafapo_cs en rango sano [0.090, 0.405]
+  [OK     ] y9_cidh_cs en rango sano [0.159, 0.420]
+  [OK     ] DIS: sin NaN ni inf
+  [OK     ] IEI_A: sin NaN ni inf
+
+==================================================================
+BLOQUE 2 - REPRODUCIBILIDAD (recalcula desde cero)
+==================================================================
+
+  -- DIS/IEI por corpus (recalculado vs reportado) --
+  [OK     ] DIS_A=0.510 == reportado 0.51
+  [OK     ] IEI_A=0.513 == reportado 0.513
+  [OK     ] DIS_B=0.498 == reportado 0.498
+  [OK     ] IEI_B=0.353 == reportado 0.353
+  [OK     ] DIS_C=0.394 == reportado 0.394
+  [OK     ] IEI_C=0.370 == reportado 0.37
+
+  -- coherencia con columnas guardadas en el CSV --
+  [OK     ] DIS recalc == DIS guardado (dif max 0.0000)
+  [OK     ] IEI recalc == IEI guardado (dif max 0.0000)
+
+  -- correlaciones DIS/IEI/ICM --
+  [OK     ] corr DIS-IEI=0.164 (<0.33, dimensiones distintas)
+  [OK     ] corr DIS-ICM=-0.193, IEI-ICM=-0.113 (<0.33)
+
+  -- IAA (dos rondas) --
+  [OK     ] REP kappa ronda2=0.841 == 0.841
+  [OK     ] IAA global=0.722 == 0.722
+
+  -- hallazgo y8->y10 (regresion) --
+  [OK     ] beta y8->y10 (C)=-0.679 == -0.679
+  [OK     ] beta y8->y10 (ABC)=-0.597 == -0.597
+
+==================================================================
+BLOQUE 3 - CONSISTENCIA DE FORMULAS
+==================================================================
+  [OK     ] pesos DIS suman 1.0
+  [OK     ] pesos IEI (opcion A) suman 1.0
+  [OK     ] DIS e IEI NO comparten indicadores (opcion A, dimensiones limpias)
+
+==================================================================
+BLOQUE 4 - ALINEACION DE ARCHIVOS
+==================================================================
+  [OK     ] base, y1, y10 tienen 873 filas
+  [OK     ] orden doc_id identico entre base y recalculos (merge por posicion OK)
+  [INFO   ] A: 819 filas, 608 claves unicas (211 comparten clave -> por eso se usa merge por posicion)
+
+==================================================================
+RESUMEN DE LA AUDITORIA
+==================================================================
+  [OK]      33
+  [REVISAR] 0
+  [ERROR]   0
+
+  >> TODO OK. Los numeros son reproducibles y consistentes.
+     Listo para escribir los capitulos y llevar a reproducible/.
+
+  Reporte -> C:\PROYECTOS 2026\TESIS 2026\CFH_Hermeneutica_Forense_Computacional\outputs\AUDITORIA_PROFUNDA_reporte.txt
