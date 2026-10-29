@@ -3,7 +3,7 @@
 
 # PyTorch CUDA (versión para CUDA 12.1 — ajustar según RunPod)
 --index-url https://download.pytorch.org/whl/cu121
-torch==2.3.0+cu121
+torch==2.13.0
 torchvision==0.18.0+cu121
 
 # ASR
